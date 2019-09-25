@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>videos</folder>
+	<filename>2019_Field_Tour_Video_HAB_Platform.mp4_01320.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/2019_Field_Tour_Video_HAB_Platform.mp4_01320.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1550</xmin>
+			<ymin>397</ymin>
+			<xmax>1886</xmax>
+			<ymax>743</ymax>
+		</bndbox>
+	</object>
+</annotation>
