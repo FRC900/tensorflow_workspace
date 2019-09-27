@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Peak_Performance_2019_Quarterfinal_4-1.mp4_00360.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/Peak_Performance_2019_Quarterfinal_4-1.mp4_00360.png</path>
@@ -369,6 +369,54 @@
 			<ymin>136</ymin>
 			<xmax>159</xmax>
 			<ymax>146</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_rocket_wing</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>742</xmin>
+			<ymin>255</ymin>
+			<xmax>769</xmax>
+			<ymax>269</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_rocket_wing</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>629</xmin>
+			<ymin>247</ymin>
+			<xmax>650</xmax>
+			<ymax>259</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_rocket_top</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>661</xmin>
+			<ymin>6</ymin>
+			<xmax>690</xmax>
+			<ymax>18</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_rocket_top</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>303</xmin>
+			<ymin>24</ymin>
+			<xmax>319</xmax>
+			<ymax>33</ymax>
 		</bndbox>
 	</object>
 </annotation>
