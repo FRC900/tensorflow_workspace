@@ -1,6 +1,7 @@
 #!/bin/bash
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.1/compat/lib.real
-PIPELINE_CONFIG_PATH=/home/ubuntu/tensorflow_workspace/2019Game/models/model/ssdlite_mobilenet_v2_coco.config
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.1/targets/x86_64-linux/lib/stubs
+#PIPELINE_CONFIG_PATH=/home/ubuntu/tensorflow_workspace/2019Game/models/model/ssd_mobilenet_v2_coco.config
+PIPELINE_CONFIG_PATH=/home/ubuntu/tensorflow_workspace/2019Game/models/model/ssd_mobilenet_v2_fpnlite_quantized_shared_box_predictor_256x256_depthmultiplier_75_coco14_sync.config
 MODEL_DIR=/home/ubuntu/tensorflow_workspace/2019Game/models
 NUM_TRAIN_STEPS=50000
 SAMPLE_1_OF_N_EVAL_EXAMPLES=1
