@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_00475.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_00475.png</path>
@@ -185,10 +185,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>727</xmin>
+			<xmin>721</xmin>
 			<ymin>80</ymin>
-			<xmax>746</xmax>
-			<ymax>98</ymax>
+			<xmax>750</xmax>
+			<ymax>99</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -197,10 +197,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>726</xmin>
+			<xmin>722</xmin>
 			<ymin>49</ymin>
-			<xmax>748</xmax>
-			<ymax>64</ymax>
+			<xmax>750</xmax>
+			<ymax>65</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -257,7 +257,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>459</xmin>
+			<xmin>457</xmin>
 			<ymin>122</ymin>
 			<xmax>474</xmax>
 			<ymax>135</ymax>
@@ -269,10 +269,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>458</xmin>
+			<xmin>453</xmin>
 			<ymin>101</ymin>
 			<xmax>469</xmax>
-			<ymax>113</ymax>
+			<ymax>114</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -281,10 +281,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>453</xmin>
+			<xmin>449</xmin>
 			<ymin>83</ymin>
 			<xmax>466</xmax>
-			<ymax>94</ymax>
+			<ymax>95</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -293,10 +293,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>469</xmin>
+			<xmin>468</xmin>
 			<ymin>76</ymin>
 			<xmax>480</xmax>
-			<ymax>87</ymax>
+			<ymax>89</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -345,6 +345,18 @@
 			<ymin>70</ymin>
 			<xmax>480</xmax>
 			<ymax>74</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>686</xmin>
+			<ymin>103</ymin>
+			<xmax>709</xmax>
+			<ymax>123</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_00128.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_00128.png</path>
@@ -31,8 +31,8 @@
 		<bndbox>
 			<xmin>404</xmin>
 			<ymin>127</ymin>
-			<xmax>437</xmax>
-			<ymax>154</ymax>
+			<xmax>444</xmax>
+			<ymax>156</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,9 +41,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>794</xmin>
-			<ymin>106</ymin>
-			<xmax>868</xmax>
+			<xmin>791</xmin>
+			<ymin>101</ymin>
+			<xmax>872</xmax>
 			<ymax>159</ymax>
 		</bndbox>
 	</object>
@@ -69,6 +69,18 @@
 			<ymin>141</ymin>
 			<xmax>536</xmax>
 			<ymax>162</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>865</xmin>
+			<ymin>99</ymin>
+			<xmax>936</xmax>
+			<ymax>205</ymax>
 		</bndbox>
 	</object>
 </annotation>

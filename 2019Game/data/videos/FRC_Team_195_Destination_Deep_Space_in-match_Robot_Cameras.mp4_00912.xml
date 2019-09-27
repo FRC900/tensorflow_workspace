@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_00912.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_00912.png</path>
@@ -65,22 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>732</xmin>
-			<ymin>117</ymin>
-			<xmax>777</xmax>
-			<ymax>154</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rocket_hatch_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>734</xmin>
-			<ymin>59</ymin>
+			<xmin>724</xmin>
+			<ymin>116</ymin>
 			<xmax>780</xmax>
-			<ymax>93</ymax>
+			<ymax>152</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +77,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>740</xmin>
+			<xmin>729</xmin>
+			<ymin>59</ymin>
+			<xmax>785</xmax>
+			<ymax>92</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rocket_hatch_hole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>727</xmin>
 			<ymin>11</ymin>
-			<xmax>778</xmax>
-			<ymax>39</ymax>
+			<xmax>785</xmax>
+			<ymax>37</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -149,10 +149,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>440</xmin>
+			<xmin>435</xmin>
 			<ymin>128</ymin>
-			<xmax>474</xmax>
-			<ymax>154</ymax>
+			<xmax>478</xmax>
+			<ymax>156</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -161,10 +161,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>485</xmin>
+			<xmin>481</xmin>
 			<ymin>125</ymin>
-			<xmax>511</xmax>
-			<ymax>149</ymax>
+			<xmax>517</xmax>
+			<ymax>148</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -201,6 +201,18 @@
 			<ymin>96</ymin>
 			<xmax>555</xmax>
 			<ymax>107</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargoship_hatch_placed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>380</xmin>
+			<ymin>126</ymin>
+			<xmax>431</xmax>
+			<ymax>175</ymax>
 		</bndbox>
 	</object>
 </annotation>

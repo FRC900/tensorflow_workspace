@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_01151.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_01151.png</path>
@@ -101,9 +101,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>775</xmin>
-			<ymin>393</ymin>
-			<xmax>811</xmax>
+			<xmin>766</xmin>
+			<ymin>394</ymin>
+			<xmax>817</xmax>
 			<ymax>425</ymax>
 		</bndbox>
 	</object>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>411</xmin>
+			<xmin>409</xmin>
 			<ymin>435</ymin>
 			<xmax>428</xmax>
-			<ymax>451</ymax>
+			<ymax>453</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -137,8 +137,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>438</xmin>
-			<ymin>451</ymin>
+			<xmin>435</xmin>
+			<ymin>450</ymin>
 			<xmax>451</xmax>
 			<ymax>466</ymax>
 		</bndbox>
@@ -211,7 +211,7 @@
 		<bndbox>
 			<xmin>639</xmin>
 			<ymin>99</ymin>
-			<xmax>696</xmax>
+			<xmax>698</xmax>
 			<ymax>148</ymax>
 		</bndbox>
 	</object>
@@ -249,6 +249,18 @@
 			<ymin>5</ymin>
 			<xmax>708</xmax>
 			<ymax>31</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hatchloading_hole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>657</xmin>
+			<ymin>100</ymin>
+			<xmax>730</xmax>
+			<ymax>168</ymax>
 		</bndbox>
 	</object>
 </annotation>

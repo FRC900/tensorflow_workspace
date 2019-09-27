@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2019_Field_Tour_Video_Rockets.mp4_03940.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/2019_Field_Tour_Video_Rockets.mp4_03940.png</path>
@@ -26,12 +26,12 @@
 	<object>
 		<name>rocket_hatch_placed</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>17</xmin>
-			<ymin>113</ymin>
-			<xmax>593</xmax>
+			<xmin>1</xmin>
+			<ymin>114</ymin>
+			<xmax>600</xmax>
 			<ymax>662</ymax>
 		</bndbox>
 	</object>
@@ -53,9 +53,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>662</xmin>
-			<ymin>115</ymin>
-			<xmax>1212</xmax>
+			<xmin>643</xmin>
+			<ymin>113</ymin>
+			<xmax>1229</xmax>
 			<ymax>658</ymax>
 		</bndbox>
 	</object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1290</xmin>
-			<ymin>86</ymin>
-			<xmax>1861</xmax>
-			<ymax>665</ymax>
+			<xmin>1235</xmin>
+			<ymin>91</ymin>
+			<xmax>1907</xmax>
+			<ymax>671</ymax>
 		</bndbox>
 	</object>
 </annotation>

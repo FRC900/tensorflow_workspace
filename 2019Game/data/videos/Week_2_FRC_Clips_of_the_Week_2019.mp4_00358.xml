@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Week_2_FRC_Clips_of_the_Week_2019.mp4_00358.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/Week_2_FRC_Clips_of_the_Week_2019.mp4_00358.png</path>
@@ -221,22 +221,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>145</xmin>
-			<ymin>211</ymin>
-			<xmax>164</xmax>
-			<ymax>256</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rocket_hatch_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
 			<xmin>139</xmin>
-			<ymin>291</ymin>
-			<xmax>158</xmax>
-			<ymax>337</ymax>
+			<ymin>211</ymin>
+			<xmax>168</xmax>
+			<ymax>252</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -245,10 +233,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>135</xmin>
-			<ymin>381</ymin>
-			<xmax>156</xmax>
-			<ymax>416</ymax>
+			<xmin>131</xmin>
+			<ymin>291</ymin>
+			<xmax>165</xmax>
+			<ymax>335</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rocket_hatch_hole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>377</ymin>
+			<xmax>160</xmax>
+			<ymax>412</ymax>
 		</bndbox>
 	</object>
 	<object>

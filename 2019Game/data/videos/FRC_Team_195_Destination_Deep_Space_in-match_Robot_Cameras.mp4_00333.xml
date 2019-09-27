@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_00333.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_00333.png</path>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>593</xmin>
+			<xmin>590</xmin>
 			<ymin>448</ymin>
-			<xmax>623</xmax>
-			<ymax>476</ymax>
+			<xmax>627</xmax>
+			<ymax>477</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,22 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>843</xmin>
+			<xmin>831</xmin>
 			<ymin>120</ymin>
-			<xmax>934</xmax>
-			<ymax>199</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rocket_hatch_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>851</xmin>
-			<ymin>21</ymin>
-			<xmax>938</xmax>
-			<ymax>88</ymax>
+			<xmax>935</xmax>
+			<ymax>197</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -197,7 +185,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>505</xmin>
+			<xmin>503</xmin>
 			<ymin>117</ymin>
 			<xmax>532</xmax>
 			<ymax>152</ymax>
@@ -271,7 +259,7 @@
 		<bndbox>
 			<xmin>391</xmin>
 			<ymin>133</ymin>
-			<xmax>424</xmax>
+			<xmax>426</xmax>
 			<ymax>167</ymax>
 		</bndbox>
 	</object>
@@ -317,9 +305,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>717</xmin>
+			<xmin>713</xmin>
 			<ymin>113</ymin>
-			<xmax>734</xmax>
+			<xmax>738</xmax>
 			<ymax>128</ymax>
 		</bndbox>
 	</object>
@@ -329,10 +317,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>719</xmin>
+			<xmin>715</xmin>
 			<ymin>87</ymin>
-			<xmax>735</xmax>
-			<ymax>103</ymax>
+			<xmax>739</xmax>
+			<ymax>102</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -341,9 +329,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>721</xmin>
+			<xmin>716</xmin>
 			<ymin>63</ymin>
-			<xmax>736</xmax>
+			<xmax>740</xmax>
 			<ymax>78</ymax>
 		</bndbox>
 	</object>
@@ -355,7 +343,7 @@
 		<bndbox>
 			<xmin>674</xmin>
 			<ymin>97</ymin>
-			<xmax>713</xmax>
+			<xmax>711</xmax>
 			<ymax>136</ymax>
 		</bndbox>
 	</object>
@@ -377,10 +365,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>633</xmin>
+			<xmin>630</xmin>
 			<ymin>460</ymin>
 			<xmax>645</xmax>
-			<ymax>473</ymax>
+			<ymax>472</ymax>
 		</bndbox>
 	</object>
 </annotation>
