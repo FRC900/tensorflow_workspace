@@ -17,9 +17,9 @@
 Convert Pascal-VOC xml annotations created by labelImg into TF Records
 
 Example usage:
-    python /home/ubuntu/tensorflow_workspace/2019Game/data/create_tf_record.py 
-        --label_map_path=/home/ubuntu/tensorflow_workspace/2019Game/data/label_map.pbtext 
-        --data_dir=/home/ubuntu/tensorflow_workspace/2019Game/data/videos 
+    python /home/ubuntu/tensorflow_workspace/2019Game/data/create_tf_record.py \
+        --label_map_path=/home/ubuntu/tensorflow_workspace/2019Game/data/2019Game_label_map.pbtxt \
+        --data_dir=/home/ubuntu/tensorflow_workspace/2019Game/data/videos \
         --output_dir=/home/ubuntu/tensorflow_workspace/2019Game/models
 """
 

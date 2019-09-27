@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2019_Field_Tour_Video_Vision_Targets.mp4_00304.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/2019_Field_Tour_Video_Vision_Targets.mp4_00304.png</path>
@@ -54,8 +54,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>128</xmin>
-			<ymin>647</ymin>
-			<xmax>243</xmax>
+			<ymin>646</ymin>
+			<xmax>244</xmax>
 			<ymax>950</ymax>
 		</bndbox>
 	</object>
@@ -77,9 +77,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>930</xmin>
-			<ymin>84</ymin>
-			<xmax>1031</xmax>
+			<xmin>926</xmin>
+			<ymin>82</ymin>
+			<xmax>1039</xmax>
 			<ymax>202</ymax>
 		</bndbox>
 	</object>
@@ -89,9 +89,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>780</xmin>
-			<ymin>665</ymin>
-			<xmax>975</xmax>
+			<xmin>755</xmin>
+			<ymin>675</ymin>
+			<xmax>996</xmax>
 			<ymax>870</ymax>
 		</bndbox>
 	</object>
@@ -146,12 +146,12 @@
 	<object>
 		<name>blue_cargoship_hatch_hole</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1830</xmin>
+			<xmin>1824</xmin>
 			<ymin>454</ymin>
-			<xmax>1904</xmax>
+			<xmax>1920</xmax>
 			<ymax>579</ymax>
 		</bndbox>
 	</object>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Week_2_FRC_Clips_of_the_Week_2019.mp4_01419.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/Week_2_FRC_Clips_of_the_Week_2019.mp4_01419.png</path>
@@ -461,9 +461,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>503</xmin>
+			<xmin>501</xmin>
 			<ymin>131</ymin>
-			<xmax>516</xmax>
+			<xmax>518</xmax>
 			<ymax>153</ymax>
 		</bndbox>
 	</object>
@@ -475,7 +475,7 @@
 		<bndbox>
 			<xmin>503</xmin>
 			<ymin>171</ymin>
-			<xmax>519</xmax>
+			<xmax>521</xmax>
 			<ymax>190</ymax>
 		</bndbox>
 	</object>
@@ -485,8 +485,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>506</xmin>
-			<ymin>212</ymin>
+			<xmin>505</xmin>
+			<ymin>208</ymin>
 			<xmax>522</xmax>
 			<ymax>231</ymax>
 		</bndbox>
@@ -533,21 +533,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>509</xmin>
+			<xmin>506</xmin>
 			<ymin>300</ymin>
 			<xmax>538</xmax>
-			<ymax>329</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_cargoship_hatch_placed</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>543</xmin>
-			<ymin>299</ymin>
-			<xmax>576</xmax>
 			<ymax>328</ymax>
 		</bndbox>
 	</object>
@@ -557,9 +545,21 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>580</xmin>
-			<ymin>300</ymin>
-			<xmax>611</xmax>
+			<xmin>542</xmin>
+			<ymin>299</ymin>
+			<xmax>576</xmax>
+			<ymax>329</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargoship_hatch_placed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>578</xmin>
+			<ymin>299</ymin>
+			<xmax>613</xmax>
 			<ymax>329</ymax>
 		</bndbox>
 	</object>
@@ -725,9 +725,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>648</xmin>
+			<xmin>647</xmin>
 			<ymin>299</ymin>
-			<xmax>679</xmax>
+			<xmax>682</xmax>
 			<ymax>328</ymax>
 		</bndbox>
 	</object>
@@ -749,10 +749,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>683</xmin>
-			<ymin>284</ymin>
-			<xmax>755</xmax>
-			<ymax>378</ymax>
+			<xmin>674</xmin>
+			<ymin>287</ymin>
+			<xmax>753</xmax>
+			<ymax>383</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -821,7 +821,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>735</xmin>
+			<xmin>734</xmin>
 			<ymin>130</ymin>
 			<xmax>750</xmax>
 			<ymax>155</ymax>
@@ -833,9 +833,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>734</xmin>
-			<ymin>167</ymin>
-			<xmax>749</xmax>
+			<xmin>731</xmin>
+			<ymin>169</ymin>
+			<xmax>750</xmax>
 			<ymax>192</ymax>
 		</bndbox>
 	</object>
@@ -845,9 +845,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>776</xmin>
-			<ymin>170</ymin>
-			<xmax>786</xmax>
+			<xmin>775</xmin>
+			<ymin>168</ymin>
+			<xmax>788</xmax>
 			<ymax>192</ymax>
 		</bndbox>
 	</object>
@@ -895,7 +895,7 @@
 		<bndbox>
 			<xmin>731</xmin>
 			<ymin>206</ymin>
-			<xmax>746</xmax>
+			<xmax>747</xmax>
 			<ymax>233</ymax>
 		</bndbox>
 	</object>

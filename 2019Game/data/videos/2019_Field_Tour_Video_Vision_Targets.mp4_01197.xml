@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2019_Field_Tour_Video_Vision_Targets.mp4_01197.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/2019_Field_Tour_Video_Vision_Targets.mp4_01197.png</path>
@@ -43,8 +43,8 @@
 		<bndbox>
 			<xmin>198</xmin>
 			<ymin>328</ymin>
-			<xmax>283</xmax>
-			<ymax>413</ymax>
+			<xmax>299</xmax>
+			<ymax>414</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,9 +53,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1565</xmin>
+			<xmin>1544</xmin>
 			<ymin>594</ymin>
-			<xmax>1685</xmax>
+			<xmax>1698</xmax>
 			<ymax>705</ymax>
 		</bndbox>
 	</object>
