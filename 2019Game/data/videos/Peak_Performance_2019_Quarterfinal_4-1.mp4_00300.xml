@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Peak_Performance_2019_Quarterfinal_4-1.mp4_00300.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/Peak_Performance_2019_Quarterfinal_4-1.mp4_00300.png</path>
@@ -369,6 +369,18 @@
 			<ymin>242</ymin>
 			<xmax>519</xmax>
 			<ymax>330</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_rocket_top</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>304</xmin>
+			<ymin>1</ymin>
+			<xmax>322</xmax>
+			<ymax>10</ymax>
 		</bndbox>
 	</object>
 </annotation>
