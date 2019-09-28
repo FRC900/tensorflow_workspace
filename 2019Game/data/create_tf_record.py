@@ -53,6 +53,7 @@ FLAGS = flags.FLAGS
 def dict_to_tf_example(data,
                        label_map_dict,
                        image_subdirectory,
+                       class_count_map,
                        ignore_difficult_instances=False,
                        ):
   """Convert XML derived dict to tf.Example proto.
@@ -77,12 +78,12 @@ def dict_to_tf_example(data,
   """
   img_path = os.path.join(image_subdirectory, data['filename'])
   with tf.gfile.GFile(img_path, 'rb') as fid:
-    encoded_jpg = fid.read()
-  encoded_jpg_io = io.BytesIO(encoded_jpg)
-  image = PIL.Image.open(encoded_jpg_io)
+    encoded_png = fid.read()
+  encoded_png_io = io.BytesIO(encoded_png)
+  image = PIL.Image.open(encoded_png_io)
   if image.format != 'PNG':
     raise ValueError('Image format not PNG')
-  key = hashlib.sha256(encoded_jpg).hexdigest()
+  key = hashlib.sha256(encoded_png).hexdigest()
 
   width = int(data['size']['width'])
   height = int(data['size']['height'])
@@ -114,6 +115,10 @@ def dict_to_tf_example(data,
       xmaxs.append(xmax / width)
       ymaxs.append(ymax / height)
       class_name = obj['name']
+      if (class_name in class_count_map):
+          class_count_map[class_name] += 1
+      else:
+          class_count_map[class_name] = 1
       classes_text.append(class_name.encode('utf8'))
       classes.append(label_map_dict[class_name])
       truncated.append(int(obj['truncated']))
@@ -127,8 +132,8 @@ def dict_to_tf_example(data,
       'image/source_id': dataset_util.bytes_feature(
           data['filename'].encode('utf8')),
       'image/key/sha256': dataset_util.bytes_feature(key.encode('utf8')),
-      'image/encoded': dataset_util.bytes_feature(encoded_jpg),
-      'image/format': dataset_util.bytes_feature('jpeg'.encode('utf8')),
+      'image/encoded': dataset_util.bytes_feature(encoded_png),
+      'image/format': dataset_util.bytes_feature('png'.encode('utf8')),
       'image/object/bbox/xmin': dataset_util.float_list_feature(xmins),
       'image/object/bbox/xmax': dataset_util.float_list_feature(xmaxs),
       'image/object/bbox/ymin': dataset_util.float_list_feature(ymins),
@@ -149,7 +154,8 @@ def create_tf_record(output_filename,
                      label_map_dict,
                      annotations_dir,
                      image_dir,
-                     examples):
+                     examples,
+                     class_map_count):
   """Creates a TFRecord file from examples.
 
   Args:
@@ -159,6 +165,7 @@ def create_tf_record(output_filename,
     annotations_dir: Directory where annotation files are stored.
     image_dir: Directory where image files are stored.
     examples: Examples to parse and save to tf record.
+    class_map_count: Stores total number of each class seen
   """
   with contextlib2.ExitStack() as tf_record_close_stack:
     output_tfrecords = tf_record_creation_util.open_sharded_output_tfrecords(
@@ -166,7 +173,7 @@ def create_tf_record(output_filename,
     for idx, example in enumerate(examples):
       if idx % 100 == 0:
         logging.info('On image %d of %d', idx, len(examples))
-      xml_path = os.path.splitext(example)[0] + '.xml'
+      xml_path = example
 
       if not os.path.exists(xml_path):
         logging.warning('Could not find %s, ignoring example.', xml_path)
@@ -180,7 +187,8 @@ def create_tf_record(output_filename,
         tf_example = dict_to_tf_example(
             data,
             label_map_dict,
-            image_dir)
+            image_dir,
+            class_map_count)
         if tf_example:
           shard_idx = idx % num_shards
           output_tfrecords[shard_idx].write(tf_example.SerializeToString())
@@ -188,13 +196,12 @@ def create_tf_record(output_filename,
         logging.warning('Invalid example: %s, ignoring.', xml_path)
 
 
-# TODO(derekjchow): Add test for pet/PASCAL main files.
 def main(_):
   data_dir = FLAGS.data_dir
   label_map_dict = label_map_util.get_label_map_dict(FLAGS.label_map_path)
 
   logging.info('Reading from dataset.')
-  examples_list = tf.gfile.Glob(os.path.join(data_dir, '*.png'))
+  examples_list = tf.gfile.Glob(os.path.join(data_dir, '*.xml'))
   # Test images are not included in the downloaded data set, so we shall perform
   # our own split.
   random.seed(42)
@@ -208,21 +215,24 @@ def main(_):
 
   train_output_path = os.path.join(FLAGS.output_dir, '2019Game_train.record')
   val_output_path = os.path.join(FLAGS.output_dir, '2019Game_val.record')
+  class_map_count = {}
   create_tf_record(
       train_output_path,
       FLAGS.num_shards,
       label_map_dict,
       data_dir,
       data_dir,
-      train_examples)
+      train_examples,
+      class_map_count)
   create_tf_record(
       val_output_path,
       FLAGS.num_shards,
       label_map_dict,
       data_dir,
       data_dir,
-      val_examples)
-
+      val_examples,
+      class_map_count)
+  print class_map_count
 
 if __name__ == '__main__':
   tf.app.run()
