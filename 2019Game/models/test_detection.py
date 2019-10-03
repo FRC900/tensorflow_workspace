@@ -73,15 +73,15 @@ def run_inference_for_single_image(image, graph):
 
 def main():
     # What model to download.
-    #MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2019Game/models/exported_graphs'
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2019Game/models/ssd_mobilenet_v2_coco_2018_03_29'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2019Game/models/exported_graphs'
+    #MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2019Game/models/ssd_mobilenet_v2_coco_2018_03_29'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     PATH_TO_FROZEN_GRAPH = MODEL_NAME + '/frozen_inference_graph.pb'
 
     # List of the strings that is used to add correct label for each box.
-    #PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2019Game/data', '2019Game_label_map.pbtxt')
-    PATH_TO_LABELS = '/home/ubuntu/models/research/object_detection/data/mscoco_label_map.pbtxt'
+    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2019Game/data', '2019Game_label_map.pbtxt')
+    #PATH_TO_LABELS = '/home/ubuntu/models/research/object_detection/data/mscoco_label_map.pbtxt'
     detection_graph = tf.Graph()
     with detection_graph.as_default():
       od_graph_def = tf.GraphDef()
