@@ -20,7 +20,7 @@ Example usage:
     python /home/ubuntu/tensorflow_workspace/2019Game/data/create_tf_record.py \
         --label_map_path=/home/ubuntu/tensorflow_workspace/2019Game/data/2019Game_label_map.pbtxt \
         --data_dir=/home/ubuntu/tensorflow_workspace/2019Game/data/videos \
-        --output_dir=/home/ubuntu/tensorflow_workspace/2019Game/models
+        --output_dir=/home/ubuntu/tensorflow_workspace/2019Game/data
 """
 
 import hashlib
@@ -41,9 +41,9 @@ from object_detection.utils import dataset_util
 from object_detection.utils import label_map_util
 
 flags = tf.app.flags
-flags.DEFINE_string('data_dir', '', 'Root directory to raw pet dataset.')
-flags.DEFINE_string('output_dir', '', 'Path to directory to output TFRecords.')
-flags.DEFINE_string('label_map_path', 'data/pet_label_map.pbtxt',
+flags.DEFINE_string('data_dir', '/home/ubuntu/tensorflow_workspace/2019Game/data/videos', 'Root directory to raw pet dataset.')
+flags.DEFINE_string('output_dir', '/home/ubuntu/tensorflow_workspace/2019Game/data', 'Path to directory to output TFRecords.')
+flags.DEFINE_string('label_map_path', '/home/ubuntu/tensorflow_workspace/2019Game/data/2019Game_label_map.pbtxt',
                     'Path to label map proto')
 flags.DEFINE_integer('num_shards', 10, 'Number of TFRecord shards')
 
@@ -77,6 +77,7 @@ def dict_to_tf_example(data,
     ValueError: if the image pointed to by data['filename'] is not a valid PNG
   """
   img_path = os.path.join(image_subdirectory, data['filename'])
+  print img_path
   with tf.gfile.GFile(img_path, 'rb') as fid:
     encoded_png = fid.read()
   encoded_png_io = io.BytesIO(encoded_png)
