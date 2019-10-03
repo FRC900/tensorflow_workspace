@@ -93,7 +93,8 @@ def main():
     category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
 
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2019Game/data/videos'
-    TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4_04290.png') ]
+    #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4_04290.png') ]
+    TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Week_2_FRC_Clips_of_the_Week_2019.mp4_01460.png') ]
 
     # Size, in inches, of the output images.
     IMAGE_SIZE = (12, 8)
@@ -111,6 +112,7 @@ def main():
       # Actual detection.
       output_dict = run_inference_for_single_image(image_np_expanded, detection_graph)
       # Visualization of the results of a detection.
+      print output_dict
       vis_util.visualize_boxes_and_labels_on_image_array(
           image_np,
           output_dict['detection_boxes'],
