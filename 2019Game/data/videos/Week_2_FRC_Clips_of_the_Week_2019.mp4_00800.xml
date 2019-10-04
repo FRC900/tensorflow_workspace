@@ -53,10 +53,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>350</xmin>
-			<ymin>333</ymin>
+			<xmin>349</xmin>
+			<ymin>339</ymin>
 			<xmax>399</xmax>
-			<ymax>387</ymax>
+			<ymax>394</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rocket_cargo_hole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>351</xmin>
+			<ymin>433</ymin>
+			<xmax>404</xmax>
+			<ymax>484</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -66,21 +78,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>354</xmin>
-			<ymin>430</ymin>
+			<ymin>529</ymin>
 			<xmax>407</xmax>
-			<ymax>481</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rocket_cargo_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>356</xmin>
-			<ymin>523</ymin>
-			<xmax>409</xmax>
-			<ymax>574</ymax>
+			<ymax>580</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -102,9 +102,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>414</xmin>
-			<ymin>547</ymin>
+			<ymin>548</ymin>
 			<xmax>459</xmax>
-			<ymax>599</ymax>
+			<ymax>600</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -114,9 +114,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>411</xmin>
-			<ymin>456</ymin>
-			<xmax>455</xmax>
-			<ymax>509</ymax>
+			<ymin>460</ymin>
+			<xmax>453</xmax>
+			<ymax>505</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>409</xmin>
-			<ymin>373</ymin>
-			<xmax>452</xmax>
-			<ymax>436</ymax>
+			<xmin>411</xmin>
+			<ymin>374</ymin>
+			<xmax>454</xmax>
+			<ymax>437</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -141,6 +141,18 @@
 			<ymin>475</ymin>
 			<xmax>896</xmax>
 			<ymax>667</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hatchloading_hatch_placed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1195</xmin>
+			<ymin>541</ymin>
+			<xmax>1220</xmax>
+			<ymax>610</ymax>
 		</bndbox>
 	</object>
 </annotation>

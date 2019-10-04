@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>348</xmin>
-			<ymin>334</ymin>
-			<xmax>398</xmax>
-			<ymax>389</ymax>
+			<xmin>350</xmin>
+			<ymin>335</ymin>
+			<xmax>400</xmax>
+			<ymax>390</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -129,6 +129,18 @@
 			<ymin>373</ymin>
 			<xmax>457</xmax>
 			<ymax>431</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hatchloading_hatch_placed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1199</xmin>
+			<ymin>537</ymin>
+			<xmax>1223</xmax>
+			<ymax>604</ymax>
 		</bndbox>
 	</object>
 </annotation>

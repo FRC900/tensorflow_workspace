@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Week_2_FRC_Clips_of_the_Week_2019.mp4_02426.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/Week_2_FRC_Clips_of_the_Week_2019.mp4_02426.png</path>
@@ -141,6 +141,18 @@
 			<ymin>30</ymin>
 			<xmax>252</xmax>
 			<ymax>78</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hatchloading_hatch_placed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>932</xmin>
+			<ymin>178</ymin>
+			<xmax>955</xmax>
+			<ymax>244</ymax>
 		</bndbox>
 	</object>
 </annotation>
