@@ -73,7 +73,7 @@ def run_inference_for_single_image(image, sess, graph):
 
 def main():
     # What model to download.
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2019Game/models/exported_graphs_cocov2_decaysteps800720'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2019Game/models/exported_graphs_cocov2_lr0.008'
     #MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2019Game/models/ssd_mobilenet_v2_coco_2018_03_29'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
@@ -104,8 +104,10 @@ def main():
     IMAGE_SIZE = (12, 8)
 
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4'))
-    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4'))
-    vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video_annotated.avi'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (640,360))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2019_FRC_Wilsonville_Event_PNW_District_Final_1_Match_2.mp4'))
+    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4'))
+    #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video_annotated.avi'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (640,360))
     #for image_path in TEST_IMAGE_PATHS:
     while(True):
       ret, cv_vid_image = cap.read()
@@ -135,8 +137,8 @@ def main():
             use_normalized_coordinates=True,
             line_thickness=8)
         cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
-        vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
-        next_frame = True
+        #vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
+        #next_frame = True
         key = cv2.waitKey(10) & 0xFF
         if key == ord("f"):
           next_frame = True
