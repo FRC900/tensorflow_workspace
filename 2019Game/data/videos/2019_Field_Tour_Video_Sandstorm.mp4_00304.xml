@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2019_Field_Tour_Video_Sandstorm.mp4_00304.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/2019_Field_Tour_Video_Sandstorm.mp4_00304.png</path>
@@ -42,9 +42,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1143</xmin>
-			<ymin>386</ymin>
-			<xmax>1284</xmax>
-			<ymax>513</ymax>
+			<ymin>383</ymin>
+			<xmax>1277</xmax>
+			<ymax>514</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,9 +53,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1143</xmin>
-			<ymin>187</ymin>
-			<xmax>1283</xmax>
+			<xmin>1148</xmin>
+			<ymin>182</ymin>
+			<xmax>1277</xmax>
 			<ymax>319</ymax>
 		</bndbox>
 	</object>
@@ -65,10 +65,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1145</xmin>
+			<xmin>1148</xmin>
 			<ymin>1</ymin>
-			<xmax>1287</xmax>
-			<ymax>132</ymax>
+			<xmax>1283</xmax>
+			<ymax>130</ymax>
 		</bndbox>
 	</object>
 </annotation>
