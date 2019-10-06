@@ -79,12 +79,13 @@ def dict_to_tf_example(data,
   img_path = os.path.join(image_subdirectory, data['filename'])
   print img_path
   with tf.gfile.GFile(img_path, 'rb') as fid:
-    encoded_png = fid.read()
-  encoded_png_io = io.BytesIO(encoded_png)
-  image = PIL.Image.open(encoded_png_io)
-  if image.format != 'PNG':
-    raise ValueError('Image format not PNG')
-  key = hashlib.sha256(encoded_png).hexdigest()
+    encoded_image = fid.read()
+  encoded_image_io = io.BytesIO(encoded_image)
+  image = PIL.Image.open(encoded_image_io)
+  if image.format != 'PNG' and image.format != 'JPEG' and image.format != 'MPO':
+    print image.format
+    raise ValueError('Image format not PNG or JPEG')
+  key = hashlib.sha256(encoded_image).hexdigest()
 
   width = int(data['size']['width'])
   height = int(data['size']['height'])
@@ -125,6 +126,13 @@ def dict_to_tf_example(data,
       truncated.append(int(obj['truncated']))
       poses.append(obj['pose'].encode('utf8'))
 
+  if image.format == 'PNG':
+     image_format_str = 'png'
+  elif image.format == 'JPEG':
+     image_format_str = 'jpeg'
+  elif image.format == 'MPO':
+     image_format_str = 'mpo'
+
   feature_dict = {
       'image/height': dataset_util.int64_feature(height),
       'image/width': dataset_util.int64_feature(width),
@@ -133,8 +141,8 @@ def dict_to_tf_example(data,
       'image/source_id': dataset_util.bytes_feature(
           data['filename'].encode('utf8')),
       'image/key/sha256': dataset_util.bytes_feature(key.encode('utf8')),
-      'image/encoded': dataset_util.bytes_feature(encoded_png),
-      'image/format': dataset_util.bytes_feature('png'.encode('utf8')),
+      'image/encoded': dataset_util.bytes_feature(encoded_image),
+      'image/format': dataset_util.bytes_feature(image_format_str.encode('utf8')),
       'image/object/bbox/xmin': dataset_util.float_list_feature(xmins),
       'image/object/bbox/xmax': dataset_util.float_list_feature(xmaxs),
       'image/object/bbox/ymin': dataset_util.float_list_feature(ymins),
