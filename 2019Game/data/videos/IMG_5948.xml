@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
-	<filename>IMG_5805.JPG</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/IMG_5805.JPG</path>
+	<filename>IMG_5948.JPG</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/IMG_5948.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,34 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2853</xmin>
-			<ymin>2511</ymin>
-			<xmax>3119</xmax>
-			<ymax>2806</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2603</xmin>
-			<ymin>2508</ymin>
-			<xmax>2864</xmax>
-			<ymax>2772</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
 			<xmin>2369</xmin>
-			<ymin>2503</ymin>
-			<xmax>2605</xmax>
-			<ymax>2758</ymax>
+			<ymin>1656</ymin>
+			<xmax>2764</xmax>
+			<ymax>2039</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2128</xmin>
-			<ymin>2478</ymin>
-			<xmax>2366</xmax>
-			<ymax>2717</ymax>
+			<xmin>2580</xmin>
+			<ymin>1528</ymin>
+			<xmax>2947</xmax>
+			<ymax>1908</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +41,46 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1694</xmin>
-			<ymin>2439</ymin>
-			<xmax>1919</xmax>
-			<ymax>2689</ymax>
+			<xmin>2094</xmin>
+			<ymin>1517</ymin>
+			<xmax>2461</xmax>
+			<ymax>1822</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2358</xmin>
+			<ymin>1419</ymin>
+			<xmax>2675</xmax>
+			<ymax>1678</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hatchloading_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2894</xmin>
+			<ymin>850</ymin>
+			<xmax>3091</xmax>
+			<ymax>981</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hatchloading_hatch_placed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2816</xmin>
+			<ymin>919</ymin>
+			<xmax>3125</xmax>
+			<ymax>1278</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
-	<filename>IMG_5805.JPG</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/IMG_5805.JPG</path>
+	<filename>IMG_5965.JPG</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/IMG_5965.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2853</xmin>
-			<ymin>2511</ymin>
-			<xmax>3119</xmax>
-			<ymax>2806</ymax>
+			<xmin>58</xmin>
+			<ymin>339</ymin>
+			<xmax>553</xmax>
+			<ymax>836</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2603</xmin>
-			<ymin>2508</ymin>
-			<xmax>2864</xmax>
-			<ymax>2772</ymax>
+			<xmin>489</xmin>
+			<ymin>361</ymin>
+			<xmax>1019</xmax>
+			<ymax>872</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2369</xmin>
-			<ymin>2503</ymin>
-			<xmax>2605</xmax>
-			<ymax>2758</ymax>
+			<xmin>830</xmin>
+			<ymin>231</ymin>
+			<xmax>1328</xmax>
+			<ymax>708</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,22 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2128</xmin>
-			<ymin>2478</ymin>
-			<xmax>2366</xmax>
-			<ymax>2717</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1694</xmin>
-			<ymin>2439</ymin>
-			<xmax>1919</xmax>
-			<ymax>2689</ymax>
+			<xmin>1139</xmin>
+			<ymin>131</ymin>
+			<xmax>1555</xmax>
+			<ymax>550</ymax>
 		</bndbox>
 	</object>
 </annotation>
