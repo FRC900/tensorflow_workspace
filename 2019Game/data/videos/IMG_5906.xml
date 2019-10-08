@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
-	<filename>IMG_5805.JPG</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/IMG_5805.JPG</path>
+	<filename>IMG_5906.JPG</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/IMG_5906.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,63 +12,63 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cargo</name>
+		<name>rocket_hatch_hole</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2853</xmin>
-			<ymin>2511</ymin>
-			<xmax>3119</xmax>
-			<ymax>2806</ymax>
+			<xmin>16</xmin>
+			<ymin>15</ymin>
+			<xmax>214</xmax>
+			<ymax>108</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>cargo</name>
+		<name>blue_cargoship_tape</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2603</xmin>
-			<ymin>2508</ymin>
-			<xmax>2864</xmax>
-			<ymax>2772</ymax>
+			<xmin>539</xmin>
+			<ymin>51</ymin>
+			<xmax>723</xmax>
+			<ymax>138</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>cargo</name>
+		<name>blue_cargoship_tape</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2369</xmin>
-			<ymin>2503</ymin>
-			<xmax>2605</xmax>
-			<ymax>2758</ymax>
+			<xmin>814</xmin>
+			<ymin>47</ymin>
+			<xmax>994</xmax>
+			<ymax>128</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>cargo</name>
+		<name>blue_cargoship_hatch_hole</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2128</xmin>
-			<ymin>2478</ymin>
-			<xmax>2366</xmax>
-			<ymax>2717</ymax>
+			<xmin>511</xmin>
+			<ymin>148</ymin>
+			<xmax>777</xmax>
+			<ymax>285</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>cargo</name>
+		<name>blue_cargoship_hatch_hole</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1694</xmin>
-			<ymin>2439</ymin>
-			<xmax>1919</xmax>
-			<ymax>2689</ymax>
+			<xmin>784</xmin>
+			<ymin>145</ymin>
+			<xmax>1055</xmax>
+			<ymax>280</ymax>
 		</bndbox>
 	</object>
 </annotation>
