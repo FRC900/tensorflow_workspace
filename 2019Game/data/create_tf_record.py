@@ -131,7 +131,7 @@ def dict_to_tf_example(data,
   elif image.format == 'JPEG':
      image_format_str = 'jpeg'
   elif image.format == 'MPO':
-     image_format_str = 'mpo'
+     image_format_str = 'jpg'
 
   feature_dict = {
       'image/height': dataset_util.int64_feature(height),

@@ -1,5 +1,6 @@
 
 import cv2
+import glob
 import numpy as np
 import os
 import six.moves.urllib as urllib
@@ -96,6 +97,7 @@ def main():
 
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2019Game/data/videos'
 
+    """
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4'))
     cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2019_FRC_Wilsonville_Event_PNW_District_Final_1_Match_2.mp4'))
@@ -135,40 +137,43 @@ def main():
           next_frame = True
         next_frame = True
 
-"""
-    Code for testing against a list of images
+    """
+    ########################################
+    #### Code for testing against a list of images
+    ########################################
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4_04290.png') ]
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Week_2_FRC_Clips_of_the_Week_2019.mp4_01539.png') ]
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4_02940.png') ]
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_03496.png') ]
     TEST_IMAGE_PATHS = glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, '*.JPG'))
     for image_path in TEST_IMAGE_PATHS:
-      ret, cv_vid_image = cap.read()
-      next_frame = False
-      while (not next_frame):
-        image = Image.open(image_path)
-        # the array based representation of the image will be used later in order to prepare the
-        # result image with boxes and labels on it.
-        image_np = load_image_into_numpy_array(image)
-        # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
-        image_np_expanded = np.expand_dims(image_np, axis=0)
-        #resized_image_np_expanded = np.expand_dims(resized_image_np, axis=0)
-        # Actual detection.
-        output_dict = run_inference_for_single_image(image_np_expanded, sess, detection_graph)
-        # Visualization of the results of a detection.
-        print output_dict
-        vis_util.visualize_boxes_and_labels_on_image_array(
-            image_np,
-            output_dict['detection_boxes'],
-            output_dict['detection_classes'],
-            output_dict['detection_scores'],
-            category_index,
-            instance_masks=output_dict.get('detection_masks'),
-            use_normalized_coordinates=True,
-            line_thickness=8)
-        cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
-        cv2.waitKey(0) & 0xFF
-"""
+      image = cv2.imread(image_path)
+      # the array based representation of the image will be used later in order to prepare the
+      # result image with boxes and labels on it.
+      #image_np = load_image_into_numpy_array(image)
+      image_np = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+      image_np = cv2.pyrDown(cv2.pyrDown(image_np));
+      # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
+      image_np_expanded = np.expand_dims(image_np, axis=0)
+      #resized_image_np_expanded = np.expand_dims(resized_image_np, axis=0)
+      # Actual detection.
+      output_dict = run_inference_for_single_image(image_np_expanded, sess, detection_graph)
+      # Visualization of the results of a detection.
+      print output_dict
+      vis_util.visualize_boxes_and_labels_on_image_array(
+          image_np,
+          output_dict['detection_boxes'],
+          output_dict['detection_classes'],
+          output_dict['detection_scores'],
+          category_index,
+          instance_masks=output_dict.get('detection_masks'),
+          use_normalized_coordinates=True,
+          line_thickness=4,
+          max_boxes_to_draw=50,
+          min_score_thresh=0.30)
+      cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
+      cv2.waitKey(0) & 0xFF
+
 if __name__ == '__main__':
     main()
 
