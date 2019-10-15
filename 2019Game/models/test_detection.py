@@ -74,7 +74,7 @@ def run_inference_for_single_image(image, sess, graph):
 
 def main():
     # What model to run from - should be the directory name of an exported trained model
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2019Game/models/exported_graphs_cocov2_lr0.008'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2019Game/models/exported_graphs_cocov2_run5'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     PATH_TO_FROZEN_GRAPH = MODEL_NAME + '/frozen_inference_graph.pb'
@@ -145,7 +145,7 @@ def main():
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Week_2_FRC_Clips_of_the_Week_2019.mp4_01539.png') ]
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4_02940.png') ]
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_03496.png') ]
-    TEST_IMAGE_PATHS = glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, '*.JPG'))
+    TEST_IMAGE_PATHS = sorted(glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, '*.JPG')))
     for image_path in TEST_IMAGE_PATHS:
       image = cv2.imread(image_path)
       # the array based representation of the image will be used later in order to prepare the
@@ -171,8 +171,9 @@ def main():
           line_thickness=4,
           max_boxes_to_draw=50,
           min_score_thresh=0.30)
-      cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
+      cv2.imshow(image_path, cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
       cv2.waitKey(0) & 0xFF
+      cv2.destroyWindow(image_path)
 
 if __name__ == '__main__':
     main()
