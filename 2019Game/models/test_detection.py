@@ -101,7 +101,7 @@ def main():
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4'))
     cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2019_FRC_Wilsonville_Event_PNW_District_Final_1_Match_2.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4'))
-    vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'holdoutvid_annotated.avi'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (640,360))
+    #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'holdoutvid_annotated.avi'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (640,360))
     while(True):
       ret, cv_vid_image = cap.read()
       next_frame = False
@@ -129,7 +129,7 @@ def main():
             min_score_thresh=0.35,
             groundtruth_box_visualization_color='yellow')
         cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
-        vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
+        #vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
         #next_frame = True
         key = cv2.waitKey(5) & 0xFF
         if key == ord("f"):
