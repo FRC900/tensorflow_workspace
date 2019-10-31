@@ -97,7 +97,6 @@ def main():
 
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2019Game/data/videos'
 
-    """
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4'))
     cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2019_FRC_Wilsonville_Event_PNW_District_Final_1_Match_2.mp4'))
@@ -132,7 +131,7 @@ def main():
         cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
         vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
         #next_frame = True
-        key = cv2.waitKey(10) & 0xFF
+        key = cv2.waitKey(5) & 0xFF
         if key == ord("f"):
           next_frame = True
         next_frame = True
@@ -174,6 +173,7 @@ def main():
       cv2.imshow(image_path, cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
       cv2.waitKey(0) & 0xFF
       cv2.destroyWindow(image_path)
+      """
 
 if __name__ == '__main__':
     main()
