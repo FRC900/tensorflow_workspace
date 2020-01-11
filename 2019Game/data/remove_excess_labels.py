@@ -3,7 +3,7 @@ import glob
 
 # Gets all labels from ./2019Game_label_map.pbtxt
 label_dict = []
-with open("./2019Game_label_map.pbtxt", "r") as f:
+with open("../../2020Game/data/2020Game_label_map.pbtxt", "r") as f:
     data = f.read().splitlines()
     print(data)
     line = 0
