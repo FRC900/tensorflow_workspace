@@ -71,28 +71,4 @@
 			<ymax>2536</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_rocket_top</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2224</xmin>
-			<ymin>2324</ymin>
-			<xmax>2299</xmax>
-			<ymax>2353</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rocket_hatch_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3874</xmin>
-			<ymin>2498</ymin>
-			<xmax>3975</xmax>
-			<ymax>2623</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

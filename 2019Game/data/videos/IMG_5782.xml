@@ -12,30 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>hatch</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2039</xmin>
-			<ymin>2278</ymin>
-			<xmax>2175</xmax>
-			<ymax>2522</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3000</xmin>
-			<ymin>2206</ymin>
-			<xmax>3144</xmax>
-			<ymax>2361</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -95,40 +71,4 @@
 			<ymax>1689</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2864</xmin>
-			<ymin>2231</ymin>
-			<xmax>3016</xmax>
-			<ymax>2375</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2761</xmin>
-			<ymin>2244</ymin>
-			<xmax>2908</xmax>
-			<ymax>2403</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2622</xmin>
-			<ymin>2250</ymin>
-			<xmax>2783</xmax>
-			<ymax>2417</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1040</xmin>
-			<ymin>310</ymin>
-			<xmax>1097</xmax>
-			<ymax>367</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -107,28 +95,4 @@
 			<ymax>120</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_cargoship_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>81</xmin>
-			<ymin>235</ymin>
-			<xmax>152</xmax>
-			<ymax>269</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargoship_hatch_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>86</xmin>
-			<ymin>276</ymin>
-			<xmax>174</xmax>
-			<ymax>352</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>
