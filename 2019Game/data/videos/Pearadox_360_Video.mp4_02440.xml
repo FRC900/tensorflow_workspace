@@ -48,18 +48,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>915</xmin>
-			<ymin>331</ymin>
-			<xmax>991</xmax>
-			<ymax>402</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>

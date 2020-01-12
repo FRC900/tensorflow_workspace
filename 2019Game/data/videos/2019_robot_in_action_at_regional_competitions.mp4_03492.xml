@@ -107,16 +107,4 @@
 			<ymax>591</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>357</xmin>
-			<ymin>626</ymin>
-			<xmax>466</xmax>
-			<ymax>720</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>
