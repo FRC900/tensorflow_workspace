@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>rocket_cargo_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3275</xmin>
-			<ymin>94</ymin>
-			<xmax>3700</xmax>
-			<ymax>1203</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rocket_hatch_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1700</xmin>
-			<ymin>781</ymin>
-			<xmax>3219</xmax>
-			<ymax>1592</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>
