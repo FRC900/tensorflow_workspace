@@ -11,40 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>blue_rocket_wing</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1903</xmin>
-			<ymin>1408</ymin>
-			<xmax>2355</xmax>
-			<ymax>1656</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rocket_hatch_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>139</xmin>
-			<ymin>6</ymin>
-			<xmax>1136</xmax>
-			<ymax>478</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rocket_hatch_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>8</xmin>
-			<ymin>486</ymin>
-			<xmax>1364</xmax>
-			<ymax>1269</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

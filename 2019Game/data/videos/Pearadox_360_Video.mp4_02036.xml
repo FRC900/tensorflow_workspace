@@ -35,40 +35,4 @@
 			<ymax>233</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>812</xmin>
-			<ymin>324</ymin>
-			<xmax>838</xmax>
-			<ymax>350</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hatchloading_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>790</xmin>
-			<ymin>289</ymin>
-			<xmax>811</xmax>
-			<ymax>297</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hatchloading_hatch_placed</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>776</xmin>
-			<ymin>295</ymin>
-			<xmax>818</xmax>
-			<ymax>332</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

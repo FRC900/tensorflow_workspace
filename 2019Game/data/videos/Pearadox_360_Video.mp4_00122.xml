@@ -12,54 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_cargoship_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>926</xmin>
-			<ymin>287</ymin>
-			<xmax>1014</xmax>
-			<ymax>323</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargoship_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1058</xmin>
-			<ymin>281</ymin>
-			<xmax>1149</xmax>
-			<ymax>318</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargoship_hatch_placed</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>916</xmin>
-			<ymin>304</ymin>
-			<xmax>1034</xmax>
-			<ymax>410</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargoship_hatch_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1042</xmin>
-			<ymin>323</ymin>
-			<xmax>1172</xmax>
-			<ymax>390</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -71,16 +23,4 @@
 			<ymax>389</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>rocket_hatch_hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>665</xmin>
-			<ymin>356</ymin>
-			<xmax>690</xmax>
-			<ymax>370</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

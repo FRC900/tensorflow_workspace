@@ -83,28 +83,4 @@
 			<ymax>1175</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>hatch</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2378</xmin>
-			<ymin>1833</ymin>
-			<xmax>2530</xmax>
-			<ymax>2042</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2928</xmin>
-			<ymin>1822</ymin>
-			<xmax>3066</xmax>
-			<ymax>1983</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

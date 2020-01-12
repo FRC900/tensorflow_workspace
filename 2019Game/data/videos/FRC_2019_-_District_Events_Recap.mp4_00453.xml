@@ -24,42 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>hatch</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1175</xmin>
-			<ymin>556</ymin>
-			<xmax>1280</xmax>
-			<ymax>681</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>228</xmin>
-			<ymin>542</ymin>
-			<xmax>305</xmax>
-			<ymax>625</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>308</xmin>
-			<ymin>549</ymin>
-			<xmax>386</xmax>
-			<ymax>631</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
