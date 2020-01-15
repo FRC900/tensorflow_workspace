@@ -1,5 +1,8 @@
 from tensorflow.keras import layers, models, optimizers, losses, regularizers
+from keras.callbacks import ModelCheckpoint
 import numpy as np
+import tensorflow as tf
+import datetime
 
 model = models.Sequential([
     layers.Dense(20, input_dim=6, kernel_regularizer=regularizers.l1_l2(l1=0.01, l2=0.01)),
@@ -11,7 +14,7 @@ model = models.Sequential([
 
 model.summary()
 
-model.compile("adam", "binary_crossentropy", metrics=["accuracy"])
+model.compile("adam", "categorical_crossentropy", metrics=["categorical_accuracy"])
 
 data = np.load("data.npz", allow_pickle=True)
 
@@ -30,12 +33,8 @@ X_validation = X[800:]
 y_validation = y[800:]
 
 max_acc = 0
+model.fit(X_train, y_train, epochs=30, validation_data=(X_validation, y_validation), batch_size=batch_size, verbose=1)
 
-for i in range(10000):
-    print("="*10, "EPOCH", i, "="*10)
-    model.fit(X_train, y_train, epochs=100, batch_size=batch_size, verbose=0)
-    acc = model.evaluate(X_validation, y_validation)
-    print(acc[1])
-    if(float(acc[1]) > max_acc):
-        max_acc = float(acc[1])
-        model.save("color_detector.h5")
+y_pred = np.argmax(model.predict(X_validation), axis=-1)
+y = np.argmax(y_validation, -1)
+print(sum((y_pred-y)**2))
