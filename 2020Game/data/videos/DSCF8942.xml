@@ -19,56 +19,20 @@
 		<bndbox>
 			<xmin>1028</xmin>
 			<ymin>423</ymin>
-			<xmax>3969</xmax>
-			<ymax>2077</ymax>
+			<xmax>3965</xmax>
+			<ymax>2065</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>power_cell</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4387</xmin>
-			<ymin>191</ymin>
-			<xmax>4605</xmax>
-			<ymax>400</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4674</xmin>
-			<ymin>223</ymin>
-			<xmax>4860</xmax>
-			<ymax>436</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5583</xmin>
-			<ymin>291</ymin>
-			<xmax>5760</xmax>
-			<ymax>468</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>410</xmin>
-			<ymin>109</ymin>
-			<xmax>578</xmax>
-			<ymax>300</ymax>
+			<xmin>2432</xmin>
+			<ymin>3111</ymin>
+			<xmax>2811</xmax>
+			<ymax>3356</ymax>
 		</bndbox>
 	</object>
 </annotation>
