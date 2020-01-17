@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
-	<filename>DSCF8893.JPG</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8893.JPG</path>
+	<filename>DSCF8932.JPG</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8932.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,51 +12,51 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>shield_generator_first_logo</name>
+		<name>red_loading_bay_left_graphics</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5724</xmin>
-			<ymin>87</ymin>
-			<xmax>6196</xmax>
-			<ymax>600</ymax>
+			<xmin>155</xmin>
+			<ymin>515</ymin>
+			<xmax>805</xmax>
+			<ymax>2343</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>shield_generator_backstop</name>
+		<name>red_loading_bay_tape</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4915</xmin>
-			<ymin>1581</ymin>
-			<xmax>5465</xmax>
-			<ymax>2172</ymax>
+			<xmin>1365</xmin>
+			<ymin>1547</ymin>
+			<xmax>3302</xmax>
+			<ymax>2572</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_shield_generator_light</name>
+		<name>red_loading_bay_right_graphics</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4074</xmin>
-			<ymin>1987</ymin>
-			<xmax>4240</xmax>
-			<ymax>2368</ymax>
+			<xmin>3640</xmin>
+			<ymin>603</ymin>
+			<xmax>4199</xmax>
+			<ymax>2362</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>shield_generator_backstop</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2730</xmin>
-			<ymin>2306</ymin>
-			<xmax>3108</xmax>
-			<ymax>2740</ymax>
+			<xmin>1783</xmin>
+			<ymin>3956</ymin>
+			<xmax>2359</xmax>
+			<ymax>4160</ymax>
 		</bndbox>
 	</object>
 </annotation>

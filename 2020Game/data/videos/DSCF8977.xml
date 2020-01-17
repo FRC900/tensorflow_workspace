@@ -78,8 +78,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>5383</xmin>
-			<ymin>3159</ymin>
-			<xmax>5518</xmax>
+			<ymin>3165</ymin>
+			<xmax>5505</xmax>
 			<ymax>3606</ymax>
 		</bndbox>
 	</object>
@@ -153,6 +153,18 @@
 			<ymin>915</ymin>
 			<xmax>2649</xmax>
 			<ymax>1481</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_generator_light</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1084</ymin>
+			<xmax>102</xmax>
+			<ymax>1431</ymax>
 		</bndbox>
 	</object>
 </annotation>
