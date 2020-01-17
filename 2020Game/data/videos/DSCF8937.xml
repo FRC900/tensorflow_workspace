@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
-	<filename>DSCF8860.JPG</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8860.JPG</path>
+	<filename>DSCF8937.JPG</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8937.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,27 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>power_cell</name>
+		<name>power_port_yellow_graphics</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2301</xmin>
-			<ymin>3937</ymin>
-			<xmax>2430</xmax>
-			<ymax>4067</ymax>
+			<xmin>1874</xmin>
+			<ymin>87</ymin>
+			<xmax>3518</xmax>
+			<ymax>1159</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>power_cell</name>
+		<name>blue_power_port_low_goal</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1829</xmin>
-			<ymin>4036</ymin>
-			<xmax>2007</xmax>
-			<ymax>4160</ymax>
+			<xmin>1333</xmin>
+			<ymin>1584</ymin>
+			<xmax>4033</xmax>
+			<ymax>3087</ymax>
 		</bndbox>
 	</object>
 </annotation>
