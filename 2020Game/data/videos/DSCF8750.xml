@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8750.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8750.JPG</path>
@@ -489,6 +489,54 @@
 			<ymin>819</ymin>
 			<xmax>3423</xmax>
 			<ymax>939</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_yellow_stripe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2163</xmin>
+			<ymin>350</ymin>
+			<xmax>2583</xmax>
+			<ymax>803</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_yellow_stripe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4309</xmin>
+			<ymin>623</ymin>
+			<xmax>4583</xmax>
+			<ymax>937</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_first_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2869</xmin>
+			<ymin>497</ymin>
+			<xmax>3003</xmax>
+			<ymax>637</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_first_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4020</xmin>
+			<ymin>648</ymin>
+			<xmax>4130</xmax>
+			<ymax>748</ymax>
 		</bndbox>
 	</object>
 </annotation>

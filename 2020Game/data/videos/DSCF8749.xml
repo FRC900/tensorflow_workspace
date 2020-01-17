@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8749.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8749.JPG</path>
@@ -331,8 +331,8 @@
 		<bndbox>
 			<xmin>2907</xmin>
 			<ymin>2489</ymin>
-			<xmax>3105</xmax>
-			<ymax>2613</ymax>
+			<xmax>3094</xmax>
+			<ymax>2598</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -414,9 +414,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>2100</xmin>
-			<ymin>1587</ymin>
+			<ymin>1606</ymin>
 			<xmax>2219</xmax>
-			<ymax>1643</ymax>
+			<ymax>1662</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -429,6 +429,90 @@
 			<ymin>2467</ymin>
 			<xmax>3844</xmax>
 			<ymax>2541</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_yellow_stripe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2260</xmin>
+			<ymin>770</ymin>
+			<xmax>2683</xmax>
+			<ymax>1190</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_yellow_stripe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4403</xmin>
+			<ymin>1003</ymin>
+			<xmax>4677</xmax>
+			<ymax>1310</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_generator_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3467</xmin>
+			<ymin>1200</ymin>
+			<xmax>3513</xmax>
+			<ymax>1320</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_first_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4113</xmin>
+			<ymin>1023</ymin>
+			<xmax>4210</xmax>
+			<ymax>1127</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_first_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2953</xmin>
+			<ymin>913</ymin>
+			<xmax>3077</xmax>
+			<ymax>1023</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_loading_bay_right_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2676</xmin>
+			<ymin>1908</ymin>
+			<xmax>2722</xmax>
+			<ymax>2093</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2021</xmin>
+			<ymin>1605</ymin>
+			<xmax>2044</xmax>
+			<ymax>1661</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8699.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8699.JPG</path>
@@ -585,6 +585,90 @@
 			<ymin>3011</ymin>
 			<xmax>1864</xmax>
 			<ymax>3104</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5535</xmin>
+			<ymin>3447</ymin>
+			<xmax>5790</xmax>
+			<ymax>3602</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4370</xmin>
+			<ymin>2597</ymin>
+			<xmax>4460</xmax>
+			<ymax>2672</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_loading_bay_left_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2446</xmin>
+			<ymin>2114</ymin>
+			<xmax>2501</xmax>
+			<ymax>2322</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_loading_bay_right_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2825</xmin>
+			<ymin>2105</ymin>
+			<xmax>2880</xmax>
+			<ymax>2317</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_loading_bay_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2563</xmin>
+			<ymin>2217</ymin>
+			<xmax>2793</xmax>
+			<ymax>2344</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_port_yellow_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3595</xmin>
+			<ymin>1881</ymin>
+			<xmax>3808</xmax>
+			<ymax>2024</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4183</xmin>
+			<ymin>1749</ymin>
+			<xmax>4208</xmax>
+			<ymax>1799</ymax>
 		</bndbox>
 	</object>
 </annotation>
