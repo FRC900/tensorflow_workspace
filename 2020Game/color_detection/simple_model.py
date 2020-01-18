@@ -1,40 +1,65 @@
 from tensorflow.keras import layers, models, optimizers, losses, regularizers
-from keras.callbacks import ModelCheckpoint
+from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard
 import numpy as np
 import tensorflow as tf
 import datetime
 
+l1 = 4e-4
+l2 = 1e-3
+
 model = models.Sequential([
-    layers.Dense(20, input_dim=6, kernel_regularizer=regularizers.l1_l2(l1=0.01, l2=0.01)),
+    layers.Dense(30, input_dim=6, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
     layers.Activation("relu"),
-    layers.Dropout(0.2),
-    layers.Dense(4, kernel_regularizer=regularizers.l1_l2(l1=0.01, l2=0.01)),
+    layers.Dropout(0.5),
+    layers.Dense(300, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
+    layers.Activation("relu"),
+    layers.Dropout(0.5),
+    layers.Dense(300, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
+    layers.Activation("relu"),
+    layers.Dropout(0.5),
+    layers.Dense(300, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
+    layers.Activation("relu"),
+    layers.Dropout(0.5),
+    layers.Dense(4, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
     layers.Activation("softmax")
 ])
 
 model.summary()
 
-model.compile("adam", "categorical_crossentropy", metrics=["categorical_accuracy"])
+lr=1e-3
 
+model.compile(optimizers.Nadam(lr=lr), "categorical_crossentropy", metrics=["categorical_accuracy"], callbacks=[
+    ModelCheckpoint("model.{epochs:02d}.{val_acc:04f}.h5", "val_acc"), TensorBoard()])
+
+data_angle = np.load("data_angle.npz", allow_pickle=True)
+data_straight = np.load("data_straight.npz", allow_pickle=True)
 data = np.load("data.npz", allow_pickle=True)
 
-batch_size = 64
+batch_size = 10
 
-reorder_data = np.array(list(range(0,len(data['X']))))
+reorder_data = np.array(list(range(0,len(data['X'])+len(data_angle['X'])+len(data_straight['X']))))
 np.random.shuffle(reorder_data)
 
-X = data['X'][reorder_data]
-y = data['Y'][reorder_data]
+# print([i.shape for i in (data['Y'], data_straight['Y'], data_angle['Y'])])
 
-X_train = X[:800]
-y_train = y[:800]
+X = np.concatenate((data['X'], data_straight['X'], data_angle['X']), axis=0)[reorder_data]
+y = np.concatenate((data['Y'], data_straight['Y'], data_angle['Y']), axis=0)[reorder_data]
 
-X_validation = X[800:]
-y_validation = y[800:]
+print(X.shape)
+print(y.shape)
+
+X_train = X[:10000]
+y_train = y[:10000]
+
+X_validation = X[10000:]
+y_validation = y[10000:]
+
+print(1/len(X_validation))
 
 max_acc = 0
-model.fit(X_train, y_train, epochs=30, validation_data=(X_validation, y_validation), batch_size=batch_size, verbose=1)
+model.fit(X_train, y_train, epochs=300, validation_data=(X_validation, y_validation), batch_size=batch_size, verbose=1)
+model.save("detect.h5")
 
-y_pred = np.argmax(model.predict(X_validation), axis=-1)
-y = np.argmax(y_validation, -1)
+y_pred = np.argmax(model.predict(X), axis=-1)
+y = np.argmax(y, -1)
 print(sum((y_pred-y)**2))
