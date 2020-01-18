@@ -57,7 +57,7 @@ y_validation = y[10000:]
 print(1/len(X_validation))
 
 max_acc = 0
-model.fit(X_train, y_train, epochs=300, validation_data=(X_validation, y_validation), batch_size=batch_size, verbose=1)
+model.fit(X_train, y_train, epochs=30, validation_data=(X_validation, y_validation), batch_size=batch_size, verbose=1)
 model.save("detect.h5")
 
 y_pred = np.argmax(model.predict(X), axis=-1)
