@@ -4,20 +4,20 @@ import numpy as np
 import tensorflow as tf
 import datetime
 
-l1 = 4e-4
-l2 = 1e-3
+l1 = 0
+l2 = 0
 
 model = models.Sequential([
-    layers.Dense(30, input_dim=6, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
+    layers.Dense(50, input_dim=6, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
     layers.Activation("relu"),
     layers.Dropout(0.5),
-    layers.Dense(300, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
+    layers.Dense(50, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
     layers.Activation("relu"),
     layers.Dropout(0.5),
-    layers.Dense(300, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
+    layers.Dense(50, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
     layers.Activation("relu"),
     layers.Dropout(0.5),
-    layers.Dense(300, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
+    layers.Dense(50, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
     layers.Activation("relu"),
     layers.Dropout(0.5),
     layers.Dense(4, kernel_regularizer=regularizers.l1_l2(l1=l1, l2=l2)),
@@ -48,11 +48,11 @@ y = np.concatenate((data['Y'], data_straight['Y'], data_angle['Y']), axis=0)[reo
 print(X.shape)
 print(y.shape)
 
-X_train = X[:10000]
-y_train = y[:10000]
+X_train = X[:5000]
+y_train = y[:5000]
 
-X_validation = X[10000:]
-y_validation = y[10000:]
+X_validation = X[5000:]
+y_validation = y[5000:]
 
 print(1/len(X_validation))
 

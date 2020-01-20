@@ -52,7 +52,7 @@ with open("blue_straight.csv") as f:
     for line in data_lines:
         arr = np.array(list(map(float, line.split(","))))
         data_straight.append(normalize(arr))
-        target_straight.append([0,0,0,1])
+        target_straight.append([1,0,0,0])
         m+=1
         if(m >= n_straight):
             break
@@ -62,7 +62,7 @@ with open("blue_angle.csv") as f2:
     for line in data_lines:
         arr = np.array(list(map(float, line.split(","))))
         data_angle.append(normalize(arr))
-        target_angle.append([0,0,0,1])
+        target_angle.append([1,0,0,0])
         m+=1
         if(m >= n_angle):
             break
@@ -72,7 +72,7 @@ with open("red_straight.csv") as f:
     for line in data_lines:
         arr = np.array(list(map(float, line.split(","))))
         data_straight.append(normalize(arr))
-        target_straight.append([0,0,0,1])
+        target_straight.append([0,1,0,0])
         m+=1
         if(m >= n_straight):
             break
@@ -82,7 +82,7 @@ with open("red_angle.csv") as f2:
     for line in data_lines:
         arr = np.array(list(map(float, line.split(","))))
         data_angle.append(normalize(arr))
-        target_angle.append([0,0,0,1])
+        target_angle.append([0,1,0,0])
         m+=1
         if(m >= n_angle):
             break
@@ -92,7 +92,7 @@ with open("yellow_straight.csv") as f:
     for line in data_lines:
         arr = np.array(list(map(float, line.split(","))))
         data_straight.append(normalize(arr))
-        target_straight.append([0,0,0,1])
+        target_straight.append([0,0,1,0])
         m+=1
         if(m >= n_straight):
             break
@@ -102,7 +102,7 @@ with open("yellow_angle.csv") as f2:
     for line in data_lines:
         arr = np.array(list(map(float, line.split(","))))
         data_angle.append(normalize(arr))
-        target_angle.append([0,0,0,1])
+        target_angle.append([0,0,1,0])
         m+=1
         if(m >= n_angle):
             break
@@ -137,7 +137,7 @@ with open("blue.csv") as f:
     for line in data_lines:
         arr = np.array(list(map(float, line.split(","))))
         data.append(normalize(arr))
-        target.append([0,0,0,1])
+        target.append([1,0,0,0])
         m+=1
         if(m >= n):
             break
@@ -148,7 +148,7 @@ with open("red.csv") as f:
     for line in data_lines:
         arr = np.array(list(map(float, line.split(","))))
         data.append(normalize(arr))
-        target.append([0,0,0,1])
+        target.append([0,1,0,0])
         m+=1
         if(m >= n):
             break
@@ -170,7 +170,7 @@ with open("yellow.csv") as f:
     for line in data_lines:
         arr = np.array(list(map(float, line.split(","))))
         data.append(normalize(arr))
-        target.append([0,0,0,1])
+        target.append([0,0,1,0])
         m+=1
         if(m >= n):
             break
