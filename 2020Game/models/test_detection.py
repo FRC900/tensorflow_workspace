@@ -27,6 +27,10 @@ def load_image_into_numpy_array(image):
   return np.array(image.getdata()).reshape(
       (im_height, im_width, 3)).astype(np.uint8)
 
+# Takes a image, and using the tensorflow session and graph
+# provided, runs inference on the image. This returns a list
+# of detections - each includes the object bounding box, type
+# and confidence
 def run_inference_for_single_image(image, sess, graph):
   with graph.as_default():
     # Get handles to input and output tensors
@@ -74,13 +78,15 @@ def run_inference_for_single_image(image, sess, graph):
 
 def main():
     # What model to run from - should be the directory name of an exported trained model
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2019Game/models/exported_graphs_cocov2_run5'
+    # Change me to the directory exported using the export_inference_graph.py command
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models/train_1'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
+    # This shouldn't need to change
     PATH_TO_FROZEN_GRAPH = MODEL_NAME + '/frozen_inference_graph.pb'
 
     # List of the strings that is used to add correct label for each box.
-    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2019Game/data', '2019Game_label_map.pbtxt')
+    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2020Game/data', '2020Game_label_map.pbtxt')
 
     # Init TF detection graph and session
     detection_graph = tf.Graph()
@@ -95,13 +101,18 @@ def main():
         sess = tf.Session(graph=detection_graph)
     category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
 
-    PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2019Game/data/videos'
-
+    # Pick an input video to run here
+    PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/videos'
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Alliance_Station.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Loading_Bay.mp4'))
+    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Power_Port.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4'))
-    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2019_FRC_Wilsonville_Event_PNW_District_Final_1_Match_2.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2019_FRC_Wilsonville_Event_PNW_District_Final_1_Match_2.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4'))
-    #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'holdoutvid_annotated.avi'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (640,360))
+
+    # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
+    vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Power_Port_annotated.avi'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (640,360))
     while(True):
       ret, cv_vid_image = cap.read()
       next_frame = False
@@ -129,8 +140,7 @@ def main():
             min_score_thresh=0.35,
             groundtruth_box_visualization_color='yellow')
         cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
-        #vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
-        #next_frame = True
+        vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
         key = cv2.waitKey(5) & 0xFF
         if key == ord("f"):
           next_frame = True
@@ -139,6 +149,7 @@ def main():
     """
     ########################################
     #### Code for testing against a list of images
+    ####    Useful for looking at results in more detail
     ########################################
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4_04290.png') ]
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Week_2_FRC_Clips_of_the_Week_2019.mp4_01539.png') ]
