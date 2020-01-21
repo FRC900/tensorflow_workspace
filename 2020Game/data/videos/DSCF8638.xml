@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8638.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8638.JPG</path>
@@ -21,6 +21,30 @@
 			<ymin>1533</ymin>
 			<xmax>1839</xmax>
 			<ymax>1704</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_backstop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1933</xmin>
+			<ymin>419</ymin>
+			<xmax>2117</xmax>
+			<ymax>771</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_backstop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1454</xmin>
+			<ymin>2529</ymin>
+			<xmax>1654</xmax>
+			<ymax>2950</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8602.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8602.JPG</path>
@@ -12,15 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>yellow_control_panel_light</name>
+		<name>control_panel_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3691</xmin>
-			<ymin>730</ymin>
+			<xmin>3712</xmin>
+			<ymin>708</ymin>
 			<xmax>3986</xmax>
 			<ymax>1408</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_generator_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5733</xmin>
+			<ymin>461</ymin>
+			<xmax>5854</xmax>
+			<ymax>698</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>videos</folder>
+	<filename>DSCF9065.JPG</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF9065.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>6240</width>
+		<height>4160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>shield_generator_floor_center_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1619</xmin>
+			<ymin>502</ymin>
+			<xmax>4264</xmax>
+			<ymax>3374</ymax>
+		</bndbox>
+	</object>
+</annotation>
