@@ -1,7 +1,19 @@
 #!/bin/bash
+<<<<<<< HEAD
 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.1/targets/x86_64-linux/lib/stubs
 PIPELINE_CONFIG_PATH=/home/ubuntu/tensorflow_workspace/2020Game/models/model/ssd_mobilenet_v2_coco.config
 #PIPELINE_CONFIG_PATH=/home/ubuntu/tensorflow_workspace/2019Game/models/model/ssd_mobilenet_v2_fpnlite_quantized_shared_box_predictor_256x256_depthmultiplier_75_coco14_sync.config
+=======
+# Need pretrained model info for transfer learning setup
+# if [ ! -f ssd_mobilenet_v2_coco_2018_03_29/checkpoint ]
+# cd /home/ubuntu/tensorflow_workspace/2020Game/models
+# wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz
+# tar -xzf ssd_mobilenet_v2_coco_2018_03_29.tar.gz
+# rm ssd_mobilenet_v2_coco_2018_03_29.tar.gz
+# fi
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.1/targets/x86_64-linux/lib/stubs
+PIPELINE_CONFIG_PATH=/home/ubuntu/tensorflow_workspace/2020Game/models/model/ssd_mobilenet_v2_coco.config
+>>>>>>> c5feb52e0a9e7ef5cfeeb5a09082af3cd23194e6
 MODEL_DIR=/home/ubuntu/tensorflow_workspace/2020Game/models
 NUM_TRAIN_STEPS=350000
 SAMPLE_1_OF_N_EVAL_EXAMPLES=1
@@ -11,6 +23,9 @@ python /home/ubuntu/models/research/object_detection/model_main.py \
     --num_train_steps=${NUM_TRAIN_STEPS} \
     --sample_1_of_n_eval_examples=$SAMPLE_1_OF_N_EVAL_EXAMPLES \
     --alsologtostderr
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> c5feb52e0a9e7ef5cfeeb5a09082af3cd23194e6

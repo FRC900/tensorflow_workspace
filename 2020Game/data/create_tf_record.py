@@ -207,6 +207,7 @@ def main(_):
   data_dir = FLAGS.data_dir
   alt_data_dir = FLAGS.alt_data_dir
   label_map_dict = label_map_util.get_label_map_dict(FLAGS.label_map_path)
+  print label_map_dict
 
   logging.info('Reading from dataset.')
   examples_list  = tf.gfile.Glob(os.path.join(data_dir, '*.xml'))
@@ -218,7 +219,7 @@ def main(_):
   random.seed(42)
   random.shuffle(examples_list)
   num_examples = len(examples_list)
-  num_train = int(0.7 * num_examples)
+  num_train = int(0.85 * num_examples)
   train_examples = examples_list[:num_train]
   val_examples = examples_list[num_train:]
   logging.info('%d training and %d validation examples.',

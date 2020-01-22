@@ -27,6 +27,13 @@ def load_image_into_numpy_array(image):
   return np.array(image.getdata()).reshape(
       (im_height, im_width, 3)).astype(np.uint8)
 
+<<<<<<< HEAD
+=======
+# Takes a image, and using the tensorflow session and graph
+# provided, runs inference on the image. This returns a list
+# of detections - each includes the object bounding box, type
+# and confidence
+>>>>>>> c5feb52e0a9e7ef5cfeeb5a09082af3cd23194e6
 def run_inference_for_single_image(image, sess, graph):
   with graph.as_default():
     # Get handles to input and output tensors
@@ -74,9 +81,17 @@ def run_inference_for_single_image(image, sess, graph):
 
 def main():
     # What model to run from - should be the directory name of an exported trained model
+<<<<<<< HEAD
     MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models/exported_graphs_cocov2_run5'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
+=======
+    # Change me to the directory exported using the export_inference_graph.py command
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models/train_1'
+
+    # Path to frozen detection graph. This is the actual model that is used for the object detection.
+    # This shouldn't need to change
+>>>>>>> c5feb52e0a9e7ef5cfeeb5a09082af3cd23194e6
     PATH_TO_FROZEN_GRAPH = MODEL_NAME + '/frozen_inference_graph.pb'
 
     # List of the strings that is used to add correct label for each box.
@@ -95,6 +110,7 @@ def main():
         sess = tf.Session(graph=detection_graph)
     category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
 
+<<<<<<< HEAD
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/videos'
 
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4'))
@@ -102,6 +118,20 @@ def main():
     cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Cross_Field_Views.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4'))
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'holdoutvid_annotated.avi'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (640,360))
+=======
+    # Pick an input video to run here
+    PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/videos'
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Alliance_Station.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Loading_Bay.mp4'))
+    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Power_Port.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2019_FRC_Wilsonville_Event_PNW_District_Final_1_Match_2.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4'))
+
+    # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
+    vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Power_Port_annotated.avi'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (640,360))
+>>>>>>> c5feb52e0a9e7ef5cfeeb5a09082af3cd23194e6
     while(True):
       ret, cv_vid_image = cap.read()
       next_frame = False
@@ -129,8 +159,12 @@ def main():
             min_score_thresh=0.35,
             groundtruth_box_visualization_color='yellow')
         cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
+<<<<<<< HEAD
         #vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
         #next_frame = True
+=======
+        vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
+>>>>>>> c5feb52e0a9e7ef5cfeeb5a09082af3cd23194e6
         key = cv2.waitKey(5) & 0xFF
         if key == ord("f"):
           next_frame = True
@@ -139,6 +173,10 @@ def main():
     """
     ########################################
     #### Code for testing against a list of images
+<<<<<<< HEAD
+=======
+    ####    Useful for looking at results in more detail
+>>>>>>> c5feb52e0a9e7ef5cfeeb5a09082af3cd23194e6
     ########################################
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4_04290.png') ]
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Week_2_FRC_Clips_of_the_Week_2019.mp4_01539.png') ]
