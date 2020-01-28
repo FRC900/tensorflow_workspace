@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8692.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8692.JPG</path>
@@ -141,6 +141,18 @@
 			<ymin>2</ymin>
 			<xmax>2627</xmax>
 			<ymax>317</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>color_wheel</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>962</ymin>
+			<xmax>2186</xmax>
+			<ymax>2047</ymax>
 		</bndbox>
 	</object>
 </annotation>

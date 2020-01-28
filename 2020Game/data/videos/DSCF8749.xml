@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSCF8749.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8749.JPG</path>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>903</xmin>
+			<xmin>940</xmin>
 			<ymin>2811</ymin>
 			<xmax>1107</xmax>
-			<ymax>2926</ymax>
+			<ymax>2912</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,9 +29,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4953</xmin>
-			<ymin>2826</ymin>
-			<xmax>5151</xmax>
+			<xmin>4968</xmin>
+			<ymin>2834</ymin>
+			<xmax>5098</xmax>
 			<ymax>2961</ymax>
 		</bndbox>
 	</object>
@@ -43,8 +43,8 @@
 		<bndbox>
 			<xmin>4050</xmin>
 			<ymin>2334</ymin>
-			<xmax>4188</xmax>
-			<ymax>2424</ymax>
+			<xmax>4152</xmax>
+			<ymax>2415</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -293,10 +293,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3723</xmin>
-			<ymin>1624</ymin>
-			<xmax>3842</xmax>
-			<ymax>1680</ymax>
+			<xmin>3690</xmin>
+			<ymin>1633</ymin>
+			<xmax>3840</xmax>
+			<ymax>1690</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -413,10 +413,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2100</xmin>
+			<xmin>2083</xmin>
 			<ymin>1606</ymin>
-			<xmax>2219</xmax>
-			<ymax>1662</ymax>
+			<xmax>2233</xmax>
+			<ymax>1659</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -513,6 +513,102 @@
 			<ymin>1605</ymin>
 			<xmax>2044</xmax>
 			<ymax>1661</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2355</xmin>
+			<ymin>2753</ymin>
+			<xmax>2558</xmax>
+			<ymax>2887</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>control_panel_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4636</xmin>
+			<ymin>1965</ymin>
+			<xmax>4690</xmax>
+			<ymax>2075</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>color_wheel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4793</xmin>
+			<ymin>2181</ymin>
+			<xmax>5290</xmax>
+			<ymax>2262</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>control_panel_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1677</xmin>
+			<ymin>1878</ymin>
+			<xmax>1718</xmax>
+			<ymax>1959</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>color_wheel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1152</xmin>
+			<ymin>2043</ymin>
+			<xmax>1558</xmax>
+			<ymax>2106</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3009</xmin>
+			<ymin>1625</ymin>
+			<xmax>3031</xmax>
+			<ymax>1684</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3889</xmin>
+			<ymin>1640</ymin>
+			<xmax>3906</xmax>
+			<ymax>1697</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_power_port_first_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3658</xmin>
+			<ymin>1516</ymin>
+			<xmax>3762</xmax>
+			<ymax>1597</ymax>
 		</bndbox>
 	</object>
 </annotation>
