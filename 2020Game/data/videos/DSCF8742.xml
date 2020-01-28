@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSCF8742.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8742.JPG</path>
@@ -489,6 +489,30 @@
 			<ymin>731</ymin>
 			<xmax>881</xmax>
 			<ymax>1241</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4533</xmin>
+			<ymin>2106</ymin>
+			<xmax>4677</xmax>
+			<ymax>2209</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3255</xmin>
+			<ymin>2462</ymin>
+			<xmax>3443</xmax>
+			<ymax>2600</ymax>
 		</bndbox>
 	</object>
 </annotation>

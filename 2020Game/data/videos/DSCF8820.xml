@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSCF8820.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8820.JPG</path>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4616</xmin>
+			<xmin>4633</xmin>
 			<ymin>2254</ymin>
 			<xmax>4855</xmax>
-			<ymax>2682</ymax>
+			<ymax>2681</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -68,7 +68,7 @@
 			<xmin>3581</xmin>
 			<ymin>3928</ymin>
 			<xmax>4040</xmax>
-			<ymax>4045</ymax>
+			<ymax>4097</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4390</xmin>
+			<xmin>4377</xmin>
 			<ymin>3891</ymin>
 			<xmax>4725</xmax>
-			<ymax>4017</ymax>
+			<ymax>4084</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -90,9 +90,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1216</xmin>
-			<ymin>4017</ymin>
-			<xmax>1620</xmax>
-			<ymax>4128</ymax>
+			<ymin>3997</ymin>
+			<xmax>1674</xmax>
+			<ymax>4159</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -137,8 +137,8 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2551</xmin>
-			<ymin>4021</ymin>
+			<xmin>2552</xmin>
+			<ymin>4040</ymin>
 			<xmax>2717</xmax>
 			<ymax>4160</ymax>
 		</bndbox>

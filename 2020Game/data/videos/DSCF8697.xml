@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8697.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8697.JPG</path>
@@ -318,9 +318,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>4497</xmin>
-			<ymin>2361</ymin>
-			<xmax>4657</xmax>
-			<ymax>2495</ymax>
+			<ymin>2368</ymin>
+			<xmax>4646</xmax>
+			<ymax>2483</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -329,10 +329,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4397</xmin>
+			<xmin>4352</xmin>
 			<ymin>2543</ymin>
-			<xmax>4553</xmax>
-			<ymax>2606</ymax>
+			<xmax>4589</xmax>
+			<ymax>2615</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -341,10 +341,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3025</xmin>
+			<xmin>2993</xmin>
 			<ymin>2595</ymin>
-			<xmax>3156</xmax>
-			<ymax>2648</ymax>
+			<xmax>3174</xmax>
+			<ymax>2665</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -393,6 +393,42 @@
 			<ymin>1</ymin>
 			<xmax>5571</xmax>
 			<ymax>956</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>color_wheel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>131</xmin>
+			<ymin>3389</ymin>
+			<xmax>721</xmax>
+			<ymax>3488</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4288</xmin>
+			<ymin>2553</ymin>
+			<xmax>4319</xmax>
+			<ymax>2646</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2918</xmin>
+			<ymin>2604</ymin>
+			<xmax>2949</xmax>
+			<ymax>2688</ymax>
 		</bndbox>
 	</object>
 </annotation>
