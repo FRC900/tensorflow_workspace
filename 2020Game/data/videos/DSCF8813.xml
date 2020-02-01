@@ -98,13 +98,13 @@
 	<object>
 		<name>blue_loading_bay_left_graphics</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>4130</xmin>
-			<ymin>13</ymin>
-			<xmax>4297</xmax>
-			<ymax>635</ymax>
+			<ymin>1</ymin>
+			<xmax>4323</xmax>
+			<ymax>652</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -115,8 +115,8 @@
 		<bndbox>
 			<xmin>1659</xmin>
 			<ymin>1015</ymin>
-			<xmax>3770</xmax>
-			<ymax>1274</ymax>
+			<xmax>3776</xmax>
+			<ymax>1328</ymax>
 		</bndbox>
 	</object>
 </annotation>

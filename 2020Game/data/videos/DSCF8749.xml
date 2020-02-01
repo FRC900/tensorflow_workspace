@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8749.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8749.JPG</path>
@@ -293,10 +293,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3690</xmin>
+			<xmin>3700</xmin>
 			<ymin>1633</ymin>
 			<xmax>3840</xmax>
-			<ymax>1690</ymax>
+			<ymax>1688</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -609,6 +609,30 @@
 			<ymin>1516</ymin>
 			<xmax>3762</xmax>
 			<ymax>1597</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_loading_bay_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2443</xmin>
+			<ymin>1995</ymin>
+			<xmax>2640</xmax>
+			<ymax>2115</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_power_port_low_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3276</xmin>
+			<ymin>1922</ymin>
+			<xmax>3616</xmax>
+			<ymax>2112</ymax>
 		</bndbox>
 	</object>
 </annotation>

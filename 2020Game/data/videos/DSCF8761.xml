@@ -551,4 +551,52 @@
 			<ymax>1819</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_power_port_low_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3303</xmin>
+			<ymin>1668</ymin>
+			<xmax>3643</xmax>
+			<ymax>1872</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_loading_bay_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2450</xmin>
+			<ymin>1772</ymin>
+			<xmax>2656</xmax>
+			<ymax>1878</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2320</xmin>
+			<ymin>2518</ymin>
+			<xmax>2563</xmax>
+			<ymax>2625</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3303</xmin>
+			<ymin>2102</ymin>
+			<xmax>3436</xmax>
+			<ymax>2168</ymax>
+		</bndbox>
+	</object>
 </annotation>

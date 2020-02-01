@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSCF8769.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8769.JPG</path>
@@ -137,10 +137,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>6057</xmin>
+			<xmin>6036</xmin>
 			<ymin>2000</ymin>
-			<xmax>6179</xmax>
-			<ymax>2039</ymax>
+			<xmax>6186</xmax>
+			<ymax>2052</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5960</xmin>
+			<ymin>1998</ymin>
+			<xmax>5993</xmax>
+			<ymax>2072</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -571,8 +571,8 @@
 		<bndbox>
 			<xmin>3761</xmin>
 			<ymin>1434</ymin>
-			<xmax>3889</xmax>
-			<ymax>1483</ymax>
+			<xmax>3896</xmax>
+			<ymax>1485</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -669,6 +669,30 @@
 			<ymin>1557</ymin>
 			<xmax>2521</xmax>
 			<ymax>1609</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2340</xmin>
+			<ymin>2682</ymin>
+			<xmax>2566</xmax>
+			<ymax>2818</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_low_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3356</xmin>
+			<ymin>1745</ymin>
+			<xmax>3693</xmax>
+			<ymax>1948</ymax>
 		</bndbox>
 	</object>
 </annotation>
