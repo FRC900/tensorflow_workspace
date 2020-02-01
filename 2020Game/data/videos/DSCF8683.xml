@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8683.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8683.JPG</path>
@@ -21,6 +21,18 @@
 			<ymin>2652</ymin>
 			<xmax>4005</xmax>
 			<ymax>3769</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_first_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2297</xmin>
+			<ymin>1</ymin>
+			<xmax>3590</xmax>
+			<ymax>498</ymax>
 		</bndbox>
 	</object>
 </annotation>

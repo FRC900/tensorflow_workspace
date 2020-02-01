@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8837.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8837.JPG</path>
@@ -269,22 +269,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>457</xmin>
-			<ymin>1498</ymin>
-			<xmax>570</xmax>
+			<xmin>475</xmin>
+			<ymin>1453</ymin>
+			<xmax>568</xmax>
 			<ymax>1774</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>36</xmin>
-			<ymin>963</ymin>
-			<xmax>244</xmax>
-			<ymax>1030</ymax>
+			<xmin>1</xmin>
+			<ymin>961</ymin>
+			<xmax>260</xmax>
+			<ymax>1044</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -293,10 +293,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1712</xmin>
+			<xmin>1679</xmin>
 			<ymin>963</ymin>
-			<xmax>1910</xmax>
-			<ymax>1043</ymax>
+			<xmax>1933</xmax>
+			<ymax>1055</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -305,10 +305,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2784</xmin>
-			<ymin>963</ymin>
-			<xmax>2957</xmax>
-			<ymax>1030</ymax>
+			<xmin>2750</xmin>
+			<ymin>964</ymin>
+			<xmax>2995</xmax>
+			<ymax>1031</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -319,8 +319,8 @@
 		<bndbox>
 			<xmin>3084</xmin>
 			<ymin>958</ymin>
-			<xmax>3131</xmax>
-			<ymax>1039</ymax>
+			<xmax>3125</xmax>
+			<ymax>1054</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -331,8 +331,8 @@
 		<bndbox>
 			<xmin>1586</xmin>
 			<ymin>965</ymin>
-			<xmax>1640</xmax>
-			<ymax>1048</ymax>
+			<xmax>1638</xmax>
+			<ymax>1074</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -343,8 +343,8 @@
 		<bndbox>
 			<xmin>2701</xmin>
 			<ymin>771</ymin>
-			<xmax>2875</xmax>
-			<ymax>906</ymax>
+			<xmax>2864</xmax>
+			<ymax>894</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -353,10 +353,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2403</xmin>
-			<ymin>1554</ymin>
-			<xmax>2490</xmax>
-			<ymax>1758</ymax>
+			<xmin>2399</xmin>
+			<ymin>1555</ymin>
+			<xmax>2472</xmax>
+			<ymax>1760</ymax>
 		</bndbox>
 	</object>
 	<object>

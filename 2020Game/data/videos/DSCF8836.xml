@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2851</xmin>
-			<ymin>1482</ymin>
-			<xmax>2964</xmax>
-			<ymax>1530</ymax>
+			<xmin>2827</xmin>
+			<ymin>1488</ymin>
+			<xmax>2978</xmax>
+			<ymax>1541</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3810</xmin>
+			<xmin>3787</xmin>
 			<ymin>1471</ymin>
-			<xmax>3923</xmax>
-			<ymax>1519</ymax>
+			<xmax>3942</xmax>
+			<ymax>1523</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4477</xmin>
-			<ymin>1454</ymin>
-			<xmax>4590</xmax>
-			<ymax>1502</ymax>
+			<xmin>4460</xmin>
+			<ymin>1452</ymin>
+			<xmax>4619</xmax>
+			<ymax>1505</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,8 +125,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4684</xmin>
-			<ymin>1441</ymin>
+			<xmin>4687</xmin>
+			<ymin>1448</ymin>
 			<xmax>4714</xmax>
 			<ymax>1519</ymax>
 		</bndbox>
@@ -391,8 +391,8 @@
 		<bndbox>
 			<xmin>3320</xmin>
 			<ymin>1052</ymin>
-			<xmax>3501</xmax>
-			<ymax>1208</ymax>
+			<xmax>3494</xmax>
+			<ymax>1193</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -582,8 +582,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>4247</xmin>
-			<ymin>1832</ymin>
-			<xmax>4310</xmax>
+			<ymin>1835</ymin>
+			<xmax>4297</xmax>
 			<ymax>1969</ymax>
 		</bndbox>
 	</object>
@@ -594,7 +594,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>4479</xmin>
-			<ymin>2085</ymin>
+			<ymin>2106</ymin>
 			<xmax>5040</xmax>
 			<ymax>2189</ymax>
 		</bndbox>
@@ -609,6 +609,66 @@
 			<ymin>2185</ymin>
 			<xmax>1705</xmax>
 			<ymax>2280</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>control_panel_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1835</xmin>
+			<ymin>1776</ymin>
+			<xmax>1863</xmax>
+			<ymax>1855</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_loading_bay_left_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3079</xmin>
+			<ymin>1774</ymin>
+			<xmax>3125</xmax>
+			<ymax>1960</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_loading_bay_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3179</xmin>
+			<ymin>1866</ymin>
+			<xmax>3376</xmax>
+			<ymax>1981</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_loading_bay_right_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3408</xmin>
+			<ymin>1772</ymin>
+			<xmax>3458</xmax>
+			<ymax>1962</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_first_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3891</xmin>
+			<ymin>1351</ymin>
+			<xmax>3974</xmax>
+			<ymax>1430</ymax>
 		</bndbox>
 	</object>
 </annotation>

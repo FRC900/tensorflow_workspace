@@ -635,4 +635,52 @@
 			<ymax>1088</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>red_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2320</xmin>
+			<ymin>2402</ymin>
+			<xmax>2556</xmax>
+			<ymax>2555</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_loading_bay_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2400</xmin>
+			<ymin>1675</ymin>
+			<xmax>2633</xmax>
+			<ymax>1792</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_power_port_first_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3643</xmin>
+			<ymin>1158</ymin>
+			<xmax>3750</xmax>
+			<ymax>1238</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2046</xmin>
+			<ymin>1285</ymin>
+			<xmax>2196</xmax>
+			<ymax>1342</ymax>
+		</bndbox>
+	</object>
 </annotation>

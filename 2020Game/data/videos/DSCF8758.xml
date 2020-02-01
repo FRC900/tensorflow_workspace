@@ -611,4 +611,52 @@
 			<ymax>1933</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_power_port_low_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3373</xmin>
+			<ymin>1855</ymin>
+			<xmax>3666</xmax>
+			<ymax>2048</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>color_wheel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4646</xmin>
+			<ymin>2018</ymin>
+			<xmax>5070</xmax>
+			<ymax>2082</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_loading_bay_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2580</xmin>
+			<ymin>1952</ymin>
+			<xmax>2756</xmax>
+			<ymax>2065</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2493</xmin>
+			<ymin>2515</ymin>
+			<xmax>2700</xmax>
+			<ymax>2605</ymax>
+		</bndbox>
+	</object>
 </annotation>

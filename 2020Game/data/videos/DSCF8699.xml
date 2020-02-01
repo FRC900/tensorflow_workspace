@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8699.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8699.JPG</path>
@@ -717,6 +717,54 @@
 			<ymin>1630</ymin>
 			<xmax>4028</xmax>
 			<ymax>1720</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_power_port_low_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3506</xmin>
+			<ymin>2102</ymin>
+			<xmax>3883</xmax>
+			<ymax>2308</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_power_port_high_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3540</xmin>
+			<ymin>1472</ymin>
+			<xmax>3846</xmax>
+			<ymax>1732</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>control_panel_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5030</xmin>
+			<ymin>2158</ymin>
+			<xmax>5093</xmax>
+			<ymax>2278</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>color_wheel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5263</xmin>
+			<ymin>2428</ymin>
+			<xmax>5953</xmax>
+			<ymax>2518</ymax>
 		</bndbox>
 	</object>
 </annotation>

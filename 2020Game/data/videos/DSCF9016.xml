@@ -449,10 +449,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4926</xmin>
+			<xmin>4906</xmin>
 			<ymin>1527</ymin>
 			<xmax>5018</xmax>
-			<ymax>1567</ymax>
+			<ymax>1572</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -693,6 +693,18 @@
 			<ymin>774</ymin>
 			<xmax>6087</xmax>
 			<ymax>905</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>316</xmin>
+			<ymin>1028</ymin>
+			<xmax>496</xmax>
+			<ymax>1392</ymax>
 		</bndbox>
 	</object>
 </annotation>
