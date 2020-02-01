@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>video_day1_06635.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day1_06635.png</path>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>541</xmin>
+			<xmin>535</xmin>
 			<ymin>138</ymin>
-			<xmax>613</xmax>
-			<ymax>153</ymax>
+			<xmax>616</xmax>
+			<ymax>163</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,22 +65,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>182</xmin>
-			<ymin>132</ymin>
-			<xmax>265</xmax>
-			<ymax>155</ymax>
+			<xmin>173</xmin>
+			<ymin>127</ymin>
+			<xmax>273</xmax>
+			<ymax>165</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>6</xmin>
-			<ymin>125</ymin>
-			<xmax>104</xmax>
-			<ymax>155</ymax>
+			<xmin>1</xmin>
+			<ymin>116</ymin>
+			<xmax>110</xmax>
+			<ymax>163</ymax>
 		</bndbox>
 	</object>
 	<object>

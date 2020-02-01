@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>video_day1_06815.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day1_06815.png</path>
@@ -18,8 +18,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>104</ymin>
-			<xmax>62</xmax>
+			<ymin>99</ymin>
+			<xmax>40</xmax>
 			<ymax>245</ymax>
 		</bndbox>
 	</object>
@@ -45,6 +45,18 @@
 			<ymin>166</ymin>
 			<xmax>226</xmax>
 			<ymax>250</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>146</xmin>
+			<ymin>336</ymin>
+			<xmax>184</xmax>
+			<ymax>361</ymax>
 		</bndbox>
 	</object>
 </annotation>
