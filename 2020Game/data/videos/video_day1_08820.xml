@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
-	<filename>video_day1_06965.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day1_06965.png</path>
+	<filename>video_day1_08820.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day1_08820.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,39 +12,39 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_ds_light</name>
+		<name>blue_loading_bay_tape</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>157</xmin>
-			<ymin>136</ymin>
-			<xmax>172</xmax>
-			<ymax>181</ymax>
+			<xmin>52</xmin>
+			<ymin>30</ymin>
+			<xmax>131</xmax>
+			<ymax>75</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>212</xmin>
-			<ymin>133</ymin>
-			<xmax>315</xmax>
-			<ymax>172</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_loading_bay_left_graphics</name>
+		<name>blue_loading_bay_right_graphics</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>384</xmin>
-			<ymin>341</ymin>
-			<xmax>422</xmax>
-			<ymax>480</ymax>
+			<xmin>133</xmin>
+			<ymin>1</ymin>
+			<xmax>158</xmax>
+			<ymax>59</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_low_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>330</xmin>
+			<ymin>1</ymin>
+			<xmax>430</xmax>
+			<ymax>38</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>video_day1_07340.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day1_07340.png</path>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>256</xmin>
-			<ymin>80</ymin>
-			<xmax>293</xmax>
-			<ymax>105</ymax>
+			<xmin>244</xmin>
+			<ymin>74</ymin>
+			<xmax>298</xmax>
+			<ymax>112</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>331</xmin>
-			<ymin>103</ymin>
-			<xmax>361</xmax>
-			<ymax>124</ymax>
+			<xmin>324</xmin>
+			<ymin>98</ymin>
+			<xmax>364</xmax>
+			<ymax>131</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -137,10 +137,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>469</xmin>
-			<ymin>142</ymin>
-			<xmax>500</xmax>
-			<ymax>155</ymax>
+			<xmin>464</xmin>
+			<ymin>138</ymin>
+			<xmax>501</xmax>
+			<ymax>157</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -150,8 +150,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>300</xmin>
-			<ymin>95</ymin>
-			<xmax>308</xmax>
+			<ymin>93</ymin>
+			<xmax>310</xmax>
 			<ymax>124</ymax>
 		</bndbox>
 	</object>
@@ -165,6 +165,18 @@
 			<ymin>147</ymin>
 			<xmax>519</xmax>
 			<ymax>167</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_loading_bay_left_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>203</ymin>
+			<xmax>20</xmax>
+			<ymax>336</ymax>
 		</bndbox>
 	</object>
 </annotation>

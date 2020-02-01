@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>video_day1_06630.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day1_06630.png</path>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>161</xmin>
+			<xmin>158</xmin>
 			<ymin>156</ymin>
-			<xmax>253</xmax>
-			<ymax>181</ymax>
+			<xmax>257</xmax>
+			<ymax>192</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>523</xmin>
-			<ymin>169</ymin>
+			<xmin>518</xmin>
+			<ymin>165</ymin>
 			<xmax>594</xmax>
-			<ymax>188</ymax>
+			<ymax>194</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -66,9 +66,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>154</ymin>
-			<xmax>90</xmax>
-			<ymax>178</ymax>
+			<ymin>148</ymin>
+			<xmax>97</xmax>
+			<ymax>189</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -117,6 +117,18 @@
 			<ymin>1</ymin>
 			<xmax>481</xmax>
 			<ymax>148</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>633</xmin>
+			<ymin>168</ymin>
+			<xmax>640</xmax>
+			<ymax>198</ymax>
 		</bndbox>
 	</object>
 </annotation>

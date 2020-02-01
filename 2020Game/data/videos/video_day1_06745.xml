@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>video_day1_06745.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day1_06745.png</path>
@@ -14,13 +14,13 @@
 	<object>
 		<name>blue_loading_bay_left_graphics</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>564</xmin>
 			<ymin>294</ymin>
-			<xmax>640</xmax>
-			<ymax>428</ymax>
+			<xmax>606</xmax>
+			<ymax>433</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>374</xmin>
-			<ymin>91</ymin>
-			<xmax>472</xmax>
-			<ymax>116</ymax>
+			<xmin>371</xmin>
+			<ymin>85</ymin>
+			<xmax>483</xmax>
+			<ymax>129</ymax>
 		</bndbox>
 	</object>
 </annotation>

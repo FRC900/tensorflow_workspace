@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>232</xmin>
+			<xmin>222</xmin>
 			<ymin>166</ymin>
-			<xmax>305</xmax>
-			<ymax>189</ymax>
+			<xmax>309</xmax>
+			<ymax>194</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -57,6 +57,18 @@
 			<ymin>97</ymin>
 			<xmax>274</xmax>
 			<ymax>140</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_low_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>329</ymin>
+			<xmax>197</xmax>
+			<ymax>473</ymax>
 		</bndbox>
 	</object>
 </annotation>
