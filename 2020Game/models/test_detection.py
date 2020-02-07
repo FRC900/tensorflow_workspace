@@ -79,7 +79,7 @@ def run_inference_for_single_image(image, sess, graph):
 def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory exported using the export_inference_graph.py command
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models/train_1'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models/train_4_from_tmp2'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
@@ -112,7 +112,7 @@ def main():
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4'))
 
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
-    vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Power_Port_annotated.avi'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (640,360))
+    #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Power_Port_annotated.avi'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (640,360))
     while(True):
       ret, cv_vid_image = cap.read()
       next_frame = False
@@ -140,7 +140,7 @@ def main():
             min_score_thresh=0.35,
             groundtruth_box_visualization_color='yellow')
         cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
-        vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
+        #vid_writer.write(cv2.pyrDown(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)))
         key = cv2.waitKey(5) & 0xFF
         if key == ord("f"):
           next_frame = True
@@ -184,7 +184,7 @@ def main():
       cv2.imshow(image_path, cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
       cv2.waitKey(0) & 0xFF
       cv2.destroyWindow(image_path)
-      """
+    """
 
 if __name__ == '__main__':
     main()
