@@ -63,6 +63,7 @@ def main():
     # Dir where model.ckpt* files are being generated
     SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/tmp4'
     TRT_OUTPUT_GRAPH = 'trt_graph.pb'
+
     # The TensorRT inference graph file downloaded from Colab or your local machine.
     pb_fname = os.path.join(SAVED_MODEL_DIR, TRT_OUTPUT_GRAPH)
     trt_graph = get_frozen_graph(pb_fname)
