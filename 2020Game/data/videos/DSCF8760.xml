@@ -300,18 +300,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_shield_pillar_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3432</xmin>
-			<ymin>2224</ymin>
-			<xmax>3538</xmax>
-			<ymax>2318</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_blue_black_shield_generator_floor_intersection</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -677,10 +665,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3426</xmin>
+			<xmin>3428</xmin>
 			<ymin>2235</ymin>
-			<xmax>3536</xmax>
-			<ymax>2288</ymax>
+			<xmax>3549</xmax>
+			<ymax>2293</ymax>
 		</bndbox>
 	</object>
 </annotation>

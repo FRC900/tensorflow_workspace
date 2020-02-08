@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>video_day2_09225.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day2_09225.png</path>
@@ -18,9 +18,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>11</ymin>
-			<xmax>143</xmax>
-			<ymax>64</ymax>
+			<ymin>6</ymin>
+			<xmax>142</xmax>
+			<ymax>60</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>power_port_yellow_graphics</name>
+		<name>red_power_port_low_goal</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
