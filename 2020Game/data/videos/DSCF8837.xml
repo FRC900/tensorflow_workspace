@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSCF8837.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8837.JPG</path>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1879</xmin>
-			<ymin>2752</ymin>
+			<xmin>1776</xmin>
+			<ymin>2700</ymin>
 			<xmax>2049</xmax>
-			<ymax>2898</ymax>
+			<ymax>2914</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -33,18 +33,6 @@
 			<ymin>2450</ymin>
 			<xmax>1697</xmax>
 			<ymax>2545</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_black_shield_generator_floor_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>20</xmin>
-			<ymin>2932</ymin>
-			<xmax>181</xmax>
-			<ymax>3063</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -405,6 +393,54 @@
 			<ymin>2546</ymin>
 			<xmax>131</xmax>
 			<ymax>2661</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1194</xmin>
+			<ymin>2200</ymin>
+			<xmax>1503</xmax>
+			<ymax>2350</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_low_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2135</xmin>
+			<ymin>1450</ymin>
+			<xmax>2658</xmax>
+			<ymax>1791</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_port_yellow_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2208</xmin>
+			<ymin>1136</ymin>
+			<xmax>2540</xmax>
+			<ymax>1373</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_high_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2094</xmin>
+			<ymin>459</ymin>
+			<xmax>2599</xmax>
+			<ymax>918</ymax>
 		</bndbox>
 	</object>
 </annotation>

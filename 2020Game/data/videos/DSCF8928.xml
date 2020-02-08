@@ -456,7 +456,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_black_shield_generator_floor_intersection</name>
+		<name>red_blue_black_shield_generator_floor_intersection</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -561,6 +561,18 @@
 			<ymin>3434</ymin>
 			<xmax>1040</xmax>
 			<ymax>3559</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1567</xmin>
+			<ymin>3395</ymin>
+			<xmax>1690</xmax>
+			<ymax>3486</ymax>
 		</bndbox>
 	</object>
 </annotation>
