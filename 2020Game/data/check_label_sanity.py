@@ -92,6 +92,56 @@ def checkLoadingBay(xml_file, tree, color):
             print 'loading bay left / right coord backwards'
             print 20*'-'
 
+
+# Check that power port graphics are properly sorted by height
+def checkPowerPort(xml_file, tree, color):
+    high_goal_coord = getObjCoords(tree, color + '_power_port_high_goal')
+    low_goal_coord = getObjCoords(tree, color + '_power_port_low_goal')
+    first_logo_coord = getObjCoords(tree, color + '_power_port_first_logo')
+    yellow_graphics_coord = getObjCoords(tree, color + 'power_port_yellow_graphics')
+
+    if (len(low_goal_coord) > 0) and (len(yellow_graphics_coord) > 0):
+        if (low_goal_coord[0]['ymin'] < yellow_graphics_coord[0]['ymax']):
+            print 20*'-'
+            print xml_file
+            print color
+            print 'power_port low goal / yellow graphics backwards'
+            print 20*'-'
+
+    if (len(yellow_graphics_coord) > 0) and (len(high_goal_coord) > 0):
+        if (yellow_graphics_coord[0]['ymin'] < high_goal_coord[0]['ymax']):
+            print 20*'-'
+            print xml_file
+            print color
+            print 'power_port yellow graphics / high goal backwards'
+            print 20*'-'
+
+    if (len(low_goal_coord) > 0) and (len(high_goal_coord) > 0):
+        if (low_goal_coord[0]['ymin'] < high_goal_coord[0]['ymax']):
+            print 20*'-'
+            print xml_file
+            print color
+            print 'power_port yellow graphics / high goal backwards'
+            print 20*'-'
+
+    if (len(low_goal_coord) > 0) :
+        for flc in first_logo_coord:
+            if (low_goal_coord[0]['ymin'] < flc['ymax']):
+                print 20*'-'
+                print xml_file
+                print color
+                print 'power_port low goal / first logo coord backwards'
+                print 20*'-'
+
+    if (len(yellow_graphics_coord) > 0) :
+        for flc in first_logo_coord:
+            if (yellow_graphics_coord[0]['ymin'] < flc['ymax']):
+                print 20*'-'
+                print xml_file
+                print color
+                print 'power_port yellow graphics / first logo coord backwards'
+                print 20*'-'
+
 # Search each XML file
 for xml_file in xml_files:
     tree = ET.parse(xml_file)
@@ -109,5 +159,7 @@ for xml_file in xml_files:
 
     checkLoadingBay(xml_file, tree, 'red')
     checkLoadingBay(xml_file, tree, 'blue')
+    checkPowerPort(xml_file, tree, 'red')
+    checkPowerPort(xml_file, tree, 'blue')
 
 
