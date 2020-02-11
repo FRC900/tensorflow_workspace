@@ -31,7 +31,8 @@ import os
 import random
 import re
 import operator
-import pprint
+import csv
+import sys
 
 import contextlib2
 from lxml import etree
@@ -242,13 +243,11 @@ def main(_):
       label_map_dict,
       val_examples,
       class_map_count)
-  # define constructors for pprint
-  pp = pprint.PrettyPrinter(indent=1,width=2)
 
-
- # print class_map_count (sorted)
+  # print class_map_count (sorted)
   sorted_class_map_count = sorted(class_map_count.items(), key=operator.itemgetter(1))
-  pp.pprint(sorted_class_map_count)
+  writer = csv.writer(sys.stdout)
+  writer.writerows(sorted_class_map_count)
 
 if __name__ == '__main__':
   tf.app.run()
