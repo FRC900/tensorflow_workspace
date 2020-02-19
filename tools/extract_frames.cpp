@@ -173,8 +173,8 @@ int main(int argc, char *argv[])
 		cv::VideoCapture frame_video(*vidName);
 		int          frame_count = 0;
 		std::vector<bool> frame_used(frame_counter);
-		const int    frame_range = lblur.size()/120.;      // Try to space frames out by this many unused frames
-		std::cout << "Creating " << g_num_frames << " images spaced " << frame_range * 2 << " frames apart" << std::endl;
+		const int    frame_range = lblur.size()/(g_num_frames * 1.2);      // Try to space frames out by this many unused frames
+		std::cout << "Creating " << g_num_frames << " images spaced at least " << frame_range << " frames apart" << std::endl;
 		for (auto it = lblur.begin(); (frame_count < g_num_frames) && (it != lblur.end()); ++it)
 		{
 			// Check to see that we haven't used a frame close to this one
