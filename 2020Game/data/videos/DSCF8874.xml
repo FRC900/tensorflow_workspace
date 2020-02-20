@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8874.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8874.JPG</path>
@@ -609,6 +609,18 @@
 			<ymin>701</ymin>
 			<xmax>2555</xmax>
 			<ymax>882</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_high_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2292</xmin>
+			<ymin>303</ymin>
+			<xmax>2604</xmax>
+			<ymax>606</ymax>
 		</bndbox>
 	</object>
 </annotation>

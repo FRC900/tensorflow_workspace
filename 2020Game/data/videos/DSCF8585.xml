@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF8585.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8585.JPG</path>
@@ -90,9 +90,57 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>2543</xmin>
-			<ymin>3185</ymin>
-			<xmax>2679</xmax>
+			<ymin>3125</ymin>
+			<xmax>2688</xmax>
 			<ymax>3267</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3426</xmin>
+			<ymin>3750</ymin>
+			<xmax>3692</xmax>
+			<ymax>3909</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5176</xmin>
+			<ymin>3872</ymin>
+			<xmax>5313</xmax>
+			<ymax>4000</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>176</xmin>
+			<ymin>3643</ymin>
+			<xmax>479</xmax>
+			<ymax>3790</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_shield_generator_floor_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1798</xmin>
+			<ymin>3709</ymin>
+			<xmax>2010</xmax>
+			<ymax>3837</ymax>
 		</bndbox>
 	</object>
 </annotation>

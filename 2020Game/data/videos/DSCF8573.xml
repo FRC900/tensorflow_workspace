@@ -223,8 +223,8 @@
 		<bndbox>
 			<xmin>5101</xmin>
 			<ymin>1924</ymin>
-			<xmax>5338</xmax>
-			<ymax>2126</ymax>
+			<xmax>5335</xmax>
+			<ymax>2106</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -237,6 +237,54 @@
 			<ymin>2606</ymin>
 			<xmax>4684</xmax>
 			<ymax>2895</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_blue_black_shield_generator_floor_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4295</xmin>
+			<ymin>3943</ymin>
+			<xmax>4554</xmax>
+			<ymax>4072</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>control_panel_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2557</xmin>
+			<ymin>3047</ymin>
+			<xmax>2623</xmax>
+			<ymax>3209</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5670</xmin>
+			<ymin>3862</ymin>
+			<xmax>5998</xmax>
+			<ymax>4037</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2854</xmin>
+			<ymin>4040</ymin>
+			<xmax>3129</xmax>
+			<ymax>4160</ymax>
 		</bndbox>
 	</object>
 </annotation>
