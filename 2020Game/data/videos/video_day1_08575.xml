@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
-	<filename>video_day1_09025.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day1_09025.png</path>
+	<filename>video_day1_08575.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day1_08575.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,27 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_loading_bay_right_graphics</name>
+		<name>red_blue_black_shield_generator_floor_intersection</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>10</xmin>
-			<ymin>10</ymin>
-			<xmax>34</xmax>
-			<ymax>72</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>68</xmin>
-			<ymin>127</ymin>
-			<xmax>119</xmax>
-			<ymax>178</ymax>
+			<xmin>183</xmin>
+			<ymin>274</ymin>
+			<xmax>285</xmax>
+			<ymax>340</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -42,9 +30,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>316</xmin>
-			<ymin>132</ymin>
-			<xmax>377</xmax>
-			<ymax>194</ymax>
+			<ymin>171</ymin>
+			<xmax>394</xmax>
+			<ymax>247</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +41,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>250</xmin>
-			<ymin>121</ymin>
-			<xmax>302</xmax>
-			<ymax>172</ymax>
+			<xmin>422</xmin>
+			<ymin>141</ymin>
+			<xmax>489</xmax>
+			<ymax>205</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_cell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>501</xmin>
+			<ymin>118</ymin>
+			<xmax>558</xmax>
+			<ymax>173</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>170</xmin>
-			<ymin>151</ymin>
-			<xmax>268</xmax>
-			<ymax>179</ymax>
+			<xmin>563</xmin>
+			<ymin>133</ymin>
+			<xmax>639</xmax>
+			<ymax>165</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_loading_bay_right_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>40</ymin>
+			<xmax>52</xmax>
+			<ymax>108</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,22 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>200</xmin>
-			<ymin>2</ymin>
-			<xmax>309</xmax>
-			<ymax>63</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>586</xmin>
-			<ymin>124</ymin>
-			<xmax>623</xmax>
-			<ymax>142</ymax>
+			<xmin>232</xmin>
+			<ymin>15</ymin>
+			<xmax>333</xmax>
+			<ymax>82</ymax>
 		</bndbox>
 	</object>
 </annotation>
