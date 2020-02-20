@@ -221,10 +221,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5239</xmin>
-			<ymin>3160</ymin>
-			<xmax>5613</xmax>
-			<ymax>3381</ymax>
+			<xmin>5296</xmin>
+			<ymin>3177</ymin>
+			<xmax>5589</xmax>
+			<ymax>3374</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -321,6 +321,18 @@
 			<ymin>1878</ymin>
 			<xmax>1680</xmax>
 			<ymax>1987</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>960</xmin>
+			<ymin>2112</ymin>
+			<xmax>1304</xmax>
+			<ymax>2240</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSCF8838.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8838.JPG</path>
@@ -645,6 +645,42 @@
 			<ymin>1696</ymin>
 			<xmax>560</xmax>
 			<ymax>1825</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_low_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4120</xmin>
+			<ymin>1725</ymin>
+			<xmax>4638</xmax>
+			<ymax>2084</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_port_yellow_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4198</xmin>
+			<ymin>1425</ymin>
+			<xmax>4557</xmax>
+			<ymax>1659</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_high_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4113</xmin>
+			<ymin>743</ymin>
+			<xmax>4629</xmax>
+			<ymax>1193</ymax>
 		</bndbox>
 	</object>
 </annotation>

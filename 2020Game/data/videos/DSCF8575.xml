@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSCF8575.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8575.JPG</path>
@@ -103,8 +103,8 @@
 		<bndbox>
 			<xmin>5677</xmin>
 			<ymin>2550</ymin>
-			<xmax>5738</xmax>
-			<ymax>2639</ymax>
+			<xmax>5732</xmax>
+			<ymax>2662</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -165,6 +165,102 @@
 			<ymin>2954</ymin>
 			<xmax>3270</xmax>
 			<ymax>3226</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3307</xmin>
+			<ymin>3390</ymin>
+			<xmax>3385</xmax>
+			<ymax>3453</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1307</xmin>
+			<ymin>3903</ymin>
+			<xmax>1473</xmax>
+			<ymax>4003</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_low_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4604</xmin>
+			<ymin>3018</ymin>
+			<xmax>5223</xmax>
+			<ymax>3390</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_high_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4654</xmin>
+			<ymin>2072</ymin>
+			<xmax>5145</xmax>
+			<ymax>2500</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_port_yellow_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4723</xmin>
+			<ymin>2712</ymin>
+			<xmax>5082</xmax>
+			<ymax>2947</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2854</xmin>
+			<ymin>2540</ymin>
+			<xmax>3063</xmax>
+			<ymax>2612</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_cell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>267</xmin>
+			<ymin>3940</ymin>
+			<xmax>385</xmax>
+			<ymax>4075</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>shield_generator_backstop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2767</xmin>
+			<ymin>2300</ymin>
+			<xmax>2957</xmax>
+			<ymax>2503</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -683,4 +683,28 @@
 			<ymax>2622</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_loading_bay_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1535</xmin>
+			<ymin>1697</ymin>
+			<xmax>1742</xmax>
+			<ymax>1828</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_power_port_high_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2435</xmin>
+			<ymin>997</ymin>
+			<xmax>2726</xmax>
+			<ymax>1281</ymax>
+		</bndbox>
+	</object>
 </annotation>

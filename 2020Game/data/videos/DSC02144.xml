@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC02144.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSC02144.jpg</path>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>26</xmin>
+			<xmin>27</xmin>
 			<ymin>226</ymin>
-			<xmax>47</xmax>
-			<ymax>293</ymax>
+			<xmax>45</xmax>
+			<ymax>295</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -201,6 +201,30 @@
 			<ymin>66</ymin>
 			<xmax>230</xmax>
 			<ymax>97</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>294</xmin>
+			<ymin>356</ymin>
+			<xmax>313</xmax>
+			<ymax>371</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_port_yellow_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>270</xmin>
+			<ymin>151</ymin>
+			<xmax>355</xmax>
+			<ymax>204</ymax>
 		</bndbox>
 	</object>
 </annotation>

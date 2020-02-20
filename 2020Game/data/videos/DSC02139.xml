@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
-	<filename>DSC02132.jpg</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSC02132.jpg</path>
+	<filename>DSC02139.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSC02139.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,135 +12,87 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>power_cell</name>
+		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>443</xmin>
-			<ymin>27</ymin>
-			<xmax>482</xmax>
-			<ymax>67</ymax>
+			<xmin>506</xmin>
+			<ymin>162</ymin>
+			<xmax>516</xmax>
+			<ymax>181</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>power_cell</name>
+		<name>shield_generator_backstop</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>442</xmin>
-			<ymin>78</ymin>
-			<xmax>481</xmax>
-			<ymax>118</ymax>
+			<xmin>600</xmin>
+			<ymin>115</ymin>
+			<xmax>640</xmax>
+			<ymax>156</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>power_cell</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>401</xmin>
-			<ymin>79</ymin>
-			<xmax>439</xmax>
-			<ymax>118</ymax>
+			<xmin>110</xmin>
+			<ymin>384</ymin>
+			<xmax>124</xmax>
+			<ymax>393</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>power_cell</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>400</xmin>
-			<ymin>26</ymin>
-			<xmax>438</xmax>
-			<ymax>65</ymax>
+			<xmin>509</xmin>
+			<ymin>371</ymin>
+			<xmax>529</xmax>
+			<ymax>383</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>power_cell</name>
+		<name>blue_black_shield_generator_floor_intersection</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>359</xmin>
-			<ymin>28</ymin>
-			<xmax>397</xmax>
-			<ymax>67</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>359</xmin>
-			<ymin>80</ymin>
-			<xmax>397</xmax>
-			<ymax>119</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>318</xmin>
-			<ymin>82</ymin>
-			<xmax>356</xmax>
-			<ymax>121</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>317</xmin>
-			<ymin>30</ymin>
-			<xmax>355</xmax>
-			<ymax>69</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>276</xmin>
-			<ymin>31</ymin>
-			<xmax>314</xmax>
-			<ymax>70</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>278</xmin>
-			<ymin>83</ymin>
-			<xmax>315</xmax>
-			<ymax>121</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>237</xmin>
-			<ymin>85</ymin>
+			<xmin>243</xmin>
+			<ymin>413</ymin>
 			<xmax>273</xmax>
-			<ymax>122</ymax>
+			<ymax>429</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>385</xmin>
+			<ymin>386</ymin>
+			<xmax>424</xmax>
+			<ymax>404</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_shield_pillar_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>20</xmin>
+			<ymin>446</ymin>
+			<xmax>67</xmax>
+			<ymax>469</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -149,10 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>235</xmin>
-			<ymin>30</ymin>
-			<xmax>271</xmax>
-			<ymax>70</ymax>
+			<xmin>190</xmin>
+			<ymin>362</ymin>
+			<xmax>204</xmax>
+			<ymax>374</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -161,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>195</xmin>
-			<ymin>31</ymin>
-			<xmax>231</xmax>
-			<ymax>71</ymax>
+			<xmin>252</xmin>
+			<ymin>362</ymin>
+			<xmax>264</xmax>
+			<ymax>373</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -173,58 +125,82 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>196</xmin>
-			<ymin>84</ymin>
-			<xmax>232</xmax>
-			<ymax>124</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_loading_bay_left_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>198</xmin>
-			<ymin>224</ymin>
-			<xmax>236</xmax>
-			<ymax>356</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_loading_bay_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>275</xmin>
-			<ymin>293</ymin>
-			<xmax>421</xmax>
+			<xmin>313</xmin>
+			<ymin>360</ymin>
+			<xmax>325</xmax>
 			<ymax>371</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>red_loading_bay_right_graphics</name>
+		<name>power_cell</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>445</xmin>
-			<ymin>220</ymin>
-			<xmax>482</xmax>
-			<ymax>353</ymax>
+			<xmin>484</xmin>
+			<ymin>412</ymin>
+			<xmax>505</xmax>
+			<ymax>433</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>power_cell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>569</xmin>
+			<ymin>446</ymin>
+			<xmax>599</xmax>
+			<ymax>477</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_cell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>132</xmin>
+			<ymin>416</ymin>
+			<xmax>153</xmax>
+			<ymax>436</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_cell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>79</xmin>
+			<ymin>424</ymin>
+			<xmax>102</xmax>
+			<ymax>446</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_cell</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>1</ymin>
-			<xmax>111</xmax>
-			<ymax>48</ymax>
+			<ymin>460</ymin>
+			<xmax>29</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_blue_black_shield_generator_floor_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>518</xmin>
+			<ymin>439</ymin>
+			<xmax>549</xmax>
+			<ymax>463</ymax>
 		</bndbox>
 	</object>
 </annotation>

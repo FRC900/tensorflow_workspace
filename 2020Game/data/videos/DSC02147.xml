@@ -137,7 +137,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>497</xmin>
+			<xmin>492</xmin>
 			<ymin>97</ymin>
 			<xmax>537</xmax>
 			<ymax>134</ymax>
@@ -152,7 +152,7 @@
 			<xmin>546</xmin>
 			<ymin>120</ymin>
 			<xmax>562</xmax>
-			<ymax>135</ymax>
+			<ymax>132</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -161,10 +161,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>467</xmin>
-			<ymin>121</ymin>
-			<xmax>484</xmax>
-			<ymax>135</ymax>
+			<xmin>469</xmin>
+			<ymin>123</ymin>
+			<xmax>483</xmax>
+			<ymax>133</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -210,7 +210,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>343</xmin>
-			<ymin>151</ymin>
+			<ymin>154</ymin>
 			<xmax>351</xmax>
 			<ymax>161</ymax>
 		</bndbox>
@@ -329,10 +329,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>308</xmin>
+			<xmin>307</xmin>
 			<ymin>138</ymin>
-			<xmax>328</xmax>
-			<ymax>147</ymax>
+			<xmax>327</xmax>
+			<ymax>146</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -405,6 +405,18 @@
 			<ymin>49</ymin>
 			<xmax>613</xmax>
 			<ymax>72</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_blue_black_shield_generator_floor_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>513</xmin>
+			<ymin>251</ymin>
+			<xmax>538</xmax>
+			<ymax>260</ymax>
 		</bndbox>
 	</object>
 </annotation>
