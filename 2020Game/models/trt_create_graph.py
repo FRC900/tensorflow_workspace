@@ -24,8 +24,8 @@ from graph_utils import remove_assert as f_remove_assert
 TRT_OUTPUT_GRAPH = 'trt_graph.pb'
 
 # Dir where model.ckpt* files are being generated
-SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/tmp4'
-CHECKPOINT_NUMBER='167973'
+SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/tmp5'
+CHECKPOINT_NUMBER='349345'
 
 # Network config
 CONFIG_FILE = '/home/ubuntu/tensorflow_workspace/2020Game/models/model/ssd_mobilenet_v2_coco.config'
