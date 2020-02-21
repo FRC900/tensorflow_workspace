@@ -71,11 +71,11 @@ def run_inference_for_single_image(image, sess, graph):
 def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory exported using the export_inference_graph.py command
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models/train_4_from_tmp2'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models/tmp5'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
-    PATH_TO_FROZEN_GRAPH = MODEL_NAME + '/frozen_inference_graph.pb'
+    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, os.path.join('frozen', 'frozen_inference_graph.pb'))
 
     # List of the strings that is used to add correct label for each box.
     PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2020Game/data', '2020Game_label_map.pbtxt')
@@ -102,7 +102,7 @@ def main():
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2019_FRC_Wilsonville_Event_PNW_District_Final_1_Match_2.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4'))
-    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Nashua_Week0_Final_01.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Nashua_Week0_Final_01.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Nashua_Week0_Match01.mp4'))
     
 
