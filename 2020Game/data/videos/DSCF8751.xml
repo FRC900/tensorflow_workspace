@@ -197,10 +197,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2918</xmin>
-			<ymin>2095</ymin>
-			<xmax>3114</xmax>
-			<ymax>2141</ymax>
+			<xmin>2909</xmin>
+			<ymin>2078</ymin>
+			<xmax>3094</xmax>
+			<ymax>2152</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -233,10 +233,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3360</xmin>
-			<ymin>2215</ymin>
-			<xmax>3525</xmax>
-			<ymax>2291</ymax>
+			<xmin>3374</xmin>
+			<ymin>2221</ymin>
+			<xmax>3539</xmax>
+			<ymax>2297</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -245,8 +245,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3594</xmin>
-			<ymin>2037</ymin>
+			<xmin>3627</xmin>
+			<ymin>2028</ymin>
 			<xmax>3770</xmax>
 			<ymax>2098</ymax>
 		</bndbox>
@@ -355,8 +355,8 @@
 		<bndbox>
 			<xmin>1220</xmin>
 			<ymin>2385</ymin>
-			<xmax>1370</xmax>
-			<ymax>2474</ymax>
+			<xmax>1314</xmax>
+			<ymax>2462</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -585,6 +585,30 @@
 			<ymin>1302</ymin>
 			<xmax>2716</xmax>
 			<ymax>1351</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_port_yellow_graphics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3341</xmin>
+			<ymin>1364</ymin>
+			<xmax>3508</xmax>
+			<ymax>1499</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_power_port_high_goal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3278</xmin>
+			<ymin>1001</ymin>
+			<xmax>3551</xmax>
+			<ymax>1246</ymax>
 		</bndbox>
 	</object>
 </annotation>
