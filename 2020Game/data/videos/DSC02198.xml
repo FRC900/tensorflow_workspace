@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>power_cell</name>
+		<name>color_wheel</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -93,6 +93,30 @@
 			<ymin>112</ymin>
 			<xmax>607</xmax>
 			<ymax>128</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_cell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>510</xmin>
+			<ymin>118</ymin>
+			<xmax>522</xmax>
+			<ymax>132</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_cell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>510</xmin>
+			<ymin>136</ymin>
+			<xmax>522</xmax>
+			<ymax>149</ymax>
 		</bndbox>
 	</object>
 </annotation>
