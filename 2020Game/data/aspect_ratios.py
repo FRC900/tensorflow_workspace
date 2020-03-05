@@ -35,13 +35,19 @@ for xml_file in sorted(xml_files):
         coords = getObjCoords(obj)
         obj_width = float(coords['xmax']) - float(coords['xmin'])
         obj_height = float(coords['ymax']) - float(coords['ymin'])
-        unadjusted_ar.append(obj_width / obj_height)
-        adjusted_ar.append ((obj_width / width) / (obj_height / height))
-        if (obj_width / obj_height) > 4:
-            print xml_file + " : " + obj.find('name').text + " : " + str(obj_width / obj_height)
-        if (obj_width / obj_height) < .2 :
-            print xml_file + " : " + obj.find('name').text + " : " + str(obj_width / obj_height)
+        local_ar = obj_width / obj_height
+        unadjusted_ar.append(local_ar)
+        #if local_ar > 4:
+            #print xml_file + " : " + obj.find('name').text + " : " + str(local_ar)
+        #if local_ar < .2 :
+            #print xml_file + " : " + obj.find('name').text + " : " + str(local_ar)
 
+        local_adjusted_ar = (obj_width / width) / (obj_height / height)
+        adjusted_ar.append (local_adjusted_ar)
+        if local_adjusted_ar > 3:
+            print xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar)
+        if local_adjusted_ar < .15:
+            print xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar)
 
 
 #print unadjusted_ar
