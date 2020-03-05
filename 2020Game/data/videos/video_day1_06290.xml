@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>video_day1_06290.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day1_06290.png</path>
@@ -84,7 +84,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_shield_pillar_intersection</name>
+		<name>power_cell</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -153,6 +153,18 @@
 			<ymin>3</ymin>
 			<xmax>494</xmax>
 			<ymax>31</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_blue_black_shield_generator_floor_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>481</xmin>
+			<ymin>55</ymin>
+			<xmax>512</xmax>
+			<ymax>70</ymax>
 		</bndbox>
 	</object>
 </annotation>
