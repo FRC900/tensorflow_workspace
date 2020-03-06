@@ -4,6 +4,7 @@ Various tests of label xml files to find errors
 import xml.etree.ElementTree as ET
 import glob
 import numpy as np
+import math
 
 # Will find all xml files in the ./videos/ directory
 xml_files = glob.glob("videos/*.xml")
@@ -24,6 +25,7 @@ def getObjCoords(obj):
 # Search each XML file
 unadjusted_ar = []
 adjusted_ar = []
+screen_percents = []
 for xml_file in sorted(xml_files):
     tree = ET.parse(xml_file)
     width = float(tree.findall('size')[0].find('width').text)
@@ -49,9 +51,13 @@ for xml_file in sorted(xml_files):
         if local_adjusted_ar < .15:
             print xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar)
 
+        screen_percents.append(math.sqrt((obj_width / width) * (obj_height / height)))
+
+
 
 #print unadjusted_ar
 #print adjusted_ar
 
 #print np.histogram(unadjusted_ar, bins='auto')
-print np.histogram(adjusted_ar, bins='auto')
+#print np.histogram(adjusted_ar, bins='auto')
+print np.histogram(screen_percents, bins='auto')
