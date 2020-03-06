@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>VID_20200215_145921.mp4_00049.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/VID_20200215_145921.mp4_00049.png</path>
@@ -225,6 +225,30 @@
 			<ymin>591</ymin>
 			<xmax>511</xmax>
 			<ymax>663</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_cell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>347</xmin>
+			<ymin>816</ymin>
+			<xmax>424</xmax>
+			<ymax>885</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>power_cell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>516</xmin>
+			<ymin>519</ymin>
+			<xmax>538</xmax>
+			<ymax>539</ymax>
 		</bndbox>
 	</object>
 </annotation>
