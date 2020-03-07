@@ -1,5 +1,5 @@
-from tensorflow.keras import layers, models, optimizers, losses, regularizers
-from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard
+from keras import layers, models, optimizers, losses, regularizers
+from keras.callbacks import ModelCheckpoint, TensorBoard
 import numpy as np
 import tensorflow as tf
 import datetime
@@ -28,8 +28,7 @@ model.summary()
 
 lr=1e-3
 
-model.compile(optimizers.Nadam(lr=lr), "categorical_crossentropy", metrics=["categorical_accuracy"], callbacks=[
-    ModelCheckpoint("model.{epochs:02d}.{val_acc:04f}.h5", "val_acc"), TensorBoard()])
+model.compile(optimizers.Nadam(lr=lr), "categorical_crossentropy", metrics=["categorical_accuracy"])
 
 data_angle = np.load("data_angle.npz", allow_pickle=True)
 data_straight = np.load("data_straight.npz", allow_pickle=True)
@@ -48,11 +47,11 @@ y = np.concatenate((data['Y'], data_straight['Y'], data_angle['Y']), axis=0)[reo
 print(X.shape)
 print(y.shape)
 
-X_train = X[:5000]
-y_train = y[:5000]
+X_train = X[:8000]
+y_train = y[:8000]
 
-X_validation = X[5000:]
-y_validation = y[5000:]
+X_validation = X[8000:]
+y_validation = y[8000:]
 
 print(1/len(X_validation))
 

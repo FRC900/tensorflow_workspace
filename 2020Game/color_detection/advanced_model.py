@@ -1,29 +1,40 @@
-from tensorflow.keras import layers, models, optimizers, losses, regularizers
-from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard
+from keras import layers, models, optimizers, losses, regularizers
+from keras.callbacks import ModelCheckpoint, TensorBoard
 import numpy as np
 
 encoder = models.Sequential([
-    layers.Dense(12, input_dim=6),
-    layers.LeakyReLU(0.4),
-    layers.Dense(6),
-    layers.LeakyReLU(0.4),
-    layers.Dense(4),
-    layers.Activation("sigmoid")
+    layers.Dense(64, input_dim=6, activation="relu"),
+    layers.Dense(16, activation="relu"),
+    layers.Dense(16, activation="relu"),
+    layers.Dense(16, activation="relu"),
+    layers.Dense(16, activation="relu"),
+    layers.Dense(16, activation="relu"),
+    layers.Dense(4, activation="sigmoid")
 ])
 
 decoder = models.Sequential([
-    layers.Dense(12, input_dim=4),
+    layers.Dense(36, input_dim=4),
     layers.LeakyReLU(0.4),
-    layers.Dense(8),
+    layers.Dense(16),
+    layers.LeakyReLU(0.4),
+    layers.Dense(16),
+    layers.LeakyReLU(0.4),
+    layers.Dense(16),
+    layers.LeakyReLU(0.4),
+    layers.Dense(16),
+    layers.LeakyReLU(0.4),
+    layers.Dense(16),
+    layers.LeakyReLU(0.4),
+    layers.Dense(16),
     layers.LeakyReLU(0.4),
     layers.Dense(6)
 ])
 
-encoder.compile(optimizers.Nadam(), losses.CategoricalCrossentropy(), metrics=['categorical_accuracy'])
+encoder.compile(optimizers.Nadam(), "categorical_crossentropy", metrics=['categorical_accuracy'])
 
 inp = layers.Input(shape=(6,))
 total_model = models.Model(inputs=inp, outputs=decoder(encoder(inp)))
-total_model.compile(optimizers.Nadam(), losses.MeanSquaredError())
+total_model.compile(optimizers.Nadam(), "mse")
 
 data_angle = np.load("data_angle.npz", allow_pickle=True)
 data_straight = np.load("data_straight.npz", allow_pickle=True)
@@ -42,15 +53,14 @@ y = np.concatenate((data['Y'], data_straight['Y'], data_angle['Y']), axis=0)[reo
 print(X.shape)
 print(y.shape)
 
-X_train = X[:5000]
-y_train = y[:5000]
+X_train = X[:8000]
+y_train = y[:8000]
 
-X_validation = X[5000:]
-y_validation = y[5000:]
+X_validation = X[8000:]
+y_validation = y[8000:]
 
+# total_model.fit(X_train, X_train, validation_data=(X_validation, X_validation), epochs=5, verbose=1)
 for epoch in range(100):
     print("="*10, epoch, "="*10)
-    total_model.fit(X_train, X_train, validation_data=(X_validation, X_validation), verbose=0)
-    encoder.fit(X_train, y_train, validation_data=(X_validation, y_validation), epochs=10, verbose=0)
-    encoder.fit(X_train, y_train, validation_data=(X_validation, y_validation), epochs=1)
+    encoder.fit(X_train, y_train, validation_data=(X_validation, y_validation), epochs=10, verbose=1)
     encoder.save("detect_adv.h5")
