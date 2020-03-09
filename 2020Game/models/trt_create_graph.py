@@ -24,11 +24,11 @@ from graph_utils import remove_assert as f_remove_assert
 TRT_OUTPUT_GRAPH = 'trt_graph.pb'
 
 # Dir where model.ckpt* files are being generated
-SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/tmp5'
-CHECKPOINT_NUMBER='349345'
+SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/tmp6'
+CHECKPOINT_NUMBER='118209'
 
 # Network config
-CONFIG_FILE = '/home/ubuntu/tensorflow_workspace/2020Game/models/model/ssd_mobilenet_v2_coco.config'
+CONFIG_FILE =os.path.join(SAVED_MODEL_DIR, 'model/ssd_mobilenet_v2_coco.config')
 
 INPUT_NAME='image_tensor'
 BOXES_NAME='detection_boxes'
@@ -108,7 +108,8 @@ def build_detection_graph(config, checkpoint,
     input_names = [INPUT_NAME]
     output_names = [BOXES_NAME, CLASSES_NAME, SCORES_NAME, NUM_DETECTIONS_NAME]
 
-    # remove temporary directory
+    # remove temporary directory after saving frozen graph output
+    os.rename(os.path.join(output_dir, FROZEN_GRAPH_NAME), os.path.join(SAVED_MODEL_DIR, FROZEN_GRAPH_NAME))
     subprocess.call(['rm', '-rf', output_dir])
 
     return frozen_graph, input_names, output_names

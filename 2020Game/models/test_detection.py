@@ -95,6 +95,7 @@ def main():
 
     # Pick an input video to run here
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/videos'
+    """
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Alliance_Station.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Loading_Bay.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Power_Port.mp4'))
@@ -152,14 +153,14 @@ def main():
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Week_2_FRC_Clips_of_the_Week_2019.mp4_01539.png') ]
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4_02940.png') ]
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_03496.png') ]
-    TEST_IMAGE_PATHS = sorted(glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, '*.JPG')))
+    TEST_IMAGE_PATHS = sorted(glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'hard_neg*.png')))
     for image_path in TEST_IMAGE_PATHS:
       image = cv2.imread(image_path)
       # the array based representation of the image will be used later in order to prepare the
       # result image with boxes and labels on it.
       #image_np = load_image_into_numpy_array(image)
       image_np = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-      image_np = cv2.pyrDown(cv2.pyrDown(image_np));
+      #image_np = cv2.pyrDown(cv2.pyrDown(image_np));
       # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
       image_np_expanded = np.expand_dims(image_np, axis=0)
       #resized_image_np_expanded = np.expand_dims(resized_image_np, axis=0)
@@ -177,11 +178,10 @@ def main():
           use_normalized_coordinates=True,
           line_thickness=4,
           max_boxes_to_draw=50,
-          min_score_thresh=0.30)
+          min_score_thresh=0.20)
       cv2.imshow(image_path, cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
       cv2.waitKey(0) & 0xFF
       cv2.destroyWindow(image_path)
-    """
 
 if __name__ == '__main__':
     main()
