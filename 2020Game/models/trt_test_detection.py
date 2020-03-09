@@ -8,6 +8,7 @@ import tensorflow as tf
 import tensorflow.contrib.tensorrt as trt
 import cv2
 import os
+import glob
 from object_detection.utils import visualization_utils as vis_util
 from object_detection.utils import label_map_util
 
@@ -61,7 +62,7 @@ def run_inference_for_single_image(image, sess):
 
 def main():
     # Dir where model.ckpt* files are being generated
-    SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/tmp5'
+    SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/tmp6'
     TRT_OUTPUT_GRAPH = 'trt_graph.pb'
 
     # The TensorRT inference graph file downloaded from Colab or your local machine.
@@ -78,6 +79,7 @@ def main():
     category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
 
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/videos'
+    """
 
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Alliance_Station.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Loading_Bay.mp4'))
@@ -100,11 +102,41 @@ def main():
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice02.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice11.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice12.mp4'))
-    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice32.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice32.mp4'))
     
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Nashua_Week0_Final_01.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Nashua_Week0_Match01.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'VID_20200215_145921.mp4'))
+
+
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100416.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100822.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101340.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101606.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100523.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100850.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101425.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101706.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100551.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100930.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101443.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101743.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100611.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101005.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101458.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102026.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100635.mp4'))
+    # cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101111.mp4'))
+    # cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101517.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102113.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100732.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101300.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101539.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102140.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100752.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101322.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101549.mp4'))
+    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102221.mp4'))
 
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Field_From_Alliance_Station_1080p_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
@@ -132,7 +164,7 @@ def main():
             instance_masks=output_dict.get('detection_masks'),
             use_normalized_coordinates=True,
             line_thickness=4,
-            max_boxes_to_draw=50,
+            max_boxes_to_draw=output_dict['num_detections'],
             min_score_thresh=0.35,
             groundtruth_box_visualization_color='yellow')
         cv2.imshow('img', cv2.cvtColor(image_rgb, cv2.COLOR_RGB2BGR))
@@ -141,6 +173,41 @@ def main():
         if key == ord("f"):
           next_frame = True
         next_frame = True
+    """
+    ########################################
+    #### Code for testing against a list of images
+    ####    Useful for looking at results in more detail
+    ########################################
+    #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4_04290.png') ]
+    #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Week_2_FRC_Clips_of_the_Week_2019.mp4_01539.png') ]
+    #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Pearadox_360_Video.mp4_02940.png') ]
+    #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_03496.png') ]
+    TEST_IMAGE_PATHS = sorted(glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229*.png')))
+    for image_path in TEST_IMAGE_PATHS:
+      image = cv2.imread(image_path)
+      # the array based representation of the image will be used later in order to prepare the
+      # result image with boxes and labels on it.
+      #image_np = load_image_into_numpy_array(image)
+      image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+      image300x300 = cv2.resize(image_rgb, (300,300))
+      output_dict = run_inference_for_single_image(image300x300, tf_sess)
+      # Visualization of the results of a detection.
+      print output_dict
+      vis_util.visualize_boxes_and_labels_on_image_array(
+          image_rgb,
+          output_dict['detection_boxes'],
+          output_dict['detection_classes'],
+          output_dict['detection_scores'],
+          category_index,
+          instance_masks=output_dict.get('detection_masks'),
+          use_normalized_coordinates=True,
+          line_thickness=4,
+          max_boxes_to_draw=output_dict['num_detections'],
+          min_score_thresh=0.40)
+      cv2.imshow(image_path, cv2.cvtColor(image_rgb, cv2.COLOR_RGB2BGR))
+      cv2.waitKey(0) & 0xFF
+      cv2.destroyWindow(image_path)
+        
 
 if __name__ == '__main__':
     main()
