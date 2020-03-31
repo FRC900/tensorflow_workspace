@@ -1,50 +1,32 @@
 import numpy as np
+import sys
 
-data = []
-target = []
-n = 300
-with open("compiled_blue.csv") as f:
-    m = 0
-    data_lines = f.readlines()[1:]
-    for line in data_lines:
-        arr = np.array(list(map(int, line.split(","))))
-        data.append(arr/max(arr))
-        target.append([0,0,0,1])
-        m+=1
-        if(m >= n):
-            break
+def read_n_shuffled_lines(filename, yval, n):
+    data_lines = np.genfromtxt(filename, delimiter=',', skip_header=1)
+    np.random.shuffle(data_lines)
+    data_lines = data_lines[:n]
+    target = np.tile(yval, (n,1))
 
-with open("compiled_red.csv") as f:
-    m = 0
-    data_lines = f.readlines()[1:]
-    for line in data_lines:
-        arr = np.array(list(map(int, line.split(","))))
-        data.append(arr/max(arr))
-        target.append([1,0,0,0])
-        m+=1
-        if(m >= n):
-            break
+    return data_lines, target
 
-with open("compiled_yellow.csv") as f:
-    m = 0
-    data_lines = f.readlines()[1:]
-    for line in data_lines:
-        arr = np.array(list(map(int, line.split(","))))
-        data.append(arr/max(arr))
-        target.append([0,0,1,0])
-        m+=1
-        if(m >= n):
-            break
+n = 615 # Length of smallest input file so classes are balanced
 
-with open("compiled_green.csv") as f:
-    m = 0
-    data_lines = f.readlines()[1:]
-    for line in data_lines:
-        arr = np.array(list(map(int, line.split(","))))
-        data.append(arr/max(arr))
-        target.append([0,1,0,0])
-        m+=1
-        if(m >= n):
-            break
+# One-hot output encodings for each color
+red_yval    = [1,0,0,0]
+green_yval  = [0,1,0,0]
+yellow_yval = [0,0,1,0]
+blue_yval   = [0,0,0,1]
 
-np.savez_compressed("data.npz", X=np.array(data), Y=np.array(target))
+(red_xdata, red_ydata) = read_n_shuffled_lines('compiled_red.csv', red_yval, n)
+(green_xdata, green_ydata) = read_n_shuffled_lines('compiled_green.csv', green_yval, n)
+(yellow_xdata, yellow_ydata) = read_n_shuffled_lines('compiled_yellow.csv', yellow_yval, n)
+(blue_xdata, blue_ydata) = read_n_shuffled_lines('compiled_blue.csv', blue_yval, n)
+
+xdata = np.concatenate((red_xdata, green_xdata, yellow_xdata, blue_xdata), axis=0)
+ydata = np.concatenate((red_ydata, green_ydata, yellow_ydata, blue_ydata), axis=0)
+
+#np.set_printoptions(threshold=sys.maxsize)
+#print xdata
+#print "------------------"
+#print ydata
+np.savez_compressed("unnormalized_data.npz", X=xdata, Y=ydata)
