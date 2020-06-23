@@ -28,7 +28,7 @@ SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/tmp6'
 CHECKPOINT_NUMBER='118209'
 
 # Network config
-CONFIG_FILE =os.path.join(SAVED_MODEL_DIR, 'model/ssd_mobilenet_v2_coco.config')
+CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, 'model/ssd_mobilenet_v2_coco.config')
 
 INPUT_NAME='image_tensor'
 BOXES_NAME='detection_boxes'
