@@ -25,11 +25,11 @@ sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
 sudo systemctl restart docker
 
 cd &&\
-    wget https://github.com/git-lfs/git-lfs/releases/download/v2.8.0/git-lfs-linux-amd64-v2.8.0.tar.gz &&\
+    wget https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz &&\
 	mkdir git-lfs-install &&\
 	cd git-lfs-install &&\
-	tar -xzf ../git-lfs-linux-amd64-v2.8.0.tar.gz &&\
+	tar -xzf ../git-lfs-linux-amd64-v2.11.0.tar.gz &&\
 	sudo ./install.sh &&\
 	cd &&\
-	rm -rf git-lfs-linux-amd64-v2.8.0.tar.gz git-lfs-install &&\
+	rm -rf git-lfs-linux-amd64-v2.11.0.tar.gz git-lfs-install &&\
 	git lfs install
