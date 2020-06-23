@@ -37,6 +37,7 @@ predictions = interpreter.get_tensor(output_index)
 # this will be an array, with each array index holding and array of the output values
 print predictions 
 
+'''
 # Test a whole csv file of inputs
 filename = 'compiled_yellow.csv'
 data_lines = np.genfromtxt(filename, delimiter=',', skip_header=1)
@@ -47,3 +48,4 @@ for i in range(len(data_lines)):
     predictions = interpreter.get_tensor(output_index)
     if float(predictions[0][2]) < 0.98:
         print "Data:" + str(data_lines[i]) + " " + str(predictions[0])
+'''
