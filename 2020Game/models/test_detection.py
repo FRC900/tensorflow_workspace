@@ -5,6 +5,7 @@ import numpy as np
 import os
 import sys
 import tensorflow as tf
+import time
 
 from PIL import Image
 
@@ -71,11 +72,11 @@ def run_inference_for_single_image(image, sess, graph):
 def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory exported using the export_inference_graph.py command
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models/tmp5'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
-    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, os.path.join('frozen', 'frozen_inference_graph.pb'))
+    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME,'frozen_inference_graph.pb')
 
     # List of the strings that is used to add correct label for each box.
     PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2020Game/data', '2020Game_label_map.pbtxt')
@@ -95,7 +96,6 @@ def main():
 
     # Pick an input video to run here
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/videos'
-    """
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Alliance_Station.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Loading_Bay.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Power_Port.mp4'))
@@ -111,38 +111,50 @@ def main():
 
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
+
+    frame_count = 0
+    start_time = time.clock();
+    display_viz = False
     while(True):
       ret, cv_vid_image = cap.read()
+      if not ret:
+        break
+      frame_count += 1
       next_frame = False
       while (not next_frame):
         image_np = cv2.cvtColor(cv_vid_image, cv2.COLOR_BGR2RGB)
-        # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
+        # Expand dimensions since the model expects images to have shape: [batch_size = 1, None, None, 3]
         image_np_expanded = np.expand_dims(image_np, axis=0)
         #resized_image_np_expanded = np.expand_dims(resized_image_np, axis=0)
         # Actual detection.
         output_dict = run_inference_for_single_image(image_np_expanded, sess, detection_graph)
-        # output_dictionary will have detection box coordinates, along with the classes
-        # (index of the text labels) and confidence scores for each detection
-        print output_dict
-        # Visualization of the results of a detection.
-        vis_util.visualize_boxes_and_labels_on_image_array(
-            image_np,
-            output_dict['detection_boxes'],
-            output_dict['detection_classes'],
-            output_dict['detection_scores'],
-            category_index,
-            instance_masks=output_dict.get('detection_masks'),
-            use_normalized_coordinates=True,
-            line_thickness=4,
-            max_boxes_to_draw=50,
-            min_score_thresh=0.35,
-            groundtruth_box_visualization_color='yellow')
-        cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
-        #vid_writer.write(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
-        key = cv2.waitKey(5) & 0xFF
-        if key == ord("f"):
-          next_frame = True
+        if display_viz:
+          # output_dictionary will have detection box coordinates, along with the classes
+          # (index of the text labels) and confidence scores for each detection
+          print (output_dict)
+
+          # Visualization of the results of a detection.
+          vis_util.visualize_boxes_and_labels_on_image_array(
+              image_np,
+              output_dict['detection_boxes'],
+              output_dict['detection_classes'],
+              output_dict['detection_scores'],
+              category_index,
+              instance_masks=output_dict.get('detection_masks'),
+              use_normalized_coordinates=True,
+              line_thickness=4,
+              max_boxes_to_draw=50,
+              min_score_thresh=0.35,
+              groundtruth_box_visualization_color='yellow')
+          cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
+          #vid_writer.write(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
+          key = cv2.waitKey(5) & 0xFF
+          if key == ord("f"):
+            next_frame = True
         next_frame = True
+
+    end_time = time.clock()
+    print "Elapsed time = " + str(end_time - start_time) + " seconds. " + str(frame_count) + " frames displayed, " + str(frame_count / (end_time - start_time)) + " FPS"
 
     """
     ########################################
@@ -182,6 +194,7 @@ def main():
       cv2.imshow(image_path, cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
       cv2.waitKey(0) & 0xFF
       cv2.destroyWindow(image_path)
+    """
 
 if __name__ == '__main__':
     main()
