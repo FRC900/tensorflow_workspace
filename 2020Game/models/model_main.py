@@ -25,6 +25,8 @@ import tensorflow as tf
 from object_detection import model_hparams
 from object_detection import model_lib
 
+import best_checkpoint_copier
+
 flags.DEFINE_string(
     'model_dir', None, 'Path to output model directory '
     'where event and checkpoint files will be written.')
@@ -101,17 +103,23 @@ def main(unused_argv):
         train_steps,
         eval_on_train_data=False)
 
-    # Overwrite the eval spec - use an exporter which 
-    # saves the best N checkpoints rather than just
-    # the most recent N
-    exporter = tf.estimator.BestExporter(
-            serving_input_receiver_fn=predict_input_fn
-            )
+    best_exporter = best_checkpoint_copier.BestCheckpointCopier(
+      name='best', # directory within model directory to copy checkpoints to
+      checkpoints_to_keep=10, # number of checkpoints to keep
+      score_metric='Loss/total_loss', # eval_result metric to use to determine "best"
+      compare_fn=lambda x,y: x.score < y.score, # comparison function used to determine "best" checkpoint (x is the current checkpoint; y is the previously copied checkpoint with the highest/worst score)
+      sort_key_fn=lambda x: x.score, # key to sort on when discarding excess checkpoints
+      sort_reverse=False) # sort order when discarding excess checkpoints
+
+    final_exporter = tf.estimator.FinalExporter(
+      name='final_exporter_name', serving_input_receiver_fn=predict_input_fn)
+
+    exporters = (best_exporter, final_exporter)
 
     eval_spec = tf.estimator.EvalSpec(
         input_fn=eval_input_fns[0],
         steps=None,
-        exporters=exporter)
+        exporters=exporters)
     # Currently only a single Eval Spec is allowed.
     tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
 
