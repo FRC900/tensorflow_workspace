@@ -24,11 +24,11 @@ from graph_utils import remove_assert as f_remove_assert
 TRT_OUTPUT_GRAPH = 'trt_graph.pb'
 
 # Dir where model.ckpt* files are being generated
-SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/tmp6'
-CHECKPOINT_NUMBER='118209'
+SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_retinanet'
+CHECKPOINT_NUMBER='70942'
 
 # Network config
-CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, 'model/ssd_mobilenet_v2_coco.config')
+CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, 'model/ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco14_sync.config')
 
 INPUT_NAME='image_tensor'
 BOXES_NAME='detection_boxes'
