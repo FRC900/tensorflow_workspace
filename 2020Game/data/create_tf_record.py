@@ -82,13 +82,13 @@ def dict_to_tf_example(data,
     ValueError: if the image pointed to by data['filename'] is not a valid PNG
   """
   img_path = data['path']
-  print img_path
+  print(img_path)
   with tf.gfile.GFile(img_path, 'rb') as fid:
     encoded_image = fid.read()
   encoded_image_io = io.BytesIO(encoded_image)
   image = PIL.Image.open(encoded_image_io)
   if image.format != 'PNG' and image.format != 'JPEG' and image.format != 'MPO':
-    print image.format
+    print(image.format)
     raise ValueError('Image format not PNG or JPEG')
   key = hashlib.sha256(encoded_image).hexdigest()
 
@@ -210,7 +210,7 @@ def main(_):
   data_dir = FLAGS.data_dir
   alt_data_dir = FLAGS.alt_data_dir
   label_map_dict = label_map_util.get_label_map_dict(FLAGS.label_map_path)
-  print label_map_dict
+  print(label_map_dict)
 
   logging.info('Reading from dataset.')
   examples_list  = tf.gfile.Glob(os.path.join(data_dir, '*.xml'))
