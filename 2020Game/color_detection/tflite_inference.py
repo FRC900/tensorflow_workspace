@@ -16,14 +16,14 @@ interpreter.allocate_tensors()
 # Input shape of the model
 input_details = interpreter.get_input_details()[0]
 input_shape = input_details['shape']
-print input_shape
+print (input_shape)
 
 # Example test input - np array of arrays of shape input.
 # Think the outer array allows batching inputs, that is,
 # each index of the outer array is a set of data to 
 # run inference on at once
 test_input = np.array([[455,246,388,566,1288,996]]).astype(np.float32)
-print test_input
+print (test_input)
 
 # Get input and output of the model
 input_index = input_details["index"]
@@ -35,7 +35,7 @@ interpreter.invoke()
 predictions = interpreter.get_tensor(output_index)
 
 # this will be an array, with each array index holding and array of the output values
-print predictions 
+print (predictions)
 
 '''
 # Test a whole csv file of inputs
@@ -47,5 +47,5 @@ for i in range(len(data_lines)):
     interpreter.invoke()
     predictions = interpreter.get_tensor(output_index)
     if float(predictions[0][2]) < 0.98:
-        print "Data:" + str(data_lines[i]) + " " + str(predictions[0])
+        print ("Data:" + str(data_lines[i]) + " " + str(predictions[0]))
 '''

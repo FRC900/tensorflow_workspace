@@ -26,7 +26,7 @@ xdata = np.concatenate((red_xdata, green_xdata, yellow_xdata, blue_xdata), axis=
 ydata = np.concatenate((red_ydata, green_ydata, yellow_ydata, blue_ydata), axis=0)
 
 #np.set_printoptions(threshold=sys.maxsize)
-#print xdata
-#print "------------------"
-#print ydata
+#print (xdata)
+#print ('------------------')
+#print (ydata)
 np.savez_compressed("unnormalized_data.npz", X=xdata, Y=ydata)
