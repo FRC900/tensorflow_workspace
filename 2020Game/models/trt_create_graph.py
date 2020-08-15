@@ -20,24 +20,26 @@ from graph_utils import force_nms_cpu as f_force_nms_cpu
 from graph_utils import replace_relu6 as f_replace_relu6
 from graph_utils import remove_assert as f_remove_assert
 
-# Output file name
-TRT_OUTPUT_GRAPH = 'trt_graph.pb'
+# Output file name - make command-line arg
+TRT_OUTPUT_GRAPH = 'trt_graph_test.pb'
 
-# Dir where model.ckpt* files are being generated
-SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_retinanet'
-CHECKPOINT_NUMBER='70942'
+# Dir where model.ckpt* files are being generated - make command line arg
+SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_retinanet/best'
+MODEL_CHECKPOINT_PREFIX='model.ckpt-' # This should be constant, no need for command line arg
+CHECKPOINT_NUMBER='64834' # Make a command line arg
 
-# Network config
-CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, 'model/ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco14_sync.config')
+# Network config - make a command line arg
+CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, '../ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco14_sync.config')
 
+# Intermediate, unoptimized frozen graph name - make a command-line arg?
+FROZEN_GRAPH_NAME='frozen_inference_graph.pb'
+
+# Graph node names for inputs and outputs - don't change unless the model graph changes
 INPUT_NAME='image_tensor'
 BOXES_NAME='detection_boxes'
 CLASSES_NAME='detection_classes'
 SCORES_NAME='detection_scores'
-MASKS_NAME='detection_masks'
 NUM_DETECTIONS_NAME='num_detections'
-MODEL_CHECKPOINT_PREFIX='model.ckpt-'
-FROZEN_GRAPH_NAME='frozen_inference_graph.pb'
 
 # from tf_trt models dir
 def build_detection_graph(config, checkpoint,
@@ -48,8 +50,8 @@ def build_detection_graph(config, checkpoint,
         remove_assert=True,
         input_shape=None,
         output_dir='.generated_model'):
+
     """Builds a frozen graph for a pre-trained object detection model"""
-    
     config_path = config
     checkpoint_path = checkpoint
 
@@ -66,6 +68,9 @@ def build_detection_graph(config, checkpoint,
         if input_shape is not None:
             config.model.ssd.image_resizer.fixed_shape_resizer.height = input_shape[0]
             config.model.ssd.image_resizer.fixed_shape_resizer.width = input_shape[1]
+        # Docs claim enabling this might speed things up, but it seems to slow them down with TRT?
+        #config.model.ssd.post_processing.batch_non_max_suppression.use_combined_nms = True
+        #config.model.ssd.post_processing.batch_non_max_suppression.change_coordinate_frame = False 
     elif config.model.HasField('faster_rcnn'):
         if score_threshold is not None:
             config.model.faster_rcnn.second_stage_post_processing.score_threshold = score_threshold
@@ -90,12 +95,16 @@ def build_detection_graph(config, checkpoint,
                 input_shape=[batch_size, None, None, 3]
             )
 
+    # remove temporary directory after saving frozen graph output
+    os.rename(os.path.join(output_dir, FROZEN_GRAPH_NAME), os.path.join(SAVED_MODEL_DIR, FROZEN_GRAPH_NAME))
+    subprocess.call(['rm', '-rf', output_dir])
+
     # read frozen graph from file
     frozen_graph = tf.GraphDef()
-    with open(os.path.join(output_dir, FROZEN_GRAPH_NAME), 'rb') as f:
+    with tf.gfile.GFile(os.path.join(SAVED_MODEL_DIR, FROZEN_GRAPH_NAME), 'rb') as f:
         frozen_graph.ParseFromString(f.read())
-
-    # apply graph modifications
+    
+    # apply graph modifications - fix stuff to make TensorRT optimizations faster
     if force_nms_cpu:
         frozen_graph = f_force_nms_cpu(frozen_graph)
     if replace_relu6:
@@ -103,14 +112,10 @@ def build_detection_graph(config, checkpoint,
     if remove_assert:
         frozen_graph = f_remove_assert(frozen_graph)
 
-    # get input names
+    # get input and output tensor names
     # TODO: handle mask_rcnn 
     input_names = [INPUT_NAME]
     output_names = [BOXES_NAME, CLASSES_NAME, SCORES_NAME, NUM_DETECTIONS_NAME]
-
-    # remove temporary directory after saving frozen graph output
-    os.rename(os.path.join(output_dir, FROZEN_GRAPH_NAME), os.path.join(SAVED_MODEL_DIR, FROZEN_GRAPH_NAME))
-    subprocess.call(['rm', '-rf', output_dir])
 
     return frozen_graph, input_names, output_names
 
@@ -118,6 +123,9 @@ def build_detection_graph(config, checkpoint,
 def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory checkpoint files are saved in
+    # Note - runing score_threshold here is a good idea. It drops detections below that confidence score,
+    # speeding up the inference. This should probably be tuned in conjunction with the confidence threshold
+    # in higher level obj detect code - no point in keeping objects which will never be used by that code
     frozen_graph, input_names, output_names = build_detection_graph(
         config=CONFIG_FILE,
         checkpoint=os.path.join(SAVED_MODEL_DIR, MODEL_CHECKPOINT_PREFIX+CHECKPOINT_NUMBER),
@@ -133,7 +141,7 @@ def main():
         minimum_segment_size=50
     )
 
-    with open(os.path.join(SAVED_MODEL_DIR, TRT_OUTPUT_GRAPH), 'wb') as f:
+    with tf.gfile.GFile(os.path.join(SAVED_MODEL_DIR, TRT_OUTPUT_GRAPH), 'wb') as f:
         f.write(trt_graph.SerializeToString())
 
 if __name__ == '__main__':
