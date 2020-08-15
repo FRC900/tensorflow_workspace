@@ -28,6 +28,7 @@ def get_frozen_graph(pb_path):
 
     """
     # force CPU device placement for NMS ops
+    # Note - should already be done in trt_create_graph.py
     for node in trt_graph_def.node:
         if 'rfcn_' in pb_path and 'SecondStage' in node.name:
             node.device = '/device:GPU:0'
@@ -62,9 +63,9 @@ def run_inference_for_single_image(image, sess):
     return output_dict
 
 def main():
-    # Dir where model.ckpt* files are being generated
-    SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models'
-    TRT_OUTPUT_GRAPH = 'trt_graph.pb'
+    # Dir where TRT-optimized graph is stored - make command-line arg
+    SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_retinanet/best'
+    TRT_OUTPUT_GRAPH = 'trt_graph_test.pb'
 
     # The TensorRT inference graph file downloaded from Colab or your local machine.
     pb_fname = os.path.join(SAVED_MODEL_DIR, TRT_OUTPUT_GRAPH)
@@ -142,19 +143,22 @@ def main():
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Field_From_Alliance_Station_1080p_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
     frame_count = 0
     start_time = time.clock();
-    display_viz = True
+    display_viz = True # Make command line arg
     
     while(True):
       ret, cv_vid_image = cap.read()
       if not ret:
         break
       frame_count += 1
+      if frame_count < 2:
+          # First few frames are slowed down by loading various TF libraries, skip them for timing
+          start_time = time.clock()
       next_frame = False
       while (not next_frame):
         # Vid input is BGR, need to convert to RGB and resize 
-        # to 300x300 to run inference
-        image300x300 = cv2.resize(cv_vid_image, (300,300))
-        image_rgb = cv2.cvtColor(image300x300, cv2.COLOR_BGR2RGB)
+        # to net input size to run inference
+        image_resized = cv2.resize(cv_vid_image, (640,640))
+        image_rgb = cv2.cvtColor(image_resized, cv2.COLOR_BGR2RGB)
         output_dict = run_inference_for_single_image(image_rgb, tf_sess)
 
         if display_viz:
@@ -173,7 +177,7 @@ def main():
               use_normalized_coordinates=True,
               line_thickness=4,
               max_boxes_to_draw=output_dict['num_detections'],
-              min_score_thresh=0.35,
+              min_score_thresh=0.25,
               groundtruth_box_visualization_color='yellow')
           cv2.imshow('img', cv_vid_image)
           #vid_writer.write(cv_vid_image)
@@ -183,7 +187,8 @@ def main():
         next_frame = True
 
     end_time = time.clock()
-    print "Elapsed time = " + str(end_time - start_time) + " seconds. " + str(frame_count) + " frames displayed, " + str(frame_count / (end_time - start_time)) + " FPS"
+    frame_count -= 1
+    print "Elapsed time = " + str(end_time - start_time) + " seconds. " + str(frame_count) + " frames timed, " + str(frame_count / (end_time - start_time)) + " FPS"
 
     """
     ########################################
