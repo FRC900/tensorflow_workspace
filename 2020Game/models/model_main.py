@@ -57,8 +57,9 @@ flags.DEFINE_integer(
 )
 FLAGS = flags.FLAGS
 
-
+import os
 def main(unused_argv):
+  os.environ['CUDA_VISIBLE_DEVICES'] = "0"
   flags.mark_flag_as_required('model_dir')
   flags.mark_flag_as_required('pipeline_config_path')
   config = tf.estimator.RunConfig(model_dir=FLAGS.model_dir)
