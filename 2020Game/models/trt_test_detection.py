@@ -9,9 +9,10 @@ import tensorflow as tf
 import tensorflow.contrib.tensorrt as trt
 import os
 import glob
-from object_detection.utils import visualization_utils as vis_util
+#from object_detection.utils import visualization_utils as vis_util
 from object_detection.utils import label_map_util
-import time
+import timing
+from visualization import BBoxVisualization
 
 def get_frozen_graph(pb_path):
     """Read Frozen Graph file from disk."""
@@ -22,8 +23,8 @@ def get_frozen_graph(pb_path):
     return graph_def
     """
     """Load the TRT graph from the pre-built pb file."""
-    trt_graph_def = tf.GraphDef()
-    with tf.gfile.GFile(pb_path, 'rb') as pf:
+    trt_graph_def = tf.compat.v1.GraphDef()
+    with tf.io.gfile.GFile(pb_path, 'rb') as pf:
         trt_graph_def.ParseFromString(pf.read())
 
     """
@@ -65,20 +66,25 @@ def run_inference_for_single_image(image, sess):
 def main():
     # Dir where TRT-optimized graph is stored - make command-line arg
     SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_retinanet/best'
-    TRT_OUTPUT_GRAPH = 'trt_graph_test.pb'
+    TRT_OUTPUT_GRAPH = 'trt_graph.pb'
 
     # The TensorRT inference graph file downloaded from Colab or your local machine.
     pb_fname = os.path.join(SAVED_MODEL_DIR, TRT_OUTPUT_GRAPH)
     trt_graph = get_frozen_graph(pb_fname)
 
     # Create session and load graph
-    tf_config = tf.ConfigProto()
+    tf_config = tf.compat.v1.ConfigProto()
     tf_config.gpu_options.allow_growth = True
-    tf_sess = tf.Session(config=tf_config, graph=trt_graph)
+    tf_sess = tf.compat.v1.Session(config=tf_config, graph=trt_graph)
 
     # List of the strings that is used to add correct label for each box.
     PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2020Game/data', '2020Game_label_map.pbtxt')
     category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
+
+    category_dict = {0: 'background'}
+    for k in category_index.keys():
+        category_dict[k] = category_index[k]['name']
+    vis = BBoxVisualization(category_dict)
 
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/videos'
 
@@ -89,10 +95,12 @@ def main():
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Footage_Control_Panel.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Cross_Field_Views.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Cross_Field_Views_1080p.mp4'))
-    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_1080p.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Shield_Generator.mp4'))
 
+    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_22.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Great_Northern_Regional_2020_Practice21.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Great_Northern_Regional_2020_Practice23.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'ISR_District_Event_1_2020_Quarterfinal_1.mp4'))
@@ -141,31 +149,43 @@ def main():
 
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Field_From_Alliance_Station_1080p_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
-    frame_count = 0
-    start_time = time.clock();
     display_viz = True # Make command line arg
+    t = timing.Timings()
     
     while(True):
+      t.start('frame')
+      t.start('vid')
       ret, cv_vid_image = cap.read()
+      t.end('vid')
       if not ret:
         break
-      frame_count += 1
-      if frame_count < 2:
-          # First few frames are slowed down by loading various TF libraries, skip them for timing
-          start_time = time.clock()
+
       next_frame = False
       while (not next_frame):
         # Vid input is BGR, need to convert to RGB and resize 
         # to net input size to run inference
+        t.start('cv')
         image_resized = cv2.resize(cv_vid_image, (640,640))
         image_rgb = cv2.cvtColor(image_resized, cv2.COLOR_BGR2RGB)
+        t.end('cv')
+        t.start('inference')
         output_dict = run_inference_for_single_image(image_rgb, tf_sess)
+        t.end('inference')
 
         if display_viz:
+          t.start('viz')
           # output_dictionary will have detection box coordinates, along with the classes
           # (index of the text labels) and confidence scores for each detection
 
           print output_dict
+          num_detections = output_dict['num_detections']
+          vis.draw_bboxes(cv_vid_image, 
+                  output_dict['detection_boxes'][:num_detections],
+                  output_dict['detection_scores'][:num_detections],
+                  output_dict['detection_classes'][:num_detections],
+                  0.25)
+          '''
+          Much slower version using tf vis_util
           # Visualization of the results of a detection.
           vis_util.visualize_boxes_and_labels_on_image_array(
               cv_vid_image,
@@ -179,16 +199,15 @@ def main():
               max_boxes_to_draw=output_dict['num_detections'],
               min_score_thresh=0.25,
               groundtruth_box_visualization_color='yellow')
+          '''
           cv2.imshow('img', cv_vid_image)
           #vid_writer.write(cv_vid_image)
-          key = cv2.waitKey(5) & 0xFF
+          key = cv2.waitKey(1) & 0xFF
           if key == ord("f"):
             next_frame = True
+          t.end('viz')
         next_frame = True
-
-    end_time = time.clock()
-    frame_count -= 1
-    print "Elapsed time = " + str(end_time - start_time) + " seconds. " + str(frame_count) + " frames timed, " + str(frame_count / (end_time - start_time)) + " FPS"
+        t.end('frame')
 
     """
     ########################################
@@ -228,3 +247,4 @@ def main():
         
 if __name__ == '__main__':
     main()
+            

@@ -5,7 +5,8 @@ import numpy as np
 import os
 import sys
 import tensorflow as tf
-import time
+import timing
+from visualization import BBoxVisualization
 
 from PIL import Image
 
@@ -13,7 +14,7 @@ from PIL import Image
 #sys.path.append("..")
 from object_detection.utils import ops as utils_ops
 from object_detection.utils import label_map_util
-from object_detection.utils import visualization_utils as vis_util
+#from object_detection.utils import visualization_utils as vis_util
 
 def load_image_into_numpy_array(image):
   (im_width, im_height) = image.size
@@ -61,8 +62,7 @@ def run_inference_for_single_image(image, sess, graph):
 
     # all outputs are float32 numpy arrays, so convert types as appropriate
     output_dict['num_detections'] = int(output_dict['num_detections'][0])
-    output_dict['detection_classes'] = output_dict[
-        'detection_classes'][0].astype(np.int64)
+    output_dict['detection_classes'] = output_dict['detection_classes'][0].astype(np.int64)
     output_dict['detection_boxes'] = output_dict['detection_boxes'][0]
     output_dict['detection_scores'] = output_dict['detection_scores'][0]
     if 'detection_masks' in output_dict:
@@ -72,7 +72,7 @@ def run_inference_for_single_image(image, sess, graph):
 def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory exported using the export_inference_graph.py command
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2020Game/models/trained_retinanet/best'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
@@ -93,6 +93,10 @@ def main():
     with detection_graph.as_default():
         sess = tf.Session(graph=detection_graph)
     category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
+    category_dict = {0: 'background'}
+    for k in category_index.keys():
+        category_dict[k] = category_index[k]['name']
+    vis = BBoxVisualization(category_dict)
 
     # Pick an input video to run here
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/videos'
@@ -156,27 +160,44 @@ def main():
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
 
-    frame_count = 0
-    start_time = time.clock();
     display_viz = True
+    t = timing.Timings()
+
     while(True):
+      t.start('frame')
+      t.start('vid')
       ret, cv_vid_image = cap.read()
+      t.end('vid')
       if not ret:
         break
-      frame_count += 1
+
       next_frame = False
       while (not next_frame):
-        image_np = cv2.cvtColor(cv_vid_image, cv2.COLOR_BGR2RGB)
+        t.start('cv')
+        image_resized = cv2.resize(cv_vid_image, (640,640))
+        image_np = cv2.cvtColor(image_resized, cv2.COLOR_BGR2RGB)
         # Expand dimensions since the model expects images to have shape: [batch_size = 1, None, None, 3]
         image_np_expanded = np.expand_dims(image_np, axis=0)
+        t.end('cv')
         #resized_image_np_expanded = np.expand_dims(resized_image_np, axis=0)
+
         # Actual detection.
+        t.start('inference')
         output_dict = run_inference_for_single_image(image_np_expanded, sess, detection_graph)
+        t.end('inference')
         if display_viz:
+          t.start('viz')
           # output_dictionary will have detection box coordinates, along with the classes
           # (index of the text labels) and confidence scores for each detection
           print (output_dict)
-
+          num_detections = output_dict['num_detections']
+          vis.draw_bboxes(cv_vid_image,
+                  output_dict['detection_boxes'][:num_detections],
+                  output_dict['detection_scores'][:num_detections],
+                  output_dict['detection_classes'][:num_detections],
+                  0.25)
+          '''
+          Much slower version using tf vis_util
           # Visualization of the results of a detection.
           vis_util.visualize_boxes_and_labels_on_image_array(
               image_np,
@@ -190,15 +211,16 @@ def main():
               max_boxes_to_draw=50,
               min_score_thresh=0.35,
               groundtruth_box_visualization_color='yellow')
-          cv2.imshow('img', cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
-          #vid_writer.write(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
-          key = cv2.waitKey(5) & 0xFF
+          '''
+          cv2.imshow('img', cv_vid_image)
+          #vid_writer.write(cv_vid_image)
+          key = cv2.waitKey(1) & 0xFF
           if key == ord("f"):
             next_frame = True
+          t.end('viz')
         next_frame = True
+        t.end('frame')
 
-    end_time = time.clock()
-    print "Elapsed time = " + str(end_time - start_time) + " seconds. " + str(frame_count) + " frames displayed, " + str(frame_count / (end_time - start_time)) + " FPS"
 
     """
     ########################################
