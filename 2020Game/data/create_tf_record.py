@@ -142,9 +142,9 @@ def dict_to_tf_example(data,
       'image/height': dataset_util.int64_feature(height),
       'image/width': dataset_util.int64_feature(width),
       'image/filename': dataset_util.bytes_feature(
-          data['filename'].encode('utf8')),
+          data['path'].encode('utf8')),
       'image/source_id': dataset_util.bytes_feature(
-          data['filename'].encode('utf8')),
+          data['path'].encode('utf8')),
       'image/key/sha256': dataset_util.bytes_feature(key.encode('utf8')),
       'image/encoded': dataset_util.bytes_feature(encoded_image),
       'image/format': dataset_util.bytes_feature(image_format_str.encode('utf8')),
