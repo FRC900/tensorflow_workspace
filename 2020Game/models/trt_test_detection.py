@@ -65,8 +65,8 @@ def run_inference_for_single_image(image, sess):
 
 def main():
     # Dir where TRT-optimized graph is stored - make command-line arg
-    SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_retinanet/best'
-    TRT_OUTPUT_GRAPH = 'trt_graph.pb'
+    SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_ssd_mobilenet_v2_coco_focal_loss_512x512/best'
+    TRT_OUTPUT_GRAPH = 'trt_ssd_mobilenet_512x512.pb'
 
     # The TensorRT inference graph file downloaded from Colab or your local machine.
     pb_fname = os.path.join(SAVED_MODEL_DIR, TRT_OUTPUT_GRAPH)
@@ -205,6 +205,8 @@ def main():
           key = cv2.waitKey(1) & 0xFF
           if key == ord("f"):
             next_frame = True
+          elif key == 27:
+              break
           t.end('viz')
         next_frame = True
         t.end('frame')
