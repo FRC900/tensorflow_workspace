@@ -21,18 +21,18 @@ from graph_utils import replace_relu6 as f_replace_relu6
 from graph_utils import remove_assert as f_remove_assert
 
 # Output file name - make command-line arg
-TRT_OUTPUT_GRAPH = 'trt_graph_test.pb'
+TRT_OUTPUT_GRAPH = 'trt_graph_retinanet.pb'
 
 # Dir where model.ckpt* files are being generated - make command line arg
-SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_retinanet/best'
+SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_ssd_mobilenet_v2_coco_focal_loss_512x512/best'
 MODEL_CHECKPOINT_PREFIX='model.ckpt-' # This should be constant, no need for command line arg
-CHECKPOINT_NUMBER='64834' # Make a command line arg
+CHECKPOINT_NUMBER='190118' # Make a command line arg
 
 # Network config - make a command line arg
-CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, '../ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco14_sync.config')
+CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, '../ssd_mobilenet_v2_focalloss_cosinelr_512x512_coco.config')
 
 # Intermediate, unoptimized frozen graph name - make a command-line arg?
-FROZEN_GRAPH_NAME='frozen_inference_graph.pb'
+FROZEN_GRAPH_NAME='retinanet_400.pb'
 
 # Graph node names for inputs and outputs - don't change unless the model graph changes
 INPUT_NAME='image_tensor'
@@ -96,12 +96,13 @@ def build_detection_graph(config, checkpoint,
             )
 
     # remove temporary directory after saving frozen graph output
+    os.rename(os.path.join(output_dir, 'frozen_inference_graph.pb'), os.path.join(output_dir, FROZEN_GRAPH_NAME))
     os.rename(os.path.join(output_dir, FROZEN_GRAPH_NAME), os.path.join(SAVED_MODEL_DIR, FROZEN_GRAPH_NAME))
     subprocess.call(['rm', '-rf', output_dir])
 
     # read frozen graph from file
     frozen_graph = tf.GraphDef()
-    with tf.gfile.GFile(os.path.join(SAVED_MODEL_DIR, FROZEN_GRAPH_NAME), 'rb') as f:
+    with tf.io.gfile.GFile(os.path.join(SAVED_MODEL_DIR, FROZEN_GRAPH_NAME), 'rb') as f:
         frozen_graph.ParseFromString(f.read())
     
     # apply graph modifications - fix stuff to make TensorRT optimizations faster
@@ -141,7 +142,7 @@ def main():
         minimum_segment_size=50
     )
 
-    with tf.gfile.GFile(os.path.join(SAVED_MODEL_DIR, TRT_OUTPUT_GRAPH), 'wb') as f:
+    with tf.io.gfile.GFile(os.path.join(SAVED_MODEL_DIR, TRT_OUTPUT_GRAPH), 'wb') as f:
         f.write(trt_graph.SerializeToString())
 
 if __name__ == '__main__':
