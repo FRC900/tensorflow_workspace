@@ -40,7 +40,7 @@ class Timings(object):
     __timings = {}
 
     def __del__(self):
-        print str(self)
+        print(str(self))
 
     def start(self, name):
         if name not in self.__timings:
