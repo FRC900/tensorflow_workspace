@@ -2,7 +2,7 @@ import graphsurgeon as gs
 import tensorflow as tf
 
 name = 'ssd_mobilenet_v2_512x512'
-path = '/home/ubuntu/tensorflow_workspace/frozen_' + name + '.pb'
+path = '/home/ubuntu/tensorflow_workspace/2020Game/models/best/' + name + '.pb'
 TRTbin = 'TRT_' + name + '.bin'
 output_name = ['NMS']
 dims = [3,512,512]

@@ -33,6 +33,8 @@ class Timing(object):
         self.__startTime = None
 
     def __str__(self):
+        if self.__count <= 0:
+            return self.__name + " : no events recorded"
         return self.__name + " : " + str(self.__count) + " events. Total time = " + str(self.__totalTime) + ", average time = " + str(self.__totalTime / self.__count)
 
 

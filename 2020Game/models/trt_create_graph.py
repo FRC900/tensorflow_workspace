@@ -21,18 +21,18 @@ from graph_utils import replace_relu6 as f_replace_relu6
 from graph_utils import remove_assert as f_remove_assert
 
 # Output file name - make command-line arg
-TRT_OUTPUT_GRAPH = 'trt_graph_retinanet.pb'
+TRT_OUTPUT_GRAPH = 'trt_graph_mobilenet_v2_sdd_512x512.pb'
 
 # Dir where model.ckpt* files are being generated - make command line arg
-SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_ssd_mobilenet_v2_coco_focal_loss_512x512/best'
+SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/best'
 MODEL_CHECKPOINT_PREFIX='model.ckpt-' # This should be constant, no need for command line arg
-CHECKPOINT_NUMBER='190118' # Make a command line arg
+CHECKPOINT_NUMBER='271568' # Make a command line arg
 
 # Network config - make a command line arg
-CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, '../ssd_mobilenet_v2_focalloss_cosinelr_512x512_coco.config')
+CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, '../model/ssd_mobilenet_v2_focalloss_cosinelr_512x512_coco.config')
 
 # Intermediate, unoptimized frozen graph name - make a command-line arg?
-FROZEN_GRAPH_NAME='retinanet_400.pb'
+FROZEN_GRAPH_NAME='mobilenet_v2_sdd_512x512.pb'
 
 # Graph node names for inputs and outputs - don't change unless the model graph changes
 INPUT_NAME='image_tensor'
