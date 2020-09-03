@@ -65,8 +65,8 @@ def run_inference_for_single_image(image, sess):
 
 def main():
     # Dir where TRT-optimized graph is stored - make command-line arg
-    SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/trained_ssd_mobilenet_v2_coco_focal_loss_512x512/best'
-    TRT_OUTPUT_GRAPH = 'trt_ssd_mobilenet_512x512.pb'
+    SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2020Game/models/best'
+    TRT_OUTPUT_GRAPH = 'trt_graph_mobilenet_v2_sdd_512x512.pb'
 
     # The TensorRT inference graph file downloaded from Colab or your local machine.
     pb_fname = os.path.join(SAVED_MODEL_DIR, TRT_OUTPUT_GRAPH)
@@ -91,7 +91,7 @@ def main():
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Alliance_Station.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Loading_Bay.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Power_Port.mp4'))
-    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Rockwell.mp4'))
+    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Rockwell.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Footage_Control_Panel.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Cross_Field_Views.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Cross_Field_Views_1080p.mp4'))
@@ -99,7 +99,7 @@ def main():
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_1080p.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Shield_Generator.mp4'))
 
-    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_22.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_22.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Great_Northern_Regional_2020_Practice21.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Great_Northern_Regional_2020_Practice23.mp4'))
@@ -152,6 +152,8 @@ def main():
     display_viz = True # Make command line arg
     t = timing.Timings()
     
+    #cv2.startWindowThread()
+    cv2.namedWindow('img')
     while(True):
       t.start('frame')
       t.start('vid')
@@ -202,13 +204,12 @@ def main():
           '''
           cv2.imshow('img', cv_vid_image)
           #vid_writer.write(cv_vid_image)
-          key = cv2.waitKey(1) & 0xFF
-          if key == ord("f"):
-            next_frame = True
-          elif key == 27:
-              break
           t.end('viz')
-        next_frame = True
+          key = cv2.waitKey(1) & 0xFF
+          if key == 27:
+             return 
+          next_frame = True
+          #cv2.destroyAllWindows()
         t.end('frame')
 
     """

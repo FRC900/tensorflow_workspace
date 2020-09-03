@@ -125,13 +125,11 @@ PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/video
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice12.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice32.mp4'))
 
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Nashua_Week0_Final_01.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Nashua_Week0_Match01.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'VID_20200215_145921.mp4'))
 
 
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100416.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100822.mp4'))
+cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100822.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101340.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101606.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100523.mp4'))
@@ -157,7 +155,7 @@ PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/video
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100752.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101322.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101549.mp4'))
-cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102221.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102221.mp4'))
 
 # inference
 #TODO enable video pipeline
@@ -176,7 +174,7 @@ while(True):
     t.start('cv')
     image = cv2.resize(ori, (model.dims[2],model.dims[1]))
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-    image = (2.0/255.0) * image - 1.0
+    image = (2.0/255.0) * image - 1.0 # Convert from 0to255 to -1to1 range for input values
     image = image.transpose((2, 0, 1))
     np.copyto(host_inputs[0], image.ravel())
     t.end('cv')
@@ -216,11 +214,11 @@ while(True):
         clss.append(int(output[prefix+1]))
         confs.append(output[prefix+2])
     
-    viz.draw_bboxes(ori, boxes, confs, clss, 0.2)
+    viz.draw_bboxes(ori, boxes, confs, clss, 0.25)
     
     #cv2.imwrite("result.jpg", ori)
     cv2.imshow("result", ori)
-    cv2.waitKey(0)
     t.end('viz')
+    key = cv2.waitKey(1) & 0x000000FF
     next_frame = True
   t.end('frame')
