@@ -105,7 +105,7 @@ def main(unused_argv):
 
     best_exporter = best_checkpoint_copier.BestCheckpointCopier(
       name='best', # directory within model directory to copy checkpoints to
-      checkpoints_to_keep=10, # number of checkpoints to keep
+      checkpoints_to_keep=5, # number of checkpoints to keep
       score_metric='Loss/total_loss', # eval_result metric to use to determine "best"
       compare_fn=lambda x,y: x.score < y.score, # comparison function used to determine "best" checkpoint (x is the current checkpoint; y is the previously copied checkpoint with the highest/worst score)
       sort_key_fn=lambda x: x.score, # key to sort on when discarding excess checkpoints
