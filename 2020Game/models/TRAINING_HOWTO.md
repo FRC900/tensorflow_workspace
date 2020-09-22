@@ -34,11 +34,8 @@ learning\_rate might need to be updated. The learning rate is how much weights c
 
 There are two different learning rate decay strategies I've seen so far, each requiring slightly different approaches.
 
-
 One uses an exponenetial decay.  Here, the initial\_learning\_rate is the rate at the start, and then is reduced by a factor of decay\_factor ^ (current training step / decay\_steps).  For these, a decay factor around 0.9 to 0.95 and a decay\_steps value on the order of 10000 seem to work.  Given we train for ~200K to 300K steps, this gives a good decrease in LR without forcing the LR to basically 0 before training completes.  
 
 Another uses a cosine curve, starting at the learning\_rate\_base value and decaing to 0 after total\_steps.  Key here is that once total\_steps is exceeded, the learning rate is 0 and training stops. So make sure the total steps is bigger than the expected number of training steps needed. In our case, 150,000 to 300,000 seems reasonable, pending further investigation.
-
-
 
 
