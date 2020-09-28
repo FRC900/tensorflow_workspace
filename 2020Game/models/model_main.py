@@ -23,7 +23,7 @@ from absl import flags
 import tensorflow.compat.v1 as tf
 
 from object_detection import model_hparams
-from object_detection import model_lib
+import model_lib
 
 import best_checkpoint_copier
 
@@ -43,6 +43,11 @@ flags.DEFINE_integer('sample_1_of_n_eval_on_train_examples', 5, 'Will sample '
                      'one of every n train input examples for evaluation, '
                      'where n is provided. This is only used if '
                      '`eval_training_data` is True.')
+flags.DEFINE_integer('save_checkpoints_steps', 1000, 'Save a checkpoint '
+                     'every n steps of training. This will also trigger '
+                     'an eval run.')
+flags.DEFINE_integer('eval_throttle_secs', 1800, 'Limit eval after '
+                     'checkpoint creation to once every n seconds')
 flags.DEFINE_string(
     'hparams_overrides', None, 'Hyperparameter overrides, '
     'represented as a string containing comma-separated '
@@ -62,7 +67,8 @@ def main(unused_argv):
   os.environ['CUDA_VISIBLE_DEVICES'] = "0"
   flags.mark_flag_as_required('model_dir')
   flags.mark_flag_as_required('pipeline_config_path')
-  config = tf.estimator.RunConfig(model_dir=FLAGS.model_dir)
+  config = tf.estimator.RunConfig(model_dir=FLAGS.model_dir,
+          save_checkpoints_steps=FLAGS.save_checkpoints_steps)
 
   train_and_eval_dict = model_lib.create_estimator_and_inputs(
       run_config=config,
@@ -78,6 +84,7 @@ def main(unused_argv):
   eval_on_train_input_fn = train_and_eval_dict['eval_on_train_input_fn']
   predict_input_fn = train_and_eval_dict['predict_input_fn']
   train_steps = train_and_eval_dict['train_steps']
+  eval_interval_secs = train_and_eval_dict['eval_interval_secs']
 
   if FLAGS.checkpoint_dir:
     if FLAGS.eval_training_data:
@@ -102,6 +109,7 @@ def main(unused_argv):
         eval_on_train_input_fn,
         predict_input_fn,
         train_steps,
+        eval_interval_secs=eval_interval_secs,
         eval_on_train_data=False)
 
     best_exporter = best_checkpoint_copier.BestCheckpointCopier(
@@ -120,7 +128,8 @@ def main(unused_argv):
     eval_spec = tf.estimator.EvalSpec(
         input_fn=eval_input_fns[0],
         steps=None,
-        exporters=exporters)
+        exporters=exporters,
+        throttle_secs=FLAGS.eval_throttle_secs)
     # Currently only a single Eval Spec is allowed.
     tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
 
