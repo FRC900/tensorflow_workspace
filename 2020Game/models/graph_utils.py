@@ -78,7 +78,8 @@ def remove_op(graph_def, op_name):
 def force_nms_cpu(frozen_graph):
     for node in frozen_graph.node:
         if 'NonMaxSuppression' in node.name:
-            node.device = '/device:CPU:0'
+            node.device = '/job:localhost/replica:0/task:0/device:CPU:0'
+            #node.device = '/device:CPU:0'
     return frozen_graph
 
 

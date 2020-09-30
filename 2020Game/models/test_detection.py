@@ -1,14 +1,14 @@
-
+"""
+Run object detection a video or set of images
+"""
 import cv2
-import glob
 import numpy as np
-import os
 import sys
 import tensorflow as tf
+import os
+import glob
 import timing
 from visualization import BBoxVisualization
-
-from PIL import Image
 
 # This is needed since the notebook is stored in the object_detection folder.
 #sys.path.append("..")
@@ -76,7 +76,7 @@ def main():
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
-    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME,'retinanet_mobilenet_v2.pb')
+    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME,'trt_retinanet_mobilenet_v2.pb')
 
     # List of the strings that is used to add correct label for each box.
     PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2020Game/data', '2020Game_label_map.pbtxt')
@@ -107,11 +107,11 @@ def main():
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Footage_Control_Panel.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Cross_Field_Views.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Cross_Field_Views_1080p.mp4'))
-    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station.mp4'))
+    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_1080p.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Shield_Generator.mp4'))
 
-    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_22.mp4'))
+    #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_22.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Great_Northern_Regional_2020_Practice21.mp4'))
     #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Great_Northern_Regional_2020_Practice23.mp4'))
@@ -162,7 +162,7 @@ def main():
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
 
-    display_viz = True
+    display_viz = True # Make command line arg
     t = timing.Timings()
 
     while(True):
@@ -175,29 +175,31 @@ def main():
 
       next_frame = False
       while (not next_frame):
+        # Vid input is BGR, need to convert to RGB and resize 
+        # to net input size to run inference
         t.start('cv')
         image_resized = cv2.resize(cv_vid_image, (640,640))
         image_np = cv2.cvtColor(image_resized, cv2.COLOR_BGR2RGB)
         # Expand dimensions since the model expects images to have shape: [batch_size = 1, None, None, 3]
         image_np_expanded = np.expand_dims(image_np, axis=0)
         t.end('cv')
-        #resized_image_np_expanded = np.expand_dims(resized_image_np, axis=0)
 
         # Actual detection.
         t.start('inference')
         output_dict = run_inference_for_single_image(image_np_expanded, sess, detection_graph)
         t.end('inference')
+
         if display_viz:
           t.start('viz')
           # output_dictionary will have detection box coordinates, along with the classes
           # (index of the text labels) and confidence scores for each detection
-          print (output_dict)
+          print(output_dict)
           num_detections = output_dict['num_detections']
           vis.draw_bboxes(cv_vid_image,
                   output_dict['detection_boxes'][:num_detections],
                   output_dict['detection_scores'][:num_detections],
                   output_dict['detection_classes'][:num_detections],
-                  0.2)
+                  0.25)
           '''
           Much slower version using tf vis_util
           # Visualization of the results of a detection.
@@ -211,15 +213,15 @@ def main():
               use_normalized_coordinates=True,
               line_thickness=4,
               max_boxes_to_draw=50,
-              min_score_thresh=0.35,
+              min_score_thresh=0.25,
               groundtruth_box_visualization_color='yellow')
           '''
           cv2.imshow('img', cv_vid_image)
           #vid_writer.write(cv_vid_image)
-          key = cv2.waitKey(1) & 0xFF
-          if key == ord("f"):
-            next_frame = True
           t.end('viz')
+          key = cv2.waitKey(1) & 0xFF
+          if key == 27:
+             return
         next_frame = True
         t.end('frame')
 
