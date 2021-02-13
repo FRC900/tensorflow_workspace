@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>videos</folder>
+	<filename>powercell_8be35fce-4203-44b3-91c4-af94c6f39854.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/powercell_8be35fce-4203-44b3-91c4-af94c6f39854.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>power_cell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>607</xmin>
+			<ymin>435</ymin>
+			<xmax>684</xmax>
+			<ymax>514</ymax>
+		</bndbox>
+	</object>
+</annotation>
