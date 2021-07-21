@@ -7,7 +7,7 @@ xauth nlist $DISPLAY | sed -e 's/^..../ffff/' | xauth -f $XAUTH nmerge -
 chmod 777 $XAUTH
 docker run --gpus all -it \
   -v $HOME/tensorflow_workspace:/home/ubuntu/tensorflow_workspace \
-  -v $XSOCK:$XSOCK -v $XAUTH:$XAUTH \
+  -v $SOCK:$SOCK -v $XAUTH:$XAUTH \
   -e XAUTHORITY=$XAUTH -e DISPLAY=$DISPLAY \
   --net host --privileged --user ubuntu \
   frc900/tensorflow_container_gpu:latest /bin/bash
