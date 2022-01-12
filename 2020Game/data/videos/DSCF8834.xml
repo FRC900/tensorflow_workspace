@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5875</xmin>
-			<ymin>3554</ymin>
-			<xmax>6129</xmax>
-			<ymax>3719</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_loading_bay_left_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4613</xmin>
-			<ymin>955</ymin>
-			<xmax>5016</xmax>
-			<ymax>2393</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

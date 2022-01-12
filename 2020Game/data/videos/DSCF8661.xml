@@ -23,28 +23,4 @@
 			<ymax>1984</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_power_port_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>580</xmin>
-			<ymin>1252</ymin>
-			<xmax>1056</xmax>
-			<ymax>1608</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1607</xmin>
-			<ymin>1766</ymin>
-			<xmax>1696</xmax>
-			<ymax>2024</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

@@ -11,40 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>645</xmin>
-			<ymin>423</ymin>
-			<xmax>772</xmax>
-			<ymax>549</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1006</xmin>
-			<ymin>81</ymin>
-			<xmax>1065</xmax>
-			<ymax>146</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1636</xmin>
-			<ymin>251</ymin>
-			<xmax>1734</xmax>
-			<ymax>342</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

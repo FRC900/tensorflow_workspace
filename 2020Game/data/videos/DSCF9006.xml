@@ -12,30 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2699</xmin>
-			<ymin>2540</ymin>
-			<xmax>2877</xmax>
-			<ymax>2685</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5353</xmin>
-			<ymin>2358</ymin>
-			<xmax>5536</xmax>
-			<ymax>2472</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -45,54 +21,6 @@
 			<ymin>347</ymin>
 			<xmax>2364</xmax>
 			<ymax>1013</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1530</xmin>
-			<ymin>1413</ymin>
-			<xmax>1780</xmax>
-			<ymax>1735</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1519</xmin>
-			<ymin>952</ymin>
-			<xmax>1747</xmax>
-			<ymax>1280</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5588</xmin>
-			<ymin>2241</ymin>
-			<xmax>5704</xmax>
-			<ymax>2341</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>6029</xmin>
-			<ymin>2234</ymin>
-			<xmax>6127</xmax>
-			<ymax>2330</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -119,16 +47,4 @@
 			<ymax>1371</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_power_port_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2331</xmin>
-			<ymin>1001</ymin>
-			<xmax>2444</xmax>
-			<ymax>1184</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

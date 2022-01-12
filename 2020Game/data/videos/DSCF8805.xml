@@ -11,40 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4184</xmin>
-			<ymin>3335</ymin>
-			<xmax>4728</xmax>
-			<ymax>3902</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>control_panel_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>595</xmin>
-			<ymin>477</ymin>
-			<xmax>983</xmax>
-			<ymax>1330</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>color_wheel</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1641</xmin>
-			<ymin>1112</ymin>
-			<xmax>4363</xmax>
-			<ymax>2195</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

@@ -11,40 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>blue_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2114</xmin>
-			<ymin>3076</ymin>
-			<xmax>2349</xmax>
-			<ymax>3224</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_power_port_low_goal</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1203</xmin>
-			<ymin>1248</ymin>
-			<xmax>3247</xmax>
-			<ymax>2426</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_port_yellow_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1575</xmin>
-			<ymin>124</ymin>
-			<xmax>2827</xmax>
-			<ymax>939</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

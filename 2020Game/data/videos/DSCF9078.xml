@@ -24,18 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3692</xmin>
-			<ymin>3618</ymin>
-			<xmax>4451</xmax>
-			<ymax>4160</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -47,52 +35,4 @@
 			<ymax>2347</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5886</xmin>
-			<ymin>2115</ymin>
-			<xmax>6029</xmax>
-			<ymax>2247</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5950</xmin>
-			<ymin>2273</ymin>
-			<xmax>6093</xmax>
-			<ymax>2405</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>6033</xmin>
-			<ymin>2071</ymin>
-			<xmax>6176</xmax>
-			<ymax>2203</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>6097</xmin>
-			<ymin>2232</ymin>
-			<xmax>6240</xmax>
-			<ymax>2364</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

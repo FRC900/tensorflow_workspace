@@ -12,78 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4705</xmin>
-			<ymin>1239</ymin>
-			<xmax>5129</xmax>
-			<ymax>1663</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5174</xmin>
-			<ymin>1259</ymin>
-			<xmax>5584</xmax>
-			<ymax>1676</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5631</xmin>
-			<ymin>1255</ymin>
-			<xmax>6049</xmax>
-			<ymax>1671</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5640</xmin>
-			<ymin>679</ymin>
-			<xmax>6062</xmax>
-			<ymax>1102</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5172</xmin>
-			<ymin>668</ymin>
-			<xmax>5594</xmax>
-			<ymax>1091</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4718</xmin>
-			<ymin>690</ymin>
-			<xmax>5140</xmax>
-			<ymax>1113</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -107,16 +35,4 @@
 			<ymax>898</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_loading_bay_left_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4683</xmin>
-			<ymin>2758</ymin>
-			<xmax>5046</xmax>
-			<ymax>4160</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>
