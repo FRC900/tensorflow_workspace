@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>blue_shield_generator_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2365</xmin>
-			<ymin>1912</ymin>
-			<xmax>2624</xmax>
-			<ymax>2437</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>shield_generator_backstop</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1905</xmin>
-			<ymin>918</ymin>
-			<xmax>2540</xmax>
-			<ymax>1793</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>
