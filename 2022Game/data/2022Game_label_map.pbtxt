@@ -19,54 +19,48 @@ item {
 }
 
 item {
-	id:5 
+	id: 5 
 	name: 'rapid_react_hub_logo'
 }
 
 item {
-	id:6
+	id: 6
 	name:'blue_tape_corners'
 }
 
 item {
-	id:7
+	id: 7
 	name: 'red_tape_corners'
 }
 
 item {
-	id:8
+	id: 8
 	name:'hub_fender_corner'
 }
 
 item {
 
-	id:9
+	id: 9
 	name: 'blue_black_tape_intersect'
 }
 
 item {
-	id:10
+	id: 10
 	name: 'black_tape_intersect'
 }
 
 item {
-	id:11
+	id: 11
 	name: 'truss_segment'
 }
 
 item {
-	id:11
-	name: 'pipe_ending'
-}
-
-item {
-	id:12
+	id: 12
 	name: 'guardrail_intersect'
 }
 
 item {
-
-	id:13
+	id: 13
 	name: 'red_cargo_starting_position'
 }
 
@@ -86,12 +80,12 @@ item {
 }
 
 item {
-	id:17
+	id: 17
 	name: 'blue_tape_truss_support_intersect'
 }
 
 item {
-	id:18
+	id: 18
 	name:'red_tape_truss_support_intersect'
 }
 
@@ -116,11 +110,16 @@ item {
 }
 
 item {
-	id:23
+	id: 23
 	name: 'white_tape_intersection'
 }
 
 item {
-	id:24
+	id: 24
 	name: 'purple_tape'
+}
+
+item {
+	id: 25
+	name: 'pipe_ending'
 }
