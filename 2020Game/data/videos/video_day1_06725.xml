@@ -12,42 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_loading_bay_left_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>262</xmin>
-			<ymin>338</ymin>
-			<xmax>294</xmax>
-			<ymax>480</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_loading_bay_right_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>511</xmin>
-			<ymin>344</ymin>
-			<xmax>551</xmax>
-			<ymax>480</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_loading_bay_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>340</xmin>
-			<ymin>419</ymin>
-			<xmax>485</xmax>
-			<ymax>480</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>

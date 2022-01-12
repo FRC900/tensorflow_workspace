@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>red_shield_generator_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4601</xmin>
-			<ymin>2065</ymin>
-			<xmax>4720</xmax>
-			<ymax>2365</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>shield_generator_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5173</xmin>
-			<ymin>45</ymin>
-			<xmax>5718</xmax>
-			<ymax>513</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

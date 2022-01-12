@@ -11,40 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>control_panel_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3712</xmin>
-			<ymin>708</ymin>
-			<xmax>3986</xmax>
-			<ymax>1408</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_shield_generator_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5733</xmin>
-			<ymin>461</ymin>
-			<xmax>5854</xmax>
-			<ymax>698</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>color_wheel</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1583</xmin>
-			<ymin>2248</ymin>
-			<xmax>6240</xmax>
-			<ymax>3541</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

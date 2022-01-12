@@ -47,40 +47,4 @@
 			<ymax>211</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_loading_bay_right_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>230</xmin>
-			<ymin>352</ymin>
-			<xmax>270</xmax>
-			<ymax>480</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_loading_bay_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>27</xmin>
-			<ymin>427</ymin>
-			<xmax>202</xmax>
-			<ymax>480</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_power_port_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>524</xmin>
-			<ymin>118</ymin>
-			<xmax>576</xmax>
-			<ymax>160</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>power_port_yellow_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>235</xmin>
-			<ymin>113</ymin>
-			<xmax>417</xmax>
-			<ymax>237</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
@@ -35,16 +23,4 @@
 			<ymax>73</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_power_port_low_goal</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>177</xmin>
-			<ymin>278</ymin>
-			<xmax>483</xmax>
-			<ymax>465</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

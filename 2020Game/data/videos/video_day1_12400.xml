@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>power_port_yellow_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>100</xmin>
-			<ymin>71</ymin>
-			<xmax>311</xmax>
-			<ymax>209</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_power_port_low_goal</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>23</xmin>
-			<ymin>259</ymin>
-			<xmax>387</xmax>
-			<ymax>480</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

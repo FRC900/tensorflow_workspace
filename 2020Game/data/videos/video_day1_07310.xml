@@ -12,54 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_loading_bay_left_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>265</xmin>
-			<ymin>185</ymin>
-			<xmax>295</xmax>
-			<ymax>305</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_loading_bay_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>330</xmin>
-			<ymin>245</ymin>
-			<xmax>429</xmax>
-			<ymax>313</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_loading_bay_right_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>443</xmin>
-			<ymin>189</ymin>
-			<xmax>467</xmax>
-			<ymax>293</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>439</xmin>
-			<ymin>355</ymin>
-			<xmax>467</xmax>
-			<ymax>370</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -95,16 +47,4 @@
 			<ymax>87</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_power_port_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>620</xmin>
-			<ymin>10</ymin>
-			<xmax>640</xmax>
-			<ymax>46</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

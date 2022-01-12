@@ -12,78 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5038</xmin>
-			<ymin>4041</ymin>
-			<xmax>5138</xmax>
-			<ymax>4141</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5149</xmin>
-			<ymin>3945</ymin>
-			<xmax>5242</xmax>
-			<ymax>4026</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5416</xmin>
-			<ymin>3954</ymin>
-			<xmax>5503</xmax>
-			<ymax>4041</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_shield_pillar_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5784</xmin>
-			<ymin>4045</ymin>
-			<xmax>5899</xmax>
-			<ymax>4137</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>color_wheel</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5020</xmin>
-			<ymin>3639</ymin>
-			<xmax>5360</xmax>
-			<ymax>3719</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>control_panel_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5516</xmin>
-			<ymin>3485</ymin>
-			<xmax>5566</xmax>
-			<ymax>3576</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -95,16 +23,4 @@
 			<ymax>3219</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5861</xmin>
-			<ymin>3173</ymin>
-			<xmax>5887</xmax>
-			<ymax>3244</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

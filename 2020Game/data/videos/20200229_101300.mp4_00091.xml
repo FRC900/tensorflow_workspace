@@ -12,30 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_power_port_high_goal</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>914</xmin>
-			<ymin>160</ymin>
-			<xmax>1047</xmax>
-			<ymax>300</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_power_port_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1067</xmin>
-			<ymin>252</ymin>
-			<xmax>1102</xmax>
-			<ymax>291</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -59,76 +35,4 @@
 			<ymax>334</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1154</xmin>
-			<ymin>317</ymin>
-			<xmax>1168</xmax>
-			<ymax>356</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>432</xmin>
-			<ymin>311</ymin>
-			<xmax>445</xmax>
-			<ymax>340</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_port_yellow_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>926</xmin>
-			<ymin>361</ymin>
-			<xmax>1018</xmax>
-			<ymax>434</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_power_port_low_goal</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>895</xmin>
-			<ymin>455</ymin>
-			<xmax>1048</xmax>
-			<ymax>568</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>shield_generator_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>111</xmin>
-			<ymin>49</ymin>
-			<xmax>142</xmax>
-			<ymax>90</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>shield_generator_yellow_stripe</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>208</xmin>
-			<ymin>63</ymin>
-			<xmax>264</xmax>
-			<ymax>147</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>power_port_yellow_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>348</xmin>
-			<ymin>256</ymin>
-			<xmax>582</xmax>
-			<ymax>447</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -47,28 +35,4 @@
 			<ymax>207</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>129</xmin>
-			<ymin>165</ymin>
-			<xmax>148</xmax>
-			<ymax>221</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_power_port_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>217</xmin>
-			<ymin>63</ymin>
-			<xmax>292</xmax>
-			<ymax>128</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

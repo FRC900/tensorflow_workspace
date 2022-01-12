@@ -12,30 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_power_port_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>979</xmin>
-			<ymin>1582</ymin>
-			<xmax>1574</xmax>
-			<ymax>2037</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_power_port_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3979</xmin>
-			<ymin>1463</ymin>
-			<xmax>4584</xmax>
-			<ymax>1943</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -59,52 +35,4 @@
 			<ymax>2550</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>184</xmin>
-			<ymin>2267</ymin>
-			<xmax>329</xmax>
-			<ymax>2635</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5402</xmin>
-			<ymin>2102</ymin>
-			<xmax>5547</xmax>
-			<ymax>2470</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_port_yellow_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2223</xmin>
-			<ymin>2789</ymin>
-			<xmax>3438</xmax>
-			<ymax>3604</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_power_port_high_goal</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1903</xmin>
-			<ymin>543</ymin>
-			<xmax>3681</xmax>
-			<ymax>2058</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

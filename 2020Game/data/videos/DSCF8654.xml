@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_shield_generator_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4853</xmin>
-			<ymin>1041</ymin>
-			<xmax>5086</xmax>
-			<ymax>1534</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
@@ -35,16 +23,4 @@
 			<ymax>4160</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>shield_generator_backstop</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2086</xmin>
-			<ymin>882</ymin>
-			<xmax>2743</xmax>
-			<ymax>1466</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

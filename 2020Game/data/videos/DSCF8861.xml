@@ -23,28 +23,4 @@
 			<ymax>4156</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>190</xmin>
-			<ymin>3944</ymin>
-			<xmax>344</xmax>
-			<ymax>4098</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_cell</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>244</xmin>
-			<ymin>3777</ymin>
-			<xmax>369</xmax>
-			<ymax>3911</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

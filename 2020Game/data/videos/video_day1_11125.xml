@@ -35,40 +35,4 @@
 			<ymax>223</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_power_port_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>252</xmin>
-			<ymin>88</ymin>
-			<xmax>343</xmax>
-			<ymax>149</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_power_port_high_goal</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>394</xmin>
-			<ymin>4</ymin>
-			<xmax>633</xmax>
-			<ymax>186</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>power_port_yellow_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>439</xmin>
-			<ymin>276</ymin>
-			<xmax>640</xmax>
-			<ymax>414</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>
