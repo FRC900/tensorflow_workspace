@@ -11,40 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>blue_loading_bay_left_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>650</xmin>
-			<ymin>1308</ymin>
-			<xmax>1300</xmax>
-			<ymax>3152</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_loading_bay_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1877</xmin>
-			<ymin>2309</ymin>
-			<xmax>3929</xmax>
-			<ymax>3378</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_loading_bay_right_graphics</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4273</xmin>
-			<ymin>1352</ymin>
-			<xmax>4876</xmax>
-			<ymax>3165</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

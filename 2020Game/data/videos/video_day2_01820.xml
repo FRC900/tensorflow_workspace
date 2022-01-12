@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>blue_black_shield_generator_floor_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>47</xmin>
-			<ymin>14</ymin>
-			<xmax>103</xmax>
-			<ymax>40</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_shield_pillar_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>557</xmin>
-			<ymin>43</ymin>
-			<xmax>640</xmax>
-			<ymax>93</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

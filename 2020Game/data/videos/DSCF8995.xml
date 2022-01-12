@@ -12,66 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>shield_generator_first_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3202</xmin>
-			<ymin>902</ymin>
-			<xmax>3639</xmax>
-			<ymax>1274</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>shield_generator_yellow_stripe</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1264</xmin>
-			<ymin>841</ymin>
-			<xmax>2358</xmax>
-			<ymax>1913</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_shield_generator_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5486</xmin>
-			<ymin>2208</ymin>
-			<xmax>5619</xmax>
-			<ymax>2430</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_shield_generator_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5480</xmin>
-			<ymin>1585</ymin>
-			<xmax>5641</xmax>
-			<ymax>1930</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>shield_generator_backstop</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3429</xmin>
-			<ymin>1658</ymin>
-			<xmax>3929</xmax>
-			<ymax>2095</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -83,16 +23,4 @@
 			<ymax>3084</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5518</xmin>
-			<ymin>2974</ymin>
-			<xmax>5597</xmax>
-			<ymax>3131</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>
