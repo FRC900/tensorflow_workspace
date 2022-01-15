@@ -48,8 +48,9 @@ from object_detection.utils import label_map_util
 flags = tf.app.flags
 flags.DEFINE_string('data_dir', '/home/ubuntu/tensorflow_workspace/2020Game/data/videos', 'Root directory to raw dataset.')
 flags.DEFINE_string('alt_data_dir', '/home/ubuntu/tensorflow_workspace/2019Game/data/videos', 'Optional second root directory to raw dataset.')
-flags.DEFINE_string('output_dir', '/home/ubuntu/tensorflow_workspace/2020Game/data', 'Path to directory to output TFRecords.')
-flags.DEFINE_string('label_map_path', '/home/ubuntu/tensorflow_workspace/2020Game/data/2020Game_label_map.pbtxt',
+flags.DEFINE_string('alt_data_dir_2', '/home/ubuntu/tensorflow_workspace/2022Game/data/videos', 'Optional third root directory to raw dataset.')
+flags.DEFINE_string('output_dir', '/home/ubuntu/tensorflow_workspace/2022Game/data', 'Path to directory to output TFRecords.')
+flags.DEFINE_string('label_map_path', '/home/ubuntu/tensorflow_workspace/2022Game/data/2022Game_label_map.pbtxt',
                     'Path to label map proto')
 flags.DEFINE_integer('num_shards', 10, 'Number of TFRecord shards')
 
@@ -209,12 +210,14 @@ def create_tf_record(output_filename,
 def main(_):
   data_dir = FLAGS.data_dir
   alt_data_dir = FLAGS.alt_data_dir
+  alt_data_dir_2 = FLAGS.alt_data_dir_2
   label_map_dict = label_map_util.get_label_map_dict(FLAGS.label_map_path)
   print(label_map_dict)
 
   logging.info('Reading from dataset.')
   examples_list  = tf.gfile.Glob(os.path.join(data_dir, '*.xml'))
   examples_list += tf.gfile.Glob(os.path.join(alt_data_dir, '*.xml'))
+  examples_list += tf.gfile.Glob(os.path.join(alt_data_dir_2, '*.xml'))
   # Test images are not included in the downloaded data set, so we shall perform
   # our own split.
   # TODO - should this be based on an even split of object types rather than 
