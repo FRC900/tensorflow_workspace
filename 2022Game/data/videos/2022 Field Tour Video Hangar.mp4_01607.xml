@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
-	<filename>2022 Field Tour Video Hub.mp4_01084.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hub.mp4_01084.png</path>
+	<filename>2022 Field Tour Video Hangar.mp4_01607.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hangar.mp4_01607.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,63 +12,63 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_cargo</name>
+		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>164</xmin>
-			<ymin>225</ymin>
-			<xmax>516</xmax>
-			<ymax>587</ymax>
+			<xmin>131</xmin>
+			<ymin>46</ymin>
+			<xmax>399</xmax>
+			<ymax>252</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_cargo</name>
+		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>517</xmin>
-			<ymin>187</ymin>
-			<xmax>824</xmax>
-			<ymax>535</ymax>
+			<xmin>400</xmin>
+			<ymin>45</ymin>
+			<xmax>439</xmax>
+			<ymax>180</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_cargo</name>
+		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>826</xmin>
-			<ymin>166</ymin>
-			<xmax>1164</xmax>
-			<ymax>483</ymax>
+			<xmin>501</xmin>
+			<ymin>45</ymin>
+			<xmax>592</xmax>
+			<ymax>127</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>white_tape_intersection</name>
+		<name>black_tape_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>565</xmin>
-			<ymin>505</ymin>
-			<xmax>641</xmax>
-			<ymax>586</ymax>
+			<xmin>1204</xmin>
+			<ymin>486</ymin>
+			<xmax>1265</xmax>
+			<ymax>534</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>red_cargo</name>
+		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>508</xmin>
-			<ymin>23</ymin>
-			<xmax>554</xmax>
-			<ymax>70</ymax>
+			<xmin>663</xmin>
+			<ymin>36</ymin>
+			<xmax>686</xmax>
+			<ymax>100</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>93</xmin>
-			<ymin>552</ymin>
-			<xmax>127</xmax>
-			<ymax>629</ymax>
+			<xmin>150</xmin>
+			<ymin>581</ymin>
+			<xmax>200</xmax>
+			<ymax>610</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -141,6 +141,18 @@
 			<ymin>352</ymin>
 			<xmax>77</xmax>
 			<ymax>374</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>407</xmin>
+			<ymin>452</ymin>
+			<xmax>524</xmax>
+			<ymax>569</ymax>
 		</bndbox>
 	</object>
 </annotation>
