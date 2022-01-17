@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
-	<filename>2022 Field Tour Video Hub.mp4_01084.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hub.mp4_01084.png</path>
+	<filename>2022 Field Tour Video Hangar.mp4_00899.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hangar.mp4_00899.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,51 +12,51 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_cargo</name>
+		<name>black_tape_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>164</xmin>
-			<ymin>225</ymin>
-			<xmax>515</xmax>
-			<ymax>571</ymax>
+			<xmin>608</xmin>
+			<ymin>531</ymin>
+			<xmax>711</xmax>
+			<ymax>633</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_cargo</name>
+		<name>blue_black_tape_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>517</xmin>
-			<ymin>187</ymin>
-			<xmax>834</xmax>
-			<ymax>529</ymax>
+			<xmin>562</xmin>
+			<ymin>615</ymin>
+			<xmax>646</xmax>
+			<ymax>691</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>white_tape_intersection</name>
+		<name>black_tape_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>559</xmin>
-			<ymin>526</ymin>
-			<xmax>635</xmax>
-			<ymax>607</ymax>
+			<xmin>820</xmin>
+			<ymin>331</ymin>
+			<xmax>861</xmax>
+			<ymax>365</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>red_cargo</name>
+		<name>blue_tape_truss_support_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>508</xmin>
-			<ymin>23</ymin>
-			<xmax>554</xmax>
-			<ymax>70</ymax>
+			<xmin>221</xmin>
+			<ymin>422</ymin>
+			<xmax>238</xmax>
+			<ymax>450</ymax>
 		</bndbox>
 	</object>
 </annotation>
