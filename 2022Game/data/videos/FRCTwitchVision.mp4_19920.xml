@@ -43,8 +43,8 @@
 		<bndbox>
 			<xmin>128</xmin>
 			<ymin>544</ymin>
-			<xmax>193</xmax>
-			<ymax>603</ymax>
+			<xmax>186</xmax>
+			<ymax>593</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -141,6 +141,54 @@
 			<ymin>602</ymin>
 			<xmax>498</xmax>
 			<ymax>614</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>429</xmin>
+			<ymin>685</ymin>
+			<xmax>501</xmax>
+			<ymax>764</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1054</xmin>
+			<ymin>634</ymin>
+			<xmax>1122</xmax>
+			<ymax>664</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1126</xmin>
+			<ymin>619</ymin>
+			<xmax>1183</xmax>
+			<ymax>646</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>299</xmin>
+			<ymin>268</ymin>
+			<xmax>362</xmax>
+			<ymax>296</ymax>
 		</bndbox>
 	</object>
 </annotation>
