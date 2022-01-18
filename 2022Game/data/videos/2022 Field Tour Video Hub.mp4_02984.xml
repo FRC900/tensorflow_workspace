@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Hub.mp4_02984.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hub.mp4_02984.png</path>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>514</xmin>
-			<ymin>56</ymin>
-			<xmax>693</xmax>
-			<ymax>246</ymax>
+			<xmin>526</xmin>
+			<ymin>68</ymin>
+			<xmax>686</xmax>
+			<ymax>241</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>780</xmin>
-			<ymin>69</ymin>
-			<xmax>856</xmax>
-			<ymax>130</ymax>
+			<xmin>806</xmin>
+			<ymin>80</ymin>
+			<xmax>852</xmax>
+			<ymax>127</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1007</xmin>
-			<ymin>72</ymin>
-			<xmax>1055</xmax>
-			<ymax>135</ymax>
+			<xmin>1004</xmin>
+			<ymin>81</ymin>
+			<xmax>1045</xmax>
+			<ymax>124</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -69,6 +69,18 @@
 			<ymin>88</ymin>
 			<xmax>728</xmax>
 			<ymax>109</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>838</xmin>
+			<ymin>137</ymin>
+			<xmax>881</xmax>
+			<ymax>165</ymax>
 		</bndbox>
 	</object>
 </annotation>
