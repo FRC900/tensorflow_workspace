@@ -155,4 +155,16 @@
 			<ymax>477</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>486</xmin>
+			<ymin>589</ymin>
+			<xmax>531</xmax>
+			<ymax>636</ymax>
+		</bndbox>
+	</object>
 </annotation>
