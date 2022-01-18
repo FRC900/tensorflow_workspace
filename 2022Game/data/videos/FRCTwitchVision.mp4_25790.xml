@@ -47,4 +47,16 @@
 			<ymax>811</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>terminal_base_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1401</xmin>
+			<ymin>793</ymin>
+			<xmax>1475</xmax>
+			<ymax>847</ymax>
+		</bndbox>
+	</object>
 </annotation>

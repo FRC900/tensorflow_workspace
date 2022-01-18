@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>583</xmin>
+			<xmin>580</xmin>
 			<ymin>240</ymin>
 			<xmax>596</xmax>
-			<ymax>263</ymax>
+			<ymax>261</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>579</xmin>
+			<xmin>577</xmin>
 			<ymin>138</ymin>
 			<xmax>596</xmax>
-			<ymax>160</ymax>
+			<ymax>159</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>654</xmin>
+			<xmin>655</xmin>
 			<ymin>140</ymin>
-			<xmax>673</xmax>
-			<ymax>160</ymax>
+			<xmax>671</xmax>
+			<ymax>159</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -78,9 +78,45 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>657</xmin>
-			<ymin>235</ymin>
-			<xmax>673</xmax>
-			<ymax>260</ymax>
+			<ymin>237</ymin>
+			<xmax>671</xmax>
+			<ymax>257</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>139</ymin>
+			<xmax>117</xmax>
+			<ymax>182</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>133</xmin>
+			<ymin>554</ymin>
+			<xmax>167</xmax>
+			<ymax>589</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1051</xmin>
+			<ymin>614</ymin>
+			<xmax>1097</xmax>
+			<ymax>659</ymax>
 		</bndbox>
 	</object>
 </annotation>
