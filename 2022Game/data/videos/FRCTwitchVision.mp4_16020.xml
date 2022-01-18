@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
-	<filename>FRCTwitchVision.mp4_25790.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_25790.png</path>
+	<filename>FRCTwitchVision.mp4_16020.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_16020.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,51 +12,51 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1595</xmin>
+			<ymin>978</ymin>
+			<xmax>1659</xmax>
+			<ymax>1007</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1491</xmin>
+			<ymin>960</ymin>
+			<xmax>1556</xmax>
+			<ymax>983</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1364</xmin>
+			<ymin>943</ymin>
+			<xmax>1435</xmax>
+			<ymax>966</ymax>
+		</bndbox>
+	</object>
+	<object>
 		<name>red_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>764</xmin>
-			<ymin>721</ymin>
-			<xmax>940</xmax>
-			<ymax>871</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>386</xmin>
-			<ymin>814</ymin>
-			<xmax>550</xmax>
-			<ymax>838</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>585</xmin>
-			<ymin>784</ymin>
-			<xmax>765</xmax>
-			<ymax>811</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>terminal_base_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1401</xmin>
-			<ymin>793</ymin>
-			<xmax>1475</xmax>
-			<ymax>847</ymax>
+			<xmin>972</xmin>
+			<ymin>299</ymin>
+			<xmax>1059</xmax>
+			<ymax>396</ymax>
 		</bndbox>
 	</object>
 </annotation>
