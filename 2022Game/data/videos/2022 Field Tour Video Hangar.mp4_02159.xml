@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Hangar.mp4_02159.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hangar.mp4_02159.png</path>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>578</xmin>
-			<ymin>239</ymin>
-			<xmax>597</xmax>
-			<ymax>263</ymax>
+			<xmin>580</xmin>
+			<ymin>241</ymin>
+			<xmax>596</xmax>
+			<ymax>261</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -56,7 +56,7 @@
 			<xmin>655</xmin>
 			<ymin>238</ymin>
 			<xmax>672</xmax>
-			<ymax>258</ymax>
+			<ymax>256</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>656</xmin>
+			<xmin>655</xmin>
 			<ymin>141</ymin>
 			<xmax>671</xmax>
-			<ymax>162</ymax>
+			<ymax>160</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -78,9 +78,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>580</xmin>
-			<ymin>138</ymin>
-			<xmax>595</xmax>
-			<ymax>160</ymax>
+			<ymin>139</ymin>
+			<xmax>594</xmax>
+			<ymax>158</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -93,6 +93,18 @@
 			<ymin>135</ymin>
 			<xmax>111</xmax>
 			<ymax>181</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>137</xmin>
+			<ymin>568</ymin>
+			<xmax>165</xmax>
+			<ymax>589</ymax>
 		</bndbox>
 	</object>
 </annotation>
