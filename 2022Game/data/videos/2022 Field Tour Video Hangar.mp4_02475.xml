@@ -1,26 +1,26 @@
 <annotation verified="yes">
 	<folder>videos</folder>
-	<filename>FRCTwitchVision.mp4_11580.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_11580.png</path>
+	<filename>2022 Field Tour Video Hangar.mp4_02475.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hangar.mp4_02475.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1920</width>
-		<height>1080</height>
+		<width>1280</width>
+		<height>720</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>truss_segment</name>
+		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>530</xmin>
-			<ymin>310</ymin>
-			<xmax>1199</xmax>
-			<ymax>663</ymax>
+			<xmin>587</xmin>
+			<ymin>371</ymin>
+			<xmax>630</xmax>
+			<ymax>397</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1209</xmin>
-			<ymin>279</ymin>
-			<xmax>1284</xmax>
-			<ymax>331</ymax>
+			<xmin>1009</xmin>
+			<ymin>326</ymin>
+			<xmax>1046</xmax>
+			<ymax>362</ymax>
 		</bndbox>
 	</object>
 </annotation>

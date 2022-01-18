@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
-	<filename>FRCTwitchVision.mp4_07260.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_07260.png</path>
+	<filename>FRCTwitchVision.mp4_09420.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_09420.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_cargo</name>
+		<name>purple_tape</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>770</xmin>
-			<ymin>842</ymin>
-			<xmax>870</xmax>
-			<ymax>942</ymax>
+			<xmin>497</xmin>
+			<ymin>957</ymin>
+			<xmax>556</xmax>
+			<ymax>993</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>954</xmin>
-			<ymin>956</ymin>
-			<xmax>1158</xmax>
-			<ymax>1027</ymax>
+			<xmin>806</xmin>
+			<ymin>763</ymin>
+			<xmax>884</xmax>
+			<ymax>803</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,22 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1724</xmin>
-			<ymin>812</ymin>
-			<xmax>1769</xmax>
-			<ymax>868</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>987</xmin>
-			<ymin>736</ymin>
-			<xmax>1044</xmax>
-			<ymax>780</ymax>
+			<xmin>1482</xmin>
+			<ymin>817</ymin>
+			<xmax>1528</xmax>
+			<ymax>866</ymax>
 		</bndbox>
 	</object>
 </annotation>
