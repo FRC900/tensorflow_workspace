@@ -59,4 +59,28 @@
 			<ymax>811</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>979</xmin>
+			<ymin>153</ymin>
+			<xmax>1251</xmax>
+			<ymax>243</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>905</xmin>
+			<ymin>146</ymin>
+			<xmax>954</xmax>
+			<ymax>260</ymax>
+		</bndbox>
+	</object>
 </annotation>
