@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <annotation>
+=======
+<annotation verified="yes">
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Terminal.mp4_01500.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Terminal.mp4_01500.png</path>
@@ -17,10 +21,53 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>375</xmin>
 			<ymin>388</ymin>
 			<xmax>564</xmax>
 			<ymax>561</ymax>
+=======
+			<xmin>364</xmin>
+			<ymin>366</ymin>
+			<xmax>578</xmax>
+			<ymax>562</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>866</xmin>
+			<ymin>276</ymin>
+			<xmax>1089</xmax>
+			<ymax>363</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>621</xmin>
+			<ymin>213</ymin>
+			<xmax>795</xmax>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>387</xmin>
+			<ymin>147</ymin>
+			<xmax>513</xmax>
+			<ymax>204</ymax>
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +76,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>552</xmin>
 			<ymin>137</ymin>
 			<xmax>615</xmax>
 			<ymax>206</ymax>
+=======
+			<xmin>664</xmin>
+			<ymin>75</ymin>
+			<xmax>724</xmax>
+			<ymax>130</ymax>
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +95,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>662</xmin>
 			<ymin>87</ymin>
 			<xmax>718</xmax>
 			<ymax>132</ymax>
+=======
+			<xmin>550</xmin>
+			<ymin>124</ymin>
+			<xmax>613</xmax>
+			<ymax>214</ymax>
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 		</bndbox>
 	</object>
 </annotation>
