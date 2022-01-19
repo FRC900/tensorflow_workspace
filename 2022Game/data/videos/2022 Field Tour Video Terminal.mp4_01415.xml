@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+<annotation>
+=======
 <annotation verified="yes">
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Terminal.mp4_01415.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Terminal.mp4_01415.png</path>
@@ -12,6 +16,8 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+<<<<<<< HEAD
+=======
 		<name>red_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -24,11 +30,22 @@
 		</bndbox>
 	</object>
 	<object>
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 		<name>blue_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>61</xmin>
+			<ymin>336</ymin>
+			<xmax>252</xmax>
+			<ymax>482</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo</name>
+=======
 			<xmin>28</xmin>
 			<ymin>321</ymin>
 			<xmax>278</xmax>
@@ -73,14 +90,22 @@
 	</object>
 	<object>
 		<name>purple_tape</name>
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>615</xmin>
+			<ymin>235</ymin>
+			<xmax>756</xmax>
+			<ymax>367</ymax>
+=======
 			<xmin>555</xmin>
 			<ymin>197</ymin>
 			<xmax>640</xmax>
 			<ymax>239</ymax>
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 		</bndbox>
 	</object>
 </annotation>

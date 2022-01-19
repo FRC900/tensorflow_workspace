@@ -14,6 +14,15 @@
 	<object>
 		<name>blue_cargo</name>
 		<pose>Unspecified</pose>
+<<<<<<< HEAD
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>537</xmin>
+			<ymin>438</ymin>
+			<xmax>812</xmax>
+			<ymax>702</ymax>
+=======
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
@@ -33,6 +42,7 @@
 			<ymin>350</ymin>
 			<xmax>698</xmax>
 			<ymax>422</ymax>
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 		</bndbox>
 	</object>
 </annotation>
