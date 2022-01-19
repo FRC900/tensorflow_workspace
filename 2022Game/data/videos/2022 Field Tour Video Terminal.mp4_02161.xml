@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+<annotation>
+=======
 <annotation verified="yes">
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Terminal.mp4_02161.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Terminal.mp4_02161.png</path>
@@ -17,15 +21,30 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>655</xmin>
+			<ymin>532</ymin>
+			<xmax>748</xmax>
+=======
 			<xmin>644</xmin>
 			<ymin>525</ymin>
 			<xmax>755</xmax>
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 			<ymax>630</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>blue_cargo</name>
 		<pose>Unspecified</pose>
+<<<<<<< HEAD
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>649</xmin>
+			<ymin>638</ymin>
+			<xmax>772</xmax>
+			<ymax>720</ymax>
+=======
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
@@ -57,6 +76,7 @@
 			<ymin>420</ymin>
 			<xmax>685</xmax>
 			<ymax>507</ymax>
+>>>>>>> c1068c58cd425da035ba0eb883a0ada0e414115d
 		</bndbox>
 	</object>
 </annotation>
