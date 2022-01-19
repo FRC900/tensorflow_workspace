@@ -72,18 +72,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_blue</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1194</xmin>
-			<ymin>148</ymin>
-			<xmax>1209</xmax>
-			<ymax>174</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>terminal_base_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -153,6 +141,18 @@
 			<ymin>609</ymin>
 			<xmax>193</xmax>
 			<ymax>624</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>916</xmin>
+			<ymin>576</ymin>
+			<xmax>940</xmax>
+			<ymax>605</ymax>
 		</bndbox>
 	</object>
 </annotation>
