@@ -155,4 +155,28 @@
 			<ymax>372</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>715</xmin>
+			<ymin>296</ymin>
+			<xmax>728</xmax>
+			<ymax>312</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>903</xmin>
+			<ymin>580</ymin>
+			<xmax>935</xmax>
+			<ymax>610</ymax>
+		</bndbox>
+	</object>
 </annotation>
