@@ -101,10 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>182</xmin>
-			<ymin>594</ymin>
-			<xmax>200</xmax>
-			<ymax>610</ymax>
+			<xmin>136</xmin>
+			<ymin>556</ymin>
+			<xmax>164</xmax>
+			<ymax>584</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -129,6 +129,30 @@
 			<ymin>632</ymin>
 			<xmax>1084</xmax>
 			<ymax>659</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1099</xmin>
+			<ymin>148</ymin>
+			<xmax>1109</xmax>
+			<ymax>159</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1136</xmin>
+			<ymin>146</ymin>
+			<xmax>1146</xmax>
+			<ymax>160</ymax>
 		</bndbox>
 	</object>
 </annotation>
