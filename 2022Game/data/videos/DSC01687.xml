@@ -252,7 +252,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>truss_segment</name>
+		<name>blue_truss_segment</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -264,27 +264,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>truss_segment</name>
+		<name>blue_truss_segment</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4312</xmin>
-			<ymin>1300</ymin>
-			<xmax>4478</xmax>
-			<ymax>1371</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>truss_segment</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1583</xmin>
-			<ymin>1462</ymin>
-			<xmax>1754</xmax>
-			<ymax>1562</ymax>
+			<xmin>4310</xmin>
+			<ymin>1302</ymin>
+			<xmax>4476</xmax>
+			<ymax>1373</ymax>
 		</bndbox>
 	</object>
 	<object>

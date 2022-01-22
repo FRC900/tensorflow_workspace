@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRCTwitchVision.mp4_22620.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_22620.png</path>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>truss_segment</name>
+		<name>blue_truss_segment</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1820</xmin>
 			<ymin>484</ymin>
-			<xmax>1881</xmax>
-			<ymax>542</ymax>
+			<xmax>1900</xmax>
+			<ymax>545</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -372,19 +372,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>truss_segment</name>
+		<name>red_truss_segment</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>138</xmin>
+			<xmin>141</xmin>
 			<ymin>368</ymin>
-			<xmax>185</xmax>
+			<xmax>188</xmax>
 			<ymax>404</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>truss_segment</name>
+		<name>red_truss_segment</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
