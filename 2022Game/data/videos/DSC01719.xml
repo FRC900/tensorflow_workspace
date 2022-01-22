@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01719.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01719.JPG</path>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4078</xmin>
+			<xmin>3987</xmin>
 			<ymin>3519</ymin>
-			<xmax>4207</xmax>
-			<ymax>3700</ymax>
+			<xmax>4221</xmax>
+			<ymax>3685</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -81,18 +81,6 @@
 			<ymin>2628</ymin>
 			<xmax>4507</xmax>
 			<ymax>2724</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>truss_segment</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4493</xmin>
-			<ymin>2181</ymin>
-			<xmax>4826</xmax>
-			<ymax>2338</ymax>
 		</bndbox>
 	</object>
 	<object>

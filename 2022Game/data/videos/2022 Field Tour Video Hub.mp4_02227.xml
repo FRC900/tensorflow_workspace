@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Hub.mp4_02227.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hub.mp4_02227.png</path>
@@ -72,15 +72,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>truss_segment</name>
+		<name>blue_truss_segment</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1141</xmin>
+			<xmin>1133</xmin>
 			<ymin>132</ymin>
-			<xmax>1178</xmax>
-			<ymax>179</ymax>
+			<xmax>1179</xmax>
+			<ymax>173</ymax>
 		</bndbox>
 	</object>
 	<object>
