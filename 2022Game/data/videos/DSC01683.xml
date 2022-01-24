@@ -293,10 +293,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2428</xmin>
-			<ymin>2047</ymin>
-			<xmax>2483</xmax>
-			<ymax>2072</ymax>
+			<xmin>2371</xmin>
+			<ymin>1985</ymin>
+			<xmax>2471</xmax>
+			<ymax>2071</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -309,6 +309,18 @@
 			<ymin>1475</ymin>
 			<xmax>5601</xmax>
 			<ymax>1529</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3157</xmin>
+			<ymin>2190</ymin>
+			<xmax>3300</xmax>
+			<ymax>2319</ymax>
 		</bndbox>
 	</object>
 </annotation>

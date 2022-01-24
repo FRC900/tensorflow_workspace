@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01701.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01701.JPG</path>
@@ -30,8 +30,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1502</xmin>
-			<ymin>1867</ymin>
-			<xmax>1631</xmax>
+			<ymin>1884</ymin>
+			<xmax>1610</xmax>
 			<ymax>2000</ymax>
 		</bndbox>
 	</object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2021</xmin>
-			<ymin>1809</ymin>
-			<xmax>2154</xmax>
-			<ymax>1919</ymax>
+			<xmin>2029</xmin>
+			<ymin>1812</ymin>
+			<xmax>2137</xmax>
+			<ymax>1908</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2550</xmin>
+			<xmin>2549</xmin>
 			<ymin>1790</ymin>
 			<xmax>2631</xmax>
-			<ymax>1852</ymax>
+			<ymax>1871</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4021</xmin>
-			<ymin>1919</ymin>
-			<xmax>4159</xmax>
-			<ymax>1986</ymax>
+			<xmin>4035</xmin>
+			<ymin>1914</ymin>
+			<xmax>4141</xmax>
+			<ymax>1990</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4535</xmin>
-			<ymin>2047</ymin>
-			<xmax>4745</xmax>
-			<ymax>2119</ymax>
+			<xmin>4561</xmin>
+			<ymin>2031</ymin>
+			<xmax>4690</xmax>
+			<ymax>2133</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -91,8 +91,8 @@
 		<bndbox>
 			<xmin>5331</xmin>
 			<ymin>2695</ymin>
-			<xmax>5702</xmax>
-			<ymax>2938</ymax>
+			<xmax>5655</xmax>
+			<ymax>2929</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5626</xmin>
-			<ymin>2476</ymin>
-			<xmax>5902</xmax>
-			<ymax>2690</ymax>
+			<xmin>5640</xmin>
+			<ymin>2482</ymin>
+			<xmax>5916</xmax>
+			<ymax>2696</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -173,10 +173,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3940</xmin>
-			<ymin>2019</ymin>
-			<xmax>4064</xmax>
-			<ymax>2071</ymax>
+			<xmin>3957</xmin>
+			<ymin>2031</ymin>
+			<xmax>4076</xmax>
+			<ymax>2090</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -197,10 +197,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4793</xmin>
-			<ymin>2333</ymin>
-			<xmax>4988</xmax>
-			<ymax>2505</ymax>
+			<xmin>4799</xmin>
+			<ymin>2349</ymin>
+			<xmax>4955</xmax>
+			<ymax>2495</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -429,6 +429,30 @@
 			<ymin>1385</ymin>
 			<xmax>1158</xmax>
 			<ymax>1443</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>167</xmin>
+			<ymin>2904</ymin>
+			<xmax>319</xmax>
+			<ymax>3004</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>457</xmin>
+			<ymin>2400</ymin>
+			<xmax>562</xmax>
+			<ymax>2481</ymax>
 		</bndbox>
 	</object>
 </annotation>
