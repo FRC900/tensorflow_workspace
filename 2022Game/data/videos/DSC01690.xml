@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01690.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01690.JPG</path>
@@ -65,10 +65,46 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3899</xmin>
-			<ymin>2842</ymin>
-			<xmax>4058</xmax>
-			<ymax>3108</ymax>
+			<xmin>3828</xmin>
+			<ymin>2828</ymin>
+			<xmax>3987</xmax>
+			<ymax>3094</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4235</xmin>
+			<ymin>3262</ymin>
+			<xmax>4440</xmax>
+			<ymax>3343</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4407</xmin>
+			<ymin>3424</ymin>
+			<xmax>4507</xmax>
+			<ymax>3505</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3973</xmin>
+			<ymin>3005</ymin>
+			<xmax>4178</xmax>
+			<ymax>3152</ymax>
 		</bndbox>
 	</object>
 </annotation>
