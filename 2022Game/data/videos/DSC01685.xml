@@ -251,4 +251,28 @@
 			<ymax>1458</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1740</xmin>
+			<ymin>3409</ymin>
+			<xmax>1869</xmax>
+			<ymax>3533</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1812</xmin>
+			<ymin>3695</ymin>
+			<xmax>1998</xmax>
+			<ymax>4000</ymax>
+		</bndbox>
+	</object>
 </annotation>
