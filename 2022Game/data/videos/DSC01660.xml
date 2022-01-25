@@ -47,4 +47,16 @@
 			<ymax>3964</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>red_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4180</xmin>
+			<ymin>3342</ymin>
+			<xmax>4386</xmax>
+			<ymax>3456</ymax>
+		</bndbox>
+	</object>
 </annotation>
