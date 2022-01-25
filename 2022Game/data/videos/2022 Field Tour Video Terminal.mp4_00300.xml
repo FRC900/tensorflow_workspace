@@ -29,9 +29,45 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>500</xmin>
-			<ymin>355</ymin>
-			<xmax>623</xmax>
+			<xmin>491</xmin>
+			<ymin>353</ymin>
+			<xmax>614</xmax>
+			<ymax>447</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>675</xmin>
+			<ymin>489</ymin>
+			<xmax>897</xmax>
+			<ymax>599</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>676</xmin>
+			<ymin>449</ymin>
+			<xmax>735</xmax>
+			<ymax>502</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>609</xmin>
+			<ymin>416</ymin>
+			<xmax>645</xmax>
 			<ymax>449</ymax>
 		</bndbox>
 	</object>
@@ -41,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>699</xmin>
-			<ymin>458</ymin>
-			<xmax>892</xmax>
-			<ymax>600</ymax>
+			<xmin>346</xmin>
+			<ymin>272</ymin>
+			<xmax>453</xmax>
+			<ymax>358</ymax>
 		</bndbox>
 	</object>
 </annotation>

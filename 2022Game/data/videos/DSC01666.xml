@@ -77,8 +77,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3387</xmin>
-			<ymin>1902</ymin>
+			<xmin>3362</xmin>
+			<ymin>1842</ymin>
 			<xmax>3537</xmax>
 			<ymax>1998</ymax>
 		</bndbox>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5362</xmin>
-			<ymin>1658</ymin>
-			<xmax>5494</xmax>
-			<ymax>1725</ymax>
+			<xmin>5363</xmin>
+			<ymin>1600</ymin>
+			<xmax>5524</xmax>
+			<ymax>1772</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -161,10 +161,130 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4719</xmin>
-			<ymin>1691</ymin>
-			<xmax>5035</xmax>
-			<ymax>1814</ymax>
+			<xmin>3743</xmin>
+			<ymin>1604</ymin>
+			<xmax>4009</xmax>
+			<ymax>1853</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3228</xmin>
+			<ymin>304</ymin>
+			<xmax>3449</xmax>
+			<ymax>394</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3552</xmin>
+			<ymin>315</ymin>
+			<xmax>3775</xmax>
+			<ymax>394</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4330</xmin>
+			<ymin>325</ymin>
+			<xmax>4548</xmax>
+			<ymax>407</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4230</xmin>
+			<ymin>330</ymin>
+			<xmax>4277</xmax>
+			<ymax>425</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3485</xmin>
+			<ymin>310</ymin>
+			<xmax>3531</xmax>
+			<ymax>406</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3769</xmin>
+			<ymin>458</ymin>
+			<xmax>3961</xmax>
+			<ymax>554</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_launchpad</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3751</xmin>
+			<ymin>970</ymin>
+			<xmax>3882</xmax>
+			<ymax>1234</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5342</xmin>
+			<ymin>485</ymin>
+			<xmax>5607</xmax>
+			<ymax>597</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2846</xmin>
+			<ymin>296</ymin>
+			<xmax>3034</xmax>
+			<ymax>368</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2768</xmin>
+			<ymin>290</ymin>
+			<xmax>2820</xmax>
+			<ymax>382</ymax>
 		</bndbox>
 	</object>
 </annotation>
