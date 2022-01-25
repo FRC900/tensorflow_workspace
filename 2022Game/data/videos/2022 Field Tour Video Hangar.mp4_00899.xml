@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Hangar.mp4_00899.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hangar.mp4_00899.png</path>
@@ -57,6 +57,18 @@
 			<ymin>422</ymin>
 			<xmax>238</xmax>
 			<ymax>450</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>680</xmin>
+			<ymin>218</ymin>
+			<xmax>702</xmax>
+			<ymax>237</ymax>
 		</bndbox>
 	</object>
 </annotation>
