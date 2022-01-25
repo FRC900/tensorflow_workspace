@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01658.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01658.JPG</path>
@@ -48,11 +48,16 @@
 		</bndbox>
 	</object>
 	<object>
+<<<<<<< HEAD
 		<name>red_tape_corners</name>
+=======
+		<name>red_tape_truss_support_intersect</name>
+>>>>>>> e62e17ed13ae8b263480ede0d6cac75b70ca2e9e
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1395</xmin>
 			<ymin>932</ymin>
 			<xmax>1665</xmax>
@@ -61,14 +66,31 @@
 	</object>
 	<object>
 		<name>red_cargo_starting_position</name>
+=======
+			<xmin>4147</xmin>
+			<ymin>490</ymin>
+			<xmax>4357</xmax>
+			<ymax>614</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+>>>>>>> e62e17ed13ae8b263480ede0d6cac75b70ca2e9e
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>793</xmin>
 			<ymin>707</ymin>
 			<xmax>935</xmax>
 			<ymax>824</ymax>
+=======
+			<xmin>4476</xmin>
+			<ymin>1104</ymin>
+			<xmax>4647</xmax>
+			<ymax>1233</ymax>
+>>>>>>> e62e17ed13ae8b263480ede0d6cac75b70ca2e9e
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +99,41 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>4478</xmin>
 			<ymin>1081</ymin>
 			<xmax>4648</xmax>
 			<ymax>1259</ymax>
+=======
+			<xmin>1457</xmin>
+			<ymin>961</ymin>
+			<xmax>1628</xmax>
+			<ymax>1128</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_launchpad</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4300</xmin>
+			<ymin>176</ymin>
+			<xmax>4533</xmax>
+			<ymax>600</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>795</xmin>
+			<ymin>728</ymin>
+			<xmax>914</xmax>
+			<ymax>814</ymax>
+>>>>>>> e62e17ed13ae8b263480ede0d6cac75b70ca2e9e
 		</bndbox>
 	</object>
 </annotation>
