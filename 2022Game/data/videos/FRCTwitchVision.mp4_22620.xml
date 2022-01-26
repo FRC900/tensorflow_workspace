@@ -348,18 +348,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>white_tape_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>836</xmin>
-			<ymin>704</ymin>
-			<xmax>877</xmax>
-			<ymax>747</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>black_tape_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -645,6 +633,18 @@
 			<ymin>270</ymin>
 			<xmax>361</xmax>
 			<ymax>278</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_launchpad</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1752</xmin>
+			<ymin>662</ymin>
+			<xmax>1836</xmax>
+			<ymax>764</ymax>
 		</bndbox>
 	</object>
 </annotation>
