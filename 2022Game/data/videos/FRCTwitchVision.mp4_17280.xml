@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>308</xmin>
-			<ymin>442</ymin>
-			<xmax>481</xmax>
-			<ymax>532</ymax>
+			<xmin>332</xmin>
+			<ymin>449</ymin>
+			<xmax>445</xmax>
+			<ymax>512</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -117,6 +117,18 @@
 			<ymin>330</ymin>
 			<xmax>372</xmax>
 			<ymax>347</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>567</xmin>
+			<ymin>187</ymin>
+			<xmax>643</xmax>
+			<ymax>231</ymax>
 		</bndbox>
 	</object>
 </annotation>
