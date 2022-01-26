@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+<annotation>
+=======
 <annotation verified="yes">
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-32-48.mp4_00054.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-32-48.mp4_00054.png</path>
@@ -12,6 +16,9 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+<<<<<<< HEAD
+		<name>red_cargo</name>
+=======
 		<name>hub_fender_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -61,14 +68,22 @@
 	</object>
 	<object>
 		<name>hub_fender_corner</name>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>941</xmin>
+			<ymin>972</ymin>
+			<xmax>1308</xmax>
+			<ymax>1077</ymax>
+=======
 			<xmin>1325</xmin>
 			<ymin>55</ymin>
 			<xmax>1372</xmax>
 			<ymax>96</ymax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		</bndbox>
 	</object>
 	<object>
@@ -77,6 +92,16 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>1448</xmin>
+			<ymin>106</ymin>
+			<xmax>1516</xmax>
+			<ymax>157</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+=======
 			<xmin>1447</xmin>
 			<ymin>113</ymin>
 			<xmax>1509</xmax>
@@ -109,14 +134,22 @@
 	</object>
 	<object>
 		<name>white_tape_intersection</name>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>1208</xmin>
+			<ymin>626</ymin>
+			<xmax>1368</xmax>
+			<ymax>709</ymax>
+=======
 			<xmin>1463</xmin>
 			<ymin>186</ymin>
 			<xmax>1810</xmax>
 			<ymax>248</ymax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +158,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>1548</xmin>
+			<ymin>569</ymin>
+			<xmax>1641</xmax>
+			<ymax>652</ymax>
+=======
 			<xmin>1248</xmin>
 			<ymin>265</ymin>
 			<xmax>1298</xmax>
 			<ymax>294</ymax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		</bndbox>
 	</object>
 </annotation>
