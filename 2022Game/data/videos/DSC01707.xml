@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01707.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01707.JPG</path>
@@ -12,75 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3179</xmin>
-			<ymin>3500</ymin>
-			<xmax>3769</xmax>
-			<ymax>3615</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4007</xmin>
-			<ymin>3333</ymin>
-			<xmax>4335</xmax>
-			<ymax>3424</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4416</xmin>
-			<ymin>3252</ymin>
-			<xmax>4645</xmax>
-			<ymax>3309</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2754</xmin>
-			<ymin>3662</ymin>
-			<xmax>3093</xmax>
-			<ymax>3757</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1468</xmin>
-			<ymin>3800</ymin>
-			<xmax>2469</xmax>
-			<ymax>4000</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1973</xmin>
-			<ymin>1647</ymin>
-			<xmax>2059</xmax>
-			<ymax>1690</ymax>
+			<ymin>1633</ymin>
+			<xmax>2058</xmax>
+			<ymax>1708</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -91,8 +31,8 @@
 		<bndbox>
 			<xmin>2121</xmin>
 			<ymin>1505</ymin>
-			<xmax>2173</xmax>
-			<ymax>1562</ymax>
+			<xmax>2178</xmax>
+			<ymax>1569</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2378</xmin>
-			<ymin>1490</ymin>
-			<xmax>2435</xmax>
-			<ymax>1528</ymax>
+			<xmin>2367</xmin>
+			<ymin>1475</ymin>
+			<xmax>2428</xmax>
+			<ymax>1525</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -114,9 +54,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1969</xmin>
-			<ymin>1571</ymin>
-			<xmax>2035</xmax>
-			<ymax>1605</ymax>
+			<ymin>1561</ymin>
+			<xmax>2039</xmax>
+			<ymax>1622</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -173,9 +113,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2240</xmin>
+			<xmin>2223</xmin>
 			<ymin>1409</ymin>
-			<xmax>2288</xmax>
+			<xmax>2271</xmax>
 			<ymax>1443</ymax>
 		</bndbox>
 	</object>
@@ -186,8 +126,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>2497</xmin>
-			<ymin>1371</ymin>
-			<xmax>2540</xmax>
+			<ymin>1384</ymin>
+			<xmax>2533</xmax>
 			<ymax>1438</ymax>
 		</bndbox>
 	</object>
@@ -199,8 +139,8 @@
 		<bndbox>
 			<xmin>3821</xmin>
 			<ymin>1428</ymin>
-			<xmax>3854</xmax>
-			<ymax>1533</ymax>
+			<xmax>3875</xmax>
+			<ymax>1531</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -216,51 +156,27 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>purple_tape</name>
+		<name>blue_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2440</xmin>
-			<ymin>3728</ymin>
-			<xmax>2816</xmax>
-			<ymax>3819</ymax>
+			<xmin>2301</xmin>
+			<ymin>1604</ymin>
+			<xmax>2349</xmax>
+			<ymax>1646</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>purple_tape</name>
+		<name>red_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3069</xmin>
-			<ymin>3609</ymin>
-			<xmax>3302</xmax>
-			<ymax>3709</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3754</xmin>
-			<ymin>3409</ymin>
-			<xmax>4088</xmax>
-			<ymax>3552</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4650</xmin>
-			<ymin>3186</ymin>
-			<xmax>4731</xmax>
-			<ymax>3267</ymax>
+			<xmin>2336</xmin>
+			<ymin>1590</ymin>
+			<xmax>2379</xmax>
+			<ymax>1610</ymax>
 		</bndbox>
 	</object>
 </annotation>

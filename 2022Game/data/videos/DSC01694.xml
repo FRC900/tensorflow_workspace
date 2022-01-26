@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01694.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01694.JPG</path>
@@ -245,10 +245,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2228</xmin>
-			<ymin>2499</ymin>
-			<xmax>2294</xmax>
-			<ymax>2550</ymax>
+			<xmin>2221</xmin>
+			<ymin>2491</ymin>
+			<xmax>2303</xmax>
+			<ymax>2555</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5326</xmin>
+			<ymin>2326</ymin>
+			<xmax>5380</xmax>
+			<ymax>2379</ymax>
 		</bndbox>
 	</object>
 </annotation>

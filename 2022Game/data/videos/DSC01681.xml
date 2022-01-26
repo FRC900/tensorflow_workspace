@@ -185,10 +185,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2657</xmin>
-			<ymin>2130</ymin>
-			<xmax>2830</xmax>
-			<ymax>2236</ymax>
+			<xmin>2652</xmin>
+			<ymin>2116</ymin>
+			<xmax>2825</xmax>
+			<ymax>2222</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -237,6 +237,18 @@
 			<ymin>2376</ymin>
 			<xmax>2205</xmax>
 			<ymax>2509</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2234</xmin>
+			<ymin>2150</ymin>
+			<xmax>2322</xmax>
+			<ymax>2217</ymax>
 		</bndbox>
 	</object>
 </annotation>

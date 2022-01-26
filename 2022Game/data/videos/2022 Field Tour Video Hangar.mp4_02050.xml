@@ -143,4 +143,16 @@
 			<ymax>593</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>737</xmin>
+			<ymin>402</ymin>
+			<xmax>756</xmax>
+			<ymax>423</ymax>
+		</bndbox>
+	</object>
 </annotation>
