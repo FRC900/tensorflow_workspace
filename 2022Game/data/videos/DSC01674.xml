@@ -251,4 +251,16 @@
 			<ymax>2314</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2320</xmin>
+			<ymin>1433</ymin>
+			<xmax>2388</xmax>
+			<ymax>1552</ymax>
+		</bndbox>
+	</object>
 </annotation>
