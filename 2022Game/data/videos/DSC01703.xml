@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01703.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01703.JPG</path>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1575</xmin>
-			<ymin>2455</ymin>
-			<xmax>1678</xmax>
-			<ymax>2557</ymax>
+			<xmin>1574</xmin>
+			<ymin>2453</ymin>
+			<xmax>1677</xmax>
+			<ymax>2555</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1745</xmin>
+			<xmin>1757</xmin>
 			<ymin>1947</ymin>
-			<xmax>1831</xmax>
-			<ymax>2009</ymax>
+			<xmax>1833</xmax>
+			<ymax>2013</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -149,10 +149,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2026</xmin>
-			<ymin>2495</ymin>
-			<xmax>2112</xmax>
-			<ymax>2528</ymax>
+			<xmin>2043</xmin>
+			<ymin>2486</ymin>
+			<xmax>2106</xmax>
+			<ymax>2521</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -161,10 +161,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1805</xmin>
-			<ymin>2220</ymin>
-			<xmax>1854</xmax>
-			<ymax>2300</ymax>
+			<xmin>1814</xmin>
+			<ymin>2241</ymin>
+			<xmax>1855</xmax>
+			<ymax>2273</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -173,9 +173,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2964</xmin>
+			<xmin>2969</xmin>
 			<ymin>2527</ymin>
-			<xmax>3061</xmax>
+			<xmax>3066</xmax>
 			<ymax>2590</ymax>
 		</bndbox>
 	</object>
@@ -209,10 +209,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2959</xmin>
-			<ymin>2095</ymin>
-			<xmax>3073</xmax>
-			<ymax>2195</ymax>
+			<xmin>2952</xmin>
+			<ymin>2073</ymin>
+			<xmax>3049</xmax>
+			<ymax>2168</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -221,10 +221,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2064</xmin>
+			<xmin>2088</xmin>
 			<ymin>1967</ymin>
 			<xmax>2159</xmax>
-			<ymax>2028</ymax>
+			<ymax>2021</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -234,9 +234,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>3269</xmin>
-			<ymin>1881</ymin>
-			<xmax>3293</xmax>
-			<ymax>1967</ymax>
+			<ymin>1898</ymin>
+			<xmax>3303</xmax>
+			<ymax>1944</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -354,9 +354,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>2773</xmin>
-			<ymin>2281</ymin>
-			<xmax>2783</xmax>
-			<ymax>2343</ymax>
+			<ymin>2315</ymin>
+			<xmax>2795</xmax>
+			<ymax>2337</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -366,21 +366,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>2883</xmin>
-			<ymin>2295</ymin>
-			<xmax>2897</xmax>
-			<ymax>2324</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2731</xmin>
-			<ymin>2086</ymin>
-			<xmax>2764</xmax>
-			<ymax>2138</ymax>
+			<ymin>2309</ymin>
+			<xmax>2903</xmax>
+			<ymax>2327</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -657,6 +645,54 @@
 			<ymin>1209</ymin>
 			<xmax>3023</xmax>
 			<ymax>1248</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2378</xmin>
+			<ymin>2485</ymin>
+			<xmax>2530</xmax>
+			<ymax>2624</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2771</xmin>
+			<ymin>2149</ymin>
+			<xmax>2789</xmax>
+			<ymax>2167</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2880</xmin>
+			<ymin>2140</ymin>
+			<xmax>2899</xmax>
+			<ymax>2157</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2656</xmin>
+			<ymin>2259</ymin>
+			<xmax>2712</xmax>
+			<ymax>2322</ymax>
 		</bndbox>
 	</object>
 </annotation>
