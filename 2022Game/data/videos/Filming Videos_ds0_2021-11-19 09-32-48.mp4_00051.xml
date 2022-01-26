@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+<annotation>
+=======
 <annotation verified="yes">
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-32-48.mp4_00051.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-32-48.mp4_00051.png</path>
@@ -12,11 +16,25 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+<<<<<<< HEAD
+		<name>blue_tape_corners</name>
+=======
 		<name>hub_fender_corner</name>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>1086</xmin>
+			<ymin>657</ymin>
+			<xmax>1220</xmax>
+			<ymax>712</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+=======
 			<xmin>214</xmin>
 			<ymin>146</ymin>
 			<xmax>290</xmax>
@@ -25,14 +43,22 @@
 	</object>
 	<object>
 		<name>hub_fender_corner</name>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>1414</xmin>
+			<ymin>560</ymin>
+			<xmax>1506</xmax>
+			<ymax>676</ymax>
+=======
 			<xmin>1189</xmin>
 			<ymin>42</ymin>
 			<xmax>1263</xmax>
 			<ymax>110</ymax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		</bndbox>
 	</object>
 	<object>
@@ -41,6 +67,12 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>1347</xmin>
+			<ymin>120</ymin>
+			<xmax>1414</xmax>
+			<ymax>170</ymax>
+=======
 			<xmin>1339</xmin>
 			<ymin>114</ymin>
 			<xmax>1408</xmax>
@@ -57,6 +89,7 @@
 			<ymin>51</ymin>
 			<xmax>1683</xmax>
 			<ymax>118</ymax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		</bndbox>
 	</object>
 	<object>
@@ -65,6 +98,24 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
+			<xmin>1694</xmin>
+			<ymin>114</ymin>
+			<xmax>1755</xmax>
+			<ymax>166</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>758</xmin>
+			<ymin>989</ymin>
+			<xmax>1095</xmax>
+			<ymax>1080</ymax>
+=======
 			<xmin>1695</xmin>
 			<ymin>118</ymin>
 			<xmax>1748</xmax>
@@ -129,6 +180,7 @@
 			<ymin>368</ymin>
 			<xmax>831</xmax>
 			<ymax>415</ymax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		</bndbox>
 	</object>
 </annotation>
