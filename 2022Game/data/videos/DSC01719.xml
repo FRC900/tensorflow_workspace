@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01719.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01719.JPG</path>
@@ -67,8 +67,8 @@
 		<bndbox>
 			<xmin>3987</xmin>
 			<ymin>3519</ymin>
-			<xmax>4221</xmax>
-			<ymax>3685</ymax>
+			<xmax>4231</xmax>
+			<ymax>3733</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3864</xmin>
-			<ymin>2381</ymin>
-			<xmax>3940</xmax>
-			<ymax>2447</ymax>
+			<xmin>3845</xmin>
+			<ymin>2398</ymin>
+			<xmax>3921</xmax>
+			<ymax>2464</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -102,9 +102,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>4183</xmin>
-			<ymin>2338</ymin>
+			<ymin>2358</ymin>
 			<xmax>4226</xmax>
-			<ymax>2386</ymax>
+			<ymax>2406</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +113,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3593</xmin>
-			<ymin>2390</ymin>
-			<xmax>3645</xmax>
-			<ymax>2486</ymax>
+			<xmin>3591</xmin>
+			<ymin>2431</ymin>
+			<xmax>3643</xmax>
+			<ymax>2527</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5249</xmin>
+			<ymin>2904</ymin>
+			<xmax>5339</xmax>
+			<ymax>3011</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4373</xmin>
+			<ymin>3663</ymin>
+			<xmax>4593</xmax>
+			<ymax>3888</ymax>
 		</bndbox>
 	</object>
 </annotation>
