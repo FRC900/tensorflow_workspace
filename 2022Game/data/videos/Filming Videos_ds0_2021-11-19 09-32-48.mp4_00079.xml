@@ -17,10 +17,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>474</xmin>
 			<ymin>611</ymin>
 			<xmax>540</xmax>
 			<ymax>678</ymax>
+=======
+			<xmin>1583</xmin>
+			<ymin>360</ymin>
+			<xmax>1631</xmax>
+			<ymax>384</ymax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		</bndbox>
 	</object>
 	<object>
@@ -29,6 +36,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>376</xmin>
 			<ymin>361</ymin>
 			<xmax>433</xmax>
@@ -37,14 +45,91 @@
 	</object>
 	<object>
 		<name>red_tape_corners</name>
+=======
+			<xmin>1140</xmin>
+			<ymin>330</ymin>
+			<xmax>1202</xmax>
+			<ymax>345</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+			<xmin>983</xmin>
+			<ymin>78</ymin>
+			<xmax>1060</xmax>
+			<ymax>134</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<<<<<<< HEAD
 			<xmin>424</xmin>
 			<ymin>326</ymin>
 			<xmax>526</xmax>
 			<ymax>366</ymax>
+=======
+			<xmin>747</xmin>
+			<ymin>79</ymin>
+			<xmax>799</xmax>
+			<ymax>105</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>605</xmin>
+			<ymin>71</ymin>
+			<xmax>648</xmax>
+			<ymax>136</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>445</xmin>
+			<ymin>103</ymin>
+			<xmax>510</xmax>
+			<ymax>136</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>275</xmin>
+			<ymin>117</ymin>
+			<xmax>351</xmax>
+			<ymax>183</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>32</xmin>
+			<ymin>145</ymin>
+			<xmax>106</xmax>
+			<ymax>186</ymax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +138,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>139</xmin>
 			<ymin>253</ymin>
 			<xmax>235</xmax>
 			<ymax>339</ymax>
+=======
+			<xmin>126</xmin>
+			<ymin>251</ymin>
+			<xmax>245</xmax>
+			<ymax>324</ymax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		</bndbox>
 	</object>
 	<object>
@@ -65,9 +157,15 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>470</xmin>
 			<ymin>189</ymin>
 			<xmax>541</xmax>
+=======
+			<xmin>475</xmin>
+			<ymin>190</ymin>
+			<xmax>540</xmax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 			<ymax>257</ymax>
 		</bndbox>
 	</object>
@@ -77,10 +175,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1099</xmin>
 			<ymin>127</ymin>
 			<xmax>1137</xmax>
 			<ymax>172</ymax>
+=======
+			<xmin>1105</xmin>
+			<ymin>126</ymin>
+			<xmax>1135</xmax>
+			<ymax>171</ymax>
+>>>>>>> b1ed8d26ab0c32a2064e5d085cf8b64f594508ee
 		</bndbox>
 	</object>
 </annotation>
