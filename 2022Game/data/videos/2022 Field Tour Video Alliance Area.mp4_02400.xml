@@ -287,4 +287,16 @@
 			<ymax>248</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>567</xmin>
+			<ymin>200</ymin>
+			<xmax>594</xmax>
+			<ymax>218</ymax>
+		</bndbox>
+	</object>
 </annotation>
