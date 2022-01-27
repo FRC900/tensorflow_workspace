@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-32-48.mp4_00009.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-32-48.mp4_00009.png</path>
@@ -48,11 +48,27 @@
 		</bndbox>
 	</object>
 	<object>
+<<<<<<< HEAD
+=======
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1716</xmin>
+			<ymin>56</ymin>
+			<xmax>1781</xmax>
+			<ymax>103</ymax>
+		</bndbox>
+	</object>
+	<object>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<name>blue_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1168</xmin>
 			<ymin>146</ymin>
 			<xmax>1232</xmax>
@@ -61,10 +77,21 @@
 	</object>
 	<object>
 		<name>red_cargo</name>
+=======
+			<xmin>1175</xmin>
+			<ymin>151</ymin>
+			<xmax>1220</xmax>
+			<ymax>225</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>843</xmin>
 			<ymin>156</ymin>
 			<xmax>899</xmax>
@@ -73,10 +100,21 @@
 	</object>
 	<object>
 		<name>rapid_react_hub_logo</name>
+=======
+			<xmin>1429</xmin>
+			<ymin>61</ymin>
+			<xmax>1470</xmax>
+			<ymax>86</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_launchpad</name>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>508</xmin>
 			<ymin>200</ymin>
 			<xmax>594</xmax>
@@ -85,10 +123,21 @@
 	</object>
 	<object>
 		<name>pipe_ending</name>
+=======
+			<xmin>1113</xmin>
+			<ymin>87</ymin>
+			<xmax>1162</xmax>
+			<ymax>171</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo</name>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>432</xmin>
 			<ymin>177</ymin>
 			<xmax>463</xmax>
@@ -97,10 +146,21 @@
 	</object>
 	<object>
 		<name>pipe_ending</name>
+=======
+			<xmin>851</xmin>
+			<ymin>159</ymin>
+			<xmax>887</xmax>
+			<ymax>210</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rapid_react_hub_logo</name>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>475</xmin>
 			<ymin>465</ymin>
 			<xmax>508</xmax>
@@ -109,10 +169,21 @@
 	</object>
 	<object>
 		<name>pipe_ending</name>
+=======
+			<xmin>506</xmin>
+			<ymin>199</ymin>
+			<xmax>602</xmax>
+			<ymax>337</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>302</xmin>
 			<ymin>501</ymin>
 			<xmax>339</xmax>
@@ -121,10 +192,21 @@
 	</object>
 	<object>
 		<name>pipe_ending</name>
+=======
+			<xmin>617</xmin>
+			<ymin>333</ymin>
+			<xmax>710</xmax>
+			<ymax>378</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>252</xmin>
 			<ymin>200</ymin>
 			<xmax>287</xmax>
@@ -133,13 +215,29 @@
 	</object>
 	<object>
 		<name>red_launchpad</name>
+=======
+			<xmin>116</xmin>
+			<ymin>505</ymin>
+			<xmax>274</xmax>
+			<ymax>553</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1112</xmin>
 			<ymin>81</ymin>
 			<xmax>1159</xmax>
+=======
+			<xmin>702</xmin>
+			<ymin>103</ymin>
+			<xmax>748</xmax>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 			<ymax>169</ymax>
 		</bndbox>
 	</object>
