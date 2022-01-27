@@ -71,4 +71,28 @@
 			<ymax>251</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>red_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>682</xmin>
+			<ymin>600</ymin>
+			<xmax>743</xmax>
+			<ymax>635</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1544</xmin>
+			<ymin>418</ymin>
+			<xmax>1606</xmax>
+			<ymax>458</ymax>
+		</bndbox>
+	</object>
 </annotation>
