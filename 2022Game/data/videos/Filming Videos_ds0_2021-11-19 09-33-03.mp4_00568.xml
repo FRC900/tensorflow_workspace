@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <annotation verified="yes">
+=======
+<annotation>
+>>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_00568.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_00568.png</path>
@@ -17,6 +21,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>117</xmin>
 			<ymin>751</ymin>
 			<xmax>435</xmax>
@@ -57,6 +62,12 @@
 			<ymin>265</ymin>
 			<xmax>1632</xmax>
 			<ymax>341</ymax>
+=======
+			<xmin>91</xmin>
+			<ymin>740</ymin>
+			<xmax>412</xmax>
+			<ymax>1032</ymax>
+>>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 		</bndbox>
 	</object>
 </annotation>
