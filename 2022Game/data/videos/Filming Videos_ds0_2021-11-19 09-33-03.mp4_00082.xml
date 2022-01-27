@@ -23,4 +23,16 @@
 			<ymax>906</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1113</xmin>
+			<ymin>474</ymin>
+			<xmax>1382</xmax>
+			<ymax>642</ymax>
+		</bndbox>
+	</object>
 </annotation>
