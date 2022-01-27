@@ -47,4 +47,52 @@
 			<ymax>721</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1556</xmin>
+			<ymin>426</ymin>
+			<xmax>1598</xmax>
+			<ymax>461</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>687</xmin>
+			<ymin>606</ymin>
+			<xmax>747</xmax>
+			<ymax>633</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>985</xmin>
+			<ymin>156</ymin>
+			<xmax>1041</xmax>
+			<ymax>222</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1487</xmin>
+			<ymin>124</ymin>
+			<xmax>1540</xmax>
+			<ymax>201</ymax>
+		</bndbox>
+	</object>
 </annotation>
