@@ -127,8 +127,20 @@
 		<bndbox>
 			<xmin>498</xmin>
 			<ymin>207</ymin>
-			<xmax>613</xmax>
-			<ymax>350</ymax>
+			<xmax>598</xmax>
+			<ymax>320</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_launchpad</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1109</xmin>
+			<ymin>85</ymin>
+			<xmax>1159</xmax>
+			<ymax>168</ymax>
 		</bndbox>
 	</object>
 </annotation>
