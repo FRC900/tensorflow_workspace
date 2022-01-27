@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <annotation verified="yes">
+=======
+<annotation>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_00600.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_00600.png</path>
@@ -12,15 +16,26 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+<<<<<<< HEAD
 		<name>blue_cargo</name>
+=======
+		<name>guardrail_intersect</name>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1039</xmin>
 			<ymin>332</ymin>
 			<xmax>1172</xmax>
 			<ymax>436</ymax>
+=======
+			<xmin>679</xmin>
+			<ymin>218</ymin>
+			<xmax>770</xmax>
+			<ymax>296</ymax>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		</bndbox>
 	</object>
 	<object>
@@ -29,6 +44,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>5</xmin>
 			<ymin>465</ymin>
 			<xmax>93</xmax>
@@ -69,6 +85,12 @@
 			<ymin>172</ymin>
 			<xmax>1340</xmax>
 			<ymax>244</ymax>
+=======
+			<xmin>1029</xmin>
+			<ymin>322</ymin>
+			<xmax>1181</xmax>
+			<ymax>456</ymax>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		</bndbox>
 	</object>
 </annotation>

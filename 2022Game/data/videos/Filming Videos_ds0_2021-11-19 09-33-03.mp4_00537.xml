@@ -36,15 +36,26 @@
 		</bndbox>
 	</object>
 	<object>
+<<<<<<< HEAD
 		<name>blue_cargo</name>
+=======
+		<name>terminal_base_corner</name>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1655</xmin>
 			<ymin>414</ymin>
 			<xmax>1821</xmax>
 			<ymax>607</ymax>
+=======
+			<xmin>267</xmin>
+			<ymin>341</ymin>
+			<xmax>329</xmax>
+			<ymax>396</ymax>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		</bndbox>
 	</object>
 	<object>
@@ -53,6 +64,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1320</xmin>
 			<ymin>244</ymin>
 			<xmax>1399</xmax>
@@ -61,14 +73,31 @@
 	</object>
 	<object>
 		<name>terminal_base_corner</name>
+=======
+			<xmin>1305</xmin>
+			<ymin>238</ymin>
+			<xmax>1376</xmax>
+			<ymax>281</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo</name>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>279</xmin>
 			<ymin>337</ymin>
 			<xmax>321</xmax>
 			<ymax>378</ymax>
+=======
+			<xmin>1652</xmin>
+			<ymin>406</ymin>
+			<xmax>1833</xmax>
+			<ymax>618</ymax>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		</bndbox>
 	</object>
 </annotation>

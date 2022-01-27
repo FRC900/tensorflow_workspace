@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <annotation verified="yes">
+=======
+<annotation>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_00637.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_00637.png</path>
@@ -12,11 +16,16 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+<<<<<<< HEAD
 		<name>red_cargo</name>
+=======
+		<name>blue_cargo</name>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1344</xmin>
 			<ymin>414</ymin>
 			<xmax>1489</xmax>
@@ -25,10 +34,21 @@
 	</object>
 	<object>
 		<name>blue_cargo</name>
+=======
+			<xmin>678</xmin>
+			<ymin>324</ymin>
+			<xmax>791</xmax>
+			<ymax>461</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_launchpad</name>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>695</xmin>
 			<ymin>336</ymin>
 			<xmax>798</xmax>
@@ -37,10 +57,21 @@
 	</object>
 	<object>
 		<name>red_cargo</name>
+=======
+			<xmin>18</xmin>
+			<ymin>187</ymin>
+			<xmax>110</xmax>
+			<ymax>304</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>124</xmin>
 			<ymin>321</ymin>
 			<xmax>225</xmax>
@@ -61,10 +92,21 @@
 	</object>
 	<object>
 		<name>guardrail_intersect</name>
+=======
+			<xmin>151</xmin>
+			<ymin>560</ymin>
+			<xmax>255</xmax>
+			<ymax>657</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo</name>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1133</xmin>
 			<ymin>163</ymin>
 			<xmax>1229</xmax>
@@ -85,14 +127,31 @@
 	</object>
 	<object>
 		<name>blue_launchpad</name>
+=======
+			<xmin>105</xmin>
+			<ymin>331</ymin>
+			<xmax>218</xmax>
+			<ymax>441</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo</name>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>32</xmin>
 			<ymin>182</ymin>
 			<xmax>94</xmax>
 			<ymax>314</ymax>
+=======
+			<xmin>1313</xmin>
+			<ymin>407</ymin>
+			<xmax>1487</xmax>
+			<ymax>591</ymax>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +160,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>136</xmin>
 			<ymin>569</ymin>
 			<xmax>235</xmax>
 			<ymax>626</ymax>
+=======
+			<xmin>1141</xmin>
+			<ymin>174</ymin>
+			<xmax>1204</xmax>
+			<ymax>253</ymax>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +179,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1090</xmin>
 			<ymin>960</ymin>
 			<xmax>1248</xmax>
 			<ymax>1071</ymax>
+=======
+			<xmin>568</xmin>
+			<ymin>158</ymin>
+			<xmax>624</xmax>
+			<ymax>242</ymax>
+>>>>>>> acacb47bb154213a6f360dccb4ce64c1bf6b34b2
 		</bndbox>
 	</object>
 </annotation>
