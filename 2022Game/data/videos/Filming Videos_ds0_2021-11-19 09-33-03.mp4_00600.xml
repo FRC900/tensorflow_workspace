@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <annotation verified="yes">
+=======
+<annotation>
+>>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_00600.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_00600.png</path>
@@ -12,6 +16,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+<<<<<<< HEAD
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -21,6 +26,17 @@
 			<ymin>165</ymin>
 			<xmax>1402</xmax>
 			<ymax>280</ymax>
+=======
+		<name>red_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>468</ymin>
+			<xmax>102</xmax>
+			<ymax>601</ymax>
+>>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +45,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1037</xmin>
 			<ymin>322</ymin>
 			<xmax>1171</xmax>
 			<ymax>436</ymax>
+=======
+			<xmin>1055</xmin>
+			<ymin>322</ymin>
+			<xmax>1167</xmax>
+			<ymax>438</ymax>
+>>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +64,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>626</xmin>
 			<ymin>221</ymin>
 			<xmax>809</xmax>
 			<ymax>275</ymax>
+=======
+			<xmin>689</xmin>
+			<ymin>221</ymin>
+			<xmax>766</xmax>
+			<ymax>283</ymax>
+>>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 		</bndbox>
 	</object>
 	<object>
@@ -53,6 +83,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>137</xmin>
 			<ymin>251</ymin>
 			<xmax>364</xmax>
@@ -69,6 +100,12 @@
 			<ymin>462</ymin>
 			<xmax>122</xmax>
 			<ymax>595</ymax>
+=======
+			<xmin>1487</xmin>
+			<ymin>167</ymin>
+			<xmax>1586</xmax>
+			<ymax>238</ymax>
+>>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 		</bndbox>
 	</object>
 </annotation>

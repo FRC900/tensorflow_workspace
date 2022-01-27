@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <annotation verified="yes">
+=======
+<annotation>
+>>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_00537.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_00537.png</path>
@@ -12,6 +16,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+<<<<<<< HEAD
 		<name>terminal_base_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -60,15 +65,24 @@
 		</bndbox>
 	</object>
 	<object>
+=======
+>>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 		<name>blue_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1656</xmin>
 			<ymin>410</ymin>
 			<xmax>1829</xmax>
 			<ymax>609</ymax>
+=======
+			<xmin>1617</xmin>
+			<ymin>424</ymin>
+			<xmax>1842</xmax>
+			<ymax>612</ymax>
+>>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 		</bndbox>
 	</object>
 </annotation>
