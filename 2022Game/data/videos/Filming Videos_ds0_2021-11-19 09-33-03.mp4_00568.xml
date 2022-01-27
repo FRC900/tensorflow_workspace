@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<annotation verified="yes">
-=======
 <annotation>
->>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_00568.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_00568.png</path>
@@ -16,58 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-<<<<<<< HEAD
-			<xmin>117</xmin>
-			<ymin>751</ymin>
-			<xmax>435</xmax>
-			<ymax>1003</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>918</xmin>
-			<ymin>138</ymin>
-			<xmax>1063</xmax>
-			<ymax>246</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1314</xmin>
-			<ymin>98</ymin>
-			<xmax>1417</xmax>
-			<ymax>174</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>terminal_base_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1549</xmin>
-			<ymin>265</ymin>
-			<xmax>1632</xmax>
-			<ymax>341</ymax>
-=======
+			<xmin>1572</xmin>
+			<ymin>289</ymin>
+			<xmax>1612</xmax>
+			<ymax>326</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
 			<xmin>91</xmin>
-			<ymin>740</ymin>
-			<xmax>412</xmax>
-			<ymax>1032</ymax>
->>>>>>> 1328ba70ca540560bedf08150b3cb132a7c660a1
+			<ymin>745</ymin>
+			<xmax>406</xmax>
+			<ymax>1046</ymax>
 		</bndbox>
 	</object>
 </annotation>
