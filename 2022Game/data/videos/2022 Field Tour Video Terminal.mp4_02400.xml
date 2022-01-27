@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Terminal.mp4_02400.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Terminal.mp4_02400.png</path>
@@ -12,90 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>653</xmin>
-			<ymin>509</ymin>
-			<xmax>728</xmax>
-			<ymax>550</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>641</xmin>
-			<ymin>553</ymin>
-			<xmax>703</xmax>
-			<ymax>595</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>515</xmin>
-			<ymin>591</ymin>
-			<xmax>613</xmax>
-			<ymax>666</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>383</xmin>
-			<ymin>657</ymin>
-			<xmax>484</xmax>
-			<ymax>720</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>511</xmin>
-			<ymin>476</ymin>
-			<xmax>611</xmax>
-			<ymax>510</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>330</xmin>
-			<ymin>459</ymin>
-			<xmax>466</xmax>
-			<ymax>470</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>316</xmin>
-			<ymin>472</ymin>
-			<xmax>349</xmax>
-			<ymax>483</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
@@ -105,6 +21,30 @@
 			<ymin>1</ymin>
 			<xmax>1192</xmax>
 			<ymax>52</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>348</xmin>
+			<ymin>457</ymin>
+			<xmax>422</xmax>
+			<ymax>484</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>purple_tape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>680</xmin>
+			<ymin>523</ymin>
+			<xmax>730</xmax>
+			<ymax>562</ymax>
 		</bndbox>
 	</object>
 </annotation>
