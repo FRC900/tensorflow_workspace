@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01682.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01682.JPG</path>
@@ -293,34 +293,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5573</xmin>
-			<ymin>2943</ymin>
-			<xmax>5631</xmax>
-			<ymax>3186</ymax>
+			<xmin>5569</xmin>
+			<ymin>2947</ymin>
+			<xmax>5693</xmax>
+			<ymax>3057</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>purple_tape</name>
+		<name>white_tape_intersection</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5497</xmin>
-			<ymin>3181</ymin>
-			<xmax>5554</xmax>
-			<ymax>3533</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5459</xmin>
-			<ymin>3538</ymin>
-			<xmax>5545</xmax>
-			<ymax>3695</ymax>
+			<xmin>1631</xmin>
+			<ymin>1986</ymin>
+			<xmax>2107</xmax>
+			<ymax>2028</ymax>
 		</bndbox>
 	</object>
 </annotation>
