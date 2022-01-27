@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-32-48.mp4_00039.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-32-48.mp4_00039.png</path>
@@ -125,10 +125,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>663</xmin>
 			<ymin>666</ymin>
 			<xmax>849</xmax>
 			<ymax>849</ymax>
+=======
+			<xmin>1568</xmin>
+			<ymin>321</ymin>
+			<xmax>1616</xmax>
+			<ymax>383</ymax>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 	<object>
@@ -137,10 +144,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1018</xmin>
 			<ymin>566</ymin>
 			<xmax>1233</xmax>
 			<ymax>703</ymax>
+=======
+			<xmin>1047</xmin>
+			<ymin>632</ymin>
+			<xmax>1206</xmax>
+			<ymax>687</ymax>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 	<object>
@@ -149,10 +163,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1512</xmin>
 			<ymin>295</ymin>
 			<xmax>1647</xmax>
 			<ymax>410</ymax>
+=======
+			<xmin>694</xmin>
+			<ymin>733</ymin>
+			<xmax>799</xmax>
+			<ymax>810</ymax>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 </annotation>

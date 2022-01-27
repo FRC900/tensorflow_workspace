@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <annotation>
+=======
+<annotation verified="yes">
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Alliance Area.mp4_01600.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Alliance Area.mp4_01600.png</path>
@@ -12,15 +16,26 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+<<<<<<< HEAD
 		<name>black_tape_intersect</name>
+=======
+		<name>red_tape_truss_support_intersect</name>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>910</xmin>
 			<ymin>302</ymin>
 			<xmax>960</xmax>
 			<ymax>351</ymax>
+=======
+			<xmin>916</xmin>
+			<ymin>290</ymin>
+			<xmax>1032</xmax>
+			<ymax>377</ymax>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +44,137 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>976</xmin>
 			<ymin>133</ymin>
 			<xmax>1011</xmax>
 			<ymax>172</ymax>
+=======
+			<xmin>980</xmin>
+			<ymin>131</ymin>
+			<xmax>1007</xmax>
+			<ymax>167</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>930</xmin>
+			<ymin>98</ymin>
+			<xmax>1037</xmax>
+			<ymax>123</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>terminal_base_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1011</xmin>
+			<ymin>50</ymin>
+			<xmax>1027</xmax>
+			<ymax>64</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>934</xmin>
+			<ymin>68</ymin>
+			<xmax>947</xmax>
+			<ymax>82</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1071</xmin>
+			<ymin>115</ymin>
+			<xmax>1102</xmax>
+			<ymax>127</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1136</xmin>
+			<ymin>119</ymin>
+			<xmax>1152</xmax>
+			<ymax>133</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1172</xmin>
+			<ymin>57</ymin>
+			<xmax>1197</xmax>
+			<ymax>80</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1092</xmin>
+			<ymin>60</ymin>
+			<xmax>1108</xmax>
+			<ymax>80</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1137</xmin>
+			<ymin>163</ymin>
+			<xmax>1170</xmax>
+			<ymax>190</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1185</xmin>
+			<ymin>130</ymin>
+			<xmax>1236</xmax>
+			<ymax>142</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_launchpad</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1019</xmin>
+			<ymin>175</ymin>
+			<xmax>1074</xmax>
+			<ymax>254</ymax>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 </annotation>

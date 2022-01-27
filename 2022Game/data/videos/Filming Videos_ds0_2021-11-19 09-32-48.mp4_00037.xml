@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-32-48.mp4_00037.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-32-48.mp4_00037.png</path>
@@ -125,10 +125,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>976</xmin>
 			<ymin>620</ymin>
 			<xmax>1135</xmax>
 			<ymax>734</ymax>
+=======
+			<xmin>1495</xmin>
+			<ymin>318</ymin>
+			<xmax>1551</xmax>
+			<ymax>386</ymax>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 	<object>
@@ -137,10 +144,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>604</xmin>
 			<ymin>724</ymin>
 			<xmax>786</xmax>
 			<ymax>861</ymax>
+=======
+			<xmin>986</xmin>
+			<ymin>638</ymin>
+			<xmax>1149</xmax>
+			<ymax>721</ymax>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 	<object>
@@ -149,10 +163,53 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1454</xmin>
 			<ymin>296</ymin>
 			<xmax>1563</xmax>
 			<ymax>393</ymax>
+=======
+			<xmin>578</xmin>
+			<ymin>760</ymin>
+			<xmax>710</xmax>
+			<ymax>899</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>\</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1206</xmin>
+			<ymin>233</ymin>
+			<xmax>1249</xmax>
+			<ymax>263</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1089</xmin>
+			<ymin>219</ymin>
+			<xmax>1135</xmax>
+			<ymax>240</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>840</xmin>
+			<ymin>209</ymin>
+			<xmax>872</xmax>
+			<ymax>230</ymax>
+>>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 </annotation>
