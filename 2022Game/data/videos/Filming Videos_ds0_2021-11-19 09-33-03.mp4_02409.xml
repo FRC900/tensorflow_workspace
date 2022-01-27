@@ -59,4 +59,28 @@
 			<ymax>218</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1731</xmin>
+			<ymin>156</ymin>
+			<xmax>1805</xmax>
+			<ymax>201</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>912</xmin>
+			<ymin>243</ymin>
+			<xmax>960</xmax>
+			<ymax>265</ymax>
+		</bndbox>
+	</object>
 </annotation>
