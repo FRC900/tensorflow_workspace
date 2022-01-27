@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-32-48.mp4_00005.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-32-48.mp4_00005.png</path>
@@ -141,6 +141,30 @@
 			<ymin>87</ymin>
 			<xmax>1158</xmax>
 			<ymax>170</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1422</xmin>
+			<ymin>57</ymin>
+			<xmax>1479</xmax>
+			<ymax>105</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1710</xmin>
+			<ymin>53</ymin>
+			<xmax>1786</xmax>
+			<ymax>99</ymax>
 		</bndbox>
 	</object>
 </annotation>
