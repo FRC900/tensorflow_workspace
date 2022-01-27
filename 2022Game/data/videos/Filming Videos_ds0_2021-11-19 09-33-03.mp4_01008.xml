@@ -167,4 +167,40 @@
 			<ymax>613</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>red_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1367</xmin>
+			<ymin>285</ymin>
+			<xmax>1487</xmax>
+			<ymax>361</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1022</xmin>
+			<ymin>68</ymin>
+			<xmax>1116</xmax>
+			<ymax>130</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1645</xmin>
+			<ymin>35</ymin>
+			<xmax>1690</xmax>
+			<ymax>83</ymax>
+		</bndbox>
+	</object>
 </annotation>
