@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <annotation>
-=======
-<annotation verified="yes">
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Alliance Area.mp4_00356.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Alliance Area.mp4_00356.png</path>
@@ -21,41 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>1214</xmin>
 			<ymin>554</ymin>
 			<xmax>1273</xmax>
 			<ymax>599</ymax>
-=======
-			<xmin>1197</xmin>
-			<ymin>527</ymin>
-			<xmax>1256</xmax>
-			<ymax>600</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1108</xmin>
-			<ymin>402</ymin>
-			<xmax>1165</xmax>
-			<ymax>467</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corners</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1059</xmin>
-			<ymin>480</ymin>
-			<xmax>1117</xmax>
-			<ymax>517</ymax>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 	<object>
@@ -64,7 +29,6 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>1101</xmin>
 			<ymin>291</ymin>
 			<xmax>1163</xmax>
@@ -73,31 +37,14 @@
 	</object>
 	<object>
 		<name>red_cargo</name>
-=======
-			<xmin>1093</xmin>
-			<ymin>304</ymin>
-			<xmax>1156</xmax>
-			<ymax>383</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_truss_segment</name>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>1100</xmin>
 			<ymin>396</ymin>
 			<xmax>1162</xmax>
 			<ymax>465</ymax>
-=======
-			<xmin>1088</xmin>
-			<ymin>115</ymin>
-			<xmax>1180</xmax>
-			<ymax>148</ymax>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 </annotation>

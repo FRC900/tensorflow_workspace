@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <annotation>
-=======
-<annotation verified="yes">
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Alliance Area.mp4_00450.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Alliance Area.mp4_00450.png</path>
@@ -21,41 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>1102</xmin>
 			<ymin>393</ymin>
 			<xmax>1166</xmax>
 			<ymax>460</ymax>
-=======
-			<xmin>1103</xmin>
-			<ymin>403</ymin>
-			<xmax>1153</xmax>
-			<ymax>448</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1103</xmin>
-			<ymin>299</ymin>
-			<xmax>1155</xmax>
-			<ymax>383</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_truss_segment</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1093</xmin>
-			<ymin>115</ymin>
-			<xmax>1176</xmax>
-			<ymax>165</ymax>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 	<object>
@@ -64,7 +29,6 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>1213</xmin>
 			<ymin>552</ymin>
 			<xmax>1268</xmax>
@@ -73,31 +37,14 @@
 	</object>
 	<object>
 		<name>blue_launchpad</name>
-=======
-			<xmin>1211</xmin>
-			<ymin>548</ymin>
-			<xmax>1254</xmax>
-			<ymax>586</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corners</name>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>1103</xmin>
 			<ymin>293</ymin>
 			<xmax>1162</xmax>
 			<ymax>393</ymax>
-=======
-			<xmin>1061</xmin>
-			<ymin>487</ymin>
-			<xmax>1131</xmax>
-			<ymax>526</ymax>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 </annotation>
