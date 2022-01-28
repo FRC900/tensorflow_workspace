@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <annotation>
-=======
-<annotation verified="yes">
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Alliance Area.mp4_00537.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Alliance Area.mp4_00537.png</path>
@@ -16,97 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-<<<<<<< HEAD
-=======
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>148</xmin>
-			<ymin>461</ymin>
-			<xmax>181</xmax>
-			<ymax>510</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>205</xmin>
-			<ymin>446</ymin>
-			<xmax>274</xmax>
-			<ymax>480</ymax>
-		</bndbox>
-	</object>
-	<object>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<name>red_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>157</xmin>
 			<ymin>593</ymin>
 			<xmax>238</xmax>
 			<ymax>674</ymax>
-=======
-			<xmin>159</xmin>
-			<ymin>594</ymin>
-			<xmax>234</xmax>
-			<ymax>639</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>terminal_base_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1006</xmin>
-			<ymin>430</ymin>
-			<xmax>1077</xmax>
-			<ymax>457</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1020</xmin>
-			<ymin>473</ymin>
-			<xmax>1100</xmax>
-			<ymax>521</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>927</xmin>
-			<ymin>662</ymin>
-			<xmax>1020</xmax>
-			<ymax>685</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1187</xmin>
-			<ymin>23</ymin>
-			<xmax>1248</xmax>
-			<ymax>152</ymax>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 </annotation>

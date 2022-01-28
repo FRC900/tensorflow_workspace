@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<annotation>
-=======
 <annotation verified="yes">
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Alliance Area.mp4_01662.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Alliance Area.mp4_01662.png</path>
@@ -16,8 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-<<<<<<< HEAD
-=======
 		<name>red_tape_truss_support_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -42,22 +36,11 @@
 		</bndbox>
 	</object>
 	<object>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<name>red_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
-			<xmin>4</xmin>
-			<ymin>68</ymin>
-			<xmax>56</xmax>
-			<ymax>125</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_tape_intersect</name>
-=======
 			<xmin>6</xmin>
 			<ymin>68</ymin>
 			<xmax>49</xmax>
@@ -90,22 +73,14 @@
 	</object>
 	<object>
 		<name>red_black_tape_intersect</name>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
-			<xmin>265</xmin>
-			<ymin>235</ymin>
-			<xmax>332</xmax>
-			<ymax>285</ymax>
-=======
 			<xmin>315</xmin>
 			<ymin>17</ymin>
 			<xmax>363</xmax>
 			<ymax>47</ymax>
->>>>>>> cda5cd819fc520ed2ca11daf83c433a1ce9829c3
 		</bndbox>
 	</object>
 </annotation>
