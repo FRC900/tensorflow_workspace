@@ -70,16 +70,32 @@ def run_inference_for_single_image(image, sess, graph):
   return output_dict
 
 def main():
-    # What model to run from - should be the directory name of an exported trained model
-    # Change me to the directory exported using the export_inference_graph.py command
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2022Game/models/2022modelname'
+    # Check that enough command line arguments have been entered
+    if len(sys.argv) < 6 or len(sys.argv) > 7:
+        raise Exception("Incorrect arguements. Usage is <MODEL_NAME> <FROZEN_GRAPH_NAME> <LABEL_NAME> <PATH_TO_TEST_IMAGE_DIR> <TEST_VIDEO_NAME>")
+    # Set variables to command line arguments
+    
+    # Directory exported using the export_inference_graph.py command
+    MODEL_NAME = sys.argv[1]
 
+    # Name of frozen detection graph (assumed to be in the same directory as the modle). This is the actual model that is used for the object detection.
+    FROZEN_GRAPH_NAME = sys.argv[2]
+
+    # List of the strings that is used to add correct label for each box. 
+    LABEL_NAME = sys.argv[3]
+
+    # Path to image directory
+    PATH_TO_TEST_IMAGE_DIR = sys.argv[4]
+
+    # Name of specific video you are testing with
+    TEST_VIDEO_NAME = sys.argv[5]
+   
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
-    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME,'ssd_mobilenet_v2.pb')
+    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, FROZEN_GRAPH_NAME)
 
     # List of the strings that is used to add correct label for each box.
-    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2022Game/data', '2022Game_label_map.pbtxt')
+    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2022Game/data', LABEL_NAME)
 
     # Init TF detection graph and session
     detection_graph = tf.Graph()
@@ -97,10 +113,8 @@ def main():
     for k in category_index.keys():
         category_dict[k] = category_index[k]['name']
     vis = BBoxVisualization(category_dict)
-
-    # Pick an input video to run here
-    PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2022Game/data/videos'
-    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRCTwitchVision.mp4'))
+    
+    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, TEST_VIDEO_NAME))
 
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
