@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRCTwitchVision.mp4_17700.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_17700.png</path>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>868</xmin>
+			<xmin>863</xmin>
 			<ymin>587</ymin>
 			<xmax>892</xmax>
-			<ymax>598</ymax>
+			<ymax>609</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -96,54 +96,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>785</xmin>
-			<ymin>612</ymin>
-			<xmax>809</xmax>
-			<ymax>626</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>733</xmin>
-			<ymin>619</ymin>
-			<xmax>747</xmax>
-			<ymax>632</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>793</xmin>
-			<ymin>689</ymin>
-			<xmax>802</xmax>
-			<ymax>700</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>739</xmin>
-			<ymin>700</ymin>
-			<xmax>756</xmax>
-			<ymax>711</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -151,8 +103,8 @@
 		<bndbox>
 			<xmin>567</xmin>
 			<ymin>639</ymin>
-			<xmax>585</xmax>
-			<ymax>654</ymax>
+			<xmax>606</xmax>
+			<ymax>672</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -161,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>716</xmin>
+			<xmin>689</xmin>
 			<ymin>674</ymin>
 			<xmax>731</xmax>
-			<ymax>692</ymax>
+			<ymax>706</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -306,8 +258,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>890</xmin>
-			<ymin>839</ymin>
-			<xmax>920</xmax>
+			<ymin>828</ymin>
+			<xmax>937</xmax>
 			<ymax>874</ymax>
 		</bndbox>
 	</object>
@@ -329,10 +281,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1087</xmin>
+			<xmin>1078</xmin>
 			<ymin>539</ymin>
 			<xmax>1112</xmax>
-			<ymax>572</ymax>
+			<ymax>575</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -341,8 +293,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1047</xmin>
-			<ymin>515</ymin>
+			<xmin>1033</xmin>
+			<ymin>511</ymin>
 			<xmax>1081</xmax>
 			<ymax>541</ymax>
 		</bndbox>

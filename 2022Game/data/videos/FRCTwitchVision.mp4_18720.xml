@@ -1,146 +1,146 @@
 <annotation verified="yes">
 	<folder>videos</folder>
-	<filename>2022 Field Tour Video Hub.mp4_02895.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hub.mp4_02895.png</path>
+	<filename>FRCTwitchVision.mp4_18720.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_18720.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1280</width>
-		<height>720</height>
+		<width>1920</width>
+		<height>1080</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_tape_corners</name>
+		<name>blue_truss_segment</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>436</xmin>
-			<ymin>97</ymin>
-			<xmax>489</xmax>
-			<ymax>123</ymax>
+			<xmin>567</xmin>
+			<ymin>533</ymin>
+			<xmax>620</xmax>
+			<ymax>595</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>hub_fender_corner</name>
+		<name>blue_truss_segment</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>394</xmin>
-			<ymin>77</ymin>
-			<xmax>433</xmax>
-			<ymax>99</ymax>
+			<xmin>341</xmin>
+			<ymin>417</ymin>
+			<xmax>382</xmax>
+			<ymax>451</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>terminal_base_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>964</xmin>
-			<ymin>153</ymin>
-			<xmax>1002</xmax>
-			<ymax>180</ymax>
+			<xmin>294</xmin>
+			<ymin>382</ymin>
+			<xmax>324</xmax>
+			<ymax>403</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>blue_tape_truss_support_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>730</xmin>
-			<ymin>235</ymin>
-			<xmax>748</xmax>
-			<ymax>254</ymax>
+			<xmin>391</xmin>
+			<ymin>607</ymin>
+			<xmax>426</xmax>
+			<ymax>633</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>red_black_tape_intersect</name>
+		<name>blue_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>52</xmin>
-			<ymin>411</ymin>
-			<xmax>160</xmax>
-			<ymax>524</ymax>
+			<xmin>120</xmin>
+			<ymin>763</ymin>
+			<xmax>172</xmax>
+			<ymax>813</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>red_black_tape_intersect</name>
+		<name>red_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>555</xmin>
-			<ymin>173</ymin>
-			<xmax>595</xmax>
+			<xmin>124</xmin>
+			<ymin>732</ymin>
+			<xmax>205</xmax>
+			<ymax>760</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>892</xmin>
+			<ymin>246</ymin>
+			<xmax>911</xmax>
+			<ymax>274</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>620</xmin>
+			<ymin>205</ymin>
+			<xmax>651</xmax>
 			<ymax>222</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>64</xmin>
-			<ymin>52</ymin>
-			<xmax>114</xmax>
-			<ymax>86</ymax>
+			<xmin>605</xmin>
+			<ymin>194</ymin>
+			<xmax>613</xmax>
+			<ymax>222</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>133</xmin>
-			<ymin>24</ymin>
-			<xmax>176</xmax>
-			<ymax>41</ymax>
+			<xmin>736</xmin>
+			<ymin>219</ymin>
+			<xmax>748</xmax>
+			<ymax>233</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>white_tape_intersection</name>
+		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>344</xmin>
-			<ymin>43</ymin>
-			<xmax>374</xmax>
-			<ymax>109</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corners</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>319</xmin>
-			<ymin>630</ymin>
-			<xmax>411</xmax>
-			<ymax>701</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corners</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>556</xmin>
-			<ymin>664</ymin>
-			<xmax>674</xmax>
-			<ymax>720</ymax>
+			<xmin>755</xmin>
+			<ymin>221</ymin>
+			<xmax>786</xmax>
+			<ymax>244</ymax>
 		</bndbox>
 	</object>
 </annotation>
