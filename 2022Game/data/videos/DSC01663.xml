@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01663.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01663.JPG</path>
@@ -21,54 +21,6 @@
 			<ymin>1655</ymin>
 			<xmax>4336</xmax>
 			<ymax>2084</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3430</xmin>
-			<ymin>1548</ymin>
-			<xmax>3533</xmax>
-			<ymax>1665</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2763</xmin>
-			<ymin>1539</ymin>
-			<xmax>2863</xmax>
-			<ymax>1654</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3400</xmin>
-			<ymin>2644</ymin>
-			<xmax>3494</xmax>
-			<ymax>2746</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2754</xmin>
-			<ymin>2628</ymin>
-			<xmax>2852</xmax>
-			<ymax>2724</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -285,54 +237,6 @@
 			<ymin>847</ymin>
 			<xmax>5433</xmax>
 			<ymax>936</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5425</xmin>
-			<ymin>610</ymin>
-			<xmax>5461</xmax>
-			<ymax>651</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5448</xmin>
-			<ymin>435</ymin>
-			<xmax>5484</xmax>
-			<ymax>476</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5256</xmin>
-			<ymin>444</ymin>
-			<xmax>5292</xmax>
-			<ymax>485</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5239</xmin>
-			<ymin>617</ymin>
-			<xmax>5275</xmax>
-			<ymax>658</ymax>
 		</bndbox>
 	</object>
 	<object>

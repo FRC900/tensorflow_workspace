@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01665.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01665.JPG</path>
@@ -11,54 +11,6 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2313</xmin>
-			<ymin>575</ymin>
-			<xmax>2538</xmax>
-			<ymax>793</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2320</xmin>
-			<ymin>3281</ymin>
-			<xmax>2545</xmax>
-			<ymax>3499</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3917</xmin>
-			<ymin>462</ymin>
-			<xmax>4142</xmax>
-			<ymax>680</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3988</xmin>
-			<ymin>3311</ymin>
-			<xmax>4213</xmax>
-			<ymax>3529</ymax>
-		</bndbox>
-	</object>
 	<object>
 		<name>rapid_react_hub_logo</name>
 		<pose>Unspecified</pose>
