@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>videos</folder>
+	<filename>blue_big (181).png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/blue_big (181).png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>488</xmin>
+			<ymin>649</ymin>
+			<xmax>663</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+</annotation>
