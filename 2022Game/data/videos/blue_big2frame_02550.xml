@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>videos</folder>
+	<filename>blue_big2frame_02550.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/blue_big2frame_02550.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blue_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>526</xmin>
+			<ymin>366</ymin>
+			<xmax>642</xmax>
+			<ymax>489</ymax>
+		</bndbox>
+	</object>
+</annotation>
