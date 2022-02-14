@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>blue_big (16).png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/blue_big (16).png</path>
@@ -12,27 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_tape_corners</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>17</xmin>
-			<ymin>291</ymin>
-			<xmax>124</xmax>
-			<ymax>352</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>525</xmin>
-			<ymin>302</ymin>
-			<xmax>646</xmax>
-			<ymax>428</ymax>
+			<xmin>532</xmin>
+			<ymin>307</ymin>
+			<xmax>645</xmax>
+			<ymax>423</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>8</xmin>
+			<ymin>286</ymin>
+			<xmax>149</xmax>
+			<ymax>364</ymax>
 		</bndbox>
 	</object>
 </annotation>
