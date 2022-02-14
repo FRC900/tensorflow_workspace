@@ -12,39 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>665</xmin>
-			<ymin>438</ymin>
-			<xmax>811</xmax>
-			<ymax>597</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>580</xmin>
-			<ymin>284</ymin>
-			<xmax>675</xmax>
-			<ymax>388</ymax>
+			<xmin>587</xmin>
+			<ymin>304</ymin>
+			<xmax>688</xmax>
+			<ymax>387</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_cargo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>398</xmin>
-			<ymin>156</ymin>
-			<xmax>473</xmax>
-			<ymax>195</ymax>
+			<xmin>663</xmin>
+			<ymin>440</ymin>
+			<xmax>800</xmax>
+			<ymax>596</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +41,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>491</xmin>
-			<ymin>47</ymin>
-			<xmax>762</xmax>
-			<ymax>230</ymax>
+			<xmin>483</xmin>
+			<ymin>18</ymin>
+			<xmax>745</xmax>
+			<ymax>228</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>369</xmin>
+			<ymin>158</ymin>
+			<xmax>478</xmax>
+			<ymax>189</ymax>
 		</bndbox>
 	</object>
 </annotation>
