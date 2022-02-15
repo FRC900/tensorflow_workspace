@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01689.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01689.JPG</path>
@@ -213,78 +213,6 @@
 			<ymin>2008</ymin>
 			<xmax>3592</xmax>
 			<ymax>2038</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3407</xmin>
-			<ymin>1737</ymin>
-			<xmax>3439</xmax>
-			<ymax>1763</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3397</xmin>
-			<ymin>1997</ymin>
-			<xmax>3430</xmax>
-			<ymax>2025</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4284</xmin>
-			<ymin>1763</ymin>
-			<xmax>4305</xmax>
-			<ymax>1790</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4413</xmin>
-			<ymin>1760</ymin>
-			<xmax>4427</xmax>
-			<ymax>1779</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4269</xmin>
-			<ymin>2037</ymin>
-			<xmax>4294</xmax>
-			<ymax>2070</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4396</xmin>
-			<ymin>2027</ymin>
-			<xmax>4419</xmax>
-			<ymax>2057</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>199</xmin>
+			<xmin>135</xmin>
 			<ymin>869</ymin>
 			<xmax>408</xmax>
-			<ymax>963</ymax>
+			<ymax>986</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -81,6 +81,30 @@
 			<ymin>164</ymin>
 			<xmax>1798</xmax>
 			<ymax>200</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>364</xmin>
+			<ymin>533</ymin>
+			<xmax>451</xmax>
+			<ymax>630</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1360</xmin>
+			<ymin>549</ymin>
+			<xmax>1520</xmax>
+			<ymax>695</ymax>
 		</bndbox>
 	</object>
 </annotation>

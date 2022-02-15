@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01682.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01682.JPG</path>
@@ -221,34 +221,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2155</xmin>
-			<ymin>2002</ymin>
-			<xmax>2174</xmax>
-			<ymax>2020</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
 			<xmin>2912</xmin>
 			<ymin>1844</ymin>
 			<xmax>2924</xmax>
 			<ymax>1860</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2909</xmin>
-			<ymin>1990</ymin>
-			<xmax>2921</xmax>
-			<ymax>2007</ymax>
 		</bndbox>
 	</object>
 	<object>
