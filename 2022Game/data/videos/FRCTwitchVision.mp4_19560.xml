@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRCTwitchVision.mp4_19560.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_19560.png</path>
@@ -125,54 +125,6 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>867</xmin>
-			<ymin>526</ymin>
-			<xmax>885</xmax>
-			<ymax>544</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>830</xmin>
-			<ymin>525</ymin>
-			<xmax>844</xmax>
-			<ymax>539</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>868</xmin>
-			<ymin>635</ymin>
-			<xmax>879</xmax>
-			<ymax>652</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>830</xmin>
-			<ymin>630</ymin>
-			<xmax>845</xmax>
-			<ymax>643</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
 			<xmin>1266</xmin>
 			<ymin>531</ymin>
 			<xmax>1278</xmax>
@@ -245,8 +197,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1448</xmin>
-			<ymin>692</ymin>
+			<xmin>1412</xmin>
+			<ymin>687</ymin>
 			<xmax>1504</xmax>
 			<ymax>723</ymax>
 		</bndbox>
@@ -330,8 +282,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>573</xmin>
-			<ymin>671</ymin>
-			<xmax>615</xmax>
+			<ymin>672</ymin>
+			<xmax>667</xmax>
 			<ymax>700</ymax>
 		</bndbox>
 	</object>
@@ -342,8 +294,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>527</xmin>
-			<ymin>656</ymin>
-			<xmax>565</xmax>
+			<ymin>645</ymin>
+			<xmax>579</xmax>
 			<ymax>685</ymax>
 		</bndbox>
 	</object>
@@ -377,7 +329,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1601</xmin>
+			<xmin>1590</xmin>
 			<ymin>614</ymin>
 			<xmax>1634</xmax>
 			<ymax>638</ymax>
@@ -391,8 +343,8 @@
 		<bndbox>
 			<xmin>1415</xmin>
 			<ymin>565</ymin>
-			<xmax>1438</xmax>
-			<ymax>588</ymax>
+			<xmax>1448</xmax>
+			<ymax>594</ymax>
 		</bndbox>
 	</object>
 	<object>

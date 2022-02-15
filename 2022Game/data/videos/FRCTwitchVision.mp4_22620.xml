@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRCTwitchVision.mp4_22620.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_22620.png</path>
@@ -93,54 +93,6 @@
 			<ymin>659</ymin>
 			<xmax>125</xmax>
 			<ymax>684</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>820</xmin>
-			<ymin>626</ymin>
-			<xmax>831</xmax>
-			<ymax>644</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>886</xmin>
-			<ymin>618</ymin>
-			<xmax>899</xmax>
-			<ymax>634</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>886</xmin>
-			<ymin>714</ymin>
-			<xmax>901</xmax>
-			<ymax>738</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>821</xmin>
-			<ymin>732</ymin>
-			<xmax>836</xmax>
-			<ymax>745</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -257,22 +209,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>556</xmin>
-			<ymin>674</ymin>
-			<xmax>573</xmax>
-			<ymax>682</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corners</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
 			<xmin>608</xmin>
 			<ymin>663</ymin>
-			<xmax>630</xmax>
-			<ymax>678</ymax>
+			<xmax>636</xmax>
+			<ymax>690</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -281,10 +221,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>792</xmin>
+			<xmin>771</xmin>
 			<ymin>708</ymin>
 			<xmax>810</xmax>
-			<ymax>723</ymax>
+			<ymax>736</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -293,10 +233,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>963</xmin>
+			<xmin>951</xmin>
 			<ymin>610</ymin>
-			<xmax>983</xmax>
-			<ymax>618</ymax>
+			<xmax>993</xmax>
+			<ymax>633</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -317,8 +257,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1158</xmin>
-			<ymin>526</ymin>
+			<xmin>1135</xmin>
+			<ymin>529</ymin>
 			<xmax>1193</xmax>
 			<ymax>560</ymax>
 		</bndbox>
@@ -465,18 +405,6 @@
 			<ymin>550</ymin>
 			<xmax>561</xmax>
 			<ymax>570</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1001</xmin>
-			<ymin>591</ymin>
-			<xmax>1021</xmax>
-			<ymax>607</ymax>
 		</bndbox>
 	</object>
 	<object>

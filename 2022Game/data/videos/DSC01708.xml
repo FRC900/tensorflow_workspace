@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01708.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01708.JPG</path>
@@ -117,6 +117,18 @@
 			<ymin>2547</ymin>
 			<xmax>3373</xmax>
 			<ymax>2624</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rapid_react_hub_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3345</xmin>
+			<ymin>2333</ymin>
+			<xmax>3469</xmax>
+			<ymax>2467</ymax>
 		</bndbox>
 	</object>
 </annotation>

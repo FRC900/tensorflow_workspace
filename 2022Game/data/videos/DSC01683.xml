@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01683.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01683.JPG</path>
@@ -29,8 +29,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4843</xmin>
-			<ymin>2156</ymin>
+			<xmin>4807</xmin>
+			<ymin>2124</ymin>
 			<xmax>4938</xmax>
 			<ymax>2274</ymax>
 		</bndbox>
@@ -192,18 +192,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4214</xmin>
-			<ymin>1923</ymin>
-			<xmax>4236</xmax>
-			<ymax>1944</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -211,8 +199,8 @@
 		<bndbox>
 			<xmin>4321</xmin>
 			<ymin>1940</ymin>
-			<xmax>4371</xmax>
-			<ymax>1970</ymax>
+			<xmax>4402</xmax>
+			<ymax>1990</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -221,10 +209,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4689</xmin>
+			<xmin>4621</xmin>
 			<ymin>2015</ymin>
 			<xmax>4743</xmax>
-			<ymax>2053</ymax>
+			<ymax>2038</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -331,8 +319,8 @@
 		<bndbox>
 			<xmin>3635</xmin>
 			<ymin>1894</ymin>
-			<xmax>3680</xmax>
-			<ymax>1938</ymax>
+			<xmax>3764</xmax>
+			<ymax>1957</ymax>
 		</bndbox>
 	</object>
 	<object>

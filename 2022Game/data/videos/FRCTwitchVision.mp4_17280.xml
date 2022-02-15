@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRCTwitchVision.mp4_17280.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_17280.png</path>
@@ -129,6 +129,18 @@
 			<ymin>187</ymin>
 			<xmax>643</xmax>
 			<ymax>231</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_launchpad</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>379</xmin>
+			<ymin>721</ymin>
+			<xmax>471</xmax>
+			<ymax>872</ymax>
 		</bndbox>
 	</object>
 </annotation>
