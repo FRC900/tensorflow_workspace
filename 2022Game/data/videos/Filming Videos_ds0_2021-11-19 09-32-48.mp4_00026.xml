@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-32-48.mp4_00026.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-32-48.mp4_00026.png</path>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>531</xmin>
-			<ymin>745</ymin>
-			<xmax>741</xmax>
-			<ymax>906</ymax>
+			<xmin>562</xmin>
+			<ymin>749</ymin>
+			<xmax>772</xmax>
+			<ymax>910</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>894</xmin>
-			<ymin>612</ymin>
-			<xmax>1116</xmax>
-			<ymax>747</ymax>
+			<xmin>931</xmin>
+			<ymin>641</ymin>
+			<xmax>1153</xmax>
+			<ymax>776</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -149,10 +149,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1142</xmin>
-			<ymin>250</ymin>
-			<xmax>1195</xmax>
-			<ymax>283</ymax>
+			<xmin>1152</xmin>
+			<ymin>236</ymin>
+			<xmax>1205</xmax>
+			<ymax>269</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -237,6 +237,42 @@
 			<ymin>99</ymin>
 			<xmax>752</xmax>
 			<ymax>168</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>715</xmin>
+			<ymin>276</ymin>
+			<xmax>796</xmax>
+			<ymax>344</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1410</xmin>
+			<ymin>159</ymin>
+			<xmax>1471</xmax>
+			<ymax>209</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>68</xmin>
+			<ymin>481</ymin>
+			<xmax>167</xmax>
+			<ymax>538</ymax>
 		</bndbox>
 	</object>
 </annotation>

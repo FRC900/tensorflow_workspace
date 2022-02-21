@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01689.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01689.JPG</path>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2583</xmin>
-			<ymin>1995</ymin>
-			<xmax>2740</xmax>
-			<ymax>2171</ymax>
+			<xmin>2577</xmin>
+			<ymin>2017</ymin>
+			<xmax>2730</xmax>
+			<ymax>2165</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2102</xmin>
-			<ymin>1828</ymin>
-			<xmax>2216</xmax>
-			<ymax>1938</ymax>
+			<xmin>2096</xmin>
+			<ymin>1825</ymin>
+			<xmax>2210</xmax>
+			<ymax>1935</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2593</xmin>
-			<ymin>1895</ymin>
-			<xmax>2688</xmax>
-			<ymax>1947</ymax>
+			<xmin>2584</xmin>
+			<ymin>1892</ymin>
+			<xmax>2679</xmax>
+			<ymax>1944</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2925</xmin>
-			<ymin>2004</ymin>
-			<xmax>3244</xmax>
-			<ymax>2062</ymax>
+			<xmin>3280</xmin>
+			<ymin>1931</ymin>
+			<xmax>3448</xmax>
+			<ymax>2052</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -185,8 +185,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4215</xmin>
-			<ymin>2149</ymin>
+			<xmin>4248</xmin>
+			<ymin>2156</ymin>
 			<xmax>4432</xmax>
 			<ymax>2283</ymax>
 		</bndbox>
@@ -213,6 +213,90 @@
 			<ymin>2008</ymin>
 			<xmax>3592</xmax>
 			<ymax>2038</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3642</xmin>
+			<ymin>1480</ymin>
+			<xmax>3997</xmax>
+			<ymax>1610</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1221</xmin>
+			<ymin>1483</ymin>
+			<xmax>1551</xmax>
+			<ymax>1604</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1776</xmin>
+			<ymin>2077</ymin>
+			<xmax>1854</xmax>
+			<ymax>2150</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3369</xmin>
+			<ymin>1720</ymin>
+			<xmax>3451</xmax>
+			<ymax>1795</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4221</xmin>
+			<ymin>1750</ymin>
+			<xmax>4306</xmax>
+			<ymax>1823</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4391</xmin>
+			<ymin>1680</ymin>
+			<xmax>4466</xmax>
+			<ymax>1744</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5269</xmin>
+			<ymin>1823</ymin>
+			<xmax>5339</xmax>
+			<ymax>1889</ymax>
 		</bndbox>
 	</object>
 </annotation>

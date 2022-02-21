@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01658.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01658.JPG</path>
@@ -81,6 +81,30 @@
 			<ymin>1081</ymin>
 			<xmax>4648</xmax>
 			<ymax>1259</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4166</xmin>
+			<ymin>520</ymin>
+			<xmax>4297</xmax>
+			<ymax>610</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_launchpad</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4312</xmin>
+			<ymin>180</ymin>
+			<xmax>4497</xmax>
+			<ymax>571</ymax>
 		</bndbox>
 	</object>
 </annotation>

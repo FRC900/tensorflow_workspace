@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01679.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01679.JPG</path>
@@ -185,10 +185,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3291</xmin>
-			<ymin>1953</ymin>
-			<xmax>3448</xmax>
-			<ymax>2013</ymax>
+			<xmin>3307</xmin>
+			<ymin>1955</ymin>
+			<xmax>3438</xmax>
+			<ymax>2011</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -197,10 +197,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2685</xmin>
-			<ymin>1835</ymin>
-			<xmax>2741</xmax>
-			<ymax>1888</ymax>
+			<xmin>2749</xmin>
+			<ymin>1811</ymin>
+			<xmax>2805</xmax>
+			<ymax>1864</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -285,6 +285,90 @@
 			<ymin>1467</ymin>
 			<xmax>3585</xmax>
 			<ymax>1506</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1778</xmin>
+			<ymin>1882</ymin>
+			<xmax>1836</xmax>
+			<ymax>1937</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2801</xmin>
+			<ymin>1679</ymin>
+			<xmax>2837</xmax>
+			<ymax>1714</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3304</xmin>
+			<ymin>1704</ymin>
+			<xmax>3352</xmax>
+			<ymax>1748</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3299</xmin>
+			<ymin>1866</ymin>
+			<xmax>3334</xmax>
+			<ymax>1905</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2793</xmin>
+			<ymin>1841</ymin>
+			<xmax>2844</xmax>
+			<ymax>1877</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3388</xmin>
+			<ymin>1667</ymin>
+			<xmax>3432</xmax>
+			<ymax>1701</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>terminal_base_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2426</xmin>
+			<ymin>1621</ymin>
+			<xmax>2463</xmax>
+			<ymax>1653</ymax>
 		</bndbox>
 	</object>
 </annotation>

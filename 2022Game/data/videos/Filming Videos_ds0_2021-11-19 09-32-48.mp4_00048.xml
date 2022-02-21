@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1326</xmin>
-			<ymin>224</ymin>
-			<xmax>1371</xmax>
-			<ymax>255</ymax>
+			<xmin>1151</xmin>
+			<ymin>234</ymin>
+			<xmax>1207</xmax>
+			<ymax>286</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -165,6 +165,42 @@
 			<ymin>522</ymin>
 			<xmax>1489</xmax>
 			<ymax>658</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>150</xmin>
+			<ymin>344</ymin>
+			<xmax>220</xmax>
+			<ymax>406</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>559</xmin>
+			<ymin>373</ymin>
+			<xmax>657</xmax>
+			<ymax>434</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1883</xmin>
+			<ymin>139</ymin>
+			<xmax>1920</xmax>
+			<ymax>182</ymax>
 		</bndbox>
 	</object>
 </annotation>

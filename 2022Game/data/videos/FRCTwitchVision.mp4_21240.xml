@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRCTwitchVision.mp4_21240.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_21240.png</path>
@@ -233,8 +233,8 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1381</xmin>
-			<ymin>978</ymin>
+			<xmin>1432</xmin>
+			<ymin>1017</ymin>
 			<xmax>1501</xmax>
 			<ymax>1080</ymax>
 		</bndbox>
@@ -245,22 +245,82 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1195</xmin>
+			<xmin>1232</xmin>
 			<ymin>713</ymin>
 			<xmax>1294</xmax>
-			<ymax>788</ymax>
+			<ymax>772</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>blue_tape_corners</name>
 		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>723</ymin>
+			<xmax>55</xmax>
+			<ymax>769</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo_starting_position</name>
+		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5</xmin>
-			<ymin>725</ymin>
-			<xmax>82</xmax>
-			<ymax>764</ymax>
+			<xmin>1063</xmin>
+			<ymin>580</ymin>
+			<xmax>1088</xmax>
+			<ymax>603</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>830</xmin>
+			<ymin>551</ymin>
+			<xmax>850</xmax>
+			<ymax>571</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1481</xmin>
+			<ymin>602</ymin>
+			<xmax>1529</xmax>
+			<ymax>646</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>470</xmin>
+			<ymin>461</ymin>
+			<xmax>497</xmax>
+			<ymax>487</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>149</xmin>
+			<ymin>519</ymin>
+			<xmax>175</xmax>
+			<ymax>548</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-32-48.mp4_00033.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-32-48.mp4_00033.png</path>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>555</xmin>
-			<ymin>759</ymin>
-			<xmax>667</xmax>
-			<ymax>860</ymax>
+			<xmin>614</xmin>
+			<ymin>792</ymin>
+			<xmax>726</xmax>
+			<ymax>893</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>954</xmin>
-			<ymin>674</ymin>
-			<xmax>1079</xmax>
-			<ymax>734</ymax>
+			<xmin>948</xmin>
+			<ymin>688</ymin>
+			<xmax>1073</xmax>
+			<ymax>748</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1452</xmin>
-			<ymin>328</ymin>
-			<xmax>1494</xmax>
-			<ymax>396</ymax>
+			<xmin>1443</xmin>
+			<ymin>323</ymin>
+			<xmax>1514</xmax>
+			<ymax>389</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -189,6 +189,42 @@
 			<ymin>113</ymin>
 			<xmax>729</xmax>
 			<ymax>146</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>719</xmin>
+			<ymin>270</ymin>
+			<xmax>778</xmax>
+			<ymax>337</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1405</xmin>
+			<ymin>166</ymin>
+			<xmax>1455</xmax>
+			<ymax>209</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>61</xmin>
+			<ymin>489</ymin>
+			<xmax>154</xmax>
+			<ymax>543</ymax>
 		</bndbox>
 	</object>
 </annotation>

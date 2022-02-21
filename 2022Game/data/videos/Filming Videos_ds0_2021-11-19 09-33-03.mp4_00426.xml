@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_00426.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_00426.png</path>
@@ -81,6 +81,18 @@
 			<ymin>455</ymin>
 			<xmax>1895</xmax>
 			<ymax>510</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1178</xmin>
+			<ymin>445</ymin>
+			<xmax>1321</xmax>
+			<ymax>535</ymax>
 		</bndbox>
 	</object>
 </annotation>

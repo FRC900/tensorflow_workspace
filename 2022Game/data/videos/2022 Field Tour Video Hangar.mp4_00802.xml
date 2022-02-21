@@ -74,13 +74,13 @@
 	<object>
 		<name>blue_black_tape_intersect</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>420</xmin>
-			<ymin>665</ymin>
-			<xmax>507</xmax>
-			<ymax>720</ymax>
+			<xmin>424</xmin>
+			<ymin>677</ymin>
+			<xmax>499</xmax>
+			<ymax>715</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -129,6 +129,30 @@
 			<ymin>407</ymin>
 			<xmax>758</xmax>
 			<ymax>430</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1095</xmin>
+			<ymin>145</ymin>
+			<xmax>1109</xmax>
+			<ymax>159</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1131</xmin>
+			<ymin>142</ymin>
+			<xmax>1146</xmax>
+			<ymax>162</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01682.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01682.JPG</path>
@@ -281,10 +281,46 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1631</xmin>
-			<ymin>1986</ymin>
-			<xmax>2107</xmax>
-			<ymax>2028</ymax>
+			<xmin>2129</xmin>
+			<ymin>1980</ymin>
+			<xmax>2162</xmax>
+			<ymax>2031</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1015</xmin>
+			<ymin>1968</ymin>
+			<xmax>1091</xmax>
+			<ymax>2044</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2142</xmin>
+			<ymin>1994</ymin>
+			<xmax>2181</xmax>
+			<ymax>2021</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2894</xmin>
+			<ymin>1979</ymin>
+			<xmax>2931</xmax>
+			<ymax>2006</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-32-48.mp4_00075.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-32-48.mp4_00075.png</path>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>162</xmin>
+			<xmin>169</xmin>
 			<ymin>244</ymin>
 			<xmax>267</xmax>
-			<ymax>313</ymax>
+			<ymax>327</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -138,8 +138,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>470</xmin>
-			<ymin>561</ymin>
-			<xmax>637</xmax>
+			<ymin>568</ymin>
+			<xmax>578</xmax>
 			<ymax>665</ymax>
 		</bndbox>
 	</object>
@@ -149,10 +149,46 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>383</xmin>
-			<ymin>364</ymin>
-			<xmax>517</xmax>
-			<ymax>420</ymax>
+			<xmin>372</xmin>
+			<ymin>362</ymin>
+			<xmax>477</xmax>
+			<ymax>413</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>796</xmin>
+			<ymin>211</ymin>
+			<xmax>877</xmax>
+			<ymax>251</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>983</xmin>
+			<ymin>278</ymin>
+			<xmax>1067</xmax>
+			<ymax>342</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1447</xmin>
+			<ymin>335</ymin>
+			<xmax>1554</xmax>
+			<ymax>410</ymax>
 		</bndbox>
 	</object>
 </annotation>

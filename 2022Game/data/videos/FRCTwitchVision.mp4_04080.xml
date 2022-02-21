@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRCTwitchVision.mp4_04080.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_04080.png</path>
@@ -151,8 +151,8 @@
 		<bndbox>
 			<xmin>1280</xmin>
 			<ymin>671</ymin>
-			<xmax>1323</xmax>
-			<ymax>710</ymax>
+			<xmax>1347</xmax>
+			<ymax>719</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -161,10 +161,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>77</xmin>
+			<xmin>69</xmin>
 			<ymin>511</ymin>
 			<xmax>110</xmax>
-			<ymax>539</ymax>
+			<ymax>552</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -261,6 +261,18 @@
 			<ymin>386</ymin>
 			<xmax>114</xmax>
 			<ymax>424</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>84</xmin>
+			<ymin>662</ymin>
+			<xmax>140</xmax>
+			<ymax>700</ymax>
 		</bndbox>
 	</object>
 </annotation>

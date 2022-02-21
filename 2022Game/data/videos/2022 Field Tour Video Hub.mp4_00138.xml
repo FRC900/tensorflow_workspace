@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Hub.mp4_00138.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hub.mp4_00138.png</path>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1142</xmin>
-			<ymin>570</ymin>
-			<xmax>1200</xmax>
-			<ymax>616</ymax>
+			<xmin>1150</xmin>
+			<ymin>565</ymin>
+			<xmax>1208</xmax>
+			<ymax>611</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>428</xmin>
+			<xmin>416</xmin>
 			<ymin>460</ymin>
 			<xmax>536</xmax>
-			<ymax>578</ymax>
+			<ymax>586</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -141,6 +141,42 @@
 			<ymin>445</ymin>
 			<xmax>753</xmax>
 			<ymax>530</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>164</xmin>
+			<ymin>576</ymin>
+			<xmax>209</xmax>
+			<ymax>616</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>900</xmin>
+			<ymin>577</ymin>
+			<xmax>944</xmax>
+			<ymax>614</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>326</xmin>
+			<ymin>641</ymin>
+			<xmax>370</xmax>
+			<ymax>682</ymax>
 		</bndbox>
 	</object>
 </annotation>
