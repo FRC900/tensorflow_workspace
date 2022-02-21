@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01709.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01709.JPG</path>
@@ -235,8 +235,56 @@
 		<bndbox>
 			<xmin>2994</xmin>
 			<ymin>1054</ymin>
-			<xmax>3120</xmax>
-			<ymax>1163</ymax>
+			<xmax>3121</xmax>
+			<ymax>1132</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1794</xmin>
+			<ymin>1110</ymin>
+			<xmax>2042</xmax>
+			<ymax>1198</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1694</xmin>
+			<ymin>471</ymin>
+			<xmax>1957</xmax>
+			<ymax>571</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1469</xmin>
+			<ymin>1189</ymin>
+			<xmax>1576</xmax>
+			<ymax>1250</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5009</xmin>
+			<ymin>1001</ymin>
+			<xmax>5097</xmax>
+			<ymax>1092</ymax>
 		</bndbox>
 	</object>
 </annotation>

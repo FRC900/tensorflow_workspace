@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-32-48.mp4_00057.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-32-48.mp4_00057.png</path>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1256</xmin>
-			<ymin>572</ymin>
-			<xmax>1448</xmax>
-			<ymax>712</ymax>
+			<xmin>1312</xmin>
+			<ymin>585</ymin>
+			<xmax>1504</xmax>
+			<ymax>725</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,8 +29,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1602</xmin>
-			<ymin>507</ymin>
+			<xmin>1628</xmin>
+			<ymin>545</ymin>
 			<xmax>1805</xmax>
 			<ymax>635</ymax>
 		</bndbox>
@@ -78,9 +78,57 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>532</xmin>
-			<ymin>608</ymin>
-			<xmax>694</xmax>
+			<ymin>610</ymin>
+			<xmax>655</xmax>
 			<ymax>720</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1429</xmin>
+			<ymin>213</ymin>
+			<xmax>1502</xmax>
+			<ymax>271</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>458</xmin>
+			<ymin>309</ymin>
+			<xmax>528</xmax>
+			<ymax>366</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>877</xmin>
+			<ymin>352</ymin>
+			<xmax>958</xmax>
+			<ymax>401</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>964</xmin>
+			<ymin>347</ymin>
+			<xmax>1048</xmax>
+			<ymax>410</ymax>
 		</bndbox>
 	</object>
 </annotation>

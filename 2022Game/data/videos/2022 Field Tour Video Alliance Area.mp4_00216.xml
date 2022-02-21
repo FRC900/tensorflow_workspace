@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Alliance Area.mp4_00216.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Alliance Area.mp4_00216.png</path>
@@ -31,8 +31,8 @@
 		<bndbox>
 			<xmin>614</xmin>
 			<ymin>24</ymin>
-			<xmax>643</xmax>
-			<ymax>101</ymax>
+			<xmax>640</xmax>
+			<ymax>97</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -43,8 +43,8 @@
 		<bndbox>
 			<xmin>37</xmin>
 			<ymin>10</ymin>
-			<xmax>74</xmax>
-			<ymax>94</ymax>
+			<xmax>65</xmax>
+			<ymax>93</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -103,8 +103,8 @@
 		<bndbox>
 			<xmin>269</xmin>
 			<ymin>241</ymin>
-			<xmax>302</xmax>
-			<ymax>269</ymax>
+			<xmax>300</xmax>
+			<ymax>265</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -141,6 +141,258 @@
 			<ymin>177</ymin>
 			<xmax>991</xmax>
 			<ymax>213</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>151</ymin>
+			<xmax>100</xmax>
+			<ymax>178</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>454</xmin>
+			<ymin>153</ymin>
+			<xmax>529</xmax>
+			<ymax>187</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>206</xmin>
+			<ymin>273</ymin>
+			<xmax>230</xmax>
+			<ymax>289</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>562</xmin>
+			<ymin>255</ymin>
+			<xmax>580</xmax>
+			<ymax>271</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>573</xmin>
+			<ymin>204</ymin>
+			<xmax>587</xmax>
+			<ymax>218</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>571</xmin>
+			<ymin>250</ymin>
+			<xmax>586</xmax>
+			<ymax>265</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>746</xmin>
+			<ymin>208</ymin>
+			<xmax>759</xmax>
+			<ymax>222</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1208</xmin>
+			<ymin>226</ymin>
+			<xmax>1224</xmax>
+			<ymax>242</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1129</xmin>
+			<ymin>206</ymin>
+			<xmax>1141</xmax>
+			<ymax>219</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1070</xmin>
+			<ymin>190</ymin>
+			<xmax>1081</xmax>
+			<ymax>201</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>201</xmin>
+			<ymin>219</ymin>
+			<xmax>213</xmax>
+			<ymax>233</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>268</xmin>
+			<ymin>199</ymin>
+			<xmax>281</xmax>
+			<ymax>211</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>557</xmin>
+			<ymin>298</ymin>
+			<xmax>582</xmax>
+			<ymax>315</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>951</xmin>
+			<ymin>240</ymin>
+			<xmax>970</xmax>
+			<ymax>257</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>terminal_base_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>547</xmin>
+			<ymin>183</ymin>
+			<xmax>569</xmax>
+			<ymax>197</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>961</xmin>
+			<ymin>111</ymin>
+			<xmax>993</xmax>
+			<ymax>125</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>324</xmin>
+			<ymin>119</ymin>
+			<xmax>343</xmax>
+			<ymax>136</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>397</xmin>
+			<ymin>41</ymin>
+			<xmax>414</xmax>
+			<ymax>57</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>987</xmin>
+			<ymin>85</ymin>
+			<xmax>993</xmax>
+			<ymax>91</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>965</xmin>
+			<ymin>84</ymin>
+			<xmax>973</xmax>
+			<ymax>92</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>968</xmin>
+			<ymin>64</ymin>
+			<xmax>975</xmax>
+			<ymax>72</ymax>
 		</bndbox>
 	</object>
 </annotation>

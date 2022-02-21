@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Terminal.mp4_01996.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Terminal.mp4_01996.png</path>
@@ -33,6 +33,18 @@
 			<ymin>298</ymin>
 			<xmax>631</xmax>
 			<ymax>331</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1138</xmin>
+			<ymin>170</ymin>
+			<xmax>1276</xmax>
+			<ymax>311</ymax>
 		</bndbox>
 	</object>
 </annotation>

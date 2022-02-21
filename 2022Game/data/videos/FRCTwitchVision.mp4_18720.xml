@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>294</xmin>
-			<ymin>382</ymin>
-			<xmax>324</xmax>
-			<ymax>403</ymax>
+			<xmin>283</xmin>
+			<ymin>379</ymin>
+			<xmax>320</xmax>
+			<ymax>406</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>391</xmin>
-			<ymin>607</ymin>
-			<xmax>426</xmax>
-			<ymax>633</ymax>
+			<xmin>389</xmin>
+			<ymin>595</ymin>
+			<xmax>424</xmax>
+			<ymax>621</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -141,6 +141,42 @@
 			<ymin>221</ymin>
 			<xmax>786</xmax>
 			<ymax>244</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_launchpad</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>389</xmin>
+			<ymin>547</ymin>
+			<xmax>437</xmax>
+			<ymax>623</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_launchpad</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>607</xmin>
+			<ymin>703</ymin>
+			<xmax>662</xmax>
+			<ymax>797</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>terminal_base_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>567</xmin>
+			<ymin>373</ymin>
+			<xmax>612</xmax>
+			<ymax>404</ymax>
 		</bndbox>
 	</object>
 </annotation>

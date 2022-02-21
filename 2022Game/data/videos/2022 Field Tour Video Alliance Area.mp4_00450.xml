@@ -47,4 +47,52 @@
 			<ymax>393</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1078</xmin>
+			<ymin>487</ymin>
+			<xmax>1113</xmax>
+			<ymax>510</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1090</xmin>
+			<ymin>109</ymin>
+			<xmax>1174</xmax>
+			<ymax>145</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1103</xmin>
+			<ymin>38</ymin>
+			<xmax>1114</xmax>
+			<ymax>51</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1155</xmin>
+			<ymin>37</ymin>
+			<xmax>1168</xmax>
+			<ymax>51</ymax>
+		</bndbox>
+	</object>
 </annotation>

@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1465</xmin>
-			<ymin>419</ymin>
-			<xmax>1483</xmax>
-			<ymax>437</ymax>
+			<xmin>1459</xmin>
+			<ymin>415</ymin>
+			<xmax>1491</xmax>
+			<ymax>442</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -245,10 +245,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1185</xmin>
-			<ymin>818</ymin>
-			<xmax>1244</xmax>
-			<ymax>859</ymax>
+			<xmin>1200</xmin>
+			<ymin>805</ymin>
+			<xmax>1259</xmax>
+			<ymax>846</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -293,10 +293,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1120</xmin>
-			<ymin>388</ymin>
-			<xmax>1139</xmax>
-			<ymax>409</ymax>
+			<xmin>1112</xmin>
+			<ymin>382</ymin>
+			<xmax>1153</xmax>
+			<ymax>414</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -345,6 +345,42 @@
 			<ymin>1030</ymin>
 			<xmax>718</xmax>
 			<ymax>1080</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1533</xmin>
+			<ymin>689</ymin>
+			<xmax>1591</xmax>
+			<ymax>747</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>64</xmin>
+			<ymin>574</ymin>
+			<xmax>112</xmax>
+			<ymax>632</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1652</xmin>
+			<ymin>640</ymin>
+			<xmax>1700</xmax>
+			<ymax>684</ymax>
 		</bndbox>
 	</object>
 </annotation>

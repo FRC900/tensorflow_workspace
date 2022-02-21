@@ -179,4 +179,16 @@
 			<ymax>196</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>red_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>493</ymin>
+			<xmax>58</xmax>
+			<ymax>537</ymax>
+		</bndbox>
+	</object>
 </annotation>

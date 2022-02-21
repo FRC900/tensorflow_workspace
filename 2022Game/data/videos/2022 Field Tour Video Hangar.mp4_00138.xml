@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Hangar.mp4_00138.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Hangar.mp4_00138.png</path>
@@ -14,13 +14,13 @@
 	<object>
 		<name>black_tape_intersect</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>420</xmin>
+			<xmin>437</xmin>
 			<ymin>670</ymin>
 			<xmax>497</xmax>
-			<ymax>720</ymax>
+			<ymax>712</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -33,6 +33,126 @@
 			<ymin>567</ymin>
 			<xmax>182</xmax>
 			<ymax>603</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>137</ymin>
+			<xmax>117</xmax>
+			<ymax>183</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>576</xmin>
+			<ymin>139</ymin>
+			<xmax>596</xmax>
+			<ymax>158</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>580</xmin>
+			<ymin>238</ymin>
+			<xmax>597</xmax>
+			<ymax>261</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>653</xmin>
+			<ymin>141</ymin>
+			<xmax>673</xmax>
+			<ymax>161</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>655</xmin>
+			<ymin>237</ymin>
+			<xmax>671</xmax>
+			<ymax>258</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1097</xmin>
+			<ymin>143</ymin>
+			<xmax>1108</xmax>
+			<ymax>160</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1132</xmin>
+			<ymin>144</ymin>
+			<xmax>1146</xmax>
+			<ymax>160</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>576</xmin>
+			<ymin>365</ymin>
+			<xmax>683</xmax>
+			<ymax>432</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_truss_support_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1044</xmin>
+			<ymin>610</ymin>
+			<xmax>1114</xmax>
+			<ymax>655</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>735</xmin>
+			<ymin>406</ymin>
+			<xmax>754</xmax>
+			<ymax>428</ymax>
 		</bndbox>
 	</object>
 </annotation>
