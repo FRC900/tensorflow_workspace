@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC01667.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01667.JPG</path>
@@ -81,6 +81,78 @@
 			<ymin>3296</ymin>
 			<xmax>4621</xmax>
 			<ymax>3371</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4094</xmin>
+			<ymin>2856</ymin>
+			<xmax>4279</xmax>
+			<ymax>2950</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1994</xmin>
+			<ymin>2632</ymin>
+			<xmax>2151</xmax>
+			<ymax>2704</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1906</xmin>
+			<ymin>2629</ymin>
+			<xmax>1945</xmax>
+			<ymax>2723</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>terminal_base_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1566</xmin>
+			<ymin>3307</ymin>
+			<xmax>1709</xmax>
+			<ymax>3407</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>terminal_base_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>269</xmin>
+			<ymin>3501</ymin>
+			<xmax>412</xmax>
+			<ymax>3601</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4730</xmin>
+			<ymin>3904</ymin>
+			<xmax>4839</xmax>
+			<ymax>3974</ymax>
 		</bndbox>
 	</object>
 </annotation>

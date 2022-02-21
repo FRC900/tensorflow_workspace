@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Alliance Area.mp4_02168.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Alliance Area.mp4_02168.png</path>
@@ -17,9 +17,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>552</xmin>
-			<ymin>129</ymin>
-			<xmax>659</xmax>
+			<xmin>543</xmin>
+			<ymin>93</ymin>
+			<xmax>677</xmax>
 			<ymax>512</ymax>
 		</bndbox>
 	</object>
@@ -29,7 +29,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>437</xmin>
+			<xmin>444</xmin>
 			<ymin>213</ymin>
 			<xmax>465</xmax>
 			<ymax>236</ymax>
@@ -57,6 +57,42 @@
 			<ymin>262</ymin>
 			<xmax>476</xmax>
 			<ymax>288</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>terminal_base_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1039</xmin>
+			<ymin>432</ymin>
+			<xmax>1069</xmax>
+			<ymax>465</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>953</xmin>
+			<ymin>325</ymin>
+			<xmax>971</xmax>
+			<ymax>347</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>361</xmin>
+			<ymin>303</ymin>
+			<xmax>384</xmax>
+			<ymax>322</ymax>
 		</bndbox>
 	</object>
 </annotation>

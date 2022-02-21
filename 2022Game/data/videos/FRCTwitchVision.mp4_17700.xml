@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRCTwitchVision.mp4_17700.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_17700.png</path>
@@ -257,10 +257,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>890</xmin>
-			<ymin>828</ymin>
-			<xmax>937</xmax>
-			<ymax>874</ymax>
+			<xmin>883</xmin>
+			<ymin>836</ymin>
+			<xmax>930</xmax>
+			<ymax>882</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -293,9 +293,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1033</xmin>
+			<xmin>1038</xmin>
 			<ymin>511</ymin>
-			<xmax>1081</xmax>
+			<xmax>1086</xmax>
 			<ymax>541</ymax>
 		</bndbox>
 	</object>
@@ -365,8 +365,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1349</xmin>
-			<ymin>426</ymin>
+			<xmin>1343</xmin>
+			<ymin>424</ymin>
 			<xmax>1378</xmax>
 			<ymax>450</ymax>
 		</bndbox>
@@ -393,6 +393,90 @@
 			<ymin>389</ymin>
 			<xmax>1321</xmax>
 			<ymax>405</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>750</xmin>
+			<ymin>676</ymin>
+			<xmax>797</xmax>
+			<ymax>722</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_launchpad</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1516</xmin>
+			<ymin>644</ymin>
+			<xmax>1556</xmax>
+			<ymax>733</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1552</xmin>
+			<ymin>510</ymin>
+			<xmax>1613</xmax>
+			<ymax>561</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>76</xmin>
+			<ymin>519</ymin>
+			<xmax>110</xmax>
+			<ymax>538</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>325</xmin>
+			<ymin>833</ymin>
+			<xmax>383</xmax>
+			<ymax>888</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>891</xmin>
+			<ymin>461</ymin>
+			<xmax>924</xmax>
+			<ymax>486</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>416</xmin>
+			<ymin>523</ymin>
+			<xmax>451</xmax>
+			<ymax>549</ymax>
 		</bndbox>
 	</object>
 </annotation>

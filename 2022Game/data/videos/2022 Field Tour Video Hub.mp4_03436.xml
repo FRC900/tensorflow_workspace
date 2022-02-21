@@ -125,9 +125,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>961</xmin>
+			<xmin>954</xmin>
 			<ymin>517</ymin>
-			<xmax>990</xmax>
+			<xmax>983</xmax>
 			<ymax>542</ymax>
 		</bndbox>
 	</object>
@@ -149,10 +149,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>104</xmin>
-			<ymin>555</ymin>
-			<xmax>141</xmax>
-			<ymax>627</ymax>
+			<xmin>166</xmin>
+			<ymin>569</ymin>
+			<xmax>210</xmax>
+			<ymax>614</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -174,8 +174,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>714</xmin>
-			<ymin>300</ymin>
-			<xmax>729</xmax>
+			<ymin>295</ymin>
+			<xmax>731</xmax>
 			<ymax>311</ymax>
 		</bndbox>
 	</object>
@@ -189,6 +189,18 @@
 			<ymin>580</ymin>
 			<xmax>938</xmax>
 			<ymax>605</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>324</xmin>
+			<ymin>638</ymin>
+			<xmax>364</xmax>
+			<ymax>680</ymax>
 		</bndbox>
 	</object>
 </annotation>

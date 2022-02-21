@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
-	<filename>b_redbig_1frame_00950.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/b_redbig_1frame_00950.png</path>
+	<filename>b_f6frame_00950.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/b_f6frame_00950.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
+		<name>blue_cargo</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>997</xmin>
-			<ymin>539</ymin>
-			<xmax>1276</xmax>
-			<ymax>720</ymax>
+			<xmin>328</xmin>
+			<ymin>291</ymin>
+			<xmax>492</xmax>
+			<ymax>442</ymax>
 		</bndbox>
 	</object>
 </annotation>
