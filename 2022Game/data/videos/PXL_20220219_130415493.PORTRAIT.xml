@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>455</xmin>
-			<ymin>695</ymin>
-			<xmax>517</xmax>
-			<ymax>716</ymax>
+			<xmin>466</xmin>
+			<ymin>679</ymin>
+			<xmax>528</xmax>
+			<ymax>700</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>774</xmin>
-			<ymin>667</ymin>
-			<xmax>802</xmax>
-			<ymax>687</ymax>
+			<xmin>795</xmin>
+			<ymin>669</ymin>
+			<xmax>823</xmax>
+			<ymax>689</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -237,6 +237,78 @@
 			<ymin>591</ymin>
 			<xmax>537</xmax>
 			<ymax>621</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>213</xmin>
+			<ymin>732</ymin>
+			<xmax>258</xmax>
+			<ymax>752</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>612</xmin>
+			<ymin>540</ymin>
+			<xmax>627</xmax>
+			<ymax>557</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>100</xmin>
+			<ymin>536</ymin>
+			<xmax>114</xmax>
+			<ymax>547</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>974</xmin>
+			<ymin>550</ymin>
+			<xmax>990</xmax>
+			<ymax>566</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>446</xmin>
+			<ymin>691</ymin>
+			<xmax>486</xmax>
+			<ymax>711</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>741</xmin>
+			<ymin>724</ymin>
+			<xmax>791</xmax>
+			<ymax>752</ymax>
 		</bndbox>
 	</object>
 </annotation>
