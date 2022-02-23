@@ -10,4 +10,4 @@ docker run -it \
   -v $SOCK:$SOCK -v $XAUTH:$XAUTH \
   -e XAUTHORITY=$XAUTH -e DISPLAY=$DISPLAY \
   --net host --privileged --user ubuntu \
-  frc900/tensorflow_container_cpu:115_test /bin/bash
+  frc900/tensorflow_container_cpu:latest /bin/bash
