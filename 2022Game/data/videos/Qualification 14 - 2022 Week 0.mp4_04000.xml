@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Qualification 14 - 2022 Week 0.mp4_04000.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Qualification 14 - 2022 Week 0.mp4_04000.png</path>
@@ -645,6 +645,18 @@
 			<ymin>295</ymin>
 			<xmax>1055</xmax>
 			<ymax>318</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>702</xmin>
+			<ymin>273</ymin>
+			<xmax>715</xmax>
+			<ymax>285</ymax>
 		</bndbox>
 	</object>
 </annotation>
