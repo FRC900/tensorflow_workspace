@@ -186,6 +186,7 @@ def create_tf_record(output_filename,
       if idx % 100 == 0:
         logging.info('On image %d of %d', idx, len(examples))
       xml_path = example
+      print(xml_path)
 
       if not os.path.exists(xml_path):
         logging.warning('Could not find %s, ignoring example.', xml_path)
@@ -231,8 +232,8 @@ def main(_):
   logging.info('%d training and %d validation examples.',
                len(train_examples), len(val_examples))
 
-  train_output_path = os.path.join(FLAGS.output_dir, '2020Game_train.record')
-  val_output_path = os.path.join(FLAGS.output_dir, '2020Game_val.record')
+  train_output_path = os.path.join(FLAGS.output_dir, '2022Game_train.record')
+  val_output_path = os.path.join(FLAGS.output_dir, '2022Game_val.record')
   class_map_count = {}
   create_tf_record(
       train_output_path,
