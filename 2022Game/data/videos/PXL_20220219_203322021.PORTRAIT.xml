@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>videos</folder>
+	<filename>PXL_20220219_203322021.PORTRAIT.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/PXL_20220219_203322021.PORTRAIT.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4080</width>
+		<height>3072</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>960</xmin>
+			<ymin>738</ymin>
+			<xmax>3313</xmax>
+			<ymax>2346</ymax>
+		</bndbox>
+	</object>
+</annotation>

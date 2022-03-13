@@ -78,8 +78,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1045</xmin>
-			<ymin>298</ymin>
-			<xmax>1057</xmax>
+			<ymin>295</ymin>
+			<xmax>1067</xmax>
 			<ymax>321</ymax>
 		</bndbox>
 	</object>
@@ -113,8 +113,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>916</xmin>
-			<ymin>388</ymin>
+			<xmin>806</xmin>
+			<ymin>332</ymin>
 			<xmax>951</xmax>
 			<ymax>475</ymax>
 		</bndbox>
@@ -173,10 +173,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>609</xmin>
-			<ymin>436</ymin>
-			<xmax>622</xmax>
-			<ymax>464</ymax>
+			<xmin>610</xmin>
+			<ymin>437</ymin>
+			<xmax>642</xmax>
+			<ymax>467</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -221,8 +221,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>292</xmin>
-			<ymin>447</ymin>
+			<xmin>280</xmin>
+			<ymin>440</ymin>
 			<xmax>304</xmax>
 			<ymax>463</ymax>
 		</bndbox>
@@ -233,10 +233,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>359</xmin>
+			<xmin>337</xmin>
 			<ymin>492</ymin>
 			<xmax>369</xmax>
-			<ymax>504</ymax>
+			<ymax>507</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -297,6 +297,54 @@
 			<ymin>293</ymin>
 			<xmax>411</xmax>
 			<ymax>311</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>343</xmin>
+			<ymin>232</ymin>
+			<xmax>350</xmax>
+			<ymax>248</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>936</xmin>
+			<ymin>386</ymin>
+			<xmax>960</xmax>
+			<ymax>406</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>304</xmin>
+			<ymin>484</ymin>
+			<xmax>329</xmax>
+			<ymax>500</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>511</xmin>
+			<ymin>393</ymin>
+			<xmax>529</xmax>
+			<ymax>411</ymax>
 		</bndbox>
 	</object>
 </annotation>

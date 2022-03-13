@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Qualification 14 - 2022 Week 0.mp4_04945.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Qualification 14 - 2022 Week 0.mp4_04945.png</path>
@@ -17,7 +17,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>861</xmin>
+			<xmin>841</xmin>
 			<ymin>314</ymin>
 			<xmax>901</xmax>
 			<ymax>361</ymax>
@@ -53,8 +53,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1070</xmin>
-			<ymin>300</ymin>
+			<xmin>1034</xmin>
+			<ymin>280</ymin>
 			<xmax>1095</xmax>
 			<ymax>337</ymax>
 		</bndbox>
@@ -522,8 +522,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>328</xmin>
-			<ymin>281</ymin>
-			<xmax>406</xmax>
+			<ymin>252</ymin>
+			<xmax>404</xmax>
 			<ymax>309</ymax>
 		</bndbox>
 	</object>
@@ -765,6 +765,66 @@
 			<ymin>250</ymin>
 			<xmax>585</xmax>
 			<ymax>258</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>900</xmin>
+			<ymin>379</ymin>
+			<xmax>918</xmax>
+			<ymax>402</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>terminal_base_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>875</xmin>
+			<ymin>239</ymin>
+			<xmax>892</xmax>
+			<ymax>250</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>989</xmin>
+			<ymin>327</ymin>
+			<xmax>1006</xmax>
+			<ymax>340</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>477</xmin>
+			<ymin>261</ymin>
+			<xmax>496</xmax>
+			<ymax>274</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_black_tape_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>794</xmin>
+			<ymin>278</ymin>
+			<xmax>813</xmax>
+			<ymax>293</ymax>
 		</bndbox>
 	</object>
 </annotation>
