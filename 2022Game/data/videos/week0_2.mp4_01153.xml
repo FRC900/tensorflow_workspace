@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>week0_2.mp4_01153.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/week0_2.mp4_01153.png</path>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>452</xmin>
+			<xmin>444</xmin>
 			<ymin>436</ymin>
 			<xmax>466</xmax>
-			<ymax>459</ymax>
+			<ymax>460</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -102,9 +102,81 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>491</xmin>
-			<ymin>349</ymin>
-			<xmax>584</xmax>
+			<ymin>394</ymin>
+			<xmax>591</xmax>
 			<ymax>522</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>140</xmin>
+			<ymin>453</ymin>
+			<xmax>159</xmax>
+			<ymax>474</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>520</ymin>
+			<xmax>148</xmax>
+			<ymax>541</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>74</xmin>
+			<ymin>327</ymin>
+			<xmax>99</xmax>
+			<ymax>350</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>72</xmin>
+			<ymin>205</ymin>
+			<xmax>95</xmax>
+			<ymax>230</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pipe_ending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>821</xmin>
+			<ymin>227</ymin>
+			<xmax>837</xmax>
+			<ymax>245</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>526</xmin>
+			<ymin>527</ymin>
+			<xmax>555</xmax>
+			<ymax>547</ymax>
 		</bndbox>
 	</object>
 </annotation>

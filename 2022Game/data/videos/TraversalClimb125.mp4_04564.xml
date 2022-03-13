@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>TraversalClimb125.mp4_04564.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/TraversalClimb125.mp4_04564.png</path>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>457</xmin>
-			<ymin>453</ymin>
-			<xmax>482</xmax>
-			<ymax>465</ymax>
+			<xmin>475</xmin>
+			<ymin>444</ymin>
+			<xmax>498</xmax>
+			<ymax>466</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -237,6 +237,30 @@
 			<ymin>431</ymin>
 			<xmax>203</xmax>
 			<ymax>460</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hub_fender_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>341</xmin>
+			<ymin>457</ymin>
+			<xmax>357</xmax>
+			<ymax>474</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>389</xmin>
+			<ymin>398</ymin>
+			<xmax>409</xmax>
+			<ymax>415</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRCTwitchVision.mp4_22200.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_22200.png</path>
@@ -163,8 +163,8 @@
 		<bndbox>
 			<xmin>1239</xmin>
 			<ymin>342</ymin>
-			<xmax>1253</xmax>
-			<ymax>357</ymax>
+			<xmax>1258</xmax>
+			<ymax>364</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -245,10 +245,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>990</xmin>
-			<ymin>317</ymin>
-			<xmax>1009</xmax>
-			<ymax>326</ymax>
+			<xmin>993</xmin>
+			<ymin>312</ymin>
+			<xmax>1012</xmax>
+			<ymax>329</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -369,6 +369,78 @@
 			<ymin>760</ymin>
 			<xmax>685</xmax>
 			<ymax>802</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1338</xmin>
+			<ymin>203</ymin>
+			<xmax>1374</xmax>
+			<ymax>232</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1415</xmin>
+			<ymin>228</ymin>
+			<xmax>1471</xmax>
+			<ymax>263</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1722</xmin>
+			<ymin>324</ymin>
+			<xmax>1788</xmax>
+			<ymax>364</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1687</xmin>
+			<ymin>315</ymin>
+			<xmax>1706</xmax>
+			<ymax>344</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1479</xmin>
+			<ymin>244</ymin>
+			<xmax>1493</xmax>
+			<ymax>269</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1324</xmin>
+			<ymin>198</ymin>
+			<xmax>1335</xmax>
+			<ymax>219</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -138,8 +138,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>590</xmin>
-			<ymin>330</ymin>
-			<xmax>700</xmax>
+			<ymin>367</ymin>
+			<xmax>702</xmax>
 			<ymax>488</ymax>
 		</bndbox>
 	</object>
@@ -153,6 +153,30 @@
 			<ymin>434</ymin>
 			<xmax>364</xmax>
 			<ymax>551</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1225</xmin>
+			<ymin>205</ymin>
+			<xmax>1250</xmax>
+			<ymax>280</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_truss_segment</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>494</xmin>
+			<ymin>377</ymin>
+			<xmax>570</xmax>
+			<ymax>406</ymax>
 		</bndbox>
 	</object>
 </annotation>

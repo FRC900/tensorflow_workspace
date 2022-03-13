@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRCTwitchVision.mp4_22620.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/FRCTwitchVision.mp4_22620.png</path>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1359</xmin>
-			<ymin>575</ymin>
-			<xmax>1372</xmax>
-			<ymax>582</ymax>
+			<xmin>1355</xmin>
+			<ymin>567</ymin>
+			<xmax>1377</xmax>
+			<ymax>586</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -233,10 +233,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>951</xmin>
-			<ymin>610</ymin>
-			<xmax>993</xmax>
-			<ymax>633</ymax>
+			<xmin>950</xmin>
+			<ymin>603</ymin>
+			<xmax>992</xmax>
+			<ymax>626</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -621,6 +621,18 @@
 			<ymin>701</ymin>
 			<xmax>894</xmax>
 			<ymax>759</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1222</xmin>
+			<ymin>507</ymin>
+			<xmax>1241</xmax>
+			<ymax>520</ymax>
 		</bndbox>
 	</object>
 </annotation>

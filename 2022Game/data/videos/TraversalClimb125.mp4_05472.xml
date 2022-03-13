@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>TraversalClimb125.mp4_05472.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/TraversalClimb125.mp4_05472.png</path>
@@ -141,6 +141,18 @@
 			<ymin>593</ymin>
 			<xmax>334</xmax>
 			<ymax>636</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>guardrail_intersect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>313</xmin>
+			<ymin>358</ymin>
+			<xmax>334</xmax>
+			<ymax>373</ymax>
 		</bndbox>
 	</object>
 </annotation>
