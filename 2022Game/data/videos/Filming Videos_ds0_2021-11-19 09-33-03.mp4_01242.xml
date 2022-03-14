@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_01242.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_01242.png</path>
@@ -29,22 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1108</xmin>
-			<ymin>632</ymin>
-			<xmax>1299</xmax>
-			<ymax>763</ymax>
+			<xmin>1077</xmin>
+			<ymin>618</ymin>
+			<xmax>1268</xmax>
+			<ymax>749</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>white_tape_intersection</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>756</xmin>
-			<ymin>702</ymin>
-			<xmax>952</xmax>
-			<ymax>1080</ymax>
+			<xmin>801</xmin>
+			<ymin>663</ymin>
+			<xmax>1015</xmax>
+			<ymax>860</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -91,8 +91,8 @@
 		<bndbox>
 			<xmin>282</xmin>
 			<ymin>190</ymin>
-			<xmax>441</xmax>
-			<ymax>269</ymax>
+			<xmax>369</xmax>
+			<ymax>266</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +101,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1783</xmin>
+			<xmin>1848</xmin>
 			<ymin>80</ymin>
 			<xmax>1920</xmax>
-			<ymax>179</ymax>
+			<ymax>169</ymax>
 		</bndbox>
 	</object>
 	<object>

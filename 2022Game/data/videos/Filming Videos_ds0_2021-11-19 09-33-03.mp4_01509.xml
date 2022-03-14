@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_01509.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_01509.png</path>
@@ -17,9 +17,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1398</xmin>
-			<ymin>153</ymin>
-			<xmax>1722</xmax>
+			<xmin>1462</xmin>
+			<ymin>147</ymin>
+			<xmax>1650</xmax>
 			<ymax>330</ymax>
 		</bndbox>
 	</object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>799</xmin>
-			<ymin>801</ymin>
-			<xmax>952</xmax>
-			<ymax>957</ymax>
+			<xmin>723</xmin>
+			<ymin>830</ymin>
+			<xmax>876</xmax>
+			<ymax>986</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>362</xmin>
-			<ymin>764</ymin>
-			<xmax>535</xmax>
-			<ymax>861</ymax>
+			<xmin>361</xmin>
+			<ymin>786</ymin>
+			<xmax>534</xmax>
+			<ymax>883</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>362</xmin>
-			<ymin>306</ymin>
-			<xmax>433</xmax>
-			<ymax>341</ymax>
+			<xmin>352</xmin>
+			<ymin>296</ymin>
+			<xmax>423</xmax>
+			<ymax>331</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>40</xmin>
-			<ymin>609</ymin>
-			<xmax>249</xmax>
-			<ymax>641</ymax>
+			<xmin>105</xmin>
+			<ymin>588</ymin>
+			<xmax>206</xmax>
+			<ymax>669</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -197,10 +197,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>476</xmin>
-			<ymin>256</ymin>
-			<xmax>620</xmax>
-			<ymax>299</ymax>
+			<xmin>460</xmin>
+			<ymin>250</ymin>
+			<xmax>559</xmax>
+			<ymax>315</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -237,6 +237,30 @@
 			<ymin>95</ymin>
 			<xmax>855</xmax>
 			<ymax>153</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>801</xmin>
+			<ymin>266</ymin>
+			<xmax>850</xmax>
+			<ymax>332</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_intersection</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>94</xmin>
+			<ymin>257</ymin>
+			<xmax>145</xmax>
+			<ymax>305</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_00372.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_00372.png</path>
@@ -129,6 +129,18 @@
 			<ymin>328</ymin>
 			<xmax>769</xmax>
 			<ymax>410</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_cargo_starting_position</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1097</xmin>
+			<ymin>347</ymin>
+			<xmax>1126</xmax>
+			<ymax>375</ymax>
 		</bndbox>
 	</object>
 </annotation>
