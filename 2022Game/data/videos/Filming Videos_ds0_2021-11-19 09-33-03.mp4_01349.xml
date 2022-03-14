@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Filming Videos_ds0_2021-11-19 09-33-03.mp4_01349.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/Filming Videos_ds0_2021-11-19 09-33-03.mp4_01349.png</path>
@@ -19,8 +19,8 @@
 		<bndbox>
 			<xmin>331</xmin>
 			<ymin>325</ymin>
-			<xmax>583</xmax>
-			<ymax>556</ymax>
+			<xmax>556</xmax>
+			<ymax>559</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>675</xmin>
-			<ymin>657</ymin>
-			<xmax>825</xmax>
-			<ymax>775</ymax>
+			<xmin>703</xmin>
+			<ymin>611</ymin>
+			<xmax>853</xmax>
+			<ymax>729</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>905</xmin>
-			<ymin>702</ymin>
-			<xmax>1421</xmax>
-			<ymax>1056</ymax>
+			<xmin>903</xmin>
+			<ymin>660</ymin>
+			<xmax>1136</xmax>
+			<ymax>838</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +113,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1443</xmin>
+			<xmin>1460</xmin>
 			<ymin>83</ymin>
 			<xmax>1526</xmax>
-			<ymax>201</ymax>
+			<ymax>165</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>279</ymin>
+			<xmax>57</xmax>
+			<ymax>343</ymax>
 		</bndbox>
 	</object>
 </annotation>
