@@ -2,7 +2,7 @@ import graphsurgeon as gs
 import tensorflow as tf
 
 name = 'ssd_mobilenet_v2_512x512'
-path = '/home/ubuntu/tensorflow_workspace/2020Game/models/best/' + name + '.pb'
+path = '/home/ubuntu/tensorflow_workspace/2022Game/models/2022_v3/' + name + '.pb'
 TRTbin = 'TRT_' + name + '.bin'
 output_name = ['NMS']
 dims = [3,512,512]
@@ -43,7 +43,7 @@ def add_plugin(graph):
         nmsThreshold=0.4,
         topK=100,
         keepTopK=100,
-        numClasses=39, # 38 object + 1 for unknown class
+        numClasses=38, # 28 object + 1 for unknown class
         inputOrder=[1, 2, 0],
         confSigmoid=1,
         isNormalized=1

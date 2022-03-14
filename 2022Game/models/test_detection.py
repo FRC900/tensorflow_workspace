@@ -72,7 +72,7 @@ def run_inference_for_single_image(image, sess, graph):
 def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory exported using the export_inference_graph.py command
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2022Game/models/2022modelname'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2022Game/models/2022_v3'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
@@ -122,7 +122,7 @@ def main():
         # Vid input is BGR, need to convert to RGB and resize 
         # to net input size to run inference
         t.start('cv')
-        image_resized = cv2.resize(cv_vid_image, (300,300))
+        image_resized = cv2.resize(cv_vid_image, (512,512))
         image_np = cv2.cvtColor(image_resized, cv2.COLOR_BGR2RGB)
         # Expand dimensions since the model expects images to have shape: [batch_size = 1, None, None, 3]
         image_np_expanded = np.expand_dims(image_np, axis=0)

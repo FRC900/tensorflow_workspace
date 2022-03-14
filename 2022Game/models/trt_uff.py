@@ -90,7 +90,7 @@ for binding in engine:
 context = engine.create_execution_context()
 
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2020Game/data', '2020Game_label_map.pbtxt')
+PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2022Game/data', '2022Game_label_map.pbtxt')
 category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
 
 category_dict = {0: 'background'}
@@ -99,64 +99,35 @@ for k in category_index.keys():
 viz = BBoxVisualization(category_dict)
 
 t = timing.Timings()
-PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/videos'
 
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Alliance_Station.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Loading_Bay.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Power_Port.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Rockwell.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Footage_Control_Panel.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Cross_Field_Views.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Cross_Field_Views_1080p.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_1080p.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Shield_Generator.mp4'))
+PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2022Game/data/videos'
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2022 Field Tour Video Alliance Area.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2022 Field Tour Video Hangar.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2022 Field Tour Video Hub.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2022 Field Tour Video Terminal.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRCTwitchVision.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Filming Videos_ds0_2021-11-19 09-32-48.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Filming Videos_ds0_2021-11-19 09-33-03.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Qualification 14 - 2022 Week 0.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'TraversalClimb125.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Y2Mate.is - 2022 FIRST Robotics Competition RAPID REACT Game Animation-LgniEjI9cCM-1080p-1641829421487.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Y2Mate.is - The Robonauts 118 Everybot 2022-HdQ-mWPG9GY-720p-1642873990701.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_230907441.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_230927319.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_231105193.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_231126567.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_231135548.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_231355465.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_230158009.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_230311691.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_230407177.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_230551890.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'PXL_20220215_230749699.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'week0_1.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'week0_2.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'IMG_0023-1920.mp4'))
+cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'IMG_0034-1920.mp4'))
 
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_22.mp4'))
-cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Great_Northern_Regional_2020_Practice21.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Great_Northern_Regional_2020_Practice23.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'ISR_District_Event_1_2020_Quarterfinal_1.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Monterrey_Regional_2020_Practice15.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Monterrey_Regional_2020_Practice16.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Nashua_Week0_Final_01.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Nashua_Week0_Match01.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice02.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice11.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice12.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Palmetto_Regional_2020_Practice32.mp4'))
-
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'VID_20200215_145921.mp4'))
-
-
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100416.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100822.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101340.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101606.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100523.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100850.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101425.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101706.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100551.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100930.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101443.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101743.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100611.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101005.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101458.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102026.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100635.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101111.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101517.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102113.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100732.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101300.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101539.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102140.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_100752.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101322.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101549.mp4'))
-#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102221.mp4'))
 
 # inference
 #TODO enable video pipeline
@@ -164,7 +135,7 @@ cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Nor
 #ori = cv2.imread(sys.argv[1])
 ret, ori = cap.read()
 print( ori.shape)
-vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (ori.shape[1], ori.shape[0]))
+#vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (ori.shape[1], ori.shape[0]))
 
 while(True):
   t.start('frame')
@@ -223,7 +194,7 @@ while(True):
     
     #cv2.imwrite("result.jpg", ori)
     cv2.imshow("result", ori)
-    vid_writer.write(ori)
+    #vid_writer.write(ori)
     t.end('viz')
     key = cv2.waitKey(1) & 0x000000FF
     next_frame = True
