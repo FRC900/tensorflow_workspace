@@ -72,6 +72,8 @@ class ApriltagTrainer:
     def generate_xml(self):
         # get a list of all the apriltag images
         aprildirlist = os.listdir(os.path.join(self.tag_path, "output"))
+        print(f"aprildirlist: {aprildirlist}")
+        #time.sleep(3)
         # shuffle list
         random.shuffle(aprildirlist)
 
@@ -106,8 +108,10 @@ class ApriltagTrainer:
             
             for _ in range(to_add):
                 apriltag = aprildirlist.pop()
+                tag_path = os.path.join(self.tag_path, "output", apriltag)
                 # read an augemented apriltag image
-                tag_image = cv2.imread(os.path.join(self.tag_path, "output", apriltag))
+                tag_image = cv2.imread(tag_path)
+                print(f"Image path: {tag_path}")
                 # get tag id, 5 characters before the . in the first instance of .png
                 tag_id = int(apriltag[apriltag.find(".png")-5:apriltag.find(".png")])
                 # get the tag dimensions
@@ -193,7 +197,7 @@ class ApriltagTrainer:
                 return True
         return False
 
-img_dir = "/home/chris/tensorflow_workspace/2022Game/data/apriltag-imgs/tag16h5"
+img_dir = "/home/chris/tensorflow_workspace/2022Game/data/scaled"
 data_dir = "/home/chris/tensorflow_workspace/2022Game/data/videos"
 trainer = ApriltagTrainer(img_dir, data_dir, new_dir=True)
 trainer.augment()

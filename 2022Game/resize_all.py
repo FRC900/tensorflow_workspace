@@ -1,4 +1,5 @@
 # resize all images in a directory to a given size
+# used because tags are very small and need to be larger for training
 
 import os
 import cv2
@@ -42,9 +43,9 @@ def scale_all_images_in_dir(dir, scale):
             img = image_resize(img, width = int(img.shape[1] * scale))
             # save image as png
             try:
-                os.mkdir(os.getcwd() + "/scaled")
+                os.mkdir(os.getcwd() + "/data/scaled")
             except:
                 pass
             # write images to scaled directory
-            cv2.imwrite(os.getcwd() + "/scaled/" + filename, img)
-scale_all_images_in_dir("apriltag-imgs/tag16h5", 16)
+            cv2.imwrite(os.getcwd() + "/data/scaled/" + filename, img)
+scale_all_images_in_dir("data/apriltag-imgs/tag16h5", 16)
