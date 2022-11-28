@@ -26,6 +26,9 @@ from object_detection import model_hparams
 import model_lib
 
 import best_checkpoint_copier
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True
+session = tf.Session(config=config)
 
 flags.DEFINE_string(
     'model_dir', None, 'Path to output model directory '

@@ -23,20 +23,24 @@ class ApriltagTrainer:
               will modify the xml files in this directory and images 
     returns: nothing
     '''
-    def __init__(self, tag_path, data_dir, new_dir=False) -> None:
+    def __init__(self, tag_path, data_dir, new_dir=False, logging=True) -> None:
+        # yes i know the logging module is builtin and exists
+        self.log = logging
+        self.aprildirlist = None
         self.new_dir = new_dir
         self.new_dir_name = "data/test"
         self.tags_to_add = [1, 1, 1, 1, 2, 2, 2, 3, 3] # ratio of how many tags to add to each image
         self.data_dir = data_dir
         self.tag_path = tag_path
-        print(f"Tag path: {tag_path} \nData path: {data_dir}")
+        if self.log:
+            print(f"Tag path: {tag_path} \nData path: {data_dir}")
         self.p = Augmentor.Pipeline(self.tag_path)    
         self.p.rotate_random_90(probability=0.75)
         self.p.zoom(probability=0.5, min_factor=0.7, max_factor=1.4)
         self.p.skew(probability=0.75, magnitude=0.5)
         self.p.random_distortion(probability=0.5, grid_width=5, grid_height=5, magnitude=3)
         self.p.random_brightness(probability=0.7, min_factor=0.3, max_factor=1.5)
-        
+
     '''
     data_dir: path to the directory containing the images and xml files of previously trained images
     n: optional parameter to specify the number of images to be generated
@@ -69,25 +73,34 @@ class ApriltagTrainer:
     xml file to reflect the new bounding box coordinates. 
     It then saves the new image and xml file in the data_dir, _overwriting_.
     '''
-    def generate_xml(self):
+    def generate_xml(self, dir=None):
+        parsedpngs = []
         # get a list of all the apriltag images
-        aprildirlist = os.listdir(os.path.join(self.tag_path, "output"))
-        print(f"aprildirlist: {aprildirlist}")
+        self.aprildirlist = os.listdir(os.path.join(self.tag_path, "output"))
+        if self.log:
+            print(f"self.aprildirlist: {self.aprildirlist}")
         #time.sleep(3)
         # shuffle list
-        random.shuffle(aprildirlist)
+        random.shuffle(self.aprildirlist)
 
-        datadirlist = os.listdir(self.data_dir)
+        if dir:
+            datadirlist = os.listdir(dir)
+        else:
+            dir = self.data_dir
+        datadirlist = os.listdir(dir)
+        print(f"datadirlist: {datadirlist}")
         datadirlist = [x for x in datadirlist if x[-4:] == ".xml"]
         for xml_file in datadirlist:
-            print("\n\n\n")
+            if self.log:
+                print("\n\n\n")
             # print(f"Processing {xml_file}")
             # get the image name from the xml file data
-            tree = ET.parse(os.path.join(self.data_dir, xml_file))
+            tree = ET.parse(os.path.join(dir, xml_file))
             root = tree.getroot()
             image_name = root.find('filename').text
             # print(f"Processing {image_name}")
-            image_path = os.path.join(self.data_dir, image_name)
+            image_path = os.path.join(dir, image_name)
+            parsedpngs.append(image_name)
             # read the image
             image = cv2.imread(image_path)
             # get the image dimensions
@@ -104,19 +117,22 @@ class ApriltagTrainer:
 
             tags_to_write = []
             to_add = random.choice(self.tags_to_add)
-            print(f"Number of tags to add: {to_add}")
+            if self.log:
+                print(f"Number of tags to add: {to_add}")
             
             for _ in range(to_add):
-                apriltag = aprildirlist.pop()
+                apriltag = self.aprildirlist.pop()
                 tag_path = os.path.join(self.tag_path, "output", apriltag)
                 # read an augemented apriltag image
                 tag_image = cv2.imread(tag_path)
-                print(f"Image path: {tag_path}")
+                if self.log:
+                    print(f"Image path: {tag_path}")
                 # get tag id, 5 characters before the . in the first instance of .png
                 tag_id = int(apriltag[apriltag.find(".png")-5:apriltag.find(".png")])
                 # get the tag dimensions
                 tag_height, tag_width, _ = tag_image.shape
-                print(f"Tag id: {tag_id}, file name {apriltag} \n Tag height: {tag_height}\n Tag width: {tag_width}")
+                if self.log:
+                    print(f"Tag id: {tag_id}, file name {apriltag} \n Tag height: {tag_height}\n Tag width: {tag_width}")
                 aligned = False
                 # print("Trying to find a good spot for the tag")
                 while not aligned:
@@ -151,11 +167,158 @@ class ApriltagTrainer:
                     f.write(xmlstr)
             else:
                 # save the image and xml file, making the file if it doesn't exist
-                with open(os.path.join(self.data_dir, xml_file), "w") as f:
+                with open(os.path.join(dir, xml_file), "w") as f:
                     f.write(xmlstr)
                 # write the new image
                 cv2.imwrite(image_path, image)    
-            print(f"Saved to {image_path} and {xml_file}")
+            if self.log:
+                print(f"Saved to {image_path} and {xml_file}")
+
+    '''
+    Takes in a directory, dir, and goes through each png file in the directory. It then adds the apriltags 
+    to the image and saves the new image in the same directory, overwriting the old image. It also makes 
+    a NEW xml file for each image with the bounding box coordinates of the apriltags.
+    '''
+    def generate_from_png(self, dir):
+        # get a list of all the apriltag images
+        if not self.aprildirlist:
+            self.aprildirlist = os.listdir(os.path.join(self.tag_path, "output"))
+            random.shuffle(self.aprildirlist)
+        
+        # get a list of all the png images in the directory
+        alllist = os.listdir(dir)
+        print(f"alllist: {alllist}")
+        # remove all xml and png corresponding to the xml files
+        for xml_file in alllist:
+            if xml_file[-4:] == ".xml":
+                # read the file to get the image name
+                tree = ET.parse(os.path.join(dir, xml_file))
+                root = tree.getroot()
+                image_name = root.find('filename').text
+                # remove the image and xml file from the list
+                print(image_name)
+                print(xml_file)
+                try:
+                    alllist.remove(image_name)
+                except:
+                    print(f"Couldn't remove {image_name}")
+                    time.sleep(1)
+                try:
+                    alllist.remove(xml_file)
+                except:
+                    print(f"Couldn't remove {xml_file}")
+                    time.sleep(1)
+
+        pnglist = [x for x in alllist if x[-4:] == ".png"]
+        for png in pnglist:
+            # read the image
+            image = cv2.imread(os.path.join(dir, png))
+            # get the image dimensions
+            height, width, _ = image.shape
+            bounding_boxes = [] # just for checking tag collision here
+            tags_to_write = []
+            to_add = random.choice(self.tags_to_add)
+            if self.log:
+                print(f"Number of tags to add: {to_add}")
+            # add the tags to the image
+            for _ in range(to_add):
+                apriltag = self.aprildirlist.pop()
+                tag_path = os.path.join(self.tag_path, "output", apriltag)
+                # read an augemented apriltag image
+                tag_image = cv2.imread(tag_path)
+                if self.log:
+                    print(f"Image path: {tag_path}")
+                # get tag id, 5 characters before the . in the first instance of .png
+                tag_id = int(apriltag[apriltag.find(".png")-5:apriltag.find(".png")])
+                # get the tag dimensions
+                tag_height, tag_width, _ = tag_image.shape
+                if self.log:
+                    print(f"Tag id: {tag_id}, file name {apriltag} \n Tag height: {tag_height}\n Tag width: {tag_width}")
+                aligned = False
+                # print("Trying to find a good spot for the tag")
+                while not aligned:
+                    # get a random x and y coordinate for the tag
+                    x = random.randint(0, width - tag_width)
+                    y = random.randint(0, height - tag_height)
+                    # make a bounding box for the tag
+                    tag_box = BBox(x, y, x + tag_width, y + tag_height)
+                    if not self._check_bndbox(bounding_boxes, tag_box):
+                        aligned = True
+                # print(f"Found spot for tag at {x}, {y}")
+                bounding_boxes.append(tag_box)
+                tags_to_write.append(Tag_BBox(tag_box, tag_id))
+                image[tag_box.ymin:tag_box.ymax, tag_box.xmin:tag_box.xmax] = tag_image
+            # save the image and make a corresponding xml file
+            cv2.imwrite(os.path.join(self.new_dir_name, png), image)
+            xmlstr = self._make_xml(png, tags_to_write, dir, image)
+            with open(os.path.join(self.new_dir_name, png[:-4] + ".xml"), "w") as f:
+                f.write(xmlstr)
+            if self.log:
+                print(f"Saved to {png} and {png[:-4] + '.xml'}")
+
+    '''
+    Makes a fully new xml file, adds the tags to it, returns string to be written to file
+    '''
+    def _make_xml(self, png, tags_to_write, dir, img):
+        # make a new xml file for the image
+        xml_file = png[:-4] + ".xml"
+        # make a new root element
+        root = ET.Element("annotation")
+        # make the folder element
+        folder = ET.SubElement(root, "folder")
+        folder.text = "images"
+        # make the filename element
+        filename = ET.SubElement(root, "filename")
+        filename.text = png
+        # make the path element
+        path = ET.SubElement(root, "path")
+        path.text = os.path.join(dir, png)
+        # make the source element
+        source = ET.SubElement(root, "source")
+        database = ET.SubElement(source, "database")
+        database.text = "Unknown"
+        # make the size element
+        size = ET.SubElement(root, "size")
+        width = ET.SubElement(size, "width")
+        height = ET.SubElement(size, "height")
+        depth = ET.SubElement(size, "depth")
+        # set the size element values
+        height.text = str(img.shape[0])
+        width.text = str(img.shape[1])
+        depth.text = str(img.shape[2])
+        # make the segmented element
+        segmented = ET.SubElement(root, "segmented")
+        segmented.text = "0"
+        # make the object elements
+        for tag in tags_to_write:
+            # make the object element
+            object = ET.SubElement(root, "object")
+            name = ET.SubElement(object, "name")
+            if tag.id < 10:
+                name.text = f"april16h11_0{tag.id}"
+            else:
+                name.text = "april16h11_" + str(tag.id)
+            pose = ET.SubElement(object, "pose")
+            pose.text = "Unspecified"
+            truncated = ET.SubElement(object, "truncated")
+            truncated.text = "0"
+            difficult = ET.SubElement(object, "difficult")
+            difficult.text = "0"
+            bndbox = ET.SubElement(object, "bndbox")
+            xmin = ET.SubElement(bndbox, "xmin")
+            xmin.text = str(tag.BBox.xmin)
+            ymin = ET.SubElement(bndbox, "ymin")
+            ymin.text = str(tag.BBox.ymin)
+            xmax = ET.SubElement(bndbox, "xmax")
+            xmax.text = str(tag.BBox.xmax)
+            ymax = ET.SubElement(bndbox, "ymax")
+            ymax.text = str(tag.BBox.ymax)
+            id = ET.SubElement(object, "id")
+            id.text = str(tag.id)
+        # make the xml string
+        xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
+        xmlstr = os.linesep.join([s for s in xmlstr.splitlines() if s.strip()])
+        return xmlstr
 
     def _add_apriltag_to_xml(self, root, tags):
         for tag in tags:
@@ -163,9 +326,20 @@ class ApriltagTrainer:
             new_obj = ET.SubElement(root, "object")
             # create the name and id
             name = ET.SubElement(new_obj, "name")
-            name.text = "april16h11_" + str(tag.id)
+            # check if tag id is less than 10, if so add a 0 to the front
+            if tag.id < 10:
+                name.text = f"april16h11_0{tag.id}"
+            else:
+                name.text = "april16h11_" + str(tag.id)
             id = ET.SubElement(new_obj, "tag_id")
             id.text = str(tag.id)
+            # add fields for difficult and truncated and pose (not used)
+            difficult = ET.SubElement(new_obj, "difficult")
+            difficult.text = "0"
+            truncated = ET.SubElement(new_obj, "truncated")
+            truncated.text = "0"
+            pose = ET.SubElement(new_obj, "pose")
+            pose.text = "Unspecified"
             # create the bndbox
             bndbox = ET.SubElement(new_obj, "bndbox")
             xmin = ET.SubElement(bndbox, "xmin")
@@ -199,9 +373,27 @@ class ApriltagTrainer:
 
 img_dir = "/home/chris/tensorflow_workspace/2022Game/data/scaled"
 data_dir = "/home/chris/tensorflow_workspace/2022Game/data/videos"
-trainer = ApriltagTrainer(img_dir, data_dir, new_dir=True)
-trainer.augment()
-trainer.generate_xml()
+trainer = ApriltagTrainer(img_dir, data_dir, new_dir=True, logging=False)
+#trainer.augment(n=15000)
+#trainer.generate_xml()
+import timeit
+# print("Time to run: ", timeit.timeit("trainer.generate_xml()", setup="from __main__ import trainer", number=1))
+print('Running on 2020 data')
+img_dir = "/home/chris/tensorflow_workspace/2020Game/data/videos"
+#trainer.generate_xml(dir=img_dir)
+#trainer.generate_from_png(img_dir)
+
+def chris_to_ubuntu(dir):
+    # change all instances of /home/chris to /home/ubuntu in the xml files
+    for file in os.listdir(dir):
+        if file.endswith(".xml"):
+            with open(os.path.join(dir, file), "r") as f:
+                xml = f.read()
+            xml = xml.replace("/home/chris", "/home/ubuntu")
+            with open(os.path.join(dir, file), "w") as f:
+                f.write(xml)
+
+chris_to_ubuntu("/home/chris/tensorflow_workspace/2022Game/data/test")
 '''
 # loop through all the xml files
 for f in datadir:

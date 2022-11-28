@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# From here https://stackoverflow.com/questions/48235040/run-x-application-in-a-docker-container-reliably-on-a-server-connected-via-ssh-w
-SOCK=/tmp/.X11-unix
-XAUTH=/tmp/.docker.xauth
-xauth nlist $DISPLAY | sed -e 's/^..../ffff/' | xauth -f $XAUTH nmerge -
-chmod 777 $XAUTH
-docker run --gpus all -it \
-  -v $HOME/tensorflow_workspace:/home/ubuntu/tensorflow_workspace \
-  -v $SOCK:$SOCK -v $XAUTH:$XAUTH \
-  -e XAUTHORITY=$XAUTH -e DISPLAY=$DISPLAY \
-  --net host --privileged --user ubuntu \
-  frc900/tensorflow_container_gpu:115_test /bin/bash
+dev_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+dev_dir="$( dirname "$dev_dir" )"
+
+set -e
+set -o pipefail
+
+docker run "$@" -it --gpus all --net=host -v  /tmp/.X11-unix:/tmp/.X11-unix \
+ -v $HOME/tensorflow_workspace:/home/ubuntu/tensorflow_workspace \
+ -v /dev:/dev --privileged \
+ -e DISPLAY=$DISPLAY -e NVIDIA_DRIVER_CAPABILITIES=all --user ubuntu \
+ frc900/tensorflow_container_gpu:115_test /bin/bash
