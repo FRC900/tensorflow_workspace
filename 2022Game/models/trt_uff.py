@@ -126,7 +126,15 @@ PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2022Game/data/video
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'week0_1.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'week0_2.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'IMG_0023-1920.mp4'))
-cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'IMG_0034-1920.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'IMG_0034-1920.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20220320_172817.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20220320_172922.mp4'))
+cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20220320_173018.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20220320_172845.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20220320_172946.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20220320_172901.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20220320_173001.mp4'))
+
 
 
 # inference
@@ -134,8 +142,8 @@ cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'IMG_0034-1920.mp4'
 #TODO using pyCUDA for preprocess
 #ori = cv2.imread(sys.argv[1])
 ret, ori = cap.read()
-print( ori.shape)
-#vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (ori.shape[1], ori.shape[0]))
+print(ori.shape)
+#vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'IMG_0034-1920_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (ori.shape[1], ori.shape[0]))
 
 while(True):
   t.start('frame')

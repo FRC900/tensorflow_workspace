@@ -29,7 +29,7 @@ TRT_OUTPUT_GRAPH = 'trt_' + FROZEN_GRAPH_NAME
 # Dir where model.ckpt* files are being generated - make command line arg
 SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2022Game/models/2022_v3'
 MODEL_CHECKPOINT_PREFIX='best/model.ckpt-' # This should be constant, no need for command line arg
-CHECKPOINT_NUMBER='177000' # Make a command line arg
+CHECKPOINT_NUMBER='188000' # Make a command line arg
 
 # Network config - make a command line arg
 CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, 'ssd_mobilenet_v2_512x512_coco.config')

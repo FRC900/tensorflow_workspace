@@ -43,7 +43,7 @@ def add_plugin(graph):
         nmsThreshold=0.4,
         topK=100,
         keepTopK=100,
-        numClasses=38, # 28 object + 1 for unknown class
+        numClasses=29, # 28 object + 1 for unknown class
         inputOrder=[1, 2, 0],
         confSigmoid=1,
         isNormalized=1
