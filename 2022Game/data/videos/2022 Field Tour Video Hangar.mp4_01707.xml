@@ -35,28 +35,4 @@
 			<ymax>190</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>807</xmin>
-			<ymin>518</ymin>
-			<xmax>855</xmax>
-			<ymax>551</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_truss_support_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1018</xmin>
-			<ymin>518</ymin>
-			<xmax>1061</xmax>
-			<ymax>557</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

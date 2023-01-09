@@ -12,30 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3588</xmin>
-			<ymin>3611</ymin>
-			<xmax>3750</xmax>
-			<ymax>3792</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4266</xmin>
-			<ymin>3773</ymin>
-			<xmax>4469</xmax>
-			<ymax>3991</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -45,18 +21,6 @@
 			<ymin>2631</ymin>
 			<xmax>3445</xmax>
 			<ymax>2695</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4164</xmin>
-			<ymin>3294</ymin>
-			<xmax>4310</xmax>
-			<ymax>3525</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -84,18 +48,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_truss_segment</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4094</xmin>
-			<ymin>2856</ymin>
-			<xmax>4279</xmax>
-			<ymax>2950</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -119,40 +71,4 @@
 			<ymax>2723</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>terminal_base_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1566</xmin>
-			<ymin>3307</ymin>
-			<xmax>1709</xmax>
-			<ymax>3407</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>terminal_base_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>269</xmin>
-			<ymin>3501</ymin>
-			<xmax>412</xmax>
-			<ymax>3601</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo_starting_position</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4730</xmin>
-			<ymin>3904</ymin>
-			<xmax>4839</xmax>
-			<ymax>3974</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

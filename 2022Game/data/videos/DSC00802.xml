@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2229</xmin>
-			<ymin>1663</ymin>
-			<xmax>2779</xmax>
-			<ymax>2186</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_truss_support_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4225</xmin>
-			<ymin>1409</ymin>
-			<xmax>4725</xmax>
-			<ymax>1632</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

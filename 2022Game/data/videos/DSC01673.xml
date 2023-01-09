@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2873</xmin>
-			<ymin>2885</ymin>
-			<xmax>3015</xmax>
-			<ymax>2965</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -84,30 +72,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_truss_support_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3566</xmin>
-			<ymin>2719</ymin>
-			<xmax>3690</xmax>
-			<ymax>2842</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5202</xmin>
-			<ymin>3273</ymin>
-			<xmax>5409</xmax>
-			<ymax>3463</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -119,40 +83,4 @@
 			<ymax>2446</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>terminal_base_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1216</xmin>
-			<ymin>3119</ymin>
-			<xmax>1343</xmax>
-			<ymax>3219</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>purple_tape</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>99</xmin>
-			<ymin>3040</ymin>
-			<xmax>149</xmax>
-			<ymax>3116</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5067</xmin>
-			<ymin>3391</ymin>
-			<xmax>5217</xmax>
-			<ymax>3547</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

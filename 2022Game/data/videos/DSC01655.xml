@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2183</xmin>
-			<ymin>3633</ymin>
-			<xmax>2657</xmax>
-			<ymax>4000</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -33,18 +21,6 @@
 			<ymin>1200</ymin>
 			<xmax>1049</xmax>
 			<ymax>1458</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3069</xmin>
-			<ymin>3193</ymin>
-			<xmax>3219</xmax>
-			<ymax>3286</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -83,16 +59,4 @@
 			<ymax>2914</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3166</xmin>
-			<ymin>3856</ymin>
-			<xmax>3420</xmax>
-			<ymax>4000</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

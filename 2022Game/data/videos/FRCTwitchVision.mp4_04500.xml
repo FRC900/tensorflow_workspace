@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1391</xmin>
-			<ymin>778</ymin>
-			<xmax>1499</xmax>
-			<ymax>888</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1494</xmin>
-			<ymin>646</ymin>
-			<xmax>1585</xmax>
-			<ymax>719</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

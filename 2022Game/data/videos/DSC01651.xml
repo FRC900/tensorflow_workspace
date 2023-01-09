@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>blue_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2012</xmin>
-			<ymin>542</ymin>
-			<xmax>4178</xmax>
-			<ymax>3038</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_truss_support_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1585</xmin>
-			<ymin>2565</ymin>
-			<xmax>2879</xmax>
-			<ymax>3574</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

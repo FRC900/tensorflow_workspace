@@ -23,28 +23,4 @@
 			<ymax>2968</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>251</xmin>
-			<ymin>1933</ymin>
-			<xmax>638</xmax>
-			<ymax>2300</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>445</xmin>
-			<ymin>1736</ymin>
-			<xmax>793</xmax>
-			<ymax>2045</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>
