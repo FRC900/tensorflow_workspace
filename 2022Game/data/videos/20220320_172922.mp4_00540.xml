@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>terminal_base_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>644</xmin>
-			<ymin>341</ymin>
-			<xmax>687</xmax>
-			<ymax>377</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -84,102 +72,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1367</xmin>
-			<ymin>354</ymin>
-			<xmax>1425</xmax>
-			<ymax>384</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1645</xmin>
-			<ymin>527</ymin>
-			<xmax>1725</xmax>
-			<ymax>587</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1527</xmin>
-			<ymin>315</ymin>
-			<xmax>1576</xmax>
-			<ymax>413</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1319</xmin>
-			<ymin>366</ymin>
-			<xmax>1353</xmax>
-			<ymax>383</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_truss_support_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1499</xmin>
-			<ymin>401</ymin>
-			<xmax>1541</xmax>
-			<ymax>426</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1550</xmin>
-			<ymin>57</ymin>
-			<xmax>1561</xmax>
-			<ymax>68</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1597</xmin>
-			<ymin>56</ymin>
-			<xmax>1606</xmax>
-			<ymax>66</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1558</xmin>
-			<ymin>1</ymin>
-			<xmax>1567</xmax>
-			<ymax>5</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -189,18 +81,6 @@
 			<ymin>562</ymin>
 			<xmax>1484</xmax>
 			<ymax>600</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_truss_segment</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1542</xmin>
-			<ymin>128</ymin>
-			<xmax>1608</xmax>
-			<ymax>171</ymax>
 		</bndbox>
 	</object>
 	<object>

@@ -12,30 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>364</xmin>
-			<ymin>276</ymin>
-			<xmax>459</xmax>
-			<ymax>355</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>879</xmin>
-			<ymin>361</ymin>
-			<xmax>1121</xmax>
-			<ymax>757</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -47,16 +23,4 @@
 			<ymax>137</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_tape_truss_support_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>718</xmin>
-			<ymin>585</ymin>
-			<xmax>996</xmax>
-			<ymax>782</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

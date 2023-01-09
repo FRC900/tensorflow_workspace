@@ -12,54 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1544</xmin>
-			<ymin>768</ymin>
-			<xmax>1637</xmax>
-			<ymax>867</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>906</xmin>
-			<ymin>455</ymin>
-			<xmax>939</xmax>
-			<ymax>487</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1110</xmin>
-			<ymin>441</ymin>
-			<xmax>1151</xmax>
-			<ymax>479</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>827</xmin>
-			<ymin>381</ymin>
-			<xmax>842</xmax>
-			<ymax>429</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -81,30 +33,6 @@
 			<ymin>373</ymin>
 			<xmax>943</xmax>
 			<ymax>388</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1055</xmin>
-			<ymin>521</ymin>
-			<xmax>1078</xmax>
-			<ymax>547</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1798</xmin>
-			<ymin>533</ymin>
-			<xmax>1826</xmax>
-			<ymax>571</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -156,66 +84,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>rapid_react_hub_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1228</xmin>
-			<ymin>597</ymin>
-			<xmax>1352</xmax>
-			<ymax>684</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>786</xmin>
-			<ymin>557</ymin>
-			<xmax>832</xmax>
-			<ymax>592</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_cargo_starting_position</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>335</xmin>
-			<ymin>707</ymin>
-			<xmax>362</xmax>
-			<ymax>723</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo_starting_position</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>522</xmin>
-			<ymin>583</ymin>
-			<xmax>536</xmax>
-			<ymax>596</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_truss_support_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>312</xmin>
-			<ymin>433</ymin>
-			<xmax>341</xmax>
-			<ymax>457</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -252,18 +120,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1773</xmin>
-			<ymin>677</ymin>
-			<xmax>1797</xmax>
-			<ymax>701</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -275,40 +131,4 @@
 			<ymax>453</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_truss_segment</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>817</xmin>
-			<ymin>279</ymin>
-			<xmax>857</xmax>
-			<ymax>302</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1513</xmin>
-			<ymin>797</ymin>
-			<xmax>1601</xmax>
-			<ymax>868</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1204</xmin>
-			<ymin>446</ymin>
-			<xmax>1233</xmax>
-			<ymax>475</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

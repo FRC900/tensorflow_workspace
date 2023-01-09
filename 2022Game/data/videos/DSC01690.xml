@@ -48,18 +48,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>terminal_base_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2366</xmin>
-			<ymin>2410</ymin>
-			<xmax>2576</xmax>
-			<ymax>2577</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>

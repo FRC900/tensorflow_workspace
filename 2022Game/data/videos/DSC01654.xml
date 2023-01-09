@@ -12,42 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2753</xmin>
-			<ymin>3500</ymin>
-			<xmax>3108</xmax>
-			<ymax>3892</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3478</xmin>
-			<ymin>3542</ymin>
-			<xmax>3753</xmax>
-			<ymax>3863</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3420</xmin>
-			<ymin>2763</ymin>
-			<xmax>3608</xmax>
-			<ymax>2900</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -69,18 +33,6 @@
 			<ymin>2356</ymin>
 			<xmax>3953</xmax>
 			<ymax>2430</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_truss_support_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>533</xmin>
-			<ymin>3753</ymin>
-			<xmax>859</xmax>
-			<ymax>3969</ymax>
 		</bndbox>
 	</object>
 	<object>

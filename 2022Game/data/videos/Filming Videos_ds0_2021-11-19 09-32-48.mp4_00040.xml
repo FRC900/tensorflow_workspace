@@ -12,42 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1009</xmin>
-			<ymin>136</ymin>
-			<xmax>1082</xmax>
-			<ymax>195</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1335</xmin>
-			<ymin>124</ymin>
-			<xmax>1391</xmax>
-			<ymax>176</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1291</xmin>
-			<ymin>64</ymin>
-			<xmax>1332</xmax>
-			<ymax>140</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -57,18 +21,6 @@
 			<ymin>38</ymin>
 			<xmax>1801</xmax>
 			<ymax>129</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rapid_react_hub_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>663</xmin>
-			<ymin>175</ymin>
-			<xmax>797</xmax>
-			<ymax>306</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -93,30 +45,6 @@
 			<ymin>440</ymin>
 			<xmax>463</xmax>
 			<ymax>479</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>880</xmin>
-			<ymin>244</ymin>
-			<xmax>953</xmax>
-			<ymax>304</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>872</xmin>
-			<ymin>80</ymin>
-			<xmax>913</xmax>
-			<ymax>119</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -155,16 +83,4 @@
 			<ymax>396</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>white_tape_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1576</xmin>
-			<ymin>139</ymin>
-			<xmax>1648</xmax>
-			<ymax>196</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

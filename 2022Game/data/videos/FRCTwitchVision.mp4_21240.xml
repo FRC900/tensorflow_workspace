@@ -12,126 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>921</xmin>
-			<ymin>787</ymin>
-			<xmax>943</xmax>
-			<ymax>807</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>868</xmin>
-			<ymin>836</ymin>
-			<xmax>902</xmax>
-			<ymax>865</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1524</xmin>
-			<ymin>544</ymin>
-			<xmax>1570</xmax>
-			<ymax>636</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_truss_segment</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1535</xmin>
-			<ymin>388</ymin>
-			<xmax>1605</xmax>
-			<ymax>436</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1592</xmin>
-			<ymin>738</ymin>
-			<xmax>1646</xmax>
-			<ymax>790</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1533</xmin>
-			<ymin>707</ymin>
-			<xmax>1576</xmax>
-			<ymax>765</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1609</xmin>
-			<ymin>271</ymin>
-			<xmax>1621</xmax>
-			<ymax>287</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1558</xmin>
-			<ymin>263</ymin>
-			<xmax>1568</xmax>
-			<ymax>286</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1595</xmin>
-			<ymin>321</ymin>
-			<xmax>1621</xmax>
-			<ymax>338</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1544</xmin>
-			<ymin>318</ymin>
-			<xmax>1559</xmax>
-			<ymax>334</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -168,30 +48,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1613</xmin>
-			<ymin>577</ymin>
-			<xmax>1662</xmax>
-			<ymax>608</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>terminal_base_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1279</xmin>
-			<ymin>433</ymin>
-			<xmax>1320</xmax>
-			<ymax>460</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -213,18 +69,6 @@
 			<ymin>608</ymin>
 			<xmax>872</xmax>
 			<ymax>641</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1035</xmin>
-			<ymin>660</ymin>
-			<xmax>1079</xmax>
-			<ymax>699</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -261,42 +105,6 @@
 			<ymin>723</ymin>
 			<xmax>55</xmax>
 			<ymax>769</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_cargo_starting_position</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1063</xmin>
-			<ymin>580</ymin>
-			<xmax>1088</xmax>
-			<ymax>603</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo_starting_position</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>830</xmin>
-			<ymin>551</ymin>
-			<xmax>850</xmax>
-			<ymax>571</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_truss_support_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1481</xmin>
-			<ymin>602</ymin>
-			<xmax>1529</xmax>
-			<ymax>646</ymax>
 		</bndbox>
 	</object>
 	<object>

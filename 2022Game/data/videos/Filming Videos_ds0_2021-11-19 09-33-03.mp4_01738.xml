@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1264</xmin>
-			<ymin>287</ymin>
-			<xmax>1406</xmax>
-			<ymax>421</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -33,66 +21,6 @@
 			<ymin>86</ymin>
 			<xmax>1641</xmax>
 			<ymax>156</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>436</xmin>
-			<ymin>441</ymin>
-			<xmax>610</xmax>
-			<ymax>600</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>304</xmin>
-			<ymin>557</ymin>
-			<xmax>522</xmax>
-			<ymax>738</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>8</xmin>
-			<ymin>345</ymin>
-			<xmax>129</xmax>
-			<ymax>466</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>219</xmin>
-			<ymin>196</ymin>
-			<xmax>307</xmax>
-			<ymax>365</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1026</xmin>
-			<ymin>136</ymin>
-			<xmax>1105</xmax>
-			<ymax>228</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -119,16 +47,4 @@
 			<ymax>221</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>white_tape_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1504</xmin>
-			<ymin>274</ymin>
-			<xmax>1597</xmax>
-			<ymax>341</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

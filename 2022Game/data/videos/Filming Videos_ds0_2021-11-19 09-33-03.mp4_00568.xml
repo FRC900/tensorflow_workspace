@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>75</xmin>
-			<ymin>733</ymin>
-			<xmax>473</xmax>
-			<ymax>1054</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
@@ -59,16 +47,4 @@
 			<ymax>174</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>terminal_base_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1573</xmin>
-			<ymin>261</ymin>
-			<xmax>1639</xmax>
-			<ymax>328</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

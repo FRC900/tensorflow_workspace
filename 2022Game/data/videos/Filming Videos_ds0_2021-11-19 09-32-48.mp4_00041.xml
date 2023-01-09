@@ -12,66 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1048</xmin>
-			<ymin>129</ymin>
-			<xmax>1112</xmax>
-			<ymax>187</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1332</xmin>
-			<ymin>64</ymin>
-			<xmax>1371</xmax>
-			<ymax>134</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1368</xmin>
-			<ymin>125</ymin>
-			<xmax>1425</xmax>
-			<ymax>187</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>921</xmin>
-			<ymin>242</ymin>
-			<xmax>990</xmax>
-			<ymax>299</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rapid_react_hub_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>694</xmin>
-			<ymin>171</ymin>
-			<xmax>833</xmax>
-			<ymax>291</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -105,18 +45,6 @@
 			<ymin>40</ymin>
 			<xmax>1859</xmax>
 			<ymax>119</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>913</xmin>
-			<ymin>78</ymin>
-			<xmax>967</xmax>
-			<ymax>128</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -167,16 +95,4 @@
 			<ymax>403</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>white_tape_intersection</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1629</xmin>
-			<ymin>145</ymin>
-			<xmax>1682</xmax>
-			<ymax>189</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

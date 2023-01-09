@@ -12,30 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>641</xmin>
-			<ymin>155</ymin>
-			<xmax>785</xmax>
-			<ymax>399</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>383</xmin>
-			<ymin>326</ymin>
-			<xmax>490</xmax>
-			<ymax>364</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>guardrail_intersect</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -47,28 +23,4 @@
 			<ymax>189</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_cargo_starting_position</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>545</xmin>
-			<ymin>672</ymin>
-			<xmax>756</xmax>
-			<ymax>909</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_truss_support_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>741</xmin>
-			<ymin>305</ymin>
-			<xmax>870</xmax>
-			<ymax>375</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

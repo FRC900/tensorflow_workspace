@@ -12,54 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_launchpad</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3533</xmin>
-			<ymin>1838</ymin>
-			<xmax>3654</xmax>
-			<ymax>2029</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3104</xmin>
-			<ymin>1868</ymin>
-			<xmax>3197</xmax>
-			<ymax>1951</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2901</xmin>
-			<ymin>2059</ymin>
-			<xmax>2994</xmax>
-			<ymax>2193</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>terminal_base_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2760</xmin>
-			<ymin>1773</ymin>
-			<xmax>2847</xmax>
-			<ymax>1834</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -69,30 +21,6 @@
 			<ymin>1329</ymin>
 			<xmax>3190</xmax>
 			<ymax>1376</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rapid_react_hub_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2064</xmin>
-			<ymin>2199</ymin>
-			<xmax>2399</xmax>
-			<ymax>2440</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>232</xmin>
-			<ymin>2295</ymin>
-			<xmax>458</xmax>
-			<ymax>2511</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -120,30 +48,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>924</xmin>
-			<ymin>1930</ymin>
-			<xmax>962</xmax>
-			<ymax>1975</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hub_fender_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>922</xmin>
-			<ymin>2294</ymin>
-			<xmax>966</xmax>
-			<ymax>2338</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -153,54 +57,6 @@
 			<ymin>2167</ymin>
 			<xmax>309</xmax>
 			<ymax>2214</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3555</xmin>
-			<ymin>1265</ymin>
-			<xmax>3578</xmax>
-			<ymax>1287</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3674</xmin>
-			<ymin>1264</ymin>
-			<xmax>3697</xmax>
-			<ymax>1285</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3549</xmin>
-			<ymin>1366</ymin>
-			<xmax>3574</xmax>
-			<ymax>1388</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pipe_ending</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3668</xmin>
-			<ymin>1366</ymin>
-			<xmax>3689</xmax>
-			<ymax>1389</ymax>
 		</bndbox>
 	</object>
 	<object>

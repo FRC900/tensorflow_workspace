@@ -24,18 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_black_tape_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>624</xmin>
-			<ymin>454</ymin>
-			<xmax>690</xmax>
-			<ymax>526</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -47,16 +35,4 @@
 			<ymax>682</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_cargo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>589</xmin>
-			<ymin>326</ymin>
-			<xmax>653</xmax>
-			<ymax>383</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>
