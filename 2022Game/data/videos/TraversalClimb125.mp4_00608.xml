@@ -24,18 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>774</xmin>
-			<ymin>405</ymin>
-			<xmax>790</xmax>
-			<ymax>424</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>

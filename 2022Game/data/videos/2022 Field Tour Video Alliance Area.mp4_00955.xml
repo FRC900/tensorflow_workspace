@@ -72,18 +72,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>474</xmin>
-			<ymin>161</ymin>
-			<xmax>483</xmax>
-			<ymax>172</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -93,42 +81,6 @@
 			<ymin>47</ymin>
 			<xmax>668</xmax>
 			<ymax>55</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>989</xmin>
-			<ymin>126</ymin>
-			<xmax>1000</xmax>
-			<ymax>137</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1059</xmin>
-			<ymin>138</ymin>
-			<xmax>1066</xmax>
-			<ymax>146</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1159</xmin>
-			<ymin>157</ymin>
-			<xmax>1171</xmax>
-			<ymax>170</ymax>
 		</bndbox>
 	</object>
 	</annotation>

@@ -24,42 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4816</xmin>
-			<ymin>2060</ymin>
-			<xmax>4867</xmax>
-			<ymax>2096</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4343</xmin>
-			<ymin>2040</ymin>
-			<xmax>4391</xmax>
-			<ymax>2075</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3233</xmin>
-			<ymin>1997</ymin>
-			<xmax>3292</xmax>
-			<ymax>2029</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -117,30 +81,6 @@
 			<ymin>1462</ymin>
 			<xmax>2352</xmax>
 			<ymax>1574</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3869</xmin>
-			<ymin>2020</ymin>
-			<xmax>3925</xmax>
-			<ymax>2062</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5371</xmin>
-			<ymin>2082</ymin>
-			<xmax>5429</xmax>
-			<ymax>2123</ymax>
 		</bndbox>
 	</object>
 	</annotation>
