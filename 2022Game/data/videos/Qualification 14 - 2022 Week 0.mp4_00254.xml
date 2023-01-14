@@ -108,30 +108,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>110</xmin>
-			<ymin>599</ymin>
-			<xmax>117</xmax>
-			<ymax>606</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>43</xmin>
-			<ymin>598</ymin>
-			<xmax>49</xmax>
-			<ymax>604</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -168,30 +144,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>468</xmin>
-			<ymin>197</ymin>
-			<xmax>475</xmax>
-			<ymax>205</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>359</xmin>
-			<ymin>200</ymin>
-			<xmax>364</xmax>
-			<ymax>206</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -203,40 +155,4 @@
 			<ymax>220</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>858</xmin>
-			<ymin>220</ymin>
-			<xmax>867</xmax>
-			<ymax>226</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>759</xmin>
-			<ymin>208</ymin>
-			<xmax>765</xmax>
-			<ymax>218</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>271</xmin>
-			<ymin>327</ymin>
-			<xmax>281</xmax>
-			<ymax>340</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

@@ -47,28 +47,4 @@
 			<ymax>169</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>47</xmin>
-			<ymin>348</ymin>
-			<xmax>83</xmax>
-			<ymax>373</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>196</xmin>
-			<ymin>339</ymin>
-			<xmax>234</xmax>
-			<ymax>363</ymax>
-		</bndbox>
-	</object>
 	</annotation>

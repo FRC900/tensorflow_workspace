@@ -12,42 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1026</xmin>
-			<ymin>244</ymin>
-			<xmax>1065</xmax>
-			<ymax>270</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>960</xmin>
-			<ymin>221</ymin>
-			<xmax>979</xmax>
-			<ymax>239</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>905</xmin>
-			<ymin>204</ymin>
-			<xmax>921</xmax>
-			<ymax>217</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -129,30 +93,6 @@
 			<ymin>286</ymin>
 			<xmax>436</xmax>
 			<ymax>291</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>151</xmin>
-			<ymin>204</ymin>
-			<xmax>172</xmax>
-			<ymax>214</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>99</xmin>
-			<ymin>208</ymin>
-			<xmax>126</xmax>
-			<ymax>222</ymax>
 		</bndbox>
 	</object>
 	<object>

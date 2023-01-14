@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1470</xmin>
-			<ymin>86</ymin>
-			<xmax>1641</xmax>
-			<ymax>156</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_tape_corners</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
@@ -33,18 +21,6 @@
 			<ymin>988</ymin>
 			<xmax>585</xmax>
 			<ymax>1080</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>guardrail_intersect</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>428</xmin>
-			<ymin>118</ymin>
-			<xmax>543</xmax>
-			<ymax>221</ymax>
 		</bndbox>
 	</object>
 	</annotation>
