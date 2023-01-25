@@ -23,4 +23,28 @@
 			<ymax>540</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>april_tag_7</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1210</xmin>
+			<ymin>472</ymin>
+			<xmax>1281</xmax>
+			<ymax>550</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>april_tag_6</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1692</xmin>
+			<ymin>470</ymin>
+			<xmax>1779</xmax>
+			<ymax>546</ymax>
+		</bndbox>
+	</object>
 </annotation>
