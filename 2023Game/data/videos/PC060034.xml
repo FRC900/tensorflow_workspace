@@ -1,0 +1,26 @@
+<annotation>
+	<folder>videos</folder>
+	<filename>PC060034.JPG</filename>
+	<path>/home/aws.admin/tensorflow_workspace/2023Game/data/videos/PC060034.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>5184</width>
+		<height>3888</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_charge_station</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>964</ymin>
+			<xmax>3859</xmax>
+			<ymax>3150</ymax>
+		</bndbox>
+	</object>
+</annotation>
