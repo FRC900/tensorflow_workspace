@@ -1,0 +1,26 @@
+<annotation>
+	<folder>videos</folder>
+	<filename>PC060004.JPG</filename>
+	<path>/home/aws.admin/tensorflow_workspace/2023Game/data/videos/PC060004.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>5184</width>
+		<height>3888</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1747</xmin>
+			<ymin>1424</ymin>
+			<xmax>2592</xmax>
+			<ymax>2535</ymax>
+		</bndbox>
+	</object>
+</annotation>
