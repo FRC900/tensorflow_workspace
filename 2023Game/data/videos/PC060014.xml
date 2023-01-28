@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
-	<filename>PC060004.JPG</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060004.JPG</path>
+	<filename>PC060014.JPG</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060014.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,22 +17,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1747</xmin>
-			<ymin>1424</ymin>
-			<xmax>2592</xmax>
-			<ymax>2535</ymax>
+			<xmin>1460</xmin>
+			<ymin>2460</ymin>
+			<xmax>2392</xmax>
+			<ymax>2904</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>april_tag_8</name>
+		<name>cone</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3184</xmin>
-			<ymin>2456</ymin>
-			<xmax>3960</xmax>
-			<ymax>3192</ymax>
+			<xmin>744</xmin>
+			<ymin>1908</ymin>
+			<xmax>1236</xmax>
+			<ymax>2080</ymax>
 		</bndbox>
 	</object>
 </annotation>

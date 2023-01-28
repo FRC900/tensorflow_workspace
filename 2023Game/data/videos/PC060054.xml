@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
-	<filename>PC060018.JPG</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060018.JPG</path>
+	<filename>PC060054.JPG</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060054.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2966</xmin>
-			<ymin>1083</ymin>
-			<xmax>3369</xmax>
-			<ymax>2750</ymax>
+			<xmin>1953</xmin>
+			<ymin>965</ymin>
+			<xmax>2186</xmax>
+			<ymax>2472</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,58 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2194</xmin>
-			<ymin>1318</ymin>
-			<xmax>2309</xmax>
-			<ymax>1667</ymax>
+			<xmin>1508</xmin>
+			<ymin>2250</ymin>
+			<xmax>2636</xmax>
+			<ymax>2522</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2614</xmin>
+			<ymin>1337</ymin>
+			<xmax>3747</xmax>
+			<ymax>2305</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3030</xmin>
+			<ymin>1149</ymin>
+			<xmax>3864</xmax>
+			<ymax>1343</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1475</xmin>
+			<ymin>1271</ymin>
+			<xmax>1736</xmax>
+			<ymax>2043</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4042</xmin>
+			<ymin>537</ymin>
+			<xmax>5119</xmax>
+			<ymax>932</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2184</xmin>
-			<ymin>1694</ymin>
-			<xmax>2307</xmax>
-			<ymax>1958</ymax>
+			<xmin>3059</xmin>
+			<ymin>474</ymin>
+			<xmax>3127</xmax>
+			<ymax>591</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,130 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2376</xmin>
-			<ymin>1692</ymin>
-			<xmax>2431</xmax>
-			<ymax>1938</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1607</xmin>
-			<ymin>1653</ymin>
-			<xmax>1860</xmax>
-			<ymax>1890</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1581</xmin>
-			<ymin>1913</ymin>
-			<xmax>1887</xmax>
-			<ymax>2100</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1845</xmin>
-			<ymin>1837</ymin>
-			<xmax>2049</xmax>
-			<ymax>2018</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1482</xmin>
-			<ymin>1874</ymin>
-			<xmax>1627</xmax>
-			<ymax>2017</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1367</xmin>
-			<ymin>1815</ymin>
-			<xmax>1531</xmax>
-			<ymax>1950</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1435</xmin>
-			<ymin>1566</ymin>
-			<xmax>1609</xmax>
-			<ymax>1830</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2486</xmin>
-			<ymin>1497</ymin>
-			<xmax>2736</xmax>
-			<ymax>1708</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2509</xmin>
-			<ymin>1708</ymin>
-			<xmax>2729</xmax>
-			<ymax>1856</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2731</xmin>
-			<ymin>1685</ymin>
-			<xmax>2861</xmax>
-			<ymax>1821</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2359</xmin>
-			<ymin>1430</ymin>
-			<xmax>2561</xmax>
-			<ymax>1617</ymax>
+			<xmin>3008</xmin>
+			<ymin>595</ymin>
+			<xmax>3100</xmax>
+			<ymax>736</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -185,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2674</xmin>
-			<ymin>1310</ymin>
-			<xmax>2845</xmax>
-			<ymax>1477</ymax>
+			<xmin>3503</xmin>
+			<ymin>254</ymin>
+			<xmax>3571</xmax>
+			<ymax>395</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -197,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2819</xmin>
-			<ymin>1351</ymin>
-			<xmax>2960</xmax>
-			<ymax>1516</ymax>
+			<xmin>3524</xmin>
+			<ymin>404</ymin>
+			<xmax>3574</xmax>
+			<ymax>487</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -209,10 +137,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2749</xmin>
-			<ymin>1521</ymin>
-			<xmax>2843</xmax>
-			<ymax>1630</ymax>
+			<xmin>3571</xmin>
+			<ymin>398</ymin>
+			<xmax>3606</xmax>
+			<ymax>439</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -221,22 +149,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2856</xmin>
-			<ymin>1546</ymin>
-			<xmax>2936</xmax>
-			<ymax>1680</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_5</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3716</xmin>
-			<ymin>2668</ymin>
-			<xmax>4356</xmax>
-			<ymax>3748</ymax>
+			<xmin>4058</xmin>
+			<ymin>417</ymin>
+			<xmax>4099</xmax>
+			<ymax>512</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -245,10 +161,106 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1925</xmin>
-			<ymin>1626</ymin>
-			<xmax>2030</xmax>
-			<ymax>1804</ymax>
+			<xmin>4106</xmin>
+			<ymin>432</ymin>
+			<xmax>4145</xmax>
+			<ymax>512</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4133</xmin>
+			<ymin>434</ymin>
+			<xmax>4160</xmax>
+			<ymax>505</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4094</xmin>
+			<ymin>377</ymin>
+			<xmax>4164</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3718</xmin>
+			<ymin>349</ymin>
+			<xmax>3756</xmax>
+			<ymax>440</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3763</xmin>
+			<ymin>353</ymin>
+			<xmax>3798</xmax>
+			<ymax>421</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3724</xmin>
+			<ymin>446</ymin>
+			<xmax>3782</xmax>
+			<ymax>490</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3653</xmin>
+			<ymin>343</ymin>
+			<xmax>3687</xmax>
+			<ymax>434</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3615</xmin>
+			<ymin>446</ymin>
+			<xmax>3666</xmax>
+			<ymax>478</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>april_tag_4</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3763</xmin>
+			<ymin>160</ymin>
+			<xmax>3886</xmax>
+			<ymax>282</ymax>
 		</bndbox>
 	</object>
 </annotation>

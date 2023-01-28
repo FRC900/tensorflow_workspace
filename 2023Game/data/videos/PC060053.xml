@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
-	<filename>PC060025.JPG</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060025.JPG</path>
+	<filename>PC060053.JPG</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060053.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_robot</name>
+		<name>cube</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1599</xmin>
-			<ymin>1705</ymin>
-			<xmax>5051</xmax>
-			<ymax>3868</ymax>
+			<xmin>1052</xmin>
+			<ymin>1526</ymin>
+			<xmax>2347</xmax>
+			<ymax>2843</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>12</xmin>
-			<ymin>2044</ymin>
-			<xmax>688</xmax>
-			<ymax>2832</ymax>
+			<xmin>1980</xmin>
+			<ymin>1343</ymin>
+			<xmax>2980</xmax>
+			<ymax>2422</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3286</xmin>
+			<ymin>1582</ymin>
+			<xmax>4242</xmax>
+			<ymax>2727</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,22 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2116</xmin>
-			<ymin>1456</ymin>
-			<xmax>2628</xmax>
-			<ymax>1704</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_5</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>520</xmin>
-			<ymin>496</ymin>
-			<xmax>1488</xmax>
-			<ymax>1200</ymax>
+			<xmin>3514</xmin>
+			<ymin>1065</ymin>
+			<xmax>3969</xmax>
+			<ymax>1499</ymax>
 		</bndbox>
 	</object>
 </annotation>
