@@ -4,12 +4,12 @@ import os
 import xml.etree.ElementTree as ET
 
 # set the target directory
-target_dir = 'videos'
+target_dir = 'combined_88_test'
 
 # get a list of all the files in the target directory
 files = os.listdir(target_dir)
 files = [f for f in files if f.endswith('.xml')]
-name = "chris"
+name = "nathan"
 # loop through the files
 for f in files:
     # get the full path to the file
