@@ -1,0 +1,26 @@
+<annotation>
+	<folder>XML</folder>
+	<filename>image-1508-2023-01-14T16-27-14--468876.jpg</filename>
+	<path>/home/nathan/cube_cone/combine/image-1508-2023-01-14T16-27-14--468876.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>672</width>
+		<height>376</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>398</xmin>
+			<ymin>208</ymin>
+			<xmax>439</xmax>
+			<ymax>237</ymax>
+		</bndbox>
+	</object>
+</annotation>

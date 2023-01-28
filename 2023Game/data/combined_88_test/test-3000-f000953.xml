@@ -1,0 +1,26 @@
+<annotation>
+	<folder>XML</folder>
+	<filename>test-3000-f000953.png</filename>
+	<path>/home/nathan/cube_cone/combine/test-3000-f000953.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>819</xmin>
+			<ymin>573</ymin>
+			<xmax>1012</xmax>
+			<ymax>778</ymax>
+		</bndbox>
+	</object>
+</annotation>
