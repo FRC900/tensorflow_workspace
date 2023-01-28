@@ -1,0 +1,26 @@
+<annotation>
+	<folder>XML</folder>
+	<filename>PXL_20230111_002719841.TS-small-000253.png</filename>
+	<path>/home/nathan/cube_cone/combine/PXL_20230111_002719841.TS-small-000253.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>750</xmin>
+			<ymin>57</ymin>
+			<xmax>842</xmax>
+			<ymax>140</ymax>
+		</bndbox>
+	</object>
+</annotation>
