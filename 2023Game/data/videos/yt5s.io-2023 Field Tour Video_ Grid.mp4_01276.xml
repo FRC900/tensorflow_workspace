@@ -1,0 +1,38 @@
+<annotation>
+	<folder>videos</folder>
+	<filename>yt5s.io-2023 Field Tour Video_ Grid.mp4_01276.png</filename>
+	<path>/home/aws.admin/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Grid.mp4_01276.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>april_tag_6</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>712</xmin>
+			<ymin>395</ymin>
+			<xmax>800</xmax>
+			<ymax>475</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>april_tag_7</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>403</xmin>
+			<ymin>336</ymin>
+			<xmax>477</xmax>
+			<ymax>410</ymax>
+		</bndbox>
+	</object>
+</annotation>
