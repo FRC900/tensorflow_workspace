@@ -9,7 +9,7 @@ import shutil
 from collections import namedtuple
 import random
 import time
-
+import numpy as np
 # make namped tuple for bounding box
 BBox = namedtuple('BBox', ['xmin', 'ymin', 'xmax', 'ymax'])
 Tag_BBox = namedtuple('Tag_BBox', ['BBox', 'id']) # BBox should be instance of BBox
@@ -23,9 +23,10 @@ class ApriltagTrainer:
               will modify the xml files in this directory and images 
     returns: nothing
     '''
-    def __init__(self, tag_path, data_dir, new_dir=False, logging=True) -> None:
+    def __init__(self, tag_path, data_dir, new_dir=False, logging=True, prefix=None) -> None:
         # yes i know the logging module is builtin and exists
         self.log = logging
+        self.prefix = prefix
         self.aprildirlist = None
         self.new_dir = new_dir
         self.new_dir_name = "data/test"
@@ -35,12 +36,35 @@ class ApriltagTrainer:
         if self.log:
             print(f"Tag path: {tag_path} \nData path: {data_dir}")
         self.p = Augmentor.Pipeline(self.tag_path)    
-        self.p.rotate_random_90(probability=0.75)
-        self.p.zoom(probability=0.5, min_factor=0.7, max_factor=1.4)
-        self.p.skew(probability=0.75, magnitude=0.5)
-        self.p.random_distortion(probability=0.5, grid_width=5, grid_height=5, magnitude=3)
-        self.p.random_brightness(probability=0.7, min_factor=0.3, max_factor=1.5)
+        # do custom rotaions
+        #self.p.rotate(probability=0.7, max_left_rotation=5, max_right_rotation=5) 
+        #self.p.rotate_random_90(probability=0.75)
+        #self.p.zoom(probability=0.5, min_factor=0.7, max_factor=1.4)
+        self.p.skew(probability=0.5, magnitude=0.3)
+        #self.p.random_distortion(probability=0.5, grid_width=5, grid_height=5, magnitude=3)
+        self.p.random_brightness(probability=0.3, min_factor=0.5, max_factor=1.5)
+    
+    def _zoom_at(img, zoom, coord=None):
+        """
+        Simple image zooming without boundary checking.
+        Centered at "coord", if given, else the image center.
 
+        img: numpy.ndarray of shape (h,w,:)
+        zoom: float
+        coord: (float, float)
+        """
+        # Translate to zoomed coordinates
+        h, w, _ = [ zoom * i for i in img.shape ]
+        
+        if coord is None: cx, cy = w/2, h/2
+        else: cx, cy = [ zoom*c for c in coord ]
+        
+        img = cv2.resize( img, (0, 0), fx=zoom, fy=zoom)
+        img = img[ int(round(cy - h/zoom * .5)) : int(round(cy + h/zoom * .5)),
+                int(round(cx - w/zoom * .5)) : int(round(cx + w/zoom * .5)),
+                : ]
+        
+        return img
     '''
     data_dir: path to the directory containing the images and xml files of previously trained images
     n: optional parameter to specify the number of images to be generated
@@ -66,6 +90,62 @@ class ApriltagTrainer:
             num_samples = int(len(dirlist) * 2.2) # will add 2 images per xml file on average 
         print(f"\nNumber of samples generated: {num_samples}")
         self.p.sample(num_samples)
+        # read all the images output by the pipeline and randomly resize them and write them again to the test directory
+        # this is to make the images more realistic
+        # get a list of all the apriltag images
+        self.aprildirlist = os.listdir(os.path.join(self.tag_path, "output"))
+        # read in all the images
+        for image in self.aprildirlist:
+            img = cv2.imread(os.path.join(self.tag_path, "output", image))
+
+            # resize the image randomly between a quarter and double the size
+            scale = random.uniform(0.2, 1.9)
+            img = cv2.resize(img, (0,0), fx=scale, fy=scale)
+            # rotate image random between 0 and 360 degrees and have the new space be white
+            rows, cols, _ = img.shape
+            M = cv2.getRotationMatrix2D((cols/2, rows/2), random.randint(0, 360), 1)
+            # make the new space white
+            img = cv2.warpAffine(img, M, (cols, rows), borderValue=(255, 255, 255))
+
+            # show before and after
+            #cv2.imshow("before", img)
+            #cv2.imshow("after", rotate_img)
+            #cv2.waitKey(4000)
+            # write the image
+            cv2.imwrite(os.path.join(self.tag_path, "output", image), img)
+    
+    def postprocess_imgs(self):
+        # get a list of all final images
+        listdir = os.listdir(self.new_dir_name)
+        # remove all non png files
+        listdir = [x for x in listdir if x[-4:] == ".png"]
+        print(f"listdir: {listdir}")
+        # apply directional blur to simulate motion blur
+        for image in listdir:
+            print(f"image: {image}")
+            # apply to only 5% of images
+            if random.randint(0, 100) < 5:
+                img = cv2.imread(os.path.join(self.new_dir_name, image))
+                # apply directional blur
+                psf = np.zeros((50, 50, 3))
+                psf = cv2.ellipse(psf, 
+                                (25, 25), # center
+                                (22, 0), # axes -- 22 for blur length, 0 for thin PSF 
+                                15, # angle of motion in degrees
+                                0, 360, # ful ellipse, not an arc
+                                (1, 1, 1), # white color
+                                thickness=-1) # filled
+
+                psf /= psf[:,:,0].sum() # normalize by sum of one channel 
+                                        # since channels are processed independently
+
+                imfilt = cv2.filter2D(img, -1, psf)
+                # write the image
+                cv2.imwrite(os.path.join(self.new_dir_name, image), img)
+                # show before and after
+                #cv2.imshow("before", img)
+                #cv2.imshow("after", imfilt)
+                #cv2.waitKey(0)
     
     '''
     Usage: Uses the augmented images from tag_path/output and goes through each xml file in the 
@@ -89,6 +169,7 @@ class ApriltagTrainer:
             dir = self.data_dir
         datadirlist = os.listdir(dir)
         print(f"datadirlist: {datadirlist}")
+        time.sleep(3)
         datadirlist = [x for x in datadirlist if x[-4:] == ".xml"]
         for xml_file in datadirlist:
             if self.log:
@@ -134,8 +215,12 @@ class ApriltagTrainer:
                 if self.log:
                     print(f"Tag id: {tag_id}, file name {apriltag} \n Tag height: {tag_height}\n Tag width: {tag_width}")
                 aligned = False
+                cnt = 0
                 # print("Trying to find a good spot for the tag")
                 while not aligned:
+                    if cnt > 100:
+                        print("Couldn't find a good spot for the tag, skipping")
+                        break
                     # get a random x and y coordinate for the tag
                     x = random.randint(0, width - tag_width)
                     y = random.randint(0, height - tag_height)
@@ -143,11 +228,20 @@ class ApriltagTrainer:
                     tag_box = BBox(x, y, x + tag_width, y + tag_height)
                     if not self._check_bndbox(bounding_boxes, tag_box):
                         aligned = True
+                    cnt += 1
                 # print(f"Found spot for tag at {x}, {y}")
                 bounding_boxes.append(tag_box)
                 tags_to_write.append(Tag_BBox(tag_box, tag_id))
                 image[tag_box.ymin:tag_box.ymax, tag_box.xmin:tag_box.xmax] = tag_image
-
+            # replace image name with the new image name + prefix
+            if self.prefix:
+                image_name = self.prefix + image_name
+                xml_file = self.prefix + xml_file
+                # set to root
+                root.find('filename').text = image_name
+                # replace image path with the new image path + prefix
+                image_path = os.path.join(dir, image_name)
+                
             xmlstr = self._add_apriltag_to_xml(root, tags_to_write)
 
             if self.new_dir: # for testing, will make a new directory to save the images and xml files so the original data stays nice
@@ -157,6 +251,7 @@ class ApriltagTrainer:
                     os.mkdir(os.path.join(os.getcwd(), self.new_dir_name))
                 except FileExistsError:
                     pass
+
                 # update image_path and xml_file to save to the new directory
                 image_path = os.path.join(self.new_dir_name, image_name)
                 xml_file = os.path.join(self.new_dir_name, xml_file)
@@ -189,9 +284,12 @@ class ApriltagTrainer:
         alllist = os.listdir(dir)
         print(f"alllist: {alllist}")
         # remove all xml and png corresponding to the xml files
-        for xml_file in alllist:
+        for xml_file in list(alllist):
             if xml_file[-4:] == ".xml":
                 # read the file to get the image name
+                # just add .png to find the image
+                # remove the image and xml file from the list
+
                 tree = ET.parse(os.path.join(dir, xml_file))
                 root = tree.getroot()
                 image_name = root.find('filename').text
@@ -202,15 +300,16 @@ class ApriltagTrainer:
                     alllist.remove(image_name)
                 except:
                     print(f"Couldn't remove {image_name}")
-                    time.sleep(1)
+                    time.sleep(0)
                 try:
                     alllist.remove(xml_file)
                 except:
                     print(f"Couldn't remove {xml_file}")
-                    time.sleep(1)
+                    time.sleep(0)
 
         pnglist = [x for x in alllist if x[-4:] == ".png"]
         for png in pnglist:
+            print(f"png: {png}")
             # read the image
             image = cv2.imread(os.path.join(dir, png))
             # get the image dimensions
@@ -236,7 +335,12 @@ class ApriltagTrainer:
                     print(f"Tag id: {tag_id}, file name {apriltag} \n Tag height: {tag_height}\n Tag width: {tag_width}")
                 aligned = False
                 # print("Trying to find a good spot for the tag")
+                cnt = 0
+                # print("Trying to find a good spot for the tag")
                 while not aligned:
+                    if cnt > 100:
+                        print("Couldn't find a good spot for the tag, skipping")
+                        break
                     # get a random x and y coordinate for the tag
                     x = random.randint(0, width - tag_width)
                     y = random.randint(0, height - tag_height)
@@ -244,11 +348,16 @@ class ApriltagTrainer:
                     tag_box = BBox(x, y, x + tag_width, y + tag_height)
                     if not self._check_bndbox(bounding_boxes, tag_box):
                         aligned = True
+                    cnt += 1
+
                 # print(f"Found spot for tag at {x}, {y}")
                 bounding_boxes.append(tag_box)
                 tags_to_write.append(Tag_BBox(tag_box, tag_id))
                 image[tag_box.ymin:tag_box.ymax, tag_box.xmin:tag_box.xmax] = tag_image
             # save the image and make a corresponding xml file
+            if self.prefix:
+                print(f"Prefix: {self.prefix}")
+                png = self.prefix + png
             cv2.imwrite(os.path.join(self.new_dir_name, png), image)
             xmlstr = self._make_xml(png, tags_to_write, dir, image)
             with open(os.path.join(self.new_dir_name, png[:-4] + ".xml"), "w") as f:
@@ -374,24 +483,45 @@ class ApriltagTrainer:
 img_dir = "/home/chris/tensorflow_workspace/2022Game/data/scaled"
 data_dir = "/home/chris/tensorflow_workspace/2022Game/data/videos"
 trainer = ApriltagTrainer(img_dir, data_dir, new_dir=True, logging=False)
-#trainer.augment(n=15000)
+#trainer.augment(n=20000)
+print("Done augmenting")
 #trainer.generate_xml()
+
 import timeit
 # print("Time to run: ", timeit.timeit("trainer.generate_xml()", setup="from __main__ import trainer", number=1))
 print('Running on 2020 data')
 img_dir = "/home/chris/tensorflow_workspace/2020Game/data/videos"
-#trainer.generate_xml(dir=img_dir)
-#trainer.generate_from_png(img_dir)
+''' 
+trainer.generate_xml(dir=img_dir)
+trainer.generate_from_png(img_dir)
+trainer.prefix = "round_2" # lots more images
+trainer.generate_xml(dir=img_dir)
+trainer.generate_from_png(img_dir)
+
+trainer.prefix = "round_3" # lots more images
+trainer.generate_xml(dir=img_dir)
+trainer.generate_from_png(img_dir) 
+'''
+trainer.postprocess_imgs()
+
+prefix = "/home/ubuntu/tensorflow_workspace/2022Game/data/test"
 
 def chris_to_ubuntu(dir):
     # change all instances of /home/chris to /home/ubuntu in the xml files
     for file in os.listdir(dir):
         if file.endswith(".xml"):
-            with open(os.path.join(dir, file), "r") as f:
-                xml = f.read()
-            xml = xml.replace("/home/chris", "/home/ubuntu")
-            with open(os.path.join(dir, file), "w") as f:
-                f.write(xml)
+            # parse the xml file
+            tree = ET.parse(os.path.join(dir, file))
+            root = tree.getroot()
+            # get the path to the image
+            path = root.find("path")
+            # get image name from xml field filename
+            filename = root.find("filename")
+            # replace path with prefix + filename
+            path.text = os.path.join(prefix, filename.text)
+            # write the new xml file
+            tree.write(os.path.join(dir, file))
+
 
 chris_to_ubuntu("/home/chris/tensorflow_workspace/2022Game/data/test")
 '''

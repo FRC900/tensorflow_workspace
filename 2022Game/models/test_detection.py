@@ -9,7 +9,7 @@ import os
 import glob
 import timing
 from visualization import BBoxVisualization
-
+import random
 # This is needed since the notebook is stored in the object_detection folder.
 #sys.path.append("..")
 from object_detection.utils import ops as utils_ops
@@ -78,11 +78,11 @@ def run_inference_for_single_image(image, sess, graph):
 def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory exported using the export_inference_graph.py command
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2022Game/models/2022_v3'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2022Game/models/2022_v4'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
-    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME,'trt_apriltag_ssd_mobilenet_v2.pb')
+    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME,'trt_ssd_mobilenet_v2.pb')
 
     # List of the strings that is used to add correct label for each box.
     PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2022Game/data', '2022Game_label_map.pbtxt')
@@ -120,48 +120,72 @@ def main():
     ####    Useful for looking at results in more detail
     ########################################
     TEST_IMAGE_PATHS = []
-    TEST_IMAGE_PATHS.append(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101517.mp4_00204.png'))
-    TEST_IMAGE_PATHS.append(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'b_redtrainframe_03750.png'))
-    TEST_IMAGE_PATHS.append(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2022 Field Tour Video Hangar.mp4_00374.png'))
-    TEST_IMAGE_PATHS.append(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101706.mp4_00090.png'))
-    #TEST_IMAGE_PATHS = sorted(glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'hard_neg*.png')))
-    for image_path in TEST_IMAGE_PATHS:
-      print(image_path)
-      image = cv2.imread(image_path)
-      
-      print(image)
-      print(image_path)
+    TEST_IMAGE_PATHS.append(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'treeapriltag.jpeg'))
+    TEST_IMAGE_PATHS.append(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'treeapriltag1.jpeg'))
+    TEST_IMAGE_PATHS.append(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'treeapriltag2.jpeg'))
+    TEST_IMAGE_PATHS.append(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'treeapriltag3.jpeg'))
+    
+    # make list of all pngs in the test images directory
+    #images = glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, '*.png'))
 
-      image = cv2.pyrDown(image)
-      image_resized = cv2.resize(image, (300,300))
-      # the array based representation of the image will be used later in order to prepare the
-      # result image with boxes and labels on it.
-      #image_np = load_image_into_numpy_array(image)
-      image_np = cv2.cvtColor(image_resized, cv2.COLOR_BGR2RGB)
-      #image_np = cv2.pyrDown(cv2.pyrDown(image_np));
-      # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
-      image_np_expanded = np.expand_dims(image_np, axis=0)
-      #resized_image_np_expanded = np.expand_dims(resized_image_np, axis=0)
-      # Actual detection.
-      output_dict = run_inference_for_single_image(image_np_expanded, sess, detection_graph)
-      # Visualization of the results of a detection.
-      #print(output_dict)
-      vis_util.visualize_boxes_and_labels_on_image_array(
-          image_np,
-          output_dict['detection_boxes'],
-          output_dict['detection_classes'],
-          output_dict['detection_scores'],
-          category_index,
-          instance_masks=output_dict.get('detection_masks'),
-          use_normalized_coordinates=True,
-          line_thickness=4,
-          max_boxes_to_draw=50,
-          min_score_thresh=0.20)
-      cv2.imshow(image_path, cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
-      # wait for q key to loop
-      if cv2.waitKey(0) & 0xFF == ord('q'):  
-        continue
-    cv2.destroyWindow(image_path)
+    # append 1000 random images from the test set, make sure ending is .png
+    # also make sure it is from 2022
+    '''
+    for i in range(1000):
+        # get a random image
+        image = random.choice(images)
+        # make sure it is from 2022
+        if '2022' in image:
+          TEST_IMAGE_PATHS.append(image)
+    # shuffle the list 
+    random.shuffle(TEST_IMAGE_PATHS)
+    '''
+
+    #TEST_IMAGE_PATHS = sorted(glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'hard_neg*.png')))
+    while True:
+      #TEST_IMAGE_PATHS = os.listdir(PATH_TO_TEST_IMAGES_DIR)
+
+      # expand the paths
+      #TEST_IMAGE_PATHS = [os.path.join(PATH_TO_TEST_IMAGES_DIR, x) for x in TEST_IMAGE_PATHS]
+      # use only pngs
+      #TEST_IMAGE_PATHS = [x for x in TEST_IMAGE_PATHS if x.endswith('.jpeg')]
+      for image_path in TEST_IMAGE_PATHS:
+        print(image_path)
+        image = cv2.imread(image_path)
+        
+        print(image)
+        print(image_path)
+
+        image = cv2.pyrDown(image)
+        image_resized = cv2.resize(image, (512,512))
+        # the array based representation of the image will be used later in order to prepare the
+        # result image with boxes and labels on it.
+        #image_np = load_image_into_numpy_array(image)
+        image_np = cv2.cvtColor(image_resized, cv2.COLOR_BGR2RGB)
+        #image_np = cv2.pyrDown(cv2.pyrDown(image_np));
+        # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
+        image_np_expanded = np.expand_dims(image_np, axis=0)
+        #resized_image_np_expanded = np.expand_dims(resized_image_np, axis=0)
+        # Actual detection.
+        output_dict = run_inference_for_single_image(image_np_expanded, sess, detection_graph)
+        # Visualization of the results of a detection.
+        #print(output_dict)
+        vis_util.visualize_boxes_and_labels_on_image_array(
+            image_np,
+            output_dict['detection_boxes'],
+            output_dict['detection_classes'],
+            output_dict['detection_scores'],
+            category_index,
+            instance_masks=output_dict.get('detection_masks'),
+            use_normalized_coordinates=True,
+            line_thickness=4,
+            max_boxes_to_draw=50,
+            min_score_thresh=0.20)
+        cv2.imshow(image_path, cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
+        # wait for key press
+        cv2.waitKey(0)
+        
+      cv2.destroyWindow(image_path)
    
     ''' 
     while(True):

@@ -20,7 +20,7 @@ import tensorrt as trt
 #from config import model_ssd_mobilenet_v1_coco_2018_01_28 as model
 #from config import model_ssd_mobilenet_v2_coco_2018_03_29 as model
 #from config import retinanet_mobilenet_v2_400x400 as model
-from config import model_ssd_mobilenet_v2_512x512 as model
+from config import model_ssd_mobilenet_v2 as model
 #from config import model_ssd_mobilenet_v3 as model
 from visualization import BBoxVisualization
 import timing
@@ -59,7 +59,6 @@ if not os.path.isfile(model.TRTbin):
         with open(model.TRTbin, 'wb') as f:
             f.write(buf)
 
-
 # Start of inference code
 # create engine
 with open(model.TRTbin, 'rb') as f:
@@ -90,7 +89,7 @@ for binding in engine:
 context = engine.create_execution_context()
 
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2020Game/data', '2020Game_label_map.pbtxt')
+PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2022Game/data', '2022Game_label_map.pbtxt')
 category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
 
 category_dict = {0: 'background'}
@@ -99,7 +98,7 @@ for k in category_index.keys():
 viz = BBoxVisualization(category_dict)
 
 t = timing.Timings()
-PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/videos'
+PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2022Game/data/validation'
 
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Alliance_Station.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_Field_Tour_Video_Loading_Bay.mp4'))
@@ -113,7 +112,7 @@ PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2020Game/data/video
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Shield_Generator.mp4'))
 
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_22.mp4'))
-cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60.mp4'))
+#cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Great_Northern_Regional_2020_Practice21.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Great_Northern_Regional_2020_Practice23.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'ISR_District_Event_1_2020_Quarterfinal_1.mp4'))
@@ -158,13 +157,14 @@ cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Nor
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_101549.mp4'))
 #cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '20200229_102221.mp4'))
 
+cap = cv2.VideoCapture(0)
 # inference
 #TODO enable video pipeline
 #TODO using pyCUDA for preprocess
 #ori = cv2.imread(sys.argv[1])
 ret, ori = cap.read()
 print( ori.shape)
-vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (ori.shape[1], ori.shape[0]))
+vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'apriltags_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (ori.shape[1], ori.shape[0]))
 
 while(True):
   t.start('frame')
