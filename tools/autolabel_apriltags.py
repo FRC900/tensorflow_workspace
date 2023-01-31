@@ -3,20 +3,18 @@ import apriltag # pip install apriltag
 import sys
 from pascal import PascalVOC, PascalObject, BndBox # pip install pascal-voc
 from pathlib import Path
-print('6')
 
 if len(sys.argv) != 2:
     print("Invalid usage, do `autolabel_apriltags.py directory` to label all images in a directory")
     sys.exit()
-print('11')
+
 directory = sys.argv[1]
-print(13)
+
 def chopFilePath(filepath: str):
     return filepath[filepath.rfind("/")+1:]
-print('16')
+
 pathlist = Path(directory).glob('**/*.xml')
 for path in pathlist:
-    print('path')
     # because path is object not string
     xml = str(path)
 
@@ -38,15 +36,22 @@ for path in pathlist:
                                     quad_contours=True)
     detector = apriltag.Detector(options=options)
     result = detector.detect(img)
-    print('38')
+
     good_tags = []
     for tag in result:
         #print(tag.hamming)
         #if tag.hamming == 0:
-            obj = PascalObject("april_tag_"+str(tag.tag_id), "Unspecified", truncated=False, difficult=False, bndbox=BndBox(int(tag.corners[1][0]), int(tag.corners[1][1]), int(tag.corners[3][0]), int(tag.corners[3][1])))
+        if tag.tag_id >= 1 and tag.tag_id <= 8:
+            xs = []
+            ys = []
+            for c in tag.corners:
+                xs.append(c[0])
+                ys.append(c[1])
+            if max(xs) - min(xs) < 1 or max(ys) - min(ys) < 1:
+                continue # invalid tag
+            obj = PascalObject("april_tag_"+str(tag.tag_id), "Unspecified", truncated=False, difficult=False, bndbox=BndBox(int(min(xs)), int(min(ys)), int(max(xs)), int(max(ys))))
             good_tags.append(obj)
 
     new_objs = objs + good_tags
     ann.objects = new_objs
     ann.save(xml)
-    print('50')
