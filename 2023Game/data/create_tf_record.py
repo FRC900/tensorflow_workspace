@@ -24,6 +24,8 @@ Example usage:
     python3 /home/ubuntu/tensorflow_workspace/2023Game/data/create_tf_record.py \
         --label_map_path=/home/ubuntu/tensorflow_workspace/2023Game/data/2023Game_label_map.pbtxt \
         --data_dir=/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test \
+        --alt_data_dir=/home/ubuntu/tensorflow_workspace/2023Game/data/videos \
+        --alt_data_dir_2=/home/ubuntu/tensorflow_workspace/2022Game/data/test \
         --output_dir=/home/ubuntu/tensorflow_workspace/2023Game/data
 """
 
