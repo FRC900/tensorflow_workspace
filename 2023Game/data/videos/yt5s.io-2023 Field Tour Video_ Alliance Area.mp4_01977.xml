@@ -1,0 +1,50 @@
+<annotation>
+	<folder>videos</folder>
+	<filename>yt5s.io-2023 Field Tour Video_ Alliance Area.mp4_01977.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Alliance Area.mp4_01977.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>298</xmin>
+			<ymin>7</ymin>
+			<xmax>362</xmax>
+			<ymax>131</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>182</xmin>
+			<ymin>7</ymin>
+			<xmax>255</xmax>
+			<ymax>125</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>922</xmin>
+			<ymin>7</ymin>
+			<xmax>959</xmax>
+			<ymax>119</ymax>
+		</bndbox>
+	</object>
+</annotation>

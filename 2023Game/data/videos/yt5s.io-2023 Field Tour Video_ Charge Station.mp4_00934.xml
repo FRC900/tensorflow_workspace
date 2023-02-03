@@ -1,0 +1,50 @@
+<annotation>
+	<folder>videos</folder>
+	<filename>yt5s.io-2023 Field Tour Video_ Charge Station.mp4_00934.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Charge Station.mp4_00934.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>916</xmin>
+			<ymin>7</ymin>
+			<xmax>975</xmax>
+			<ymax>131</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>291</xmin>
+			<ymin>6</ymin>
+			<xmax>361</xmax>
+			<ymax>129</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>187</xmin>
+			<ymin>3</ymin>
+			<xmax>257</xmax>
+			<ymax>137</ymax>
+		</bndbox>
+	</object>
+</annotation>
