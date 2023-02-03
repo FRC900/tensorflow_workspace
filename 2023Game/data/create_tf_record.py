@@ -38,7 +38,7 @@ import re
 import operator
 import csv
 import sys
-
+import time
 import contextlib2
 from lxml import etree
 import numpy as np
@@ -88,7 +88,12 @@ def dict_to_tf_example(data,
   print(img_path)
   with tf.gfile.GFile(img_path, 'rb') as fid:
     print(img_path)
-    encoded_image = fid.read()
+    try:
+      encoded_image = fid.read()
+    except:
+      print("Error reading image: " + img_path)
+      time.sleep(1)
+      return None
   encoded_image_io = io.BytesIO(encoded_image)
   image = PIL.Image.open(encoded_image_io)
   if image.format != 'PNG' and image.format != 'JPEG' and image.format != 'MPO':
@@ -133,7 +138,15 @@ def dict_to_tf_example(data,
       else:
           class_count_map[class_name] = 1
       classes_text.append(class_name.encode('utf8'))
-      classes.append(label_map_dict[class_name])
+      try:
+        class_append = label_map_dict[class_name]
+      except KeyError:
+        if 'april16h11' in class_name:
+          # get last two characters of class name
+          nums = "april_tag" + str(int(class_name[-2:]))
+          class_append = label_map_dict["april_tag" + str(int(nums))] 
+
+      classes.append(class_append)
       truncated.append(int(obj['truncated']))
       poses.append(obj['pose'].encode('utf8'))
 

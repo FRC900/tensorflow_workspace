@@ -4,13 +4,13 @@ import os
 import xml.etree.ElementTree as ET
 import cv2
 # set the target directory
-target_dir = 'combined_88_test'
+target_dir = 'videos'
 
 # get a list of all the files in the target directory
 files = os.listdir(target_dir)
 files = [f for f in files if f.endswith('.xml')]
 names = ["nathan", "aws.admin"]
-''' 
+
 # read each xml file as string and replace /frc/ with ""
 for f in files:
     full_path = os.path.join(target_dir, f)
@@ -22,8 +22,8 @@ for f in files:
     with open(full_path, 'w') as file:
         file.write(filedata)
 exit()
-'''
-prefix = "/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/"
+
+prefix = "/home/ubuntu/tensorflow_workspace/2023Game/data/videos/"
 for f in files:
     full_path = os.path.join(target_dir, f)
     full_path = os.path.abspath(full_path)
