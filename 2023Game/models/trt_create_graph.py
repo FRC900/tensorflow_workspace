@@ -27,12 +27,12 @@ FROZEN_GRAPH_NAME='ssd_mobilenet_v2.pb'
 TRT_OUTPUT_GRAPH = 'trt_' + FROZEN_GRAPH_NAME
 
 # Dir where model.ckpt* files are being generated - make command line arg
-SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2022Game/models/2022modelname'
+SAVED_MODEL_DIR='/home/ubuntu/tensorflow_workspace/2023Game/models/2023_train'
 MODEL_CHECKPOINT_PREFIX='model.ckpt-' # This should be constant, no need for command line arg
-CHECKPOINT_NUMBER='91000' # Make a command line arg
+CHECKPOINT_NUMBER='199000' # Make a command line arg
 
 # Network config - make a command line arg
-CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, 'ssd_mobilenet_v2_coco.config')
+CONFIG_FILE=os.path.join(SAVED_MODEL_DIR, 'ssd_mobilenet_v2_512x512_coco.config')
 
 # Graph node names for inputs and outputs - don't change unless the model graph changes
 INPUT_NAME='image_tensor'
