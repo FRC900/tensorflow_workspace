@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>videos</folder>
+	<filename>DSCF8762.JPG</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF8762.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>6240</width>
+		<height>4160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2046</xmin>
+			<ymin>1285</ymin>
+			<xmax>2196</xmax>
+			<ymax>1342</ymax>
+		</bndbox>
+	</object>
+</annotation>

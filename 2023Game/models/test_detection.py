@@ -72,14 +72,14 @@ def run_inference_for_single_image(image, sess, graph):
 def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory exported using the export_inference_graph.py command
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2022Game/models/2022modelname'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2023Game/models/2023_train'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
     PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME,'ssd_mobilenet_v2.pb')
 
     # List of the strings that is used to add correct label for each box.
-    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2022Game/data', '2022Game_label_map.pbtxt')
+    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2023Game/data', '2023Game_label_map.pbtxt')
 
     # Init TF detection graph and session
     detection_graph = tf.Graph()
@@ -99,8 +99,8 @@ def main():
     vis = BBoxVisualization(category_dict)
 
     # Pick an input video to run here
-    PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2022Game/data/videos'
-    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRCTwitchVision.mp4'))
+    PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2023Game/data/videos'
+    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2023 Field Tour Video_ Substations.mp4'))
 
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
