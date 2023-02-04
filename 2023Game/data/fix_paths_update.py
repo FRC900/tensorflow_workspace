@@ -4,7 +4,7 @@ import os
 import xml.etree.ElementTree as ET
 import cv2
 # set the target directory
-target_dir = 'videos'
+target_dir = '../../2022Game/data/test'
 
 # get a list of all the files in the target directory
 files = os.listdir(target_dir)
@@ -19,6 +19,7 @@ for f in files:
         filedata = file.read()
     for name in names:
         filedata = filedata.replace(name, "ubuntu")
+    filedata = filedata.replace("april16h11_0", "april_tag_")
     with open(full_path, 'w') as file:
         file.write(filedata)
 exit()

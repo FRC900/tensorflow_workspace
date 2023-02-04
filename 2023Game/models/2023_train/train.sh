@@ -1,12 +1,12 @@
 #!/bin/bash
 # Need pretrained model info for transfer learning setup
-if [ ! -f ssd_mobilenet_v2_coco_2018_03_29/checkpoint ]
-then
-cd /home/ubuntu/tensorflow_workspace/2022Game/models
-wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz
-tar -xzf ssd_mobilenet_v2_coco_2018_03_29.tar.gz
-rm ssd_mobilenet_v2_coco_2018_03_29.tar.gz
-fi
+#if [ ! -f ssd_mobilenet_v2_coco_2018_03_29/checkpoint ]
+#then
+#cd /home/ubuntu/tensorflow_workspace/2022Game/models
+#wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz
+#tar -xzf ssd_mobilenet_v2_coco_2018_03_29.tar.gz
+#rm ssd_mobilenet_v2_coco_2018_03_29.tar.gz
+#fi
 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.0/targets/x86_64-linux/lib/stubs
 MODEL_DIR=/home/ubuntu/tensorflow_workspace/2023Game/models/2023_train
 PIPELINE_CONFIG_PATH=$MODEL_DIR/ssd_mobilenet_v2_512x512_coco.config

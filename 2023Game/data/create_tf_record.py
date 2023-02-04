@@ -130,6 +130,8 @@ def dict_to_tf_example(data,
       ymins.append(ymin / height)
       xmaxs.append(xmax / width)
       ymaxs.append(ymax / height)
+
+
       if "apriltag16h11" in obj['name']:
         obj['name'] = obj['name'].replace("apriltag16h11", "april_tag")
       class_name = obj['name']
@@ -149,6 +151,12 @@ def dict_to_tf_example(data,
       classes.append(class_append)
       truncated.append(int(obj['truncated']))
       poses.append(obj['pose'].encode('utf8'))
+  for (xm, ym, xM, yM) in zip(xmins, ymins, xmaxs, ymaxs):    
+    if xm < 0 or ym < 0 or xM > 1 or yM > 1:
+      print("==========Error: bounding box out of range============")
+      print(xm, ym, xM, yM)
+      time.sleep(0.2)
+      return None
 
   if image.format == 'PNG':
      image_format_str = 'png'
