@@ -10,11 +10,20 @@ import glob
 import timing
 from visualization import BBoxVisualization
 
+
+
+
 # This is needed since the notebook is stored in the object_detection folder.
 #sys.path.append("..")
 from object_detection.utils import ops as utils_ops
 from object_detection.utils import label_map_util
 #from object_detection.utils import visualization_utils as vis_util
+
+if len(sys.argv) > 1:
+  video_name = sys.argv[1]
+else:
+  print('No video parameter passed.')
+
 
 def load_image_into_numpy_array(image):
   (im_width, im_height) = image.size
@@ -100,8 +109,10 @@ def main():
 
     # Pick an input video to run here
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2023Game/data/videos'
-    cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2023 Field Tour Video_ Substations.mp4'))
-
+    if len(sys.argv) > 1:
+      cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, video_name))
+    else:
+      cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2023 Field Tour Video_ Substations.mp4'))
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
 
