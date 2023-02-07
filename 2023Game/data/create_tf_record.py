@@ -15,14 +15,12 @@
 
 """
 Convert Pascal-VOC xml annotations created by labelImg into TF Records
-
 Example usage:
     python /home/ubuntu/tensorflow_workspace/2020Game/data/create_tf_record.py \
         --label_map_path=/home/ubuntu/tensorflow_workspace/2020Game/data/2020Game_label_map.pbtxt \
         --data_dir=/home/ubuntu/tensorflow_workspace/2020Game/data/videos \
         --alt-data_dir=/home/ubuntu/tensorflow_workspace/2019Game/data/videos \
         --output_dir=/home/ubuntu/tensorflow_workspace/2020Game/data
-
     python3 /home/ubuntu/tensorflow_workspace/2023Game/data/create_tf_record.py \
         --label_map_path=/home/ubuntu/tensorflow_workspace/2023Game/data/2023Game_label_map.pbtxt \
         --data_dir=/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test \
@@ -69,10 +67,8 @@ def dict_to_tf_example(data,
                        ignore_difficult_instances=False,
                        ):
   """Convert XML derived dict to tf.Example proto.
-
   Notice that this function normalizes the bounding box coordinates provided
   by the raw data.
-
   Args:
     data: dict holding PASCAL XML fields for a single image (obtained by
       running dataset_util.recursive_parse_xml_to_dict)
@@ -81,16 +77,15 @@ def dict_to_tf_example(data,
       Pascal dataset directory holding the actual image data.
     ignore_difficult_instances: Whether to skip difficult instances in the
       dataset  (default: False).
-
   Returns:
     example: The converted tf.Example.
-
   Raises:
     ValueError: if the image pointed to by data['filename'] is not a valid PNG
   """
   img_path = data['path']
   print(img_path)
   with tf.gfile.GFile(img_path, 'rb') as fid:
+    print(img_path)
     encoded_image = fid.read()
   encoded_image_io = io.BytesIO(encoded_image)
   image = PIL.Image.open(encoded_image_io)
@@ -178,7 +173,6 @@ def create_tf_record(output_filename,
                      examples,
                      class_map_count):
   """Creates a TFRecord file from examples.
-
   Args:
     output_filename: Path to where output file is saved.
     num_shards: Number of shards for output file.
