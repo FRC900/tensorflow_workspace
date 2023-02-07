@@ -26,6 +26,7 @@ from object_detection import model_hparams
 import model_lib
 
 import best_checkpoint_copier
+# random copy paste that works
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
 session = tf.Session(config=config)
