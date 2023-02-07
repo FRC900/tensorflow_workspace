@@ -15,17 +15,17 @@
 
 """
 Convert Pascal-VOC xml annotations created by labelImg into TF Records
-
 Example usage:
     python /home/ubuntu/tensorflow_workspace/2020Game/data/create_tf_record.py \
         --label_map_path=/home/ubuntu/tensorflow_workspace/2020Game/data/2020Game_label_map.pbtxt \
         --data_dir=/home/ubuntu/tensorflow_workspace/2020Game/data/videos \
         --alt-data_dir=/home/ubuntu/tensorflow_workspace/2019Game/data/videos \
         --output_dir=/home/ubuntu/tensorflow_workspace/2020Game/data
-
     python3 /home/ubuntu/tensorflow_workspace/2023Game/data/create_tf_record.py \
         --label_map_path=/home/ubuntu/tensorflow_workspace/2023Game/data/2023Game_label_map.pbtxt \
         --data_dir=/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test \
+        --alt_data_dir=/home/ubuntu/tensorflow_workspace/2023Game/data/videos \
+        --alt_data_dir_2=/home/ubuntu/tensorflow_workspace/2022Game/data/test \
         --output_dir=/home/ubuntu/tensorflow_workspace/2023Game/data
 """
 
@@ -38,7 +38,7 @@ import re
 import operator
 import csv
 import sys
-
+import time
 import contextlib2
 from lxml import etree
 import numpy as np
@@ -69,10 +69,8 @@ def dict_to_tf_example(data,
                        ignore_difficult_instances=False,
                        ):
   """Convert XML derived dict to tf.Example proto.
-
   Notice that this function normalizes the bounding box coordinates provided
   by the raw data.
-
   Args:
     data: dict holding PASCAL XML fields for a single image (obtained by
       running dataset_util.recursive_parse_xml_to_dict)
@@ -81,17 +79,21 @@ def dict_to_tf_example(data,
       Pascal dataset directory holding the actual image data.
     ignore_difficult_instances: Whether to skip difficult instances in the
       dataset  (default: False).
-
   Returns:
     example: The converted tf.Example.
-
   Raises:
     ValueError: if the image pointed to by data['filename'] is not a valid PNG
   """
   img_path = data['path']
   print(img_path)
   with tf.gfile.GFile(img_path, 'rb') as fid:
-    encoded_image = fid.read()
+    print(img_path)
+    try:
+      encoded_image = fid.read()
+    except:
+      print("Error reading image: " + img_path)
+      time.sleep(1)
+      return None
   encoded_image_io = io.BytesIO(encoded_image)
   image = PIL.Image.open(encoded_image_io)
   if image.format != 'PNG' and image.format != 'JPEG' and image.format != 'MPO':
@@ -128,6 +130,8 @@ def dict_to_tf_example(data,
       ymins.append(ymin / height)
       xmaxs.append(xmax / width)
       ymaxs.append(ymax / height)
+
+
       if "apriltag16h11" in obj['name']:
         obj['name'] = obj['name'].replace("apriltag16h11", "april_tag")
       class_name = obj['name']
@@ -136,9 +140,23 @@ def dict_to_tf_example(data,
       else:
           class_count_map[class_name] = 1
       classes_text.append(class_name.encode('utf8'))
-      classes.append(label_map_dict[class_name])
+      try:
+        class_append = label_map_dict[class_name]
+      except KeyError:
+        if 'april16h11' in class_name:
+          # get last two characters of class name
+          nums = "april_tag" + str(int(class_name[-2:]))
+          class_append = label_map_dict["april_tag" + str(int(nums))] 
+
+      classes.append(class_append)
       truncated.append(int(obj['truncated']))
       poses.append(obj['pose'].encode('utf8'))
+  for (xm, ym, xM, yM) in zip(xmins, ymins, xmaxs, ymaxs):    
+    if xm < 0 or ym < 0 or xM > 1 or yM > 1:
+      print("==========Error: bounding box out of range============")
+      print(xm, ym, xM, yM)
+      time.sleep(0.2)
+      return None
 
   if image.format == 'PNG':
      image_format_str = 'png'
@@ -178,7 +196,6 @@ def create_tf_record(output_filename,
                      examples,
                      class_map_count):
   """Creates a TFRecord file from examples.
-
   Args:
     output_filename: Path to where output file is saved.
     num_shards: Number of shards for output file.
