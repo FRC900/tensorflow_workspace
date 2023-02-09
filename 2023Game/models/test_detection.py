@@ -133,7 +133,7 @@ def main():
         # Vid input is BGR, need to convert to RGB and resize 
         # to net input size to run inference
         t.start('cv')
-        image_resized = cv2.resize(cv_vid_image, (300,300))
+        image_resized = cv2.resize(cv_vid_image, (512,512))
         image_np = cv2.cvtColor(image_resized, cv2.COLOR_BGR2RGB)
         # Expand dimensions since the model expects images to have shape: [batch_size = 1, None, None, 3]
         image_np_expanded = np.expand_dims(image_np, axis=0)

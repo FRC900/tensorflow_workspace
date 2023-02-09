@@ -90,7 +90,7 @@ for binding in engine:
 context = engine.create_execution_context()
 
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2020Game/data', '2020Game_label_map.pbtxt')
+PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2023Game/data', '2023Game_label_map.pbtxt')
 category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
 
 category_dict = {0: 'background'}
@@ -164,7 +164,7 @@ cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Nor
 #ori = cv2.imread(sys.argv[1])
 ret, ori = cap.read()
 print( ori.shape)
-vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (ori.shape[1], ori.shape[0]))
+#vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '5172_POV-Great_Northern_2020_Quals_60_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (ori.shape[1], ori.shape[0]))
 
 while(True):
   t.start('frame')
@@ -219,11 +219,11 @@ while(True):
         clss.append(int(output[prefix+1]))
         confs.append(output[prefix+2])
     
-    viz.draw_bboxes(ori, boxes, confs, clss, 0.42)
+    viz.draw_bboxes(ori, boxes, confs, clss, 0.3)
     
     #cv2.imwrite("result.jpg", ori)
     cv2.imshow("result", ori)
-    vid_writer.write(ori)
+    #vid_writer.write(ori)
     t.end('viz')
     key = cv2.waitKey(1) & 0x000000FF
     next_frame = True
