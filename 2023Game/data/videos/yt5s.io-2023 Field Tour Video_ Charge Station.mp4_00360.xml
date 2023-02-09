@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>yt5s.io-2023 Field Tour Video_ Charge Station.mp4_00360.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Charge Station.mp4_00360.png</path>
@@ -17,18 +17,6 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>896</xmin>
-			<ymin>11</ymin>
-			<xmax>932</xmax>
-			<ymax>87</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
 			<xmin>849</xmin>
 			<ymin>5</ymin>
 			<xmax>887</xmax>
@@ -41,22 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>511</xmin>
-			<ymin>40</ymin>
-			<xmax>535</xmax>
-			<ymax>94</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>308</xmin>
-			<ymin>53</ymin>
-			<xmax>327</xmax>
-			<ymax>92</ymax>
+			<xmin>304</xmin>
+			<ymin>47</ymin>
+			<xmax>323</xmax>
+			<ymax>96</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -67,8 +43,8 @@
 		<bndbox>
 			<xmin>465</xmin>
 			<ymin>28</ymin>
-			<xmax>497</xmax>
-			<ymax>66</ymax>
+			<xmax>496</xmax>
+			<ymax>87</ymax>
 		</bndbox>
 	</object>
 </annotation>

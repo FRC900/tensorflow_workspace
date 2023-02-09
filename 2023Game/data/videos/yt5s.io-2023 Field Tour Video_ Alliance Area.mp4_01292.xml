@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>yt5s.io-2023 Field Tour Video_ Alliance Area.mp4_01292.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Alliance Area.mp4_01292.png</path>
@@ -42,8 +42,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>87</xmin>
-			<ymin>663</ymin>
-			<xmax>180</xmax>
+			<ymin>659</ymin>
+			<xmax>170</xmax>
 			<ymax>718</ymax>
 		</bndbox>
 	</object>
@@ -53,8 +53,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>218</xmin>
-			<ymin>554</ymin>
+			<xmin>231</xmin>
+			<ymin>551</ymin>
 			<xmax>290</xmax>
 			<ymax>613</ymax>
 		</bndbox>
@@ -67,7 +67,7 @@
 		<bndbox>
 			<xmin>498</xmin>
 			<ymin>540</ymin>
-			<xmax>569</xmax>
+			<xmax>558</xmax>
 			<ymax>621</ymax>
 		</bndbox>
 	</object>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>749</xmin>
+			<xmin>744</xmin>
 			<ymin>343</ymin>
 			<xmax>780</xmax>
-			<ymax>389</ymax>
+			<ymax>393</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -126,8 +126,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>582</xmin>
-			<ymin>340</ymin>
-			<xmax>608</xmax>
+			<ymin>334</ymin>
+			<xmax>616</xmax>
 			<ymax>386</ymax>
 		</bndbox>
 	</object>
@@ -189,6 +189,18 @@
 			<ymin>130</ymin>
 			<xmax>739</xmax>
 			<ymax>509</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>464</xmin>
+			<ymin>179</ymin>
+			<xmax>527</xmax>
+			<ymax>208</ymax>
 		</bndbox>
 	</object>
 </annotation>
