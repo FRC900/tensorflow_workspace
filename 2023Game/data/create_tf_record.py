@@ -25,7 +25,8 @@ Example usage:
         --label_map_path=/home/ubuntu/tensorflow_workspace/2023Game/data/2023Game_label_map.pbtxt \
         --data_dir=/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test \
         --alt_data_dir=/home/ubuntu/tensorflow_workspace/2023Game/data/videos \
-        --alt_data_dir_2=/home/ubuntu/tensorflow_workspace/2022Game/data/test \
+        --alt_data_dir_2=/home/ubuntu/tensorflow_workspace/2022Game/data/videos \
+        --alt_data_dir_3=/home/ubuntu/tensorflow_workspace/2020Game/data/videos \
         --output_dir=/home/ubuntu/tensorflow_workspace/2023Game/data
 """
 
