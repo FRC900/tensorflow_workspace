@@ -154,10 +154,20 @@ def dict_to_tf_example(data,
       poses.append(obj['pose'].encode('utf8'))
   for (xm, ym, xM, yM) in zip(xmins, ymins, xmaxs, ymaxs):    
     if xm < 0 or ym < 0 or xM > 1 or yM > 1:
-      print("==========Error: bounding box out of range============")
+      print(f"==========Error: bounding box out of range in {img_path}============")
       print(xm, ym, xM, yM)
-      time.sleep(0.2)
+      #time.sleep(0.2)
       return None
+
+  for i in range(len(xmins)):
+    if xmins[i] > xmaxs[i]:
+      print(f"==========Error: bounding box Xs swapped in {img_path}============")
+      xmins[i], xmaxs[i] = xmaxs[i], xmins[i]
+
+  for i in range(len(ymins)):
+    if ymins[i] > ymaxs[i]:
+      print(f"==========Error: bounding box Ys swapped in {img_path}============")
+      ymins[i], ymaxs[i] = ymaxs[i], ymins[i]
 
   if image.format == 'PNG':
      image_format_str = 'png'
