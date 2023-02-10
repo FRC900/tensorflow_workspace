@@ -131,4 +131,16 @@
 			<ymax>75</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1238</xmin>
+			<ymin>208</ymin>
+			<xmax>1278</xmax>
+			<ymax>234</ymax>
+		</bndbox>
+	</object>
 </annotation>

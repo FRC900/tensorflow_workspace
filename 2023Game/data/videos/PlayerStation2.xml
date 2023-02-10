@@ -173,10 +173,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3650</xmin>
-			<ymin>1481</ymin>
-			<xmax>4212</xmax>
-			<ymax>1953</ymax>
+			<xmin>3769</xmin>
+			<ymin>1631</ymin>
+			<xmax>4115</xmax>
+			<ymax>1896</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -185,10 +185,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>617</xmin>
-			<ymin>1062</ymin>
-			<xmax>1017</xmax>
-			<ymax>1348</ymax>
+			<xmin>712</xmin>
+			<ymin>1153</ymin>
+			<xmax>960</xmax>
+			<ymax>1377</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -213,6 +213,18 @@
 			<ymin>58</ymin>
 			<xmax>2355</xmax>
 			<ymax>105</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>april_tag_8</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>6384</xmin>
+			<ymin>1000</ymin>
+			<xmax>6512</xmax>
+			<ymax>1162</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -17,10 +17,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>604</xmin>
 			<ymin>338</ymin>
 			<xmax>670</xmax>
 			<ymax>398</ymax>
+=======
+			<xmin>599</xmin>
+			<ymin>337</ymin>
+			<xmax>671</xmax>
+			<ymax>399</ymax>
+>>>>>>> 61af34bc (relabeled images)
 		</bndbox>
 	</object>
 	<object>
@@ -144,15 +151,74 @@
 		</bndbox>
 	</object>
 	<object>
+<<<<<<< HEAD
 		<name>cube</name>
+=======
+		<name>black_bottom_substation</name>
+>>>>>>> 61af34bc (relabeled images)
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1196</xmin>
 			<ymin>172</ymin>
 			<xmax>1240</xmax>
 			<ymax>217</ymax>
+=======
+			<xmin>737</xmin>
+			<ymin>560</ymin>
+			<xmax>780</xmax>
+			<ymax>610</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black_bottom_substation</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1048</xmin>
+			<ymin>559</ymin>
+			<xmax>1090</xmax>
+			<ymax>606</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black_bottom_substation</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>489</xmin>
+			<ymin>563</ymin>
+			<xmax>533</xmax>
+			<ymax>608</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black_bottom_substation</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>246</xmin>
+			<ymin>555</ymin>
+			<xmax>302</xmax>
+			<ymax>604</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black_bottom_substation</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>549</ymin>
+			<xmax>65</xmax>
+			<ymax>595</ymax>
+>>>>>>> 61af34bc (relabeled images)
 		</bndbox>
 	</object>
 </annotation>
