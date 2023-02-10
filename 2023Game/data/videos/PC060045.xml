@@ -24,18 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_charge_station</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>86</xmin>
-			<ymin>2311</ymin>
-			<xmax>3514</xmax>
-			<ymax>3827</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>cube</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -69,6 +57,18 @@
 			<ymin>1270</ymin>
 			<xmax>466</xmax>
 			<ymax>1360</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>3670</ymin>
+			<xmax>168</xmax>
+			<ymax>3778</ymax>
 		</bndbox>
 	</object>
 </annotation>

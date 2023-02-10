@@ -23,4 +23,28 @@
 			<ymax>482</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>black_bottom_substation</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1079</xmin>
+			<ymin>630</ymin>
+			<xmax>1137</xmax>
+			<ymax>704</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black_bottom_substation</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>627</ymin>
+			<xmax>160</xmax>
+			<ymax>698</ymax>
+		</bndbox>
+	</object>
 </annotation>

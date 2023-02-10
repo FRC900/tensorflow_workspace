@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <annotation verified="yes">
+=======
+<annotation>
+>>>>>>> 61af34bc (relabeled images)
 	<folder>videos</folder>
 	<filename>yt5s.io-2023 Field Tour Video_ Grid.mp4_01920.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Grid.mp4_01920.png</path>
@@ -17,10 +21,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>724</xmin>
 			<ymin>61</ymin>
 			<xmax>898</xmax>
 			<ymax>157</ymax>
+=======
+			<xmin>739</xmin>
+			<ymin>69</ymin>
+			<xmax>887</xmax>
+			<ymax>149</ymax>
+>>>>>>> 61af34bc (relabeled images)
 		</bndbox>
 	</object>
 	<object>
@@ -29,9 +40,15 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>932</xmin>
 			<ymin>54</ymin>
 			<xmax>971</xmax>
+=======
+			<xmin>929</xmin>
+			<ymin>58</ymin>
+			<xmax>969</xmax>
+>>>>>>> 61af34bc (relabeled images)
 			<ymax>169</ymax>
 		</bndbox>
 	</object>

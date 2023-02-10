@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1158</xmin>
-			<ymin>455</ymin>
-			<xmax>1212</xmax>
-			<ymax>530</ymax>
+			<xmin>1163</xmin>
+			<ymin>462</ymin>
+			<xmax>1204</xmax>
+			<ymax>518</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>669</xmin>
-			<ymin>483</ymin>
-			<xmax>773</xmax>
-			<ymax>580</ymax>
+			<xmin>689</xmin>
+			<ymin>500</ymin>
+			<xmax>758</xmax>
+			<ymax>562</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -165,18 +165,6 @@
 			<ymin>713</ymin>
 			<xmax>1920</xmax>
 			<ymax>1080</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_charge_station</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>910</xmin>
-			<ymin>936</ymin>
-			<xmax>1412</xmax>
-			<ymax>1079</ymax>
 		</bndbox>
 	</object>
 </annotation>
