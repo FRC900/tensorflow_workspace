@@ -112,7 +112,7 @@ def main():
     if len(sys.argv) > 1:
       cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, video_name))
     else:
-      cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2023 Field Tour Video_ Substations.mp4'))
+      cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC team 1690 Orbit 2023 robot reveal - "DEXTER".mp4')) #
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
 
