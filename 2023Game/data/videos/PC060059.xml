@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>PC060059.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060059.JPG</path>
@@ -18,8 +18,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>2275</xmin>
-			<ymin>1904</ymin>
-			<xmax>3092</xmax>
+			<ymin>1628</ymin>
+			<xmax>3080</xmax>
 			<ymax>2655</ymax>
 		</bndbox>
 	</object>
@@ -248,7 +248,7 @@
 			<xmin>1</xmin>
 			<ymin>209</ymin>
 			<xmax>648</xmax>
-			<ymax>826</ymax>
+			<ymax>874</ymax>
 		</bndbox>
 	</object>
 </annotation>

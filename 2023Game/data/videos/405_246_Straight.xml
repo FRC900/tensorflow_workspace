@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>405_246_Straight.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/405_246_Straight.png</path>
@@ -213,6 +213,18 @@
 			<ymin>384</ymin>
 			<xmax>1195</xmax>
 			<ymax>417</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1080</xmin>
+			<ymin>604</ymin>
+			<xmax>1137</xmax>
+			<ymax>657</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -19,8 +19,8 @@
 		<bndbox>
 			<xmin>1297</xmin>
 			<ymin>603</ymin>
-			<xmax>1362</xmax>
-			<ymax>652</ymax>
+			<xmax>1346</xmax>
+			<ymax>645</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1323</xmin>
-			<ymin>869</ymin>
-			<xmax>1376</xmax>
-			<ymax>884</ymax>
+			<xmin>1341</xmin>
+			<ymin>858</ymin>
+			<xmax>1378</xmax>
+			<ymax>900</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -150,7 +150,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>441</xmin>
-			<ymin>515</ymin>
+			<ymin>499</ymin>
 			<xmax>483</xmax>
 			<ymax>551</ymax>
 		</bndbox>
@@ -633,6 +633,90 @@
 			<ymin>818</ymin>
 			<xmax>295</xmax>
 			<ymax>873</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1475</xmin>
+			<ymin>534</ymin>
+			<xmax>1501</xmax>
+			<ymax>558</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>386</xmin>
+			<ymin>495</ymin>
+			<xmax>414</xmax>
+			<ymax>517</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1501</xmin>
+			<ymin>613</ymin>
+			<xmax>1536</xmax>
+			<ymax>643</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1441</xmin>
+			<ymin>462</ymin>
+			<xmax>1473</xmax>
+			<ymax>490</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1486</xmin>
+			<ymin>434</ymin>
+			<xmax>1616</xmax>
+			<ymax>506</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>976</xmin>
+			<ymin>339</ymin>
+			<xmax>1001</xmax>
+			<ymax>359</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>958</xmin>
+			<ymin>381</ymin>
+			<xmax>985</xmax>
+			<ymax>405</ymax>
 		</bndbox>
 	</object>
 </annotation>

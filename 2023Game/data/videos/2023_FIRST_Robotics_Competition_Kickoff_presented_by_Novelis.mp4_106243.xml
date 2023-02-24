@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_106243.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_106243.png</path>
@@ -30,9 +30,33 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>541</xmin>
-			<ymin>911</ymin>
-			<xmax>647</xmax>
+			<ymin>893</ymin>
+			<xmax>666</xmax>
 			<ymax>968</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>719</ymin>
+			<xmax>59</xmax>
+			<ymax>794</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>154</ymin>
+			<xmax>136</xmax>
+			<ymax>193</ymax>
 		</bndbox>
 	</object>
 </annotation>

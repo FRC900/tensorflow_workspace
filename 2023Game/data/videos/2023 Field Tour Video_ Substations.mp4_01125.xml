@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2023 Field Tour Video_ Substations.mp4_01125.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023 Field Tour Video_ Substations.mp4_01125.png</path>
@@ -29,22 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1001</xmin>
+			<xmin>987</xmin>
 			<ymin>455</ymin>
-			<xmax>1032</xmax>
-			<ymax>498</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>990</xmin>
-			<ymin>563</ymin>
-			<xmax>1053</xmax>
-			<ymax>592</ymax>
+			<xmax>1049</xmax>
+			<ymax>551</ymax>
 		</bndbox>
 	</object>
 	<object>

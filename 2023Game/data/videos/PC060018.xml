@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>PC060018.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060018.JPG</path>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2966</xmin>
-			<ymin>1083</ymin>
-			<xmax>3369</xmax>
-			<ymax>2750</ymax>
+			<xmin>2501</xmin>
+			<ymin>1093</ymin>
+			<xmax>3715</xmax>
+			<ymax>2717</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2194</xmin>
+			<xmin>2136</xmin>
 			<ymin>1318</ymin>
-			<xmax>2309</xmax>
-			<ymax>1667</ymax>
+			<xmax>2421</xmax>
+			<ymax>1676</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2376</xmin>
+			<xmin>2330</xmin>
 			<ymin>1692</ymin>
-			<xmax>2431</xmax>
-			<ymax>1938</ymax>
+			<xmax>2507</xmax>
+			<ymax>2018</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -149,10 +149,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2509</xmin>
+			<xmin>2505</xmin>
 			<ymin>1708</ymin>
 			<xmax>2729</xmax>
-			<ymax>1856</ymax>
+			<ymax>1922</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -186,8 +186,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>2674</xmin>
-			<ymin>1310</ymin>
-			<xmax>2845</xmax>
+			<ymin>1176</ymin>
+			<xmax>2853</xmax>
 			<ymax>1477</ymax>
 		</bndbox>
 	</object>
@@ -198,8 +198,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>2819</xmin>
-			<ymin>1351</ymin>
-			<xmax>2960</xmax>
+			<ymin>1205</ymin>
+			<xmax>2996</xmax>
 			<ymax>1516</ymax>
 		</bndbox>
 	</object>
@@ -247,8 +247,8 @@
 		<bndbox>
 			<xmin>1925</xmin>
 			<ymin>1626</ymin>
-			<xmax>2030</xmax>
-			<ymax>1804</ymax>
+			<xmax>2053</xmax>
+			<ymax>1920</ymax>
 		</bndbox>
 	</object>
 </annotation>

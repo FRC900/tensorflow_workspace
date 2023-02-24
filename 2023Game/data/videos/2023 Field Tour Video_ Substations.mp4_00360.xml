@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2023 Field Tour Video_ Substations.mp4_00360.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023 Field Tour Video_ Substations.mp4_00360.png</path>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>922</xmin>
+			<xmin>907</xmin>
 			<ymin>255</ymin>
 			<xmax>976</xmax>
-			<ymax>345</ymax>
+			<ymax>342</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>326</xmin>
+			<xmin>312</xmin>
 			<ymin>473</ymin>
-			<xmax>344</xmax>
-			<ymax>521</ymax>
+			<xmax>354</xmax>
+			<ymax>538</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>250</xmin>
-			<ymin>490</ymin>
-			<xmax>276</xmax>
-			<ymax>527</ymax>
+			<xmin>238</xmin>
+			<ymin>469</ymin>
+			<xmax>277</xmax>
+			<ymax>547</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>366</xmin>
+			<xmin>360</xmin>
 			<ymin>480</ymin>
 			<xmax>410</xmax>
-			<ymax>511</ymax>
+			<ymax>528</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,7 +77,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>834</xmin>
+			<xmin>827</xmin>
 			<ymin>272</ymin>
 			<xmax>884</xmax>
 			<ymax>326</ymax>
@@ -115,8 +115,8 @@
 		<bndbox>
 			<xmin>991</xmin>
 			<ymin>418</ymin>
-			<xmax>1028</xmax>
-			<ymax>440</ymax>
+			<xmax>1027</xmax>
+			<ymax>448</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>976</xmin>
+			<xmin>966</xmin>
 			<ymin>424</ymin>
 			<xmax>994</xmax>
-			<ymax>445</ymax>
+			<ymax>451</ymax>
 		</bndbox>
 	</object>
 </annotation>

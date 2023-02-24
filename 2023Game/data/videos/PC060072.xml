@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>PC060072.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060072.JPG</path>
@@ -173,10 +173,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2433</xmin>
-			<ymin>1391</ymin>
-			<xmax>2493</xmax>
-			<ymax>1423</ymax>
+			<xmin>2443</xmin>
+			<ymin>1387</ymin>
+			<xmax>2519</xmax>
+			<ymax>1433</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -489,6 +489,42 @@
 			<ymin>1247</ymin>
 			<xmax>3639</xmax>
 			<ymax>1256</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1992</xmin>
+			<ymin>1424</ymin>
+			<xmax>2076</xmax>
+			<ymax>1501</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1946</xmin>
+			<ymin>1533</ymin>
+			<xmax>2003</xmax>
+			<ymax>1599</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3186</xmin>
+			<ymin>1322</ymin>
+			<xmax>3250</xmax>
+			<ymax>1374</ymax>
 		</bndbox>
 	</object>
 </annotation>

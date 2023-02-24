@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>PC060007.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060007.JPG</path>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1884</xmin>
-			<ymin>2316</ymin>
-			<xmax>2004</xmax>
-			<ymax>3028</ymax>
+			<xmin>1640</xmin>
+			<ymin>2332</ymin>
+			<xmax>2242</xmax>
+			<ymax>3057</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,22 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1716</xmin>
-			<ymin>2832</ymin>
-			<xmax>2268</xmax>
-			<ymax>3108</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2292</xmin>
+			<xmin>2138</xmin>
 			<ymin>1128</ymin>
-			<xmax>2492</xmax>
-			<ymax>1684</ymax>
+			<xmax>2632</xmax>
+			<ymax>1774</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,34 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2196</xmin>
-			<ymin>1684</ymin>
-			<xmax>2584</xmax>
-			<ymax>1756</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4352</xmin>
-			<ymin>1580</ymin>
-			<xmax>4548</xmax>
-			<ymax>1744</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4428</xmin>
-			<ymin>1380</ymin>
-			<xmax>4556</xmax>
-			<ymax>1560</ymax>
+			<xmin>4329</xmin>
+			<ymin>1171</ymin>
+			<xmax>4802</xmax>
+			<ymax>1755</ymax>
 		</bndbox>
 	</object>
 	<object>

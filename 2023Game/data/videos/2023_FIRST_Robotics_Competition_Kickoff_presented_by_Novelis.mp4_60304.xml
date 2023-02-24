@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_60304.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_60304.png</path>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>876</xmin>
-			<ymin>187</ymin>
-			<xmax>1003</xmax>
-			<ymax>229</ymax>
+			<xmin>870</xmin>
+			<ymin>182</ymin>
+			<xmax>997</xmax>
+			<ymax>224</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1080</xmin>
-			<ymin>192</ymin>
-			<xmax>1204</xmax>
-			<ymax>229</ymax>
+			<xmin>1074</xmin>
+			<ymin>185</ymin>
+			<xmax>1206</xmax>
+			<ymax>238</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -103,8 +103,8 @@
 		<bndbox>
 			<xmin>1481</xmin>
 			<ymin>201</ymin>
-			<xmax>1518</xmax>
-			<ymax>249</ymax>
+			<xmax>1508</xmax>
+			<ymax>248</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>622</xmin>
+			<xmin>621</xmin>
 			<ymin>180</ymin>
 			<xmax>750</xmax>
-			<ymax>214</ymax>
+			<ymax>225</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1546</xmin>
+			<xmin>1541</xmin>
 			<ymin>201</ymin>
 			<xmax>1672</xmax>
-			<ymax>238</ymax>
+			<ymax>244</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -261,6 +261,30 @@
 			<ymin>726</ymin>
 			<xmax>1515</xmax>
 			<ymax>754</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1243</xmin>
+			<ymin>866</ymin>
+			<xmax>1294</xmax>
+			<ymax>905</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1202</xmin>
+			<ymin>985</ymin>
+			<xmax>1252</xmax>
+			<ymax>1025</ymax>
 		</bndbox>
 	</object>
 </annotation>

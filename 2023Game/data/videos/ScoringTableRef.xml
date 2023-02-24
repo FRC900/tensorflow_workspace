@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>ScoringTableRef.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/ScoringTableRef.jpg</path>
@@ -30,9 +30,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>5590</xmin>
-			<ymin>629</ymin>
-			<xmax>5741</xmax>
-			<ymax>808</ymax>
+			<ymin>645</ymin>
+			<xmax>5738</xmax>
+			<ymax>786</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -617,10 +617,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4052</xmin>
-			<ymin>401</ymin>
-			<xmax>4229</xmax>
-			<ymax>477</ymax>
+			<xmin>4117</xmin>
+			<ymin>403</ymin>
+			<xmax>4234</xmax>
+			<ymax>498</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -631,8 +631,8 @@
 		<bndbox>
 			<xmin>2943</xmin>
 			<ymin>472</ymin>
-			<xmax>3129</xmax>
-			<ymax>558</ymax>
+			<xmax>3056</xmax>
+			<ymax>545</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -789,6 +789,54 @@
 			<ymin>138</ymin>
 			<xmax>1808</xmax>
 			<ymax>202</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3967</xmin>
+			<ymin>340</ymin>
+			<xmax>4045</xmax>
+			<ymax>399</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4363</xmin>
+			<ymin>328</ymin>
+			<xmax>4433</xmax>
+			<ymax>397</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5830</xmin>
+			<ymin>378</ymin>
+			<xmax>5905</xmax>
+			<ymax>435</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4667</xmin>
+			<ymin>286</ymin>
+			<xmax>4745</xmax>
+			<ymax>358</ymax>
 		</bndbox>
 	</object>
 </annotation>
