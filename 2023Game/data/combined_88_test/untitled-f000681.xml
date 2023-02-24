@@ -1,1 +1,26 @@
-<annotation><folder>XML</folder><filename>untitled-f000681.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f000681.png</path><source><database>Unknown</database></source><size><width>1920</width><height>1080</height><depth>3</depth></size><segmented>0</segmented><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>596</xmin><ymin>268</ymin><xmax>1218</xmax><ymax>942</ymax></bndbox></object><object><name>april_tag_2</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>482</xmin><ymin>622</ymin><xmax>457</xmax><ymax>609</ymax></bndbox></object><object><name>april_tag_6</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1824</xmin><ymin>132</ymin><xmax>1826</xmax><ymax>136</ymax></bndbox></object><object><name>april_tag_6</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1773</xmin><ymin>728</ymin><xmax>1749</xmax><ymax>718</ymax></bndbox></object><object><name>april_tag_7</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1127</xmin><ymin>963</ymin><xmax>1214</xmax><ymax>966</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>combined_88_test</folder>
+	<filename>untitled-f000681.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f000681.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>596</xmin>
+			<ymin>268</ymin>
+			<xmax>1218</xmax>
+			<ymax>942</ymax>
+		</bndbox>
+	</object>
+</annotation>
