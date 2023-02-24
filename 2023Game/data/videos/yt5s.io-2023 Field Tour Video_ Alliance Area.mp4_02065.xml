@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>yt5s.io-2023 Field Tour Video_ Alliance Area.mp4_02065.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Alliance Area.mp4_02065.png</path>
@@ -45,6 +45,18 @@
 			<ymin>56</ymin>
 			<xmax>327</xmax>
 			<ymax>101</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>911</xmin>
+			<ymin>354</ymin>
+			<xmax>949</xmax>
+			<ymax>385</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>yt5s.io-2023 Field Tour Video_ Charge Station.mp4_01810.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Charge Station.mp4_01810.png</path>
@@ -31,8 +31,8 @@
 		<bndbox>
 			<xmin>891</xmin>
 			<ymin>90</ymin>
-			<xmax>951</xmax>
-			<ymax>122</ymax>
+			<xmax>930</xmax>
+			<ymax>124</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>669</xmin>
+			<xmin>674</xmin>
 			<ymin>34</ymin>
-			<xmax>712</xmax>
-			<ymax>51</ymax>
+			<xmax>713</xmax>
+			<ymax>62</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -129,6 +129,66 @@
 			<ymin>206</ymin>
 			<xmax>1279</xmax>
 			<ymax>234</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>916</xmin>
+			<ymin>56</ymin>
+			<xmax>948</xmax>
+			<ymax>80</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1049</xmin>
+			<ymin>85</ymin>
+			<xmax>1077</xmax>
+			<ymax>114</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>805</xmin>
+			<ymin>28</ymin>
+			<xmax>848</xmax>
+			<ymax>56</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>537</xmin>
+			<ymin>1</ymin>
+			<xmax>572</xmax>
+			<ymax>19</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>279</xmin>
+			<ymin>24</ymin>
+			<xmax>307</xmax>
+			<ymax>47</ymax>
 		</bndbox>
 	</object>
 </annotation>

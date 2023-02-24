@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>PC060051.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060051.JPG</path>
@@ -21,6 +21,18 @@
 			<ymin>416</ymin>
 			<xmax>3955</xmax>
 			<ymax>2238</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>778</xmin>
+			<ymin>420</ymin>
+			<xmax>1217</xmax>
+			<ymax>683</ymax>
 		</bndbox>
 	</object>
 </annotation>

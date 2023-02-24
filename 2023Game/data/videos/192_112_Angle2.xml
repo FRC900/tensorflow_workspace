@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>192_112_Angle2.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/192_112_Angle2.png</path>
@@ -30,8 +30,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>555</xmin>
-			<ymin>268</ymin>
-			<xmax>596</xmax>
+			<ymin>271</ymin>
+			<xmax>593</xmax>
 			<ymax>315</ymax>
 		</bndbox>
 	</object>
@@ -72,26 +72,14 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_charge_station</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3</xmin>
-			<ymin>591</ymin>
-			<xmax>568</xmax>
-			<ymax>716</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>black_bottom_substation</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>155</xmin>
-			<ymin>416</ymin>
-			<xmax>200</xmax>
+			<xmin>159</xmin>
+			<ymin>418</ymin>
+			<xmax>198</xmax>
 			<ymax>459</ymax>
 		</bndbox>
 	</object>
@@ -125,10 +113,106 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>835</xmin>
-			<ymin>375</ymin>
+			<xmin>840</xmin>
+			<ymin>376</ymin>
 			<xmax>863</xmax>
-			<ymax>408</ymax>
+			<ymax>407</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>845</xmin>
+			<ymin>229</ymin>
+			<xmax>872</xmax>
+			<ymax>276</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>843</xmin>
+			<ymin>274</ymin>
+			<xmax>863</xmax>
+			<ymax>309</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>828</xmin>
+			<ymin>227</ymin>
+			<xmax>846</xmax>
+			<ymax>276</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>779</xmin>
+			<ymin>258</ymin>
+			<xmax>806</xmax>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>755</xmin>
+			<ymin>258</ymin>
+			<xmax>786</xmax>
+			<ymax>289</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>804</xmin>
+			<ymin>284</ymin>
+			<xmax>824</xmax>
+			<ymax>310</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>780</xmin>
+			<ymin>289</ymin>
+			<xmax>805</xmax>
+			<ymax>315</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>754</xmin>
+			<ymin>288</ymin>
+			<xmax>782</xmax>
+			<ymax>315</ymax>
 		</bndbox>
 	</object>
 </annotation>

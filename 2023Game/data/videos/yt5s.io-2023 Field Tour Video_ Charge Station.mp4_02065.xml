@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>yt5s.io-2023 Field Tour Video_ Charge Station.mp4_02065.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Charge Station.mp4_02065.png</path>
@@ -45,6 +45,18 @@
 			<ymin>52</ymin>
 			<xmax>328</xmax>
 			<ymax>99</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>910</xmin>
+			<ymin>354</ymin>
+			<xmax>945</xmax>
+			<ymax>382</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>385_110_Angle1.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/385_110_Angle1.png</path>
@@ -501,6 +501,18 @@
 			<ymin>194</ymin>
 			<xmax>381</xmax>
 			<ymax>253</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>54</xmin>
+			<ymin>586</ymin>
+			<xmax>136</xmax>
+			<ymax>651</ymax>
 		</bndbox>
 	</object>
 </annotation>

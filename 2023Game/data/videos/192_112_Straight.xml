@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>192_112_Straight.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/192_112_Straight.png</path>
@@ -138,8 +138,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>904</xmin>
-			<ymin>403</ymin>
-			<xmax>924</xmax>
+			<ymin>402</ymin>
+			<xmax>938</xmax>
 			<ymax>444</ymax>
 		</bndbox>
 	</object>
@@ -165,6 +165,90 @@
 			<ymin>402</ymin>
 			<xmax>1278</xmax>
 			<ymax>438</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1225</xmin>
+			<ymin>232</ymin>
+			<xmax>1260</xmax>
+			<ymax>289</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1256</xmin>
+			<ymin>237</ymin>
+			<xmax>1280</xmax>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1176</xmin>
+			<ymin>265</ymin>
+			<xmax>1210</xmax>
+			<ymax>299</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1154</xmin>
+			<ymin>262</ymin>
+			<xmax>1181</xmax>
+			<ymax>301</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1213</xmin>
+			<ymin>294</ymin>
+			<xmax>1236</xmax>
+			<ymax>322</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1185</xmin>
+			<ymin>299</ymin>
+			<xmax>1214</xmax>
+			<ymax>331</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1155</xmin>
+			<ymin>298</ymin>
+			<xmax>1184</xmax>
+			<ymax>334</ymax>
 		</bndbox>
 	</object>
 </annotation>

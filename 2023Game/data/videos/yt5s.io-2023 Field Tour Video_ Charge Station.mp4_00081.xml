@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>yt5s.io-2023 Field Tour Video_ Charge Station.mp4_00081.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Charge Station.mp4_00081.png</path>
@@ -66,8 +66,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>203</xmin>
-			<ymin>570</ymin>
-			<xmax>278</xmax>
+			<ymin>566</ymin>
+			<xmax>265</xmax>
 			<ymax>629</ymax>
 		</bndbox>
 	</object>
@@ -149,10 +149,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1049</xmin>
-			<ymin>474</ymin>
-			<xmax>1112</xmax>
-			<ymax>525</ymax>
+			<xmin>1056</xmin>
+			<ymin>469</ymin>
+			<xmax>1119</xmax>
+			<ymax>520</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -162,8 +162,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>703</xmin>
-			<ymin>330</ymin>
-			<xmax>732</xmax>
+			<ymin>325</ymin>
+			<xmax>725</xmax>
 			<ymax>348</ymax>
 		</bndbox>
 	</object>
@@ -333,6 +333,30 @@
 			<ymin>1</ymin>
 			<xmax>859</xmax>
 			<ymax>14</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>253</xmin>
+			<ymin>231</ymin>
+			<xmax>279</xmax>
+			<ymax>256</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>540</xmin>
+			<ymin>392</ymin>
+			<xmax>567</xmax>
+			<ymax>415</ymax>
 		</bndbox>
 	</object>
 </annotation>

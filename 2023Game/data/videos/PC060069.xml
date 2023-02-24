@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>PC060069.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060069.JPG</path>
@@ -14,13 +14,13 @@
 	<object>
 		<name>red_tape_corners</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>8</xmin>
-			<ymin>632</ymin>
-			<xmax>208</xmax>
-			<ymax>787</ymax>
+			<xmin>1</xmin>
+			<ymin>617</ymin>
+			<xmax>200</xmax>
+			<ymax>772</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1119</xmin>
-			<ymin>60</ymin>
-			<xmax>1325</xmax>
-			<ymax>171</ymax>
+			<xmin>1165</xmin>
+			<ymin>35</ymin>
+			<xmax>1371</xmax>
+			<ymax>146</ymax>
 		</bndbox>
 	</object>
 	<object>

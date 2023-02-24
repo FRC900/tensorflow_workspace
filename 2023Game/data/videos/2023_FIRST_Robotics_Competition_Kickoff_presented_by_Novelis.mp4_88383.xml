@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_88383.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_88383.png</path>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1550</xmin>
-			<ymin>432</ymin>
-			<xmax>1603</xmax>
-			<ymax>463</ymax>
+			<xmin>1544</xmin>
+			<ymin>440</ymin>
+			<xmax>1586</xmax>
+			<ymax>468</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -31,8 +31,8 @@
 		<bndbox>
 			<xmin>1531</xmin>
 			<ymin>329</ymin>
-			<xmax>1553</xmax>
-			<ymax>353</ymax>
+			<xmax>1566</xmax>
+			<ymax>360</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -629,10 +629,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1586</xmin>
-			<ymin>854</ymin>
-			<xmax>1622</xmax>
-			<ymax>884</ymax>
+			<xmin>1594</xmin>
+			<ymin>863</ymin>
+			<xmax>1630</xmax>
+			<ymax>893</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -643,8 +643,8 @@
 		<bndbox>
 			<xmin>1560</xmin>
 			<ymin>599</ymin>
-			<xmax>1615</xmax>
-			<ymax>640</ymax>
+			<xmax>1601</xmax>
+			<ymax>629</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -669,6 +669,102 @@
 			<ymin>659</ymin>
 			<xmax>942</xmax>
 			<ymax>733</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>646</xmin>
+			<ymin>431</ymin>
+			<xmax>686</xmax>
+			<ymax>464</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1740</xmin>
+			<ymin>524</ymin>
+			<xmax>1773</xmax>
+			<ymax>557</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1768</xmin>
+			<ymin>611</ymin>
+			<xmax>1811</xmax>
+			<ymax>648</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1713</xmin>
+			<ymin>451</ymin>
+			<xmax>1748</xmax>
+			<ymax>487</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1097</xmin>
+			<ymin>669</ymin>
+			<xmax>1132</xmax>
+			<ymax>711</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1225</xmin>
+			<ymin>352</ymin>
+			<xmax>1254</xmax>
+			<ymax>380</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1246</xmin>
+			<ymin>312</ymin>
+			<xmax>1270</xmax>
+			<ymax>335</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1760</xmin>
+			<ymin>428</ymin>
+			<xmax>1893</xmax>
+			<ymax>500</ymax>
 		</bndbox>
 	</object>
 </annotation>
