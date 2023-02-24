@@ -9,9 +9,7 @@ import os
 import glob
 import timing
 from visualization import BBoxVisualization
-
-
-
+from pascal import PascalVOC, PascalObject, BndBox
 
 # This is needed since the notebook is stored in the object_detection folder.
 #sys.path.append("..")
@@ -19,17 +17,49 @@ from object_detection.utils import ops as utils_ops
 from object_detection.utils import label_map_util
 #from object_detection.utils import visualization_utils as vis_util
 
-if len(sys.argv) > 1:
-  video_name = sys.argv[1]
-else:
-  print('No video parameter passed.')
-
-
 def load_image_into_numpy_array(image):
   (im_width, im_height) = image.size
   return np.array(image.getdata()).reshape(
       (im_height, im_width, 3)).astype(np.uint8)
 
+def box_to_rect(box, image_shape):
+  x_min, y_min, x_max, y_max = box[1], box[0], box[3], box[2]
+  x_min = int(x_min * image_shape[1])
+  x_max = int(x_max * image_shape[1])
+  y_min = int(y_min * image_shape[0])
+  y_max = int(y_max * image_shape[0])
+  return [x_min, y_min, x_max, y_max]
+
+def check_iou(detected_rect, previous_labels, threshold):
+  for label in previous_labels:
+    new_rect = []
+    new_rect.append(label.bndbox.xmin)
+    new_rect.append(label.bndbox.ymin)
+    new_rect.append(label.bndbox.xmax)
+    new_rect.append(label.bndbox.ymax)
+    if (bb_intersection_over_union(detected_rect, new_rect) > threshold):
+      return False
+  return True
+
+# From https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
+def bb_intersection_over_union(boxA, boxB):
+    # determine the (x, y)-coordinates of the intersection rectangle
+        xA = max(boxA[0], boxB[0])
+        yA = max(boxA[1], boxB[1])
+        xB = min(boxA[2], boxB[2])
+        yB = min(boxA[3], boxB[3])
+        # compute the area of intersection rectangle
+        interArea = max(0, xB - xA + 1) * max(0, yB - yA + 1)
+        # compute the area of both the prediction and ground-truth
+        # rectangles
+        boxAArea = (boxA[2] - boxA[0] + 1) * (boxA[3] - boxA[1] + 1)
+        boxBArea = (boxB[2] - boxB[0] + 1) * (boxB[3] - boxB[1] + 1)
+        # compute the intersection over union by taking the intersection
+        # area and dividing it by the sum of prediction + ground-truth
+        # areas - the interesection area
+        iou = interArea / float(boxAArea + boxBArea - interArea)
+        # return the intersection over union value
+        return iou
 # Takes a image, and using the tensorflow session and graph
 # provided, runs inference on the image. This returns a list
 # of detections - each includes the object bounding box, type
@@ -81,14 +111,15 @@ def run_inference_for_single_image(image, sess, graph):
 def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory exported using the export_inference_graph.py command
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2023Game/models/2023_train'
     MODEL_NAME = '/home/ubuntu/tensorflow_workspace/'
+
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
-    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, 'ssd_mobilenet_v2.pb')
+    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, '2022_ssd_mobilenet_v2_512x512.pb')
 
     # List of the strings that is used to add correct label for each box.
     PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2022Game/data', '2022Game_label_map.pbtxt')
+    PATH_TO_LABELS_NEW = os.path.join('/home/ubuntu/tensorflow_workspace/2023Game/data', '2023Game_label_map.pbtxt')
 
     # Init TF detection graph and session
     detection_graph = tf.Graph()
@@ -103,85 +134,30 @@ def main():
         sess = tf.Session(graph=detection_graph)
     category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
     category_dict = {0: 'background'}
+    category_reverse_dict = {}
     for k in category_index.keys():
         category_dict[k] = category_index[k]['name']
+        category_reverse_dict[category_index[k]['name']] = k
     vis = BBoxVisualization(category_dict)
+    category_index_new = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS_NEW, use_display_name=True)
+    category_dict_new = {0: 'background'}
+    category_reverse_dict_new = {}
+    for k in category_index_new.keys():
+        category_dict_new[k] = category_index_new[k]['name']
+        category_reverse_dict_new[category_index_new[k]['name']] = k
+    #print(category_reverse_dict_new)
+
+    valid_labels = {}
+    valid_label_names = set()
+    for k in category_reverse_dict.keys():
+        if k in category_reverse_dict_new:
+            valid_labels[category_reverse_dict[k]] = k
+            valid_label_names.add(k)
+
+    #print(valid_labels)
 
     # Pick an input video to run here
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2023Game/data/videos'
-    if len(sys.argv) > 1:
-      cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, video_name))
-    else:
-      cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC team 1690 Orbit 2023 robot reveal - "DEXTER".mp4')) #
-    # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
-    #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
-
-    display_viz = True # Make command line arg
-    t = timing.Timings()
-
-    while(True):
-      t.start('frame')
-      t.start('vid')
-      ret, cv_vid_image = cap.read()
-      cv_vid_image = cv2.pyrDown(cv_vid_image)
-      t.end('vid')
-      if not ret:
-        break
-
-      next_frame = False
-      while (not next_frame):
-        # Vid input is BGR, need to convert to RGB and resize 
-        # to net input size to run inference
-        t.start('cv')
-        image_resized = cv2.resize(cv_vid_image, (512,512))
-        image_np = cv2.cvtColor(image_resized, cv2.COLOR_BGR2RGB)
-        # Expand dimensions since the model expects images to have shape: [batch_size = 1, None, None, 3]
-        image_np_expanded = np.expand_dims(image_np, axis=0)
-        t.end('cv')
-
-        # Actual detection.
-        t.start('inference')
-        output_dict = run_inference_for_single_image(image_np_expanded, sess, detection_graph)
-        t.end('inference')
-
-        if display_viz:
-          t.start('viz')
-          # output_dictionary will have detection box coordinates, along with the classes
-          # (index of the text labels) and confidence scores for each detection
-          print(output_dict)
-          num_detections = output_dict['num_detections']
-          vis.draw_bboxes(cv_vid_image,
-                  output_dict['detection_boxes'][:num_detections],
-                  output_dict['detection_scores'][:num_detections],
-                  output_dict['detection_classes'][:num_detections],
-                  0.25)
-          '''
-          Much slower version using tf vis_util
-          # Visualization of the results of a detection.
-          vis_util.visualize_boxes_and_labels_on_image_array(
-              image_np,
-              output_dict['detection_boxes'],
-              output_dict['detection_classes'],
-              output_dict['detection_scores'],
-              category_index,
-              instance_masks=output_dict.get('detection_masks'),
-              use_normalized_coordinates=True,
-              line_thickness=4,
-              max_boxes_to_draw=50,
-              min_score_thresh=0.25,
-              groundtruth_box_visualization_color='yellow')
-          '''
-          cv2.imshow('img', cv_vid_image)
-          #vid_writer.write(cv_vid_image)
-          t.end('viz')
-          key = cv2.waitKey(1) & 0xFF
-          if key == 27:
-             return
-        next_frame = True
-        t.end('frame')
-
-
-    """
     ########################################
     #### Code for testing against a list of images
     ####    Useful for looking at results in more detail
@@ -192,7 +168,8 @@ def main():
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_03496.png') ]
     #TEST_IMAGE_PATHS = sorted(glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'hard_neg*.png')))
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4_04290.png') ]
-    TEST_IMAGE_PATHS = ['/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f000413.png']
+    #TEST_IMAGE_PATHS = ['/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f000413.png']
+    TEST_IMAGE_PATHS = [sys.argv[1]]
     for image_path in TEST_IMAGE_PATHS:
       image = cv2.imread(image_path)
       # the array based representation of the image will be used later in order to prepare the
@@ -208,28 +185,57 @@ def main():
       # Visualization of the results of a detection.
       print (output_dict)
       num_detections = output_dict['num_detections']
+      '''
       vis.draw_bboxes(image,
               output_dict['detection_boxes'][:num_detections],
               output_dict['detection_scores'][:num_detections],
               output_dict['detection_classes'][:num_detections],
               0.25)
-      '''
-      vis_util.visualize_boxes_and_labels_on_image_array(
-          image_np,
-          output_dict['detection_boxes'],
-          output_dict['detection_classes'],
-          output_dict['detection_scores'],
-          category_index,
-          instance_masks=output_dict.get('detection_masks'),
-          use_normalized_coordinates=True,
-          line_thickness=4,
-          max_boxes_to_draw=50,
-          min_score_thresh=0.20)
-      '''
       cv2.imshow(image_path, image)
+      '''
+
+    
+      print(image_path)
+      xml_path = image_path.rsplit('.', 1)[0] + '.xml'
+      print(f"XML_PATH = {xml_path}");
+
+      voc = PascalVOC.from_xml(xml_path)
+
+      # previous_labels is a map of obj.name -> list of previous labels of that type
+      # read from the existing xml.
+      # This is used to check against duplicating new labels on top of existing ones
+      previous_labels = {}
+      for label in valid_label_names:
+          previous_labels[label] = []
+      print(f"valid label names = {valid_label_names}")
+      for obj in voc.objects:
+         if obj.name not in valid_label_names:
+            continue
+         previous_labels[obj.name].append(obj)
+
+      print(previous_labels)
+
+      for box, sc, cl in zip(output_dict['detection_boxes'], output_dict['detection_scores'], output_dict['detection_classes']):
+          if sc < 0.2:
+              continue
+          if cl not in valid_labels:
+              continue
+
+          label = valid_labels[cl]
+
+          rect = box_to_rect(box, image.shape)
+          if not check_iou(rect, previous_labels[label], 0.1):
+              print(f"label {label} failed IoU check")
+              continue
+
+          print(f"Adding new {label} at {rect}")
+          voc.objects.append(PascalObject(label, "Unspecified", truncated=False, difficult=False, bndbox=BndBox(rect[0], rect[1], rect[2], rect[3])))
+
+      voc.save(xml_path);
+      '''
       cv2.waitKey(0) & 0xFF
       cv2.destroyWindow(image_path)
-    """
+      '''
 
 if __name__ == '__main__':
     main()
