@@ -18,6 +18,7 @@ pathlist = Path(".").glob(glob)
 for path in pathlist:
     # because path is object not string
     xml = str(path)
+    print(f"Processing {xml}")
 
     ann = PascalVOC.from_xml(xml)
     objs = ann.objects
@@ -26,12 +27,15 @@ for path in pathlist:
     tags = {}
     final_objs = []
     
+    changed = False
     for obj in objs:
         if "april_tag" in obj.name:
             if operation == "delete":
+                changed = True
                 continue
             if obj.name in tags.keys():
                 if obj.bndbox == tags[obj.name]:
+                    changed = True
                     continue
                 else:
                     print(f"DUPLICATE of {obj.name} in {path} with DIFFERENT BOUNDING BOXES!!")
@@ -40,6 +44,7 @@ for path in pathlist:
         final_objs.append(obj)
 
 
-    new_objs = final_objs
-    ann.objects = new_objs
-    ann.save(xml)
+    if changed:
+        new_objs = final_objs
+        ann.objects = new_objs
+        ann.save(xml)
