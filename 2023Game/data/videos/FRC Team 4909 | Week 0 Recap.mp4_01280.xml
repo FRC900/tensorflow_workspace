@@ -119,4 +119,16 @@
 			<ymax>563</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>777</xmin>
+			<ymin>574</ymin>
+			<xmax>860</xmax>
+			<ymax>605</ymax>
+		</bndbox>
+	</object>
 </annotation>
