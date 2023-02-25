@@ -17,15 +17,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>739</xmin>
 			<ymin>416</ymin>
 			<xmax>778</xmax>
-=======
-			<xmin>744</xmin>
-			<ymin>416</ymin>
-			<xmax>781</xmax>
->>>>>>> 61af34bc (relabeled images)
 			<ymax>463</ymax>
 		</bndbox>
 	</object>
@@ -36,7 +30,6 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>427</xmin>
-<<<<<<< HEAD
 			<ymin>358</ymin>
 			<xmax>451</xmax>
 			<ymax>395</ymax>
@@ -44,20 +37,10 @@
 	</object>
 	<object>
 		<name>ds_numbers</name>
-=======
-			<ymin>356</ymin>
-			<xmax>457</xmax>
-			<ymax>401</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_bottom_substation</name>
->>>>>>> 61af34bc (relabeled images)
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>958</xmin>
 			<ymin>45</ymin>
 			<xmax>1087</xmax>
@@ -134,12 +117,6 @@
 			<ymin>71</ymin>
 			<xmax>374</xmax>
 			<ymax>109</ymax>
-=======
-			<xmin>760</xmin>
-			<ymin>569</ymin>
-			<xmax>795</xmax>
-			<ymax>602</ymax>
->>>>>>> 61af34bc (relabeled images)
 		</bndbox>
 	</object>
 	<object>
@@ -148,17 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>763</xmin>
 			<ymin>568</ymin>
 			<xmax>788</xmax>
 			<ymax>610</ymax>
-=======
-			<xmin>626</xmin>
-			<ymin>532</ymin>
-			<xmax>661</xmax>
-			<ymax>567</ymax>
->>>>>>> 61af34bc (relabeled images)
 		</bndbox>
 	</object>
 	<object>
@@ -167,7 +137,6 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>630</xmin>
 			<ymin>534</ymin>
 			<xmax>652</xmax>
@@ -184,12 +153,6 @@
 			<ymin>477</ymin>
 			<xmax>438</xmax>
 			<ymax>510</ymax>
-=======
-			<xmin>422</xmin>
-			<ymin>476</ymin>
-			<xmax>446</xmax>
-			<ymax>505</ymax>
->>>>>>> 61af34bc (relabeled images)
 		</bndbox>
 	</object>
 	<object>
@@ -199,15 +162,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>206</xmin>
-<<<<<<< HEAD
 			<ymin>414</ymin>
 			<xmax>220</xmax>
 			<ymax>440</ymax>
-=======
-			<ymin>411</ymin>
-			<xmax>221</xmax>
-			<ymax>438</ymax>
->>>>>>> 61af34bc (relabeled images)
 		</bndbox>
 	</object>
 	<object>
@@ -216,17 +173,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>152</xmin>
 			<ymin>397</ymin>
 			<xmax>163</xmax>
 			<ymax>424</ymax>
-=======
-			<xmin>151</xmin>
-			<ymin>396</ymin>
-			<xmax>168</xmax>
-			<ymax>421</ymax>
->>>>>>> 61af34bc (relabeled images)
 		</bndbox>
 	</object>
 	<object>
@@ -235,101 +185,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
 			<xmin>88</xmin>
 			<ymin>379</ymin>
 			<xmax>100</xmax>
 			<ymax>403</ymax>
-=======
-			<xmin>84</xmin>
-			<ymin>378</ymin>
-			<xmax>106</xmax>
-			<ymax>399</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>926</xmin>
-			<ymin>48</ymin>
-			<xmax>945</xmax>
-			<ymax>106</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>586</xmin>
-			<ymin>60</ymin>
-			<xmax>605</xmax>
-			<ymax>103</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>355</xmin>
-			<ymin>74</ymin>
-			<xmax>373</xmax>
-			<ymax>105</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_numbers</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>314</xmin>
-			<ymin>76</ymin>
-			<xmax>343</xmax>
-			<ymax>98</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_numbers</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>498</xmin>
-			<ymin>64</ymin>
-			<xmax>564</xmax>
-			<ymax>91</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_numbers</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>617</xmin>
-			<ymin>58</ymin>
-			<xmax>692</xmax>
-			<ymax>90</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_numbers</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>975</xmin>
-			<ymin>49</ymin>
-			<xmax>1085</xmax>
-			<ymax>87</ymax>
->>>>>>> 61af34bc (relabeled images)
 		</bndbox>
 	</object>
 </annotation>
