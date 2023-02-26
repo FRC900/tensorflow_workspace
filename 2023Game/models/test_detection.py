@@ -82,7 +82,7 @@ def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory exported using the export_inference_graph.py command
     MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2023Game/models/2023_train'
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/'
+    
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
     PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, 'ssd_mobilenet_v2.pb')
