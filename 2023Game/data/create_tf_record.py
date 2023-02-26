@@ -92,14 +92,14 @@ def dict_to_tf_example(data,
     try:
       encoded_image = fid.read()
     except:
-      print("Error reading image: " + img_path)
-      time.sleep(1)
-      return None
+      #time.sleep(1)
+      print("==========Error reading image: " + img_path)
+      raise ValueError("Error reading image: " + img_path)
   encoded_image_io = io.BytesIO(encoded_image)
   image = PIL.Image.open(encoded_image_io)
   if image.format != 'PNG' and image.format != 'JPEG' and image.format != 'MPO':
-    print(image.format)
-    raise ValueError('Image format not PNG or JPEG')
+    print(f'==========Image format not PNG or JPEG : {image.format}')
+    raise ValueError(f'Image format not PNG or JPEG : {image.format}')
   key = hashlib.sha256(encoded_image).hexdigest()
 
   width = int(data['size']['width'])
@@ -132,14 +132,27 @@ def dict_to_tf_example(data,
       xmaxs.append(xmax / width)
       ymaxs.append(ymax / height)
 
+      if xmins[-1] < 0 or ymins[-1] < 0 or xmaxs[-1] < 0 or ymaxs[-1] < 0 or xmins[-1] > 1 or ymins[-1] > 1 or xmaxs[-1] > 1 or ymaxs[-1] > 1:
+        print(f"==========Error: bounding box out of range in {img_path} {obj['name']}============\n {xmins[-1]} {ymins[-1]} {xmaxs[-1]} {ymaxs[-1]}")
+        raise ValueError(f"==========Error: bounding box out of range in {img_path} {obj['name']}============\n {xmins[-1]} {ymins[-1]} {xmaxs[-1]} {ymaxs[-1]}")
+
+      if xmins[-1] > xmaxs[-1]:
+        print(f"==========Error: bounding box Xs swapped in {img_path} {obj['name']}, fixing============")
+        xmins[-1], xmaxs[-1] = xmaxs[-1], xmins[-1]
+      elif xmins[-1] == xmaxs[-1]:
+        print(f"==========Error: bounding box Xs equal in {img_path} {obj['name']}============")
+        raise ValueError(f"==========Error: bounding box Xs equal in {img_path} {obj['name']}============")
+
+      if ymins[-1] > ymaxs[-1]:
+        print(f"==========Error: bounding box Ys swapped in {img_path} {obj['name']}, fixing============")
+        ymins[-1], ymaxs[-1] = ymaxs[-1], ymins[-1]
+      elif ymins[-1] == ymaxs[-1]:
+        print(f"==========Error: bounding box Ys equal in {img_path} {obj['name']}============")
+        raise ValueError(f"==========Error: bounding box Ys equal in {img_path} {obj['name']}============")
 
       if "apriltag16h11" in obj['name']:
         obj['name'] = obj['name'].replace("apriltag16h11", "april_tag")
       class_name = obj['name']
-      if (class_name in class_count_map):
-          class_count_map[class_name] += 1
-      else:
-          class_count_map[class_name] = 1
       classes_text.append(class_name.encode('utf8'))
       try:
         class_append = label_map_dict[class_name]
@@ -148,26 +161,18 @@ def dict_to_tf_example(data,
           # get last two characters of class name
           nums = "april_tag" + str(int(class_name[-2:]))
           class_append = label_map_dict["april_tag" + str(int(nums))] 
+        else:
+          print(f"==========Invalid class_name {class_name} in {img_path}")
+          raise ValueError(f"Invalid class_name {class_name} in {img_path}")
 
       classes.append(class_append)
       truncated.append(int(obj['truncated']))
       poses.append(obj['pose'].encode('utf8'))
-  for (xm, ym, xM, yM) in zip(xmins, ymins, xmaxs, ymaxs):    
-    if xm < 0 or ym < 0 or xM > 1 or yM > 1:
-      print(f"==========Error: bounding box out of range in {img_path}============")
-      print(xm, ym, xM, yM)
-      #time.sleep(0.2)
-      return None
 
-  for i in range(len(xmins)):
-    if xmins[i] > xmaxs[i]:
-      print(f"==========Error: bounding box Xs swapped in {img_path}============")
-      xmins[i], xmaxs[i] = xmaxs[i], xmins[i]
-
-  for i in range(len(ymins)):
-    if ymins[i] > ymaxs[i]:
-      print(f"==========Error: bounding box Ys swapped in {img_path}============")
-      ymins[i], ymaxs[i] = ymaxs[i], ymins[i]
+      if (class_name in class_count_map):
+          class_count_map[class_name] += 1
+      else:
+          class_count_map[class_name] = 1
 
   if image.format == 'PNG':
      image_format_str = 'png'
