@@ -88,7 +88,6 @@ def dict_to_tf_example(data,
   img_path = data['path']
   print(img_path)
   with tf.gfile.GFile(img_path, 'rb') as fid:
-    print(img_path)
     try:
       encoded_image = fid.read()
     except:
