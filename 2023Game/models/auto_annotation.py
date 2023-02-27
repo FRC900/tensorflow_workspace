@@ -9,7 +9,7 @@ import os
 import glob
 import timing
 from visualization import BBoxVisualization
-from pascal import PascalVOC, PascalObject, BndBox
+from pascal import PascalVOC, PascalObject, BndBox, size_block
 
 # This is needed since the notebook is stored in the object_detection folder.
 #sys.path.append("..")
@@ -170,7 +170,8 @@ def main():
     #TEST_IMAGE_PATHS = sorted(glob.glob(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'hard_neg*.png')))
     #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Peak_Performance_2019_Quarterfinal_4-1.mp4_04290.png') ]
     #TEST_IMAGE_PATHS = ['/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f000413.png']
-    TEST_IMAGE_PATHS = [sys.argv[1]]
+    TEST_IMAGE_PATHS = sorted(glob.glob(sys.argv[1]))
+    print(f"TEST_IMAGE_PATHS = {TEST_IMAGE_PATHS}")
     for image_path in TEST_IMAGE_PATHS:
       image = cv2.imread(image_path)
       # the array based representation of the image will be used later in order to prepare the
@@ -184,7 +185,7 @@ def main():
       # Actual detection.
       output_dict = run_inference_for_single_image(image_np_expanded, sess, detection_graph)
       # Visualization of the results of a detection.
-      print (output_dict)
+      #print (output_dict)
       num_detections = output_dict['num_detections']
       '''
       vis.draw_bboxes(image,
@@ -199,8 +200,11 @@ def main():
       print(image_path)
       xml_path = image_path.rsplit('.', 1)[0] + '.xml'
       print(f"XML_PATH = {xml_path}");
-
-      voc = PascalVOC.from_xml(xml_path)
+ 
+      try:
+        voc = PascalVOC.from_xml(xml_path)
+      except:
+        voc = PascalVOC(xml_path, size=size_block(image.shape[1], image.shape[0], 3), objects=[])
 
       # previous_labels is a map of obj.name -> list of previous labels of that type
       # read from the existing xml.
@@ -223,7 +227,7 @@ def main():
               continue
 
           label = valid_labels[cl]
-          print(f"label = {label}")
+          #print(f"label = {label}")
 
           rect = box_to_rect(box, image.shape)
           if not check_iou(rect, previous_labels[label], 0.1):

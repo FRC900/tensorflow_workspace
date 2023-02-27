@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRC Team 4909 | Week 0 Recap.mp4_01510.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/FRC Team 4909 | Week 0 Recap.mp4_01510.png</path>
@@ -293,9 +293,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>833</xmin>
+			<xmin>830</xmin>
 			<ymin>550</ymin>
-			<xmax>848</xmax>
+			<xmax>845</xmax>
 			<ymax>566</ymax>
 		</bndbox>
 	</object>
@@ -427,8 +427,8 @@
 		<bndbox>
 			<xmin>478</xmin>
 			<ymin>244</ymin>
-			<xmax>546</xmax>
-			<ymax>280</ymax>
+			<xmax>514</xmax>
+			<ymax>276</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -437,10 +437,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>352</xmin>
-			<ymin>625</ymin>
-			<xmax>377</xmax>
-			<ymax>634</ymax>
+			<xmin>349</xmin>
+			<ymin>616</ymin>
+			<xmax>379</xmax>
+			<ymax>641</ymax>
 		</bndbox>
 	</object>
 </annotation>
