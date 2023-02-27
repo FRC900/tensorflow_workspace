@@ -23,20 +23,21 @@ def load_image_into_numpy_array(image):
       (im_height, im_width, 3)).astype(np.uint8)
 
 def box_to_rect(box, image_shape):
-  x_min, y_min, x_max, y_max = box[1], box[0], box[3], box[2]
-  x_min = int(x_min * image_shape[1])
-  x_max = int(x_max * image_shape[1])
-  y_min = int(y_min * image_shape[0])
-  y_max = int(y_max * image_shape[0])
+  x_min = int(min(box[1], box[3]) * image_shape[1])
+  y_min = int(min(box[0], box[2]) * image_shape[0])
+  x_max = int(max(box[1], box[3]) * image_shape[1])
+  y_max = int(max(box[0], box[2]) * image_shape[0])
   return [x_min, y_min, x_max, y_max]
 
 def check_iou(detected_rect, previous_labels, threshold):
+  #print(f"check_iou : {detected_rect}")
   for label in previous_labels:
     new_rect = []
-    new_rect.append(label.bndbox.xmin)
-    new_rect.append(label.bndbox.ymin)
-    new_rect.append(label.bndbox.xmax)
-    new_rect.append(label.bndbox.ymax)
+    new_rect.append(min(label.bndbox.xmin, label.bndbox.xmax))
+    new_rect.append(min(label.bndbox.ymin, label.bndbox.ymax))
+    new_rect.append(max(label.bndbox.xmin, label.bndbox.xmax))
+    new_rect.append(max(label.bndbox.ymin, label.bndbox.ymax))
+    #print(f"\tnew_rect = {new_rect}")
     if (bb_intersection_over_union(detected_rect, new_rect) > threshold):
       return False
   return True
@@ -115,10 +116,10 @@ def main():
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
-    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, '2022_ssd_mobilenet_v2_512x512.pb')
+    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, '2023_ssd_mobilenet_v2.pb')
 
     # List of the strings that is used to add correct label for each box.
-    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2022Game/data', '2022Game_label_map.pbtxt')
+    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2023Game/data', '2023Game_label_map.pbtxt')
     PATH_TO_LABELS_NEW = os.path.join('/home/ubuntu/tensorflow_workspace/2023Game/data', '2023Game_label_map.pbtxt')
 
     # Init TF detection graph and session
@@ -157,7 +158,7 @@ def main():
     #print(valid_labels)
 
     # Pick an input video to run here
-    PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2023Game/data/videos'
+    #PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2023Game/data/videos'
     ########################################
     #### Code for testing against a list of images
     ####    Useful for looking at results in more detail
@@ -222,6 +223,7 @@ def main():
               continue
 
           label = valid_labels[cl]
+          print(f"label = {label}")
 
           rect = box_to_rect(box, image.shape)
           if not check_iou(rect, previous_labels[label], 0.1):
