@@ -90,10 +90,10 @@ def dict_to_tf_example(data,
   with tf.gfile.GFile(img_path, 'rb') as fid:
     try:
       encoded_image = fid.read()
-    except:
+    except Exception as e:
       #time.sleep(1)
-      print("==========Error reading image: " + img_path)
-      raise ValueError("Error reading image: " + img_path)
+      print(f"==========Error reading image {e}: " + img_path)
+      raise ValueError(f"Error reading image {e}: " + img_path)
   encoded_image_io = io.BytesIO(encoded_image)
   image = PIL.Image.open(encoded_image_io)
   if image.format != 'PNG' and image.format != 'JPEG' and image.format != 'MPO':
@@ -244,8 +244,8 @@ def create_tf_record(output_filename,
         if tf_example:
           shard_idx = idx % num_shards
           output_tfrecords[shard_idx].write(tf_example.SerializeToString())
-      except ValueError:
-        logging.warning('Invalid example: %s, ignoring.', xml_path)
+      except ValueError as v:
+          logging.warning(f'Invalid example: {xml_path} : ({v}), ignoring.')
 
 
 def main(_):
