@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1058</xmin>
+			<xmin>1024</xmin>
 			<ymin>650</ymin>
 			<xmax>1101</xmax>
-			<ymax>765</ymax>
+			<ymax>766</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -66,8 +66,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1176</xmin>
-			<ymin>731</ymin>
-			<xmax>1211</xmax>
+			<ymin>653</ymin>
+			<xmax>1241</xmax>
 			<ymax>774</ymax>
 		</bndbox>
 	</object>
@@ -105,6 +105,102 @@
 			<ymin>583</ymin>
 			<xmax>1450</xmax>
 			<ymax>633</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>962</xmin>
+			<ymin>47</ymin>
+			<xmax>1120</xmax>
+			<ymax>100</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>363</xmin>
+			<ymin>25</ymin>
+			<xmax>518</xmax>
+			<ymax>81</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1164</xmin>
+			<ymin>921</ymin>
+			<xmax>1244</xmax>
+			<ymax>993</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>302</xmin>
+			<ymin>25</ymin>
+			<xmax>330</xmax>
+			<ymax>90</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>891</xmin>
+			<ymin>45</ymin>
+			<xmax>922</xmax>
+			<ymax>110</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1564</xmin>
+			<ymin>54</ymin>
+			<xmax>1753</xmax>
+			<ymax>111</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>692</xmin>
+			<ymin>34</ymin>
+			<xmax>857</xmax>
+			<ymax>92</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>april_tag_7</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>261</xmin>
+			<ymin>547</ymin>
+			<xmax>311</xmax>
+			<ymax>592</ymax>
 		</bndbox>
 	</object>
 </annotation>
