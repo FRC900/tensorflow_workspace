@@ -88,7 +88,7 @@ def main():
     PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, 'ssd_mobilenet_v2.pb')
 
     # List of the strings that is used to add correct label for each box.
-    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2022Game/data', '2022Game_label_map.pbtxt')
+    PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2023Game/data', '2023Game_label_map.pbtxt')
 
     # Init TF detection graph and session
     detection_graph = tf.Graph()
