@@ -9,9 +9,7 @@ import os
 import glob
 import timing
 from visualization import BBoxVisualization
-
-
-
+from pascal import PascalVOC, PascalObject, BndBox, size_block
 
 # This is needed since the notebook is stored in the object_detection folder.
 #sys.path.append("..")
@@ -110,14 +108,21 @@ def main():
     # Pick an input video to run here
     PATH_TO_TEST_IMAGES_DIR = '/home/ubuntu/tensorflow_workspace/2023Game/data/videos'
     if len(sys.argv) > 1:
-      cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, video_name))
+      full_video_path = os.path.join(PATH_TO_TEST_IMAGES_DIR, video_name)
     else:
-      cap = cv2.VideoCapture(os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC team 1690 Orbit 2023 robot reveal - "DEXTER".mp4')) #
+      full_video_path = os.path.join(PATH_TO_TEST_IMAGES_DIR, 'FRC team 1690 Orbit 2023 robot reveal - "DEXTER".mp4')
+    cap = cv2.VideoCapture(os.path.join(full_video_path))
+
     # Used to write annotated video (video with bounding boxes and labels) to an output mp4 file
     #vid_writer = cv2.VideoWriter(os.path.join(PATH_TO_TEST_IMAGES_DIR, '2020_INFINITE_RECHARGE_Field_Drone_Video_Field_from_Alliance_Station_annotated.mp4'), cv2.VideoWriter_fourcc(*"FMP4"), 30., (1920,1080))
 
-    display_viz = True # Make command line arg
+    display_viz = True # TODO : Make command line arg
     t = timing.Timings()
+
+    hard_negative = False # TODO : make command line arg
+    last_hard_negative_frame = -1000000
+    hard_negative_frame_skip = 10
+    frame_counter = 0
 
     while(True):
       t.start('frame')
@@ -144,12 +149,29 @@ def main():
         output_dict = run_inference_for_single_image(image_np_expanded, sess, detection_graph)
         t.end('inference')
 
+        num_detections = output_dict['num_detections']
+
+        # Extract hard negatives
+        # Run this code on video with no objects we want to detect and
+        # anything which is detected is a false positive. Save the image frame
+        # and add a corresponding xml label file with no objects. This can be fed
+        # back into training to have the model realize these things aren't really objects
+        if hard_negative and (num_detections > 0):
+          if (frame_counter - last_hard_negative_frame) > hard_negative_frame_skip:
+            image_path = full_video_path + '_' + format(frame_counter, '05d') + '.png'
+            print(f"Creating hard negatve {image_path}")
+            xml_path = image_path.rsplit('.', 1)[0] + '.xml'
+            #print(f"XML_PATH = {xml_path}")
+            cv2.imwrite(image_path, cv_vid_image)
+            voc = PascalVOC(os.path.basename(image_path), path=os.path.abspath(image_path), size=size_block(cv_vid_image.shape[1], cv_vid_image.shape[0], 3), objects=[])
+            voc.save(xml_path)
+            last_hard_negative_frame = frame_counter
+
         if display_viz:
           t.start('viz')
           # output_dictionary will have detection box coordinates, along with the classes
           # (index of the text labels) and confidence scores for each detection
-          print(output_dict)
-          num_detections = output_dict['num_detections']
+          #print(output_dict)
           vis.draw_bboxes(cv_vid_image,
                   output_dict['detection_boxes'][:num_detections],
                   output_dict['detection_scores'][:num_detections],
@@ -171,6 +193,8 @@ def main():
               min_score_thresh=0.25,
               groundtruth_box_visualization_color='yellow')
           '''
+
+              
           cv2.imshow('img', cv_vid_image)
           #vid_writer.write(cv_vid_image)
           t.end('viz')
@@ -178,7 +202,9 @@ def main():
           if key == 27:
              return
         next_frame = True
+        frame_counter += 1
         t.end('frame')
+
 
 
     """

@@ -112,11 +112,11 @@ def run_inference_for_single_image(image, sess, graph):
 def main():
     # What model to run from - should be the directory name of an exported trained model
     # Change me to the directory exported using the export_inference_graph.py command
-    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/'
+    MODEL_NAME = '/home/ubuntu/tensorflow_workspace/2023Game/models/2023_train'
 
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     # This shouldn't need to change
-    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, '2023_ssd_mobilenet_v2.pb')
+    PATH_TO_FROZEN_GRAPH = os.path.join(MODEL_NAME, 'ssd_mobilenet_v2.pb')
 
     # List of the strings that is used to add correct label for each box.
     PATH_TO_LABELS = os.path.join('/home/ubuntu/tensorflow_workspace/2023Game/data', '2023Game_label_map.pbtxt')
@@ -187,24 +187,21 @@ def main():
       # Visualization of the results of a detection.
       #print (output_dict)
       num_detections = output_dict['num_detections']
-      '''
       vis.draw_bboxes(image,
               output_dict['detection_boxes'][:num_detections],
               output_dict['detection_scores'][:num_detections],
               output_dict['detection_classes'][:num_detections],
               0.25)
       cv2.imshow(image_path, image)
-      '''
-
     
       print(image_path)
       xml_path = image_path.rsplit('.', 1)[0] + '.xml'
-      print(f"XML_PATH = {xml_path}");
+      print(f"XML_PATH = {xml_path}")
  
       try:
         voc = PascalVOC.from_xml(xml_path)
       except:
-        voc = PascalVOC(xml_path, size=size_block(image.shape[1], image.shape[0], 3), objects=[])
+        voc = PascalVOC(image_path, path=os.path.abspath(image_path), size=size_block(image.shape[1], image.shape[0], 3), objects=[])
 
       # previous_labels is a map of obj.name -> list of previous labels of that type
       # read from the existing xml.
@@ -220,6 +217,7 @@ def main():
 
       print(previous_labels)
 
+      added_labels = False
       for box, sc, cl in zip(output_dict['detection_boxes'], output_dict['detection_scores'], output_dict['detection_classes']):
           if sc < 0.2:
               continue
@@ -236,12 +234,12 @@ def main():
 
           print(f"Adding new {label} at {rect}")
           voc.objects.append(PascalObject(label, "Unspecified", truncated=False, difficult=False, bndbox=BndBox(rect[0], rect[1], rect[2], rect[3])))
+          added_labels = True
 
-      voc.save(xml_path);
-      '''
+      if added_labels:
+        voc.save(xml_path)
       cv2.waitKey(0) & 0xFF
       cv2.destroyWindow(image_path)
-      '''
 
 if __name__ == '__main__':
     main()
