@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>6045LakeSuperiorGoProFootge2034.mp4_15118.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/6045LakeSuperiorGoProFootge2034.mp4_15118.png</path>
@@ -117,6 +117,30 @@
 			<ymin>254</ymin>
 			<xmax>559</xmax>
 			<ymax>268</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1031</xmin>
+			<ymin>401</ymin>
+			<xmax>1068</xmax>
+			<ymax>438</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1175</xmin>
+			<ymin>387</ymin>
+			<xmax>1213</xmax>
+			<ymax>425</ymax>
 		</bndbox>
 	</object>
 </annotation>
