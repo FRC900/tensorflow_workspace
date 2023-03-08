@@ -96,54 +96,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>april_tag_5</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>810</xmin>
-			<ymin>511</ymin>
-			<xmax>821</xmax>
-			<ymax>523</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_6</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>924</xmin>
-			<ymin>513</ymin>
-			<xmax>933</xmax>
-			<ymax>523</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_7</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1028</xmin>
-			<ymin>514</ymin>
-			<xmax>1036</xmax>
-			<ymax>523</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_8</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1130</xmin>
-			<ymin>499</ymin>
-			<xmax>1138</xmax>
-			<ymax>508</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>cone</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -213,6 +165,54 @@
 			<ymin>539</ymin>
 			<xmax>748</xmax>
 			<ymax>550</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>april_tag_8</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>811</xmin>
+			<ymin>512</ymin>
+			<xmax>822</xmax>
+			<ymax>522</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>april_tag_7</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>923</xmin>
+			<ymin>513</ymin>
+			<xmax>932</xmax>
+			<ymax>523</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>april_tag_6</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1027</xmin>
+			<ymin>513</ymin>
+			<xmax>1037</xmax>
+			<ymax>525</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>april_tag_5</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1130</xmin>
+			<ymin>499</ymin>
+			<xmax>1137</xmax>
+			<ymax>507</ymax>
 		</bndbox>
 	</object>
 </annotation>
