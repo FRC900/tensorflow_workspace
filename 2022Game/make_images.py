@@ -1,3 +1,11 @@
+#TODO list
+# inserted apriltags can overlap themselves
+# tighter bounding boxes around resized(?) tags
+# occasional images have apriltags inserted but bad labels
+# port to pascal-voc (will save a bunch of code)
+# Simplify - can we run augmentation in the code which overlays them on images rather than pregenerating them?
+# Maybe also simplify - just pick a random image from the source dir, overlay a random number of tags, and continue until the desired # of new images or augmented tags are created
+
 import Augmentor
 import xml.etree.ElementTree as ET
 import os
@@ -103,7 +111,7 @@ class ApriltagTrainer:
             img = cv2.resize(img, (0,0), fx=scale, fy=scale)
             # rotate image random between 0 and 360 degrees and have the new space be white
             rows, cols, _ = img.shape
-            M = cv2.getRotationMatrix2D((cols/2, rows/2), random.randint(0, 360), 1)
+            M = cv2.getRotationMatrix2D((cols/2, rows/2), random.uniform(-25, 25), 1)
             # make the new space white
             img = cv2.warpAffine(img, M, (cols, rows), borderValue=(255, 255, 255))
 
@@ -184,6 +192,9 @@ class ApriltagTrainer:
             parsedpngs.append(image_name)
             # read the image
             image = cv2.imread(image_path)
+            if image is None:
+                print(f"Error reading {image_path}, skipping")
+                continue
             # get the image dimensions
             height, width, channels = image.shape
             bounding_boxes = []
@@ -202,6 +213,9 @@ class ApriltagTrainer:
                 print(f"Number of tags to add: {to_add}")
             
             for _ in range(to_add):
+                if len(self.aprildirlist) == 0:
+                    print("Out of images from this dir")
+                    break
                 apriltag = self.aprildirlist.pop()
                 tag_path = os.path.join(self.tag_path, "output", apriltag)
                 # read an augemented apriltag image
@@ -403,10 +417,7 @@ class ApriltagTrainer:
             # make the object element
             object = ET.SubElement(root, "object")
             name = ET.SubElement(object, "name")
-            if tag.id < 10:
-                name.text = f"april16h11_0{tag.id}"
-            else:
-                name.text = "april16h11_" + str(tag.id)
+            name.text = f"april_tag_{tag.id}"
             pose = ET.SubElement(object, "pose")
             pose.text = "Unspecified"
             truncated = ET.SubElement(object, "truncated")
@@ -435,11 +446,7 @@ class ApriltagTrainer:
             new_obj = ET.SubElement(root, "object")
             # create the name and id
             name = ET.SubElement(new_obj, "name")
-            # check if tag id is less than 10, if so add a 0 to the front
-            if tag.id < 10:
-                name.text = f"april16h11_0{tag.id}"
-            else:
-                name.text = "april16h11_" + str(tag.id)
+            name.text = f"april_tag_{tag.id}"
             id = ET.SubElement(new_obj, "tag_id")
             id.text = str(tag.id)
             # add fields for difficult and truncated and pose (not used)
@@ -480,30 +487,30 @@ class ApriltagTrainer:
                 return True
         return False
 
-img_dir = "/home/chris/tensorflow_workspace/2022Game/data/scaled"
-data_dir = "/home/chris/tensorflow_workspace/2022Game/data/videos"
+img_dir = "/home/ubuntu/tensorflow_workspace/2022Game/data/scaled"
+data_dir = "/home/ubuntu/tensorflow_workspace/2022Game/data/videos"
 trainer = ApriltagTrainer(img_dir, data_dir, new_dir=True, logging=False)
-trainer.augment(n=20000)
+trainer.augment(n=10000)
 print("Done augmenting")
 trainer.generate_xml()
 
 import timeit
 # print("Time to run: ", timeit.timeit("trainer.generate_xml()", setup="from __main__ import trainer", number=1))
-print('Running on 2020 data')
-img_dir = "/home/chris/tensorflow_workspace/2020Game/data/videos"
+print('Running on 2023 data')
+img_dir = "/home/ubuntu/tensorflow_workspace/2023Game/data/videos"
 
 trainer.generate_xml(dir=img_dir)
 trainer.generate_from_png(img_dir)
 trainer.prefix = "round_2" # lots more images
-trainer.generate_xml(dir=img_dir)
+trainer.generate_xml(dir="/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test")
 trainer.generate_from_png(img_dir)
-trainer.prefix = "round_3" # lots more images
-trainer.generate_xml(dir=img_dir)
-trainer.generate_from_png(img_dir) 
+#trainer.prefix = "round_3" # lots more images
+#trainer.generate_xml(dir=img_dir)
+#trainer.generate_from_png(img_dir) 
 
 trainer.postprocess_imgs()
 
-prefix = "/home/ubuntu/tensorflow_workspace/2022Game/data/test"
+prefix = "/home/ubuntu/tensorflow_workspace/2023Game/data/test"
 
 def chris_to_ubuntu(dir):
     # change all instances of /home/chris to /home/ubuntu in the xml files
@@ -522,7 +529,7 @@ def chris_to_ubuntu(dir):
             tree.write(os.path.join(dir, file))
 
 
-chris_to_ubuntu("/home/chris/tensorflow_workspace/2022Game/data/test")
+#chris_to_ubuntu("/home/ubuntu/tensorflow_workspace/2023Game/data/test")
 
 '''
 # loop through all the xml files
