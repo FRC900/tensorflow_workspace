@@ -128,7 +128,7 @@ def main():
       t.start('frame')
       t.start('vid')
       ret, cv_vid_image = cap.read()
-      cv_vid_image = cv2.pyrDown(cv_vid_image)
+      #cv_vid_image = cv2.pyrDown(cv_vid_image)
       t.end('vid')
       if not ret:
         break
