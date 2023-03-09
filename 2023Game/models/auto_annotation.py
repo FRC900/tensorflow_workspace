@@ -192,7 +192,7 @@ def main():
               output_dict['detection_scores'][:num_detections],
               output_dict['detection_classes'][:num_detections],
               0.25)
-      cv2.imshow(image_path, image)
+      #cv2.imshow(image_path, image)
     
       print(image_path)
       xml_path = image_path.rsplit('.', 1)[0] + '.xml'
@@ -238,7 +238,7 @@ def main():
 
       if added_labels:
         voc.save(xml_path)
-      cv2.waitKey(0) & 0xFF
+      #cv2.waitKey(0) & 0xFF
       cv2.destroyWindow(image_path)
 
 if __name__ == '__main__':
