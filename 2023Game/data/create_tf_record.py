@@ -19,14 +19,16 @@ Example usage:
     python /home/ubuntu/tensorflow_workspace/2020Game/data/create_tf_record.py \
         --label_map_path=/home/ubuntu/tensorflow_workspace/2020Game/data/2020Game_label_map.pbtxt \
         --data_dir=/home/ubuntu/tensorflow_workspace/2020Game/data/videos \
-        --alt-data_dir=/home/ubuntu/tensorflow_workspace/2019Game/data/videos \
+        --alt_data_dir=/home/ubuntu/tensorflow_workspace/2019Game/data/videos \
         --output_dir=/home/ubuntu/tensorflow_workspace/2020Game/data
     python3 /home/ubuntu/tensorflow_workspace/2023Game/data/create_tf_record.py \
         --label_map_path=/home/ubuntu/tensorflow_workspace/2023Game/data/2023Game_label_map.pbtxt \
         --data_dir=/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test \
         --alt_data_dir=/home/ubuntu/tensorflow_workspace/2023Game/data/videos \
         --alt_data_dir_2=/home/ubuntu/tensorflow_workspace/2022Game/data/videos \
-        --alt_data_dir_3=/home/ubuntu/tensorflow_workspace/2020Game/data/videos \
+        --alt_data_dir_3=/home/ubuntu/tensorflow_workspace/2022Game/data/test \
+        --alt_data_dir_4=/home/ubuntu/tensorflow_workspace/2020Game/data/videos \
+        --alt_data_dir_5=/home/ubuntu/tensorflow_workspace/2019Game/data/videos \
         --output_dir=/home/ubuntu/tensorflow_workspace/2023Game/data
 """
 
@@ -51,11 +53,14 @@ from object_detection.dataset_tools import tf_record_creation_util
 from object_detection.utils import dataset_util
 from object_detection.utils import label_map_util
 
+# TODO - data dirs should just be an array, or maybe just the command line arg list
 flags = tf.app.flags
 flags.DEFINE_string('data_dir', '/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test', 'Root directory to raw dataset.')
 flags.DEFINE_string('alt_data_dir', '', 'Optional second root directory to raw dataset.')
 flags.DEFINE_string('alt_data_dir_2', '', 'Optional third root directory to raw dataset.')
 flags.DEFINE_string('alt_data_dir_3', '', 'Optional fourth root directory to raw dataset.')
+flags.DEFINE_string('alt_data_dir_4', '', 'Optional fifth root directory to raw dataset.')
+flags.DEFINE_string('alt_data_dir_5', '', 'Optional sixth root directory to raw dataset.')
 flags.DEFINE_string('output_dir', '/home/ubuntu/tensorflow_workspace/2023Game/data', 'Path to directory to output TFRecords.')
 flags.DEFINE_string('label_map_path', '/home/ubuntu/tensorflow_workspace/2023Game/data/2023Game_label_map.pbtxt',
                     'Path to label map proto')
@@ -253,6 +258,8 @@ def main(_):
   alt_data_dir = FLAGS.alt_data_dir
   alt_data_dir_2 = FLAGS.alt_data_dir_2
   alt_data_dir_3 = FLAGS.alt_data_dir_3
+  alt_data_dir_4 = FLAGS.alt_data_dir_4
+  alt_data_dir_5 = FLAGS.alt_data_dir_5
   label_map_dict = label_map_util.get_label_map_dict(FLAGS.label_map_path)
   print(label_map_dict)
 
@@ -261,6 +268,8 @@ def main(_):
   examples_list += tf.gfile.Glob(os.path.join(alt_data_dir, '*.xml'))
   examples_list += tf.gfile.Glob(os.path.join(alt_data_dir_2, '*.xml'))
   examples_list += tf.gfile.Glob(os.path.join(alt_data_dir_3, '*.xml'))
+  examples_list += tf.gfile.Glob(os.path.join(alt_data_dir_4, '*.xml'))
+  examples_list += tf.gfile.Glob(os.path.join(alt_data_dir_5, '*.xml'))
   # Test images are not included in the downloaded data set, so we shall perform
   # our own split.
   # TODO - should this be based on an even split of object types rather than 
