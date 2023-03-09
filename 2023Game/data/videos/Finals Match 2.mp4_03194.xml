@@ -366,9 +366,21 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>893</xmin>
-			<ymin>802</ymin>
-			<xmax>946</xmax>
+			<ymin>766</ymin>
+			<xmax>955</xmax>
 			<ymax>834</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>864</xmin>
+			<ymin>337</ymin>
+			<xmax>923</xmax>
+			<ymax>365</ymax>
 		</bndbox>
 	</object>
 </annotation>

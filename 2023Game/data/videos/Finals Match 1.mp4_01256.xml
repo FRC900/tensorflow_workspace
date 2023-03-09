@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Finals Match 1.mp4_01256.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/Finals Match 1.mp4_01256.png</path>
@@ -213,6 +213,18 @@
 			<ymin>499</ymin>
 			<xmax>1137</xmax>
 			<ymax>507</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>661</xmin>
+			<ymin>667</ymin>
+			<xmax>711</xmax>
+			<ymax>728</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>143</xmin>
-			<ymin>703</ymin>
-			<xmax>248</xmax>
-			<ymax>744</ymax>
+			<xmin>160</xmin>
+			<ymin>687</ymin>
+			<xmax>234</xmax>
+			<ymax>740</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -163,8 +163,8 @@
 		<bndbox>
 			<xmin>1084</xmin>
 			<ymin>350</ymin>
-			<xmax>1117</xmax>
-			<ymax>369</ymax>
+			<xmax>1134</xmax>
+			<ymax>371</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -189,6 +189,18 @@
 			<ymin>606</ymin>
 			<xmax>878</xmax>
 			<ymax>628</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black_bottom_substation</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1142</xmin>
+			<ymin>598</ymin>
+			<xmax>1158</xmax>
+			<ymax>624</ymax>
 		</bndbox>
 	</object>
 </annotation>
