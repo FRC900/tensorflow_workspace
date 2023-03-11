@@ -176,7 +176,7 @@ def main():
                   output_dict['detection_boxes'][:num_detections],
                   output_dict['detection_scores'][:num_detections],
                   output_dict['detection_classes'][:num_detections],
-                  0.25)
+                  0.20)
           '''
           Much slower version using tf vis_util
           # Visualization of the results of a detection.
