@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
-	<filename>20230401_085358.mp4_00605.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/20230401_085358.mp4_00605.png</path>
+	<filename>20230401_085358.mp4_00660.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/20230401_085358.mp4_00660.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,34 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>802</xmin>
-			<ymin>35</ymin>
-			<xmax>869</xmax>
-			<ymax>128</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_corners</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>357</xmin>
-			<ymin>701</ymin>
-			<xmax>463</xmax>
-			<ymax>764</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_bottom_substation</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>126</xmin>
-			<ymin>263</ymin>
-			<xmax>162</xmax>
-			<ymax>296</ymax>
+			<xmin>1647</xmin>
+			<ymin>395</ymin>
+			<xmax>1756</xmax>
+			<ymax>536</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1243</xmin>
-			<ymin>91</ymin>
-			<xmax>1284</xmax>
-			<ymax>155</ymax>
+			<xmin>389</xmin>
+			<ymin>107</ymin>
+			<xmax>444</xmax>
+			<ymax>157</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1313</xmin>
-			<ymin>98</ymin>
-			<xmax>1350</xmax>
-			<ymax>124</ymax>
+			<xmin>651</xmin>
+			<ymin>97</ymin>
+			<xmax>693</xmax>
+			<ymax>146</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1096</xmin>
-			<ymin>87</ymin>
-			<xmax>1138</xmax>
-			<ymax>147</ymax>
+			<xmin>568</xmin>
+			<ymin>96</ymin>
+			<xmax>607</xmax>
+			<ymax>150</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +65,58 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1074</xmin>
-			<ymin>41</ymin>
-			<xmax>1119</xmax>
-			<ymax>84</ymax>
+			<xmin>82</xmin>
+			<ymin>58</ymin>
+			<xmax>165</xmax>
+			<ymax>142</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1835</xmin>
+			<ymin>443</ymin>
+			<xmax>1920</xmax>
+			<ymax>600</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>397</xmin>
+			<ymin>45</ymin>
+			<xmax>444</xmax>
+			<ymax>98</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>437</xmin>
+			<ymin>108</ymin>
+			<xmax>465</xmax>
+			<ymax>158</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1734</xmin>
+			<ymin>414</ymin>
+			<xmax>1841</xmax>
+			<ymax>554</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>962</xmin>
-			<ymin>248</ymin>
-			<xmax>994</xmax>
-			<ymax>286</ymax>
+			<xmin>55</xmin>
+			<ymin>289</ymin>
+			<xmax>98</xmax>
+			<ymax>327</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,46 +137,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>292</xmin>
-			<ymin>264</ymin>
-			<xmax>330</xmax>
-			<ymax>296</ymax>
+			<xmin>299</xmin>
+			<ymin>279</ymin>
+			<xmax>342</xmax>
+			<ymax>315</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>cube</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>472</xmin>
-			<ymin>422</ymin>
-			<xmax>568</xmax>
-			<ymax>491</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_bottom_substation</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>769</xmin>
-			<ymin>255</ymin>
-			<xmax>795</xmax>
-			<ymax>293</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_7</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>209</xmin>
-			<ymin>135</ymin>
-			<xmax>256</xmax>
-			<ymax>178</ymax>
+			<xmin>653</xmin>
+			<ymin>73</ymin>
+			<xmax>697</xmax>
+			<ymax>102</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -161,10 +161,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1212</xmin>
+			<xmin>540</xmin>
 			<ymin>56</ymin>
-			<xmax>1243</xmax>
-			<ymax>85</ymax>
+			<xmax>572</xmax>
+			<ymax>94</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -173,10 +173,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1467</xmin>
-			<ymin>382</ymin>
-			<xmax>1554</xmax>
-			<ymax>444</ymax>
+			<xmin>832</xmin>
+			<ymin>364</ymin>
+			<xmax>921</xmax>
+			<ymax>426</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -185,10 +185,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1306</xmin>
-			<ymin>64</ymin>
-			<xmax>1353</xmax>
-			<ymax>109</ymax>
+			<xmin>685</xmin>
+			<ymin>106</ymin>
+			<xmax>725</xmax>
+			<ymax>149</ymax>
 		</bndbox>
 	</object>
 </annotation>
