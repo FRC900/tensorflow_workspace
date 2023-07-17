@@ -1,0 +1,110 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# PASCAL VOC dataset http://host.robots.ox.ac.uk/pascal/VOC by University of Oxford
+# Example usage: yolo train data=VOC.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── VOC  ← downloads here (2.8 GB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/ubuntu/tensorflow_workspace/2023Game/models/yolov8/datasets/FRC2023
+train: # train images (relative to 'path')
+  - images/train
+val: # val images (relative to 'path')
+  - images/test
+test: # test images (optional)
+  - images/test
+
+# Classes
+names:
+  0: april_tag_1
+  1: april_tag_2
+  2: april_tag_3
+  3: april_tag_4
+  4: april_tag_5
+  5: april_tag_6
+  6: april_tag_7
+  7: april_tag_8
+  8: cone
+  9: cube
+  10: blue_tape_corners
+  11: red_tape_corners
+  12: red_ds_light
+  13: blue_ds_light
+  14: black_bottom_substation
+  15: white_tape_line
+  16: red_charge_station
+  17: blue_charge_station
+  18: ds_numbers
+  19: red_robot
+  20: blue_robot
+  21: ds_light
+  22: red_tape_to_wall
+  23: blue_tape_to_wall
+
+# Download script/URL (optional) ---------------------------------------------------------------------------------------
+download: |
+  import xml.etree.ElementTree as ET
+
+  from os import symlink
+  from pathlib import Path
+  from random import shuffle
+
+  def convert_label(input_xml, out_path, test):
+      def convert_box(size, box):
+          dw, dh = 1. / size[0], 1. / size[1]
+          x, y, w, h = (box[0] + box[1]) / 2.0 - 1, (box[2] + box[3]) / 2.0 - 1, box[1] - box[0], box[3] - box[2]
+          return x * dw, y * dh, w * dw, h * dh
+
+      tt = 'test' if test else 'train'
+      in_file = open(input_xml)
+      tree = ET.parse(in_file)
+      root = tree.getroot()
+      img_path = Path(root.find('path').text)
+      img_name = img_path.name
+
+      symlink(img_path, out_path / 'images' / tt / img_name)
+
+      size = root.find('size')
+      w = int(size.find('width').text)
+      h = int(size.find('height').text)
+
+      lb_path = (out_path / 'labels' / tt / img_name).with_suffix('.txt')  # new label path
+      out_file = open(lb_path, 'w')
+      names = list(yaml['names'].values())  # class names list
+      for obj in root.iter('object'):
+          cls = obj.find('name').text
+          if cls in names and int(obj.find('difficult').text) != 1:
+              xmlbox = obj.find('bndbox')
+              bb = convert_box((w, h), [float(xmlbox.find(x).text) for x in ('xmin', 'xmax', 'ymin', 'ymax')])
+              cls_id = names.index(cls)  # class id
+              out_file.write(" ".join([str(a) for a in (cls_id, *bb)]) + '\n')
+          else:
+              print(f"Class name {cls} not found")
+
+
+  # Create destination dirs
+  dir = Path(yaml['path'])  # dataset root dir
+  for tt in ['train', 'test']:
+    for il in ['images', 'labels']:
+      (dir / il / tt).mkdir(exist_ok=True, parents=True)
+
+  # Convert
+  data_paths = [
+          "/home/ubuntu/tensorflow_workspace/2019Game/data/videos",
+          "/home/ubuntu/tensorflow_workspace/2020Game/data/videos",
+          "/home/ubuntu/tensorflow_workspace/2022Game/data/videos",
+          "/home/ubuntu/tensorflow_workspace/2023Game/data/videos",
+  ]
+
+  input_xmls = []
+  for data_path in data_paths:
+      input_xmls.extend(Path(data_path).glob("*.xml"))
+  shuffle(input_xmls)
+
+  split_point = int(len(input_xmls) * 0.85)
+  print(f"{len(input_xmls)} input images found, {split_point} training and {len(input_xmls) - split_point} validation")
+
+  for i in range(len(input_xmls)):
+    convert_label(input_xmls[i], dir, i >= split_point)
