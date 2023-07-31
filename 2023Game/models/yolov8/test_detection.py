@@ -1,3 +1,4 @@
+import argparse
 import cv2
 from ultralytics import YOLO
 
@@ -8,7 +9,7 @@ def main(args: argparse.Namespace) -> None:
     model = YOLO(args.model)
 
     # Open the video file
-    cap = cv2.VideoCapture(args.input_path)
+    cap = cv2.VideoCapture(args.input_video)
 
     if args.save_path is not None:
         # Get input vid resolution by sampling first frame from video, then resetting back to frame 0
@@ -25,6 +26,9 @@ def main(args: argparse.Namespace) -> None:
 
         if success:
             # Run YOLOv8 inference on the frame
+            # Add agnostic_nms=True to remove overlapping
+            # detections of different classes for a single
+            # object (useful for apriltags)
             results = model(frame)
 
             # Visualize the results on the frame
