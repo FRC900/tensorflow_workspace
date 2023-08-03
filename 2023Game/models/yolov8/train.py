@@ -1,7 +1,5 @@
 import argparse
 from ultralytics import YOLO
-from pathlib import Path
-from onnx_to_tensorrt import onnx_to_tensorrt
 
 
 def train_yolo(args: argparse.Namespace) -> None:
@@ -17,6 +15,9 @@ def train_yolo(args: argparse.Namespace) -> None:
     # and in this case provides a way to translate from .pt to
     # an optimized TensorRT engine file
 
+    from pathlib import Path
+    # Need to import this after caling YOLO or training fails?
+    from onnx_to_tensorrt import onnx_to_tensorrt
     import subprocess
     export_det_args = [
         'python3',
