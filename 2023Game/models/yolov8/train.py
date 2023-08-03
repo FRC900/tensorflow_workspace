@@ -7,20 +7,9 @@ from onnx_to_tensorrt import onnx_to_tensorrt
 def train_yolo(args: argparse.Namespace) -> None:
     model = YOLO(args.yolo_model)
 
-
-    print(f"{args.input_shape}")
-    if isinstance(args.input_shape, int):
-        imgsz = args.input_shape
-    elif isinstance(args.input_shape, list):
-        if len(args.input_shape) == 1:
-            imgsz = args.input_shape[0]
-        else:
-            imgsz = (args.input_shape[0], args.input_shape[1])
-
-
     pt_file_path = model.train(data=args.config,
                                epochs=args.epochs,
-                               imgsz=imgsz,
+                               imgsz=args.input_size,
                                batch=args.batch_size)
 
     # Now convert from pytorch .pt format to a .onnx file
@@ -83,11 +72,10 @@ def parse_args() -> argparse.Namespace:
                         type=int,
                         default=8,
                         help='Number of images to batch')
-    parser.add_argument('--input-shape',
-                        nargs='+',
+    parser.add_argument('--input-size',
                         type=int,
-                        default=[640, 640],
-                        help='Model input shape')
+                        default=640,
+                        help='Model input image size')
     args = parser.parse_args()
     return args
 
