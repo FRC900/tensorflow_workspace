@@ -1,6 +1,6 @@
 import argparse
 from ultralytics import YOLO
-
+from os import rename
 
 def train_yolo(args: argparse.Namespace) -> None:
     model = YOLO(args.yolo_model)
@@ -15,6 +15,7 @@ def train_yolo(args: argparse.Namespace) -> None:
     # and in this case provides a way to translate from .pt to
     # an optimized TensorRT engine file
 
+    # For testing :  pt_file_path = 'runs/detect/train2/weights/best.pt'
     from pathlib import Path
     # Need to import this after caling YOLO or training fails?
     from onnx_to_tensorrt import onnx_to_tensorrt
@@ -28,7 +29,7 @@ def train_yolo(args: argparse.Namespace) -> None:
         '--topk', '100',
         '--opset', '11',
         '--sim',
-        '--input-shape', '1',  '3', '640', '640', 
+        '--input-shape', '1',  '3', f'{args.input_size}', f'{args.input_size}', 
         '--device', 'cuda:0',
     ]
     subprocess.run(export_det_args)
@@ -42,8 +43,8 @@ def train_yolo(args: argparse.Namespace) -> None:
     # the model locally.
     # Additionally, it will create a calibration file useful for optimizing
     # int8 models on other platforms.  
-    tensorrt_path = onnx_path.with_name(Path(pt_file_path).stem + '_int8').with_suffix('.engine')
-    calibration_path = onnx_path.with_name('calib_FRC2023m.bin')
+    tensorrt_path = onnx_path.with_name(args.output_stem + '_int8').with_suffix('.engine')
+    calibration_path = onnx_path.with_name('calib_' + args.output_stem + '.bin')
 
     onnx_to_tensorrt(onnx_path,
                      tensorrt_path,
@@ -51,8 +52,11 @@ def train_yolo(args: argparse.Namespace) -> None:
                      fp16=True,
                      dataset_path='datasets/FRC2023/images/train',
                      calibration_file=calibration_path)
-
-    print(f"Training finished, generated {pt_file_path}, {onnx_path}, {tensorrt_path} and {calibration_path}")
+    new_pt_file_path = Path(pt_file_path).with_stem(args.output_stem)
+    new_onnx_path = onnx_path.with_stem(args.output_stem)
+    rename(pt_file_path, new_pt_file_path)
+    rename(onnx_path, new_onnx_path)
+    print(f"Training finished, generated {new_pt_file_path}, {new_onnx_path}, {tensorrt_path} and {calibration_path}")
 
 
 def parse_args() -> argparse.Namespace:
@@ -65,6 +69,10 @@ def parse_args() -> argparse.Namespace:
                         type=str,
                         default='FRC2023.yaml',
                         help='Config file')
+    parser.add_argument('--output_stem',
+                        type=str,
+                        default='best',
+                        help='File name stem for pt, onnx, engine and calibration file')
     parser.add_argument('--epochs',
                         type=int,
                         default=200,
