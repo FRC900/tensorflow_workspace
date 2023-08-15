@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>combined_88_test</folder>
 	<filename>untitled-f007645.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f007645.png</path>
@@ -129,6 +129,18 @@
 			<ymin>791</ymin>
 			<xmax>1368</xmax>
 			<ymax>848</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>898</xmin>
+			<ymin>99</ymin>
+			<xmax>1085</xmax>
+			<ymax>785</ymax>
 		</bndbox>
 	</object>
 </annotation>
