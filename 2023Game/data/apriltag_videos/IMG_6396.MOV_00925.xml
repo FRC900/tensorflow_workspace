@@ -1,6 +1,6 @@
-<annotation>
-	<folder>None</folder>
-	<filename>/home/ubuntu/tensorflow_workspace/2023Game/data/apriltag_videos/IMG_6396.MOV_00925.png</filename>
+<annotation verified="yes">
+	<folder>apriltag_videos</folder>
+	<filename>IMG_6396.MOV_00925.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/apriltag_videos/IMG_6396.MOV_00925.png</path>
 	<source>
 		<database>Unknown</database>
@@ -33,18 +33,6 @@
 			<ymin>840</ymin>
 			<xmax>1160</xmax>
 			<ymax>869</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_numbers</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>282</xmin>
-			<ymin>953</ymin>
-			<xmax>326</xmax>
-			<ymax>966</ymax>
 		</bndbox>
 	</object>
 </annotation>

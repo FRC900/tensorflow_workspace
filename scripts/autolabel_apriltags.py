@@ -64,4 +64,5 @@ for image_path in pathlist:
         new_objs = objs + good_tags
         ann.objects = new_objs
         ann.save(xml_path)
-        formatter.format_file(xml_path)
+        formatted_xml_str = formatter.format_file(xml_path) 
+        formatter.enc_output(xml_path, formatted_xml_str)

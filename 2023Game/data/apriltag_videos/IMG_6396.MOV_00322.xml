@@ -1,6 +1,6 @@
-<annotation>
-	<folder>None</folder>
-	<filename>/home/ubuntu/tensorflow_workspace/2023Game/data/apriltag_videos/IMG_6396.MOV_00322.png</filename>
+<annotation verified="yes">
+	<folder>apriltag_videos</folder>
+	<filename>IMG_6396.MOV_00322.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/apriltag_videos/IMG_6396.MOV_00322.png</path>
 	<source>
 		<database>Unknown</database>
@@ -33,18 +33,6 @@
 			<ymin>592</ymin>
 			<xmax>1013</xmax>
 			<ymax>638</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_robot</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>0</xmin>
-			<ymin>537</ymin>
-			<xmax>69</xmax>
-			<ymax>1072</ymax>
 		</bndbox>
 	</object>
 </annotation>

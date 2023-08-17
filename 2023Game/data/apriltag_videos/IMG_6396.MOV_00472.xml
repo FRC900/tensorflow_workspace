@@ -1,6 +1,6 @@
 <annotation>
-	<folder>None</folder>
-	<filename>/home/ubuntu/tensorflow_workspace/2023Game/data/apriltag_videos/IMG_6396.MOV_00472.png</filename>
+	<folder>apriltag_videos</folder>
+	<filename>IMG_6396.MOV_00472.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/apriltag_videos/IMG_6396.MOV_00472.png</path>
 	<source>
 		<database>Unknown</database>
@@ -21,18 +21,6 @@
 			<ymin>512</ymin>
 			<xmax>856</xmax>
 			<ymax>545</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_5</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>394</xmin>
-			<ymin>933</ymin>
-			<xmax>577</xmax>
-			<ymax>1042</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -81,6 +69,18 @@
 			<ymin>1038</ymin>
 			<xmax>1354</xmax>
 			<ymax>1078</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>april_tag_5</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>933</xmin>
+			<ymin>501</ymin>
+			<xmax>969</xmax>
+			<ymax>532</ymax>
 		</bndbox>
 	</object>
 </annotation>
