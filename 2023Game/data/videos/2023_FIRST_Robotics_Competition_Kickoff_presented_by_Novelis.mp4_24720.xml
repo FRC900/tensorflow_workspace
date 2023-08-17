@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_24720.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_24720.png</path>
@@ -101,10 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1142</xmin>
+			<xmin>1143</xmin>
 			<ymin>481</ymin>
-			<xmax>1155</xmax>
-			<ymax>520</ymax>
+			<xmax>1165</xmax>
+			<ymax>526</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -137,106 +137,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1166</xmin>
-			<ymin>450</ymin>
-			<xmax>1171</xmax>
-			<ymax>474</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1151</xmin>
-			<ymin>470</ymin>
-			<xmax>1165</xmax>
-			<ymax>477</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1190</xmin>
+			<xmin>1185</xmin>
 			<ymin>486</ymin>
-			<xmax>1195</xmax>
-			<ymax>509</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1170</xmin>
-			<ymin>479</ymin>
-			<xmax>1188</xmax>
-			<ymax>485</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1223</xmin>
-			<ymin>431</ymin>
-			<xmax>1233</xmax>
-			<ymax>456</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1223</xmin>
-			<ymin>458</ymin>
-			<xmax>1233</xmax>
-			<ymax>482</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1225</xmin>
-			<ymin>489</ymin>
-			<xmax>1229</xmax>
-			<ymax>504</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1229</xmin>
-			<ymin>491</ymin>
-			<xmax>1233</xmax>
-			<ymax>495</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1252</xmin>
-			<ymin>454</ymin>
-			<xmax>1255</xmax>
-			<ymax>495</ymax>
+			<xmax>1205</xmax>
+			<ymax>512</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -257,57 +161,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1163</xmin>
+			<xmin>1122</xmin>
 			<ymin>434</ymin>
-			<xmax>1167</xmax>
-			<ymax>445</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1144</xmin>
-			<ymin>462</ymin>
-			<xmax>1160</xmax>
-			<ymax>467</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1143</xmin>
-			<ymin>470</ymin>
-			<xmax>1148</xmax>
-			<ymax>477</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1157</xmin>
-			<ymin>482</ymin>
-			<xmax>1161</xmax>
-			<ymax>490</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1124</xmin>
-			<ymin>436</ymin>
-			<xmax>1134</xmax>
+			<xmax>1146</xmax>
 			<ymax>466</ymax>
 		</bndbox>
 	</object>
@@ -317,22 +173,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1125</xmin>
-			<ymin>471</ymin>
-			<xmax>1129</xmax>
-			<ymax>477</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1126</xmin>
-			<ymin>487</ymin>
-			<xmax>1131</xmax>
-			<ymax>507</ymax>
+			<xmin>1113</xmin>
+			<ymin>466</ymin>
+			<xmax>1137</xmax>
+			<ymax>520</ymax>
 		</bndbox>
 	</object>
 	<object>

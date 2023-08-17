@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>PC060083.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/PC060083.JPG</path>
@@ -18,8 +18,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>802</xmin>
-			<ymin>1631</ymin>
-			<xmax>835</xmax>
+			<ymin>1608</ymin>
+			<xmax>900</xmax>
 			<ymax>1693</ymax>
 		</bndbox>
 	</object>
@@ -30,9 +30,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>806</xmin>
-			<ymin>1705</ymin>
-			<xmax>840</xmax>
-			<ymax>1748</ymax>
+			<ymin>1695</ymin>
+			<xmax>886</xmax>
+			<ymax>1766</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>902</xmin>
+			<xmin>889</xmin>
 			<ymin>1681</ymin>
 			<xmax>944</xmax>
-			<ymax>1719</ymax>
+			<ymax>1751</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,22 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1052</xmin>
-			<ymin>1674</ymin>
-			<xmax>1073</xmax>
-			<ymax>1710</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1097</xmin>
-			<ymin>1669</ymin>
+			<xmin>1056</xmin>
+			<ymin>1665</ymin>
 			<xmax>1132</xmax>
-			<ymax>1705</ymax>
+			<ymax>1740</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1140</xmin>
-			<ymin>1667</ymin>
-			<xmax>1177</xmax>
-			<ymax>1710</ymax>
+			<xmin>1112</xmin>
+			<ymin>1658</ymin>
+			<xmax>1190</xmax>
+			<ymax>1735</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1280</xmin>
-			<ymin>1526</ymin>
-			<xmax>1303</xmax>
-			<ymax>1620</ymax>
+			<xmin>1274</xmin>
+			<ymin>1516</ymin>
+			<xmax>1318</xmax>
+			<ymax>1627</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -139,8 +127,8 @@
 		<bndbox>
 			<xmin>1290</xmin>
 			<ymin>1637</ymin>
-			<xmax>1311</xmax>
-			<ymax>1702</ymax>
+			<xmax>1327</xmax>
+			<ymax>1733</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -149,10 +137,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1236</xmin>
-			<ymin>1648</ymin>
-			<xmax>1241</xmax>
-			<ymax>1708</ymax>
+			<xmin>1225</xmin>
+			<ymin>1619</ymin>
+			<xmax>1272</xmax>
+			<ymax>1741</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -173,10 +161,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>943</xmin>
+			<xmin>938</xmin>
 			<ymin>1631</ymin>
 			<xmax>971</xmax>
-			<ymax>1685</ymax>
+			<ymax>1730</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -197,10 +185,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1006</xmin>
+			<xmin>1003</xmin>
 			<ymin>1632</ymin>
 			<xmax>1045</xmax>
-			<ymax>1703</ymax>
+			<ymax>1724</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -209,10 +197,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1052</xmin>
-			<ymin>1630</ymin>
-			<xmax>1066</xmax>
-			<ymax>1662</ymax>
+			<xmin>1033</xmin>
+			<ymin>1618</ymin>
+			<xmax>1077</xmax>
+			<ymax>1712</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -221,10 +209,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1344</xmin>
+			<xmin>1334</xmin>
 			<ymin>1627</ymin>
 			<xmax>1370</xmax>
-			<ymax>1702</ymax>
+			<ymax>1731</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -247,8 +235,8 @@
 		<bndbox>
 			<xmin>1425</xmin>
 			<ymin>1622</ymin>
-			<xmax>1448</xmax>
-			<ymax>1695</ymax>
+			<xmax>1467</xmax>
+			<ymax>1732</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -269,10 +257,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1463</xmin>
-			<ymin>1638</ymin>
-			<xmax>1474</xmax>
-			<ymax>1705</ymax>
+			<xmin>1456</xmin>
+			<ymin>1626</ymin>
+			<xmax>1491</xmax>
+			<ymax>1738</ymax>
 		</bndbox>
 	</object>
 	<object>

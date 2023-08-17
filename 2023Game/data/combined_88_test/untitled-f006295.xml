@@ -1,5 +1,5 @@
-<annotation>
-	<folder>XML</folder>
+<annotation verified="yes">
+	<folder>combined_88_test</folder>
 	<filename>untitled-f006295.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f006295.png</path>
 	<source>
@@ -11,18 +11,6 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1227</xmin>
-			<ymin>1048</ymin>
-			<xmax>1527</xmax>
-			<ymax>1080</ymax>
-		</bndbox>
-	</object>
 	<object>
 		<name>cone</name>
 		<pose>Unspecified</pose>

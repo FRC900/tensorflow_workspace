@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRC Team 4909 | Finals Match 4 Pov Footage.mp4_04272.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/FRC Team 4909 | Finals Match 4 Pov Footage.mp4_04272.png</path>
@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_robot</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>385</xmin>
-			<ymin>251</ymin>
-			<xmax>482</xmax>
-			<ymax>306</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>cube</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -36,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_robot</name>
+		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -257,10 +245,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>464</xmin>
-			<ymin>256</ymin>
-			<xmax>514</xmax>
-			<ymax>296</ymax>
+			<xmin>466</xmin>
+			<ymin>251</ymin>
+			<xmax>511</xmax>
+			<ymax>298</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -271,8 +259,20 @@
 		<bndbox>
 			<xmin>363</xmin>
 			<ymin>240</ymin>
-			<xmax>409</xmax>
+			<xmax>407</xmax>
 			<ymax>293</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>402</xmin>
+			<ymin>238</ymin>
+			<xmax>468</xmax>
+			<ymax>311</ymax>
 		</bndbox>
 	</object>
 </annotation>

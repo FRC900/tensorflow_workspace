@@ -1,5 +1,5 @@
-<annotation>
-	<folder>XML</folder>
+<annotation verified="yes">
+	<folder>combined_88_test</folder>
 	<filename>untitled-f009474.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f009474.png</path>
 	<source>
@@ -14,10 +14,10 @@
 	<object>
 		<name>cube</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>0</xmin>
+			<xmin>1</xmin>
 			<ymin>231</ymin>
 			<xmax>72</xmax>
 			<ymax>468</ymax>
@@ -57,18 +57,6 @@
 			<ymin>204</ymin>
 			<xmax>1330</xmax>
 			<ymax>723</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_5</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>685</xmin>
-			<ymin>27</ymin>
-			<xmax>1107</xmax>
-			<ymax>33</ymax>
 		</bndbox>
 	</object>
 </annotation>

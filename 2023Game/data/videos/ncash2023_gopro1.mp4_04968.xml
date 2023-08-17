@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>ncash2023_gopro1.mp4_04968.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/ncash2023_gopro1.mp4_04968.png</path>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>792</xmin>
-			<ymin>68</ymin>
-			<xmax>888</xmax>
-			<ymax>124</ymax>
+			<xmin>799</xmin>
+			<ymin>69</ymin>
+			<xmax>895</xmax>
+			<ymax>125</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -228,18 +228,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1668</xmin>
-			<ymin>398</ymin>
-			<xmax>1716</xmax>
-			<ymax>431</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -285,18 +273,6 @@
 			<ymin>389</ymin>
 			<xmax>497</xmax>
 			<ymax>474</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1635</xmin>
-			<ymin>399</ymin>
-			<xmax>1649</xmax>
-			<ymax>438</ymax>
 		</bndbox>
 	</object>
 	<object>

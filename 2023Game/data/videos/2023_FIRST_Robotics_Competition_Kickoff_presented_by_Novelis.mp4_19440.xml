@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_19440.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_19440.png</path>
@@ -14,13 +14,13 @@
 	<object>
 		<name>cone</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1608</xmin>
+			<xmin>1598</xmin>
 			<ymin>960</ymin>
 			<xmax>1678</xmax>
-			<ymax>1072</ymax>
+			<ymax>1080</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1537</xmin>
-			<ymin>972</ymin>
-			<xmax>1549</xmax>
-			<ymax>1068</ymax>
+			<xmin>1528</xmin>
+			<ymin>949</ymin>
+			<xmax>1581</xmax>
+			<ymax>1069</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>cone</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1702</xmin>
 			<ymin>962</ymin>
-			<xmax>1736</xmax>
-			<ymax>1074</ymax>
+			<xmax>1753</xmax>
+			<ymax>1080</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1843</xmin>
-			<ymin>862</ymin>
-			<xmax>1886</xmax>
-			<ymax>935</ymax>
+			<xmin>1819</xmin>
+			<ymin>832</ymin>
+			<xmax>1904</xmax>
+			<ymax>997</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,22 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1518</xmin>
-			<ymin>969</ymin>
-			<xmax>1532</xmax>
-			<ymax>1006</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1450</xmin>
+			<xmin>1403</xmin>
 			<ymin>981</ymin>
 			<xmax>1470</xmax>
-			<ymax>1049</ymax>
+			<ymax>1063</ymax>
 		</bndbox>
 	</object>
 </annotation>

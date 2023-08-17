@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC09514.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/DSC09514.jpg</path>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1518</xmin>
-			<ymin>2676</ymin>
-			<xmax>1653</xmax>
-			<ymax>2828</ymax>
+			<xmin>1396</xmin>
+			<ymin>2679</ymin>
+			<xmax>1609</xmax>
+			<ymax>2854</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1071</xmin>
-			<ymin>2572</ymin>
-			<xmax>1263</xmax>
-			<ymax>2718</ymax>
+			<xmin>1039</xmin>
+			<ymin>2587</ymin>
+			<xmax>1179</xmax>
+			<ymax>2732</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1101</xmin>
-			<ymin>2628</ymin>
-			<xmax>1418</xmax>
-			<ymax>2793</ymax>
+			<xmin>1213</xmin>
+			<ymin>2619</ymin>
+			<xmax>1352</xmax>
+			<ymax>2767</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -132,18 +132,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5024</xmin>
-			<ymin>1600</ymin>
-			<xmax>5169</xmax>
-			<ymax>1666</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>black_bottom_substation</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -173,10 +161,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1447</xmin>
-			<ymin>1836</ymin>
-			<xmax>1597</xmax>
-			<ymax>1903</ymax>
+			<xmin>1415</xmin>
+			<ymin>1827</ymin>
+			<xmax>1575</xmax>
+			<ymax>1901</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -233,8 +221,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1170</xmin>
-			<ymin>1817</ymin>
+			<xmin>1159</xmin>
+			<ymin>1799</ymin>
 			<xmax>1325</xmax>
 			<ymax>1878</ymax>
 		</bndbox>

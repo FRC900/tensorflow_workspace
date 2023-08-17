@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>combined_88_test</folder>
 	<filename>untitled-f001725.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f001725.png</path>
@@ -21,18 +21,6 @@
 			<ymin>534</ymin>
 			<xmax>1468</xmax>
 			<ymax>690</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_5</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1024</xmin>
-			<ymin>690</ymin>
-			<xmax>1028</xmax>
-			<ymax>716</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -108,7 +96,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -120,7 +108,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

@@ -209,22 +209,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1368</xmin>
-			<ymin>209</ymin>
-			<xmax>1373</xmax>
-			<ymax>239</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1353</xmin>
-			<ymin>181</ymin>
-			<xmax>1360</xmax>
-			<ymax>186</ymax>
+			<xmin>1364</xmin>
+			<ymin>195</ymin>
+			<xmax>1380</xmax>
+			<ymax>224</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -305,10 +293,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1301</xmin>
-			<ymin>207</ymin>
-			<xmax>1326</xmax>
-			<ymax>215</ymax>
+			<xmin>1311</xmin>
+			<ymin>199</ymin>
+			<xmax>1329</xmax>
+			<ymax>219</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -318,8 +306,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1387</xmin>
-			<ymin>198</ymin>
-			<xmax>1393</xmax>
+			<ymin>196</ymin>
+			<xmax>1403</xmax>
 			<ymax>217</ymax>
 		</bndbox>
 	</object>
@@ -636,7 +624,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -645,6 +633,18 @@
 			<ymin>89</ymin>
 			<xmax>906</xmax>
 			<ymax>109</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1360</xmin>
+			<ymin>218</ymin>
+			<xmax>1373</xmax>
+			<ymax>246</ymax>
 		</bndbox>
 	</object>
 </annotation>

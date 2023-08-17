@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC09515.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/DSC09515.jpg</path>
@@ -177,18 +177,6 @@
 			<ymin>1833</ymin>
 			<xmax>1609</xmax>
 			<ymax>1902</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_numbers</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5036</xmin>
-			<ymin>1595</ymin>
-			<xmax>5171</xmax>
-			<ymax>1660</ymax>
 		</bndbox>
 	</object>
 	<object>
