@@ -1,0 +1,26 @@
+<annotation>
+        <folder>apriltag_videos</folder>
+        <filename>tag5_1692192451.png</filename>
+        <path>/home/ubuntu/tensorflow_workspace/2023Game/data/apriltag_videos/tag5_1692192451.png</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>1280</width>
+                <height>720</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>april_tag_5</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>673</xmin>
+                        <ymin>345</ymin>
+                        <xmax>776</xmax>
+                        <ymax>436</ymax>
+                </bndbox>
+        </object>
+</annotation>

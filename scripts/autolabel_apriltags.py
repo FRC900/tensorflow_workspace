@@ -12,15 +12,15 @@ if len(sys.argv) != 2:
 
 
 options = apriltag.DetectorOptions(families='tag16h5',
-                                border=1,
-                                nthreads=4,
-                                quad_decimate=0.0,
-                                quad_blur=0.5,
-                                refine_edges=True,
-                                refine_decode=True,
-                                refine_pose=False,
-                                debug=False,
-                                quad_contours=True)
+                                   border=1,
+                                   nthreads=4,
+                                   quad_decimate=0.0,
+                                   quad_blur=0.5,
+                                   refine_edges=True,
+                                   refine_decode=True,
+                                   refine_pose=False,
+                                   debug=False,
+                                   quad_contours=True)
 detector = apriltag.Detector(options=options)
 directory = sys.argv[1]
 
@@ -46,7 +46,7 @@ for image_path in pathlist:
 
     good_tags = []
     for tag in result:
-        #print(tag.hamming)
+        print(tag.hamming)
         #if tag.hamming == 0:
         if tag.tag_id >= 1 and tag.tag_id <= 8:
             xs = []
