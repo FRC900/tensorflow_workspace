@@ -5,9 +5,10 @@ import xml.etree.ElementTree as ET
 import glob
 import numpy as np
 import math
+import matplotlib.pyplot as plt
 
 # Will find all xml files in the ./videos/ directory
-xml_files = glob.glob("videos/*.xml")
+xml_files = glob.glob("*.xml")
 
 # Given return a list of all object types with a given name
 def findAllObjects(tree):
@@ -39,25 +40,30 @@ for xml_file in sorted(xml_files):
         obj_height = float(coords['ymax']) - float(coords['ymin'])
         local_ar = obj_width / obj_height
         unadjusted_ar.append(local_ar)
-        #if local_ar > 4:
-            #print xml_file + " : " + obj.find('name').text + " : " + str(local_ar)
-        #if local_ar < .2 :
-            #print xml_file + " : " + obj.find('name').text + " : " + str(local_ar)
+        if local_ar > 6:
+            print(xml_file + " : " + obj.find('name').text + " : " + str(local_ar))
+        if local_ar < .17 :
+            print(xml_file + " : " + obj.find('name').text + " : " + str(local_ar))
 
         local_adjusted_ar = (obj_width / width) / (obj_height / height)
         adjusted_ar.append (local_adjusted_ar)
-        if local_adjusted_ar > 3:
-            print xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar)
-        if local_adjusted_ar < .15:
-            print xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar)
+        #if local_adjusted_ar > 1.4:
+            #print(xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar))
+        #if local_adjusted_ar < .3:
+            #print(xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar))
 
         screen_percents.append(math.sqrt((obj_width / width) * (obj_height / height)))
+
+    
+        #name = obj.find('name').text
+        #if ('april_tag' not in name) and (name != 'cone') and (name != 'cube') and ('robot' not in name):
+            #print(xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar))
 
 
 
 #print unadjusted_ar
 #print adjusted_ar
 
-#print np.histogram(unadjusted_ar, bins='auto')
-#print np.histogram(adjusted_ar, bins='auto')
-print np.histogram(screen_percents, bins='auto')
+print(np.histogram(unadjusted_ar, bins='auto'))
+#print(np.histogram(adjusted_ar, bins='auto'))
+#print(np.histogram(screen_percents, bins='auto'))

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>ncash2023_gopro1.mp4_00480.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/ncash2023_gopro1.mp4_00480.png</path>
@@ -168,18 +168,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>april_tag_8</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>784</xmin>
-			<ymin>336</ymin>
-			<xmax>814</xmax>
-			<ymax>371</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>cone</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -189,18 +177,6 @@
 			<ymin>328</ymin>
 			<xmax>1405</xmax>
 			<ymax>369</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_5</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1244</xmin>
-			<ymin>306</ymin>
-			<xmax>1281</xmax>
-			<ymax>333</ymax>
 		</bndbox>
 	</object>
 	<object>

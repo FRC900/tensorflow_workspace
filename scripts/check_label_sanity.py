@@ -5,43 +5,28 @@ import xml.etree.ElementTree as ET
 import glob
 
 # Will find all xml files in the ./videos/ directory
-xml_files = glob.glob("videos/*.xml")
+xml_files = glob.glob("*.xml")
 
 # Max number of a each object seen in an image
 max_obj_counts = {
-'yellow_control_panel_light' : 2,
-'blue_power_port_high_goal' : 1,
-'red_robot' : 3,
-'red_shield_generator_light' : 1,
-'blue_shield_generator_light' : 1,
-'blue_robot' : 3,
-'red_loading_bay_left_graphics' : 1,
-'blue_black_shield_generator_floor_intersection' : 1,
-'shield_generator_floor_center_intersection' : 1,
-'red_loading_bay_tape' : 1,
-'blue_power_port_low_goal' : 1,
-'red_black_shield_generator_floor_intersection' : 1,
-'red_power_port_high_goal' : 1,
-'red_loading_bay_right_graphics' : 1,
-'blue_loading_bay_tape' : 1,
-'control_panel_light' : 2,
-'blue_power_port_first_logo' : 2,
-'blue_loading_bay_left_graphics' : 1,
-'blue_loading_bay_right_graphics' : 1,
-'red_shield_pillar_intersection' : 2,
-'blue_shield_pillar_intersection' : 2,
-'red_ds_light' : 3,
-'ds_light' : 5,
-'red_blue_black_shield_generator_floor_intersection' : 2,
-'red_power_port_low_goal' : 1,
-'red_power_port_first_logo' : 2,
-'color_wheel' : 2,
-'shield_generator_backstop' : 4,
-'power_port_yellow_graphics' : 1,
-'blue_ds_light' : 3,
-'ds_numbers' : 4,
-'power_port_yellow_graphics': 4,
-'power_port_first_logo': 4,
+    'april_tag_1' : 1,
+    'april_tag_2' : 1,
+    'april_tag_3' : 1,
+    'april_tag_4' : 1,
+    'april_tag_5' : 1,
+    'april_tag_6' : 1,
+    'april_tag_7' : 1,
+    'april_tag_8' : 1,
+    'red_robot' : 3,
+    'blue_robot' : 3,
+    'red_ds_light' : 3,
+    'ds_light' : 5,
+    'blue_ds_light' : 3,
+    'ds_numbers' : 4,
+    'white_tape_line': 2,
+    'blue_tape_to_wall': 1,
+    'red_tape_to_wall': 1,
+
 }
 
 # Given return a list of all object types with a given name
@@ -142,6 +127,45 @@ def checkPowerPort(xml_file, tree, color):
                 print('power_port yellow graphics / first logo coord backwards')
                 print(20*'-')
 
+
+def check_tag_x(xml_file, tree, id_range):
+    tag_coords = []
+    tag_ids = []
+    for id in id_range:
+        coord = getObjCoords(tree, f'april_tag_{id}')
+        if len(coord) > 0:
+            tag_coords.append(coord[0])
+            tag_ids.append(id)
+
+
+    for i in range(len(tag_coords) - 1):
+        left_coord = tag_coords[i]
+        right_coord = tag_coords[i + 1]
+        if left_coord['xmax'] > right_coord['xmin']:
+            print(20*'-')
+            print(xml_file)
+            print(f"Tags {tag_ids[i]} and {tag_ids[i+1]} out of order")
+
+
+def check_tag_side(xml_file, tree):
+    low_seen = False
+    high_seen = False
+    for id in range(1,8):
+        coord = getObjCoords(tree, f'april_tag_{id}')
+        if len(coord) > 0:
+            if id <= 4:
+                low_seen = True
+            else:
+                high_seen = True
+
+    if low_seen and high_seen:
+            print(20*'-')
+            print(xml_file)
+            print(f"Both low and high tag numbers seen")
+
+
+
+
 # Search each XML file
 for xml_file in xml_files:
     tree = ET.parse(xml_file)
@@ -157,9 +181,13 @@ for xml_file in xml_files:
             print(len(r))
             print(20*'-')
 
-    checkLoadingBay(xml_file, tree, 'red')
-    checkLoadingBay(xml_file, tree, 'blue')
-    checkPowerPort(xml_file, tree, 'red')
-    checkPowerPort(xml_file, tree, 'blue')
+
+    check_tag_x(xml_file, tree, [4,3,2,1])
+    check_tag_x(xml_file, tree, [8,7,6,5])
+    check_tag_side(xml_file, tree)
+    #checkLoadingBay(xml_file, tree, 'red')
+    #checkLoadingBay(xml_file, tree, 'blue')
+    #checkPowerPort(xml_file, tree, 'red')
+    #checkPowerPort(xml_file, tree, 'blue')
 
 

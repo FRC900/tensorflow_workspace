@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRC Team 4909 | Finals Match 4 Pov Footage.mp4_01440.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/FRC Team 4909 | Finals Match 4 Pov Footage.mp4_01440.png</path>
@@ -57,18 +57,6 @@
 			<ymin>65</ymin>
 			<xmax>421</xmax>
 			<ymax>120</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_6</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>24</xmin>
-			<ymin>386</ymin>
-			<xmax>72</xmax>
-			<ymax>472</ymax>
 		</bndbox>
 	</object>
 	<object>
