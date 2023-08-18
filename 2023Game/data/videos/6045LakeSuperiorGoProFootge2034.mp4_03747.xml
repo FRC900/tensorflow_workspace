@@ -84,18 +84,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>838</xmin>
-			<ymin>2</ymin>
-			<xmax>858</xmax>
-			<ymax>23</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>cube</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -153,6 +141,42 @@
 			<ymin>621</ymin>
 			<xmax>87</xmax>
 			<ymax>679</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>668</xmin>
+			<ymin>1</ymin>
+			<xmax>691</xmax>
+			<ymax>50</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1117</xmin>
+			<ymin>2</ymin>
+			<xmax>1148</xmax>
+			<ymax>50</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>747</xmin>
+			<ymin>1</ymin>
+			<xmax>893</xmax>
+			<ymax>26</ymax>
 		</bndbox>
 	</object>
 </annotation>

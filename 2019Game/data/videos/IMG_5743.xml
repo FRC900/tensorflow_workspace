@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>IMG_5743.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/IMG_5743.JPG</path>
@@ -23,4 +23,28 @@
 			<ymax>1806</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>185</xmin>
+			<ymin>1994</ymin>
+			<xmax>280</xmax>
+			<ymax>2060</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>235</xmin>
+			<ymin>1949</ymin>
+			<xmax>327</xmax>
+			<ymax>2024</ymax>
+		</bndbox>
+	</object>
+</annotation>

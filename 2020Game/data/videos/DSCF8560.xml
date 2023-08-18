@@ -35,4 +35,52 @@
 			<ymax>2356</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1692</xmin>
+			<ymin>3225</ymin>
+			<xmax>1854</xmax>
+			<ymax>3348</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1358</xmin>
+			<ymin>3625</ymin>
+			<xmax>1546</xmax>
+			<ymax>3760</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>788</xmin>
+			<ymin>3518</ymin>
+			<xmax>908</xmax>
+			<ymax>3641</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3304</xmin>
+			<ymin>3106</ymin>
+			<xmax>3431</xmax>
+			<ymax>3214</ymax>
+		</bndbox>
+	</object>
+</annotation>

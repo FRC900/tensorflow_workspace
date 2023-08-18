@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>5172_POV-Great_Northern_2020_Quals_22.mp4_00960.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/5172_POV-Great_Northern_2020_Quals_22.mp4_00960.png</path>
@@ -83,4 +83,16 @@
 			<ymax>331</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+	<object>
+		<name>white_tape_line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>887</xmin>
+			<ymin>493</ymin>
+			<xmax>940</xmax>
+			<ymax>527</ymax>
+		</bndbox>
+	</object>
+</annotation>

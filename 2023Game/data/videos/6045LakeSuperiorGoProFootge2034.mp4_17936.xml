@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>6045LakeSuperiorGoProFootge2034.mp4_17936.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/6045LakeSuperiorGoProFootge2034.mp4_17936.png</path>
@@ -168,7 +168,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_light</name>
+		<name>red_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -261,6 +261,18 @@
 			<ymin>670</ymin>
 			<xmax>622</xmax>
 			<ymax>720</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>464</xmin>
+			<ymin>60</ymin>
+			<xmax>481</xmax>
+			<ymax>107</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>LAR2023_DAY_02_1316.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/LAR2023_DAY_02_1316.jpg</path>
@@ -84,15 +84,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_ds_light</name>
+		<name>red_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1894</xmin>
-			<ymin>941</ymin>
-			<xmax>1910</xmax>
-			<ymax>964</ymax>
+			<xmin>1889</xmin>
+			<ymin>937</ymin>
+			<xmax>1906</xmax>
+			<ymax>965</ymax>
 		</bndbox>
 	</object>
 	<object>

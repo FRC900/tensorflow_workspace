@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Pearadox_360_Video.mp4_04073.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/Pearadox_360_Video.mp4_04073.png</path>
@@ -45,6 +45,18 @@
 			<ymin>44</ymin>
 			<xmax>403</xmax>
 			<ymax>84</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>887</xmin>
+			<ymin>338</ymin>
+			<xmax>932</xmax>
+			<ymax>375</ymax>
 		</bndbox>
 	</object>
 </annotation>

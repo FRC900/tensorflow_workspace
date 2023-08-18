@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Week_2_FRC_Clips_of_the_Week_2019.mp4_00911.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/Week_2_FRC_Clips_of_the_Week_2019.mp4_00911.png</path>
@@ -21,6 +21,18 @@
 			<ymin>392</ymin>
 			<xmax>1132</xmax>
 			<ymax>579</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>848</xmin>
+			<ymin>532</ymin>
+			<xmax>889</xmax>
+			<ymax>571</ymax>
 		</bndbox>
 	</object>
 </annotation>

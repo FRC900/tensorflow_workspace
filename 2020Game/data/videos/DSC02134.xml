@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC02134.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSC02134.jpg</path>
@@ -45,6 +45,18 @@
 			<ymin>30</ymin>
 			<xmax>107</xmax>
 			<ymax>83</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corners</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>273</xmin>
+			<ymin>412</ymin>
+			<xmax>323</xmax>
+			<ymax>453</ymax>
 		</bndbox>
 	</object>
 </annotation>

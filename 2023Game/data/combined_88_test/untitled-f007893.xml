@@ -96,7 +96,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_ds_light</name>
+		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -129,18 +129,6 @@
 			<ymin>39</ymin>
 			<xmax>395</xmax>
 			<ymax>137</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1152</xmin>
-			<ymin>66</ymin>
-			<xmax>1189</xmax>
-			<ymax>174</ymax>
 		</bndbox>
 	</object>
 	<object>

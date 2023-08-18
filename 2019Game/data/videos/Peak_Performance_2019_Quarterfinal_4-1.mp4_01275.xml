@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Peak_Performance_2019_Quarterfinal_4-1.mp4_01275.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/Peak_Performance_2019_Quarterfinal_4-1.mp4_01275.png</path>
@@ -35,4 +35,16 @@
 			<ymax>394</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>300</xmin>
+			<ymin>333</ymin>
+			<xmax>341</xmax>
+			<ymax>372</ymax>
+		</bndbox>
+	</object>
+</annotation>

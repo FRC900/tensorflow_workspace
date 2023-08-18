@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>DSC01703.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/DSC01703.JPG</path>
@@ -156,7 +156,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_light</name>
+		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -239,4 +239,4 @@
 			<ymax>1248</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

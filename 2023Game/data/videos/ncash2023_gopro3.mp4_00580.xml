@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>ncash2023_gopro3.mp4_00580.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/ncash2023_gopro3.mp4_00580.png</path>
@@ -72,15 +72,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_ds_light</name>
+		<name>red_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>322</xmin>
-			<ymin>133</ymin>
-			<xmax>352</xmax>
-			<ymax>197</ymax>
+			<xmin>329</xmin>
+			<ymin>136</ymin>
+			<xmax>359</xmax>
+			<ymax>200</ymax>
 		</bndbox>
 	</object>
 	<object>

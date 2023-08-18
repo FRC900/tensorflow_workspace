@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2019_PNW_District_Auburn_Event_Quarterfinal_3_Match_1.mp4_01334.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/2019_PNW_District_Auburn_Event_Quarterfinal_3_Match_1.mp4_01334.png</path>
@@ -59,4 +59,40 @@
 			<ymax>23</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1255</xmin>
+			<ymin>275</ymin>
+			<xmax>1280</xmax>
+			<ymax>306</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>634</xmin>
+			<ymin>191</ymin>
+			<xmax>660</xmax>
+			<ymax>212</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>596</xmin>
+			<ymin>185</ymin>
+			<xmax>621</xmax>
+			<ymax>207</ymax>
+		</bndbox>
+	</object>
+</annotation>
