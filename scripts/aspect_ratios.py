@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''
 Various tests of label xml files to find errors
 '''
@@ -54,10 +55,13 @@ for xml_file in sorted(xml_files):
 
         screen_percents.append(math.sqrt((obj_width / width) * (obj_height / height)))
 
-    
         #name = obj.find('name').text
         #if ('april_tag' not in name) and (name != 'cone') and (name != 'cube') and ('robot' not in name):
             #print(xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar))
+
+        if (obj_width * obj_height) < 300:
+            print(xml_file + " : " + obj.find('name').text + " : area too small " + str(obj_width * obj_height))
+
 
 
 

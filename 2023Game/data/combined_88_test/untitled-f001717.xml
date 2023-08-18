@@ -1,7 +1,7 @@
-<annotation>
-	<folder>XML</folder>
+<annotation verified="yes">
+	<folder>combined_88_test</folder>
 	<filename>untitled-f001717.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f001717.png</path>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2023Game/data/combined_88_test/untitled-f001717.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -21,18 +21,6 @@
 			<ymin>343</ymin>
 			<xmax>1225</xmax>
 			<ymax>749</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_5</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1694</xmin>
-			<ymin>274</ymin>
-			<xmax>1702</xmax>
-			<ymax>288</ymax>
 		</bndbox>
 	</object>
 </annotation>
