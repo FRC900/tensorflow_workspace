@@ -164,6 +164,7 @@ def check_tag_side(xml_file, tree):
             print(f"Both low and high tag numbers seen")
 
 
+# TODO : red / blue ds lights plus wrong tags
 
 
 # Search each XML file
