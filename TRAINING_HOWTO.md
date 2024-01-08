@@ -12,7 +12,7 @@ Once the new trained models have been checked out (use cpu-infer-video.py or inf
 
 Updating to new years
 
-Create a new <Year>Game subdir, and under it a data/videos one.  Add videos, extract still images from them using tools/extract\_frames.  Data is labeled using the labelImg tool.  See the Videos and Labeling Images section here : https://wiki.team900.org/doku.php?id=programming:tensorflow\_object\_detection\_how-to
+Create a new <Year>Game subdir, and under it a data/videos one.  Add videos, extract still images from them using tools/extract\_frames.  Data is labeled using the labelImg tool.  See the Videos and Labeling Images section here : [tensorflow_intro_and_labeling.md](tensorflow_intro_and_labeling.md)
 
 Don't forget to run the script to remove the last year's labels from the dataset. These sorts of scripts are now in tensorflow\_repo/scripts
 
