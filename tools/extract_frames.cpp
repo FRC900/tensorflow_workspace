@@ -140,7 +140,7 @@ void readVideoFrames(const std::string &vidName, size_t &frameCounter, std::vect
 	// blur score indicating how clear each frame is
 	for (frameCounter = 0; frameVideo.read(frame); frameCounter += 1)
 	{
-		cvtColor(frame, gframe, CV_BGR2GRAY);
+		cvtColor(frame, gframe, cv::COLOR_BGR2GRAY);
 		Laplacian(gframe, temp, CV_8UC1);
 		meanStdDev(temp, tempm, variancem);
 		const double variance = pow(variancem.at<cv::Scalar>(0, 0)[0], 2);
@@ -160,7 +160,7 @@ void getFrameFromVideo(cv::VideoCapture &cap, std::mutex &cap_mutex, const int f
 {
 	std::lock_guard<std::mutex> l(cap_mutex);
 
-	cap.set(CV_CAP_PROP_POS_FRAMES, frame_number);
+	cap.set(cv::CAP_PROP_POS_FRAMES, frame_number);
 	cap.read(frame);
 }
 
@@ -168,7 +168,7 @@ void getFrameFromVideo(cv::VideoCapture &cap, std::mutex &cap_mutex, const int f
 void frameProcessThread(const std::vector<size_t> &frames, const size_t start_frame, const size_t num_frames, const std::string &vid_name, cv::VideoCapture &cap, std::mutex &cap_mutex, std::atomic<size_t> &frame_count)
 {
 	std::vector<int> compression_params;
-	compression_params.push_back(CV_IMWRITE_PNG_COMPRESSION);
+	compression_params.push_back(cv::IMWRITE_PNG_COMPRESSION);
 	compression_params.push_back(9);
 
 	cv::Mat frame;
