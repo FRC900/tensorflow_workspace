@@ -59,4 +59,16 @@
 			<ymax>975</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>778</xmin>
+			<ymin>376</ymin>
+			<xmax>1503</xmax>
+			<ymax>1026</ymax>
+		</bndbox>
+	</object>
 </annotation>
