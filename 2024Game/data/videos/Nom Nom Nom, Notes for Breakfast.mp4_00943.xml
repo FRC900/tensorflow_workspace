@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
-	<filename>Nom Nom Nom, Notes for Breakfast.mp4_01046.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Nom Nom Nom, Notes for Breakfast.mp4_01046.png</path>
+	<filename>Nom Nom Nom, Notes for Breakfast.mp4_00943.png</filename>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Nom Nom Nom, Notes for Breakfast.mp4_00943.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>475</xmin>
-			<ymin>31</ymin>
-			<xmax>717</xmax>
-			<ymax>284</ymax>
+			<xmin>794</xmin>
+			<ymin>232</ymin>
+			<xmax>888</xmax>
+			<ymax>292</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>524</xmin>
+			<ymin>1</ymin>
+			<xmax>743</xmax>
+			<ymax>38</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>719</xmin>
-			<ymin>130</ymin>
-			<xmax>893</xmax>
-			<ymax>341</ymax>
+			<xmin>568</xmin>
+			<ymin>299</ymin>
+			<xmax>722</xmax>
+			<ymax>392</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>663</xmin>
-			<ymin>277</ymin>
-			<xmax>856</xmax>
-			<ymax>394</ymax>
+			<xmin>567</xmin>
+			<ymin>447</ymin>
+			<xmax>741</xmax>
+			<ymax>570</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,22 +65,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>696</xmin>
-			<ymin>511</ymin>
-			<xmax>899</xmax>
-			<ymax>681</ymax>
+			<xmin>18</xmin>
+			<ymin>507</ymin>
+			<xmax>179</xmax>
+			<ymax>611</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>note</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>58</xmin>
-			<ymin>397</ymin>
-			<xmax>151</xmax>
-			<ymax>453</ymax>
+			<xmin>749</xmin>
+			<ymin>587</ymin>
+			<xmax>975</xmax>
+			<ymax>720</ymax>
 		</bndbox>
 	</object>
 </annotation>
