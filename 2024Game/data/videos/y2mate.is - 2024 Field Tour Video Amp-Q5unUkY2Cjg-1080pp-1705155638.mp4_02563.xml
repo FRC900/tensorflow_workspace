@@ -1,0 +1,38 @@
+<annotation>
+	<folder>videos</folder>
+	<filename>y2mate.is - 2024 Field Tour Video Amp-Q5unUkY2Cjg-1080pp-1705155638.mp4_02563.png</filename>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Amp-Q5unUkY2Cjg-1080pp-1705155638.mp4_02563.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1112</xmin>
+			<ymin>603</ymin>
+			<xmax>1466</xmax>
+			<ymax>945</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_amp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>377</xmin>
+			<ymin>485</ymin>
+			<xmax>1245</xmax>
+			<ymax>1053</ymax>
+		</bndbox>
+	</object>
+</annotation>
