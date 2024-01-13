@@ -1,0 +1,50 @@
+<annotation>
+	<folder>videos</folder>
+	<filename>1678 Five Note Auto 2024.mp4_00006.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/1678 Five Note Auto 2024.mp4_00006.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>393</xmin>
+			<ymin>627</ymin>
+			<xmax>459</xmax>
+			<ymax>658</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>610</xmin>
+			<ymin>587</ymin>
+			<xmax>667</xmax>
+			<ymax>610</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>761</xmin>
+			<ymin>552</ymin>
+			<xmax>812</xmax>
+			<ymax>571</ymax>
+		</bndbox>
+	</object>
+</annotation>
