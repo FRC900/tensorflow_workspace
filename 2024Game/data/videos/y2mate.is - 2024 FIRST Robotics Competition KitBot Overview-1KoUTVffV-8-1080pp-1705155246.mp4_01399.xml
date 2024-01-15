@@ -167,4 +167,16 @@
 			<ymax>882</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_podium</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1645</xmin>
+			<ymin>872</ymin>
+			<xmax>1713</xmax>
+			<ymax>1080</ymax>
+		</bndbox>
+	</object>
 </annotation>
