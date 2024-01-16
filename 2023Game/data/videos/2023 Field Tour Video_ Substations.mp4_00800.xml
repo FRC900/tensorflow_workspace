@@ -1,1 +1,26 @@
-<annotation><folder>videos</folder><filename>2023 Field Tour Video_ Substations.mp4_00800.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023 Field Tour Video_ Substations.mp4_00800.png</path><source><database>Unknown</database></source><size><width>1280</width><height>720</height><depth>3</depth></size><segmented>0</segmented></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>2023 Field Tour Video_ Substations.mp4_00800.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023 Field Tour Video_ Substations.mp4_00800.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>903</xmin>
+			<ymin>430</ymin>
+			<xmax>1054</xmax>
+			<ymax>591</ymax>
+		</bndbox>
+	</object>
+</annotation>

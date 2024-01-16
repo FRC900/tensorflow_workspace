@@ -1,1 +1,50 @@
-<annotation><folder>videos</folder><filename>yt5s.io-2023 Field Tour Video_ Alliance Area.mp4_00323.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Alliance Area.mp4_00323.png</path><source><database>Unknown</database></source><size><width>1280</width><height>720</height><depth>3</depth></size><segmented>0</segmented><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>849</xmin><ymin>1</ymin><xmax>884</xmax><ymax>74</ymax></bndbox></object><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>301</xmin><ymin>51</ymin><xmax>326</xmax><ymax>91</ymax></bndbox></object><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>470</xmin><ymin>30</ymin><xmax>488</xmax><ymax>82</ymax></bndbox></object></annotation>
+<annotation verified="yes">
+	<folder>videos</folder>
+	<filename>yt5s.io-2023 Field Tour Video_ Alliance Area.mp4_00323.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Alliance Area.mp4_00323.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>849</xmin>
+			<ymin>1</ymin>
+			<xmax>884</xmax>
+			<ymax>74</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>301</xmin>
+			<ymin>51</ymin>
+			<xmax>326</xmax>
+			<ymax>91</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>470</xmin>
+			<ymin>30</ymin>
+			<xmax>488</xmax>
+			<ymax>82</ymax>
+		</bndbox>
+	</object>
+</annotation>

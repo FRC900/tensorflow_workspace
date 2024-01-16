@@ -1,1 +1,62 @@
-<annotation><folder>videos</folder><filename>Finals Match 1.mp4_03009.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/Finals Match 1.mp4_03009.png</path><source><database>Unknown</database></source><size><width>1280</width><height>960</height><depth>3</depth></size><segmented>0</segmented><object><name>red_tape_to_wall</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>300</xmin><ymin>694</ymin><xmax>325</xmax><ymax>712</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>Finals Match 1.mp4_03009.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/Finals Match 1.mp4_03009.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>434</xmin>
+			<ymin>654</ymin>
+			<xmax>593</xmax>
+			<ymax>729</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>300</xmin>
+			<ymin>694</ymin>
+			<xmax>325</xmax>
+			<ymax>712</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black_bottom_substation</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>275</xmin>
+			<ymin>657</ymin>
+			<xmax>306</xmax>
+			<ymax>699</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black_bottom_substation</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>94</xmin>
+			<ymin>769</ymin>
+			<xmax>151</xmax>
+			<ymax>838</ymax>
+		</bndbox>
+	</object>
+</annotation>
