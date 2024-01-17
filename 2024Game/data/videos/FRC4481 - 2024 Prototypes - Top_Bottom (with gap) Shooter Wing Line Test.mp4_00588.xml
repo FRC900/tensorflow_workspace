@@ -17,10 +17,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>474</xmin>
 			<ymin>413</ymin>
 			<xmax>554</xmax>
 			<ymax>441</ymax>
+=======
+			<xmin>495</xmin>
+			<ymin>109</ymin>
+			<xmax>549</xmax>
+			<ymax>164</ymax>
+>>>>>>> f11ae52a1 (new labels)
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +36,53 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>495</xmin>
 			<ymin>110</ymin>
 			<xmax>548</xmax>
 			<ymax>163</ymax>
+=======
+			<xmin>441</xmin>
+			<ymin>127</ymin>
+			<xmax>497</xmax>
+			<ymax>147</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>417</xmin>
+			<ymin>128</ymin>
+			<xmax>473</xmax>
+			<ymax>154</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>394</xmin>
+			<ymin>133</ymin>
+			<xmax>446</xmax>
+			<ymax>153</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>475</xmin>
+			<ymin>416</ymin>
+			<xmax>557</xmax>
+			<ymax>442</ymax>
+>>>>>>> f11ae52a1 (new labels)
 		</bndbox>
 	</object>
 </annotation>
