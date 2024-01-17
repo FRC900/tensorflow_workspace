@@ -35,6 +35,11 @@ def read_label_map(label_map_path):
 classes = [i for i in read_label_map(pbtxt_path)]
 print(classes)
 
+#white_tape_line needs to be known as white_tape_to_wall
+#red_tape_corners needs to be known as red_tape_corner
+#blue_tape_corners needs to be known as blue_tape_corner
+
+
 # now read all the xml files in the directory
 # get a list of all the files in the target directory
 target_dir = '/home/nathan/tensorflow_workspace/2023Game/data/videos'
@@ -55,9 +60,28 @@ for f in files:
         # get the name
         name = obj.name
         # if the name is not in the classes list
+        #another case switch scenario to check for the three values that we need to change above
+        ##white_tape_line needs to be known as white_tape_to_wall
+        ##red_tape_corners needs to be known as red_tape_corner
+        ##blue_tape_corners needs to be known as blue_tape_corner
+
         if name not in classes:
+            #if name == "white_tape_line":
+                #replace white_tape_line with white_tape_to_wall
+            #elif name == "red_tape_corners":
+                #replace red_tape_corners" with red_tape_corner
+            #elif name == "blue_tape_corners" with blue_tape_corner
             # remove the object
-            to_remove.append(obj)
+            #else:
+                #to_remove.append(obj)
+            if name == "white_tape_line":
+                obj.name = "white_tape_to_wall"
+            elif name == "red_tape_corners":
+                obj.name = "red_tape_corner"
+            elif name == "blue_tape_corners":
+                obj.name = "blue_tape_corner"
+            else:
+                to_remove.append(obj)
     # remove the objects
     for obj in to_remove:
         objects.remove(obj)
