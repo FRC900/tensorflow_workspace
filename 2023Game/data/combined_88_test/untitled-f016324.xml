@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>combined_88_test</folder>
 	<filename>untitled-f016324.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f016324.png</path>
@@ -12,21 +12,9 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cone</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>291</ymin>
-			<xmax>630</xmax>
-			<ymax>935</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corners</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>446</xmin>

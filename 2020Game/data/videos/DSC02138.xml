@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC02138.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSC02138.jpg</path>
@@ -12,7 +12,43 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>ds_numbers</name>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>348</xmin>
+			<ymin>451</ymin>
+			<xmax>373</xmax>
+			<ymax>469</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>160</xmin>
+			<ymin>153</ymin>
+			<xmax>170</xmax>
+			<ymax>184</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>559</xmin>
+			<ymin>143</ymin>
+			<xmax>574</xmax>
+			<ymax>177</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -36,7 +72,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -47,4 +83,4 @@
 			<ymax>178</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

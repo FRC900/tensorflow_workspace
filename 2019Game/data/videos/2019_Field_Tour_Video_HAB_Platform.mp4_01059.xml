@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -83,4 +83,4 @@
 			<ymax>163</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

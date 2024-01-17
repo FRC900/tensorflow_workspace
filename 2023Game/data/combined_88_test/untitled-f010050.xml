@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>combined_88_test</folder>
 	<filename>untitled-f010050.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f010050.png</path>
@@ -12,91 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>255</xmin>
-			<ymin>450</ymin>
-			<xmax>333</xmax>
-			<ymax>523</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>405</xmin>
-			<ymin>651</ymin>
-			<xmax>430</xmax>
-			<ymax>701</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>833</xmin>
-			<ymin>461</ymin>
-			<xmax>925</xmax>
-			<ymax>542</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1208</xmin>
-			<ymin>652</ymin>
-			<xmax>1246</xmax>
-			<ymax>738</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1029</xmin>
-			<ymin>650</ymin>
-			<xmax>1101</xmax>
-			<ymax>769</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_7</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>824</xmin>
-			<ymin>564</ymin>
-			<xmax>877</xmax>
-			<ymax>613</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_8</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>261</xmin>
-			<ymin>545</ymin>
-			<xmax>310</xmax>
-			<ymax>594</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -108,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -132,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -144,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -156,7 +72,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -177,18 +93,6 @@
 			<ymin>57</ymin>
 			<xmax>1529</xmax>
 			<ymax>124</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_bottom_substation</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>522</xmin>
-			<ymin>717</ymin>
-			<xmax>569</xmax>
-			<ymax>764</ymax>
 		</bndbox>
 	</object>
 	<object>

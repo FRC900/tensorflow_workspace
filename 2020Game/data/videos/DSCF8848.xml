@@ -12,7 +12,43 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>ds_numbers</name>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>802</xmin>
+			<ymin>2856</ymin>
+			<xmax>908</xmax>
+			<ymax>2937</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5221</xmin>
+			<ymin>2753</ymin>
+			<xmax>5311</xmax>
+			<ymax>2825</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4161</xmin>
+			<ymin>2184</ymin>
+			<xmax>4249</xmax>
+			<ymax>2243</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -47,4 +83,4 @@
 			<ymax>1524</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

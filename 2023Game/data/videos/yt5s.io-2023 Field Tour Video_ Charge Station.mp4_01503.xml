@@ -1,1 +1,38 @@
-<annotation><folder>videos</folder><filename>yt5s.io-2023 Field Tour Video_ Charge Station.mp4_01503.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Charge Station.mp4_01503.png</path><source><database>Unknown</database></source><size><width>1280</width><height>720</height><depth>3</depth></size><segmented>0</segmented><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>91</xmin><ymin>140</ymin><xmax>229</xmax><ymax>464</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>yt5s.io-2023 Field Tour Video_ Charge Station.mp4_01503.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/yt5s.io-2023 Field Tour Video_ Charge Station.mp4_01503.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>91</xmin>
+			<ymin>140</ymin>
+			<xmax>229</xmax>
+			<ymax>464</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>409</xmin>
+			<ymin>141</ymin>
+			<xmax>1208</xmax>
+			<ymax>425</ymax>
+		</bndbox>
+	</object>
+</annotation>

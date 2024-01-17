@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSCF9008.JPG</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSCF9008.JPG</path>
@@ -12,7 +12,43 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>785</xmin>
+			<ymin>2580</ymin>
+			<xmax>904</xmax>
+			<ymax>2659</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4050</xmin>
+			<ymin>2787</ymin>
+			<xmax>4224</xmax>
+			<ymax>2871</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4476</xmin>
+			<ymin>2223</ymin>
+			<xmax>4586</xmax>
+			<ymax>2285</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -35,4 +71,64 @@
 			<ymax>1505</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2394</xmin>
+			<ymin>2196</ymin>
+			<xmax>2476</xmax>
+			<ymax>2247</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2509</xmin>
+			<ymin>1</ymin>
+			<xmax>2872</xmax>
+			<ymax>920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2971</xmin>
+			<ymin>1528</ymin>
+			<xmax>2990</xmax>
+			<ymax>1580</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3904</xmin>
+			<ymin>1494</ymin>
+			<xmax>3925</xmax>
+			<ymax>1553</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4826</xmin>
+			<ymin>1450</ymin>
+			<xmax>4849</xmax>
+			<ymax>1506</ymax>
+		</bndbox>
+	</object>
+</annotation>

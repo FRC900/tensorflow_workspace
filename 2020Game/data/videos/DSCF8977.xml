@@ -12,7 +12,19 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>ds_numbers</name>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3996</xmin>
+			<ymin>2581</ymin>
+			<xmax>4058</xmax>
+			<ymax>2700</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -23,4 +35,16 @@
 			<ymax>2603</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>6127</xmin>
+			<ymin>2450</ymin>
+			<xmax>6199</xmax>
+			<ymax>2597</ymax>
+		</bndbox>
+	</object>
+</annotation>

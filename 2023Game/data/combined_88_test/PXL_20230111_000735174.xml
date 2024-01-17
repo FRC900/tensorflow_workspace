@@ -1,1 +1,14 @@
-<annotation><folder>XML</folder><filename>PXL_20230111_000735174.jpg</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/PXL_20230111_000735174.jpg</path><source><database>Unknown</database></source><size><width>4032</width><height>2268</height><depth>3</depth></size><segmented>0</segmented><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1196</xmin><ymin>333</ymin><xmax>2278</xmax><ymax>1308</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>XML</folder>
+	<filename>PXL_20230111_000735174.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/PXL_20230111_000735174.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>2268</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

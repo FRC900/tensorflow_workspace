@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>combined_88_test</folder>
 	<filename>untitled-f007706.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f007706.png</path>
@@ -12,79 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>410</xmin>
-			<ymin>93</ymin>
-			<xmax>483</xmax>
-			<ymax>199</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>329</xmin>
-			<ymin>36</ymin>
-			<xmax>384</xmax>
-			<ymax>112</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>32</xmin>
-			<ymin>37</ymin>
-			<xmax>90</xmax>
-			<ymax>125</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>40</xmin>
-			<ymin>108</ymin>
-			<xmax>117</xmax>
-			<ymax>217</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>591</xmin>
-			<ymin>41</ymin>
-			<xmax>650</xmax>
-			<ymax>96</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>732</xmin>
-			<ymin>101</ymin>
-			<xmax>805</xmax>
-			<ymax>171</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corners</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -96,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -108,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -120,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -132,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -144,7 +72,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>white_tape_line</name>
+		<name>white_tape_to_wall</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -180,7 +108,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

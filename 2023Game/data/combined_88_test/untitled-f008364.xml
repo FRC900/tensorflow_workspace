@@ -12,79 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>848</xmin>
-			<ymin>480</ymin>
-			<xmax>922</xmax>
-			<ymax>548</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>252</xmin>
-			<ymin>448</ymin>
-			<xmax>321</xmax>
-			<ymax>520</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>499</xmin>
-			<ymin>401</ymin>
-			<xmax>582</xmax>
-			<ymax>499</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_6</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1401</xmin>
-			<ymin>583</ymin>
-			<xmax>1454</xmax>
-			<ymax>633</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_7</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>824</xmin>
-			<ymin>564</ymin>
-			<xmax>876</xmax>
-			<ymax>612</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_8</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>261</xmin>
-			<ymin>545</ymin>
-			<xmax>310</xmax>
-			<ymax>593</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -108,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -120,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -132,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -168,7 +96,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

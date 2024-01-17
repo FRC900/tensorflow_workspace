@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2022 Field Tour Video Alliance Area.mp4_02765.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/2022 Field Tour Video Alliance Area.mp4_02765.png</path>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -72,7 +72,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -83,4 +83,4 @@
 			<ymax>318</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

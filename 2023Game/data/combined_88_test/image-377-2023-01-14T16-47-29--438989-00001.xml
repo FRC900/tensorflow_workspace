@@ -1,1 +1,14 @@
-<annotation><folder>XML</folder><filename>image-377-2023-01-14T16-47-29--438989-00001.jpg</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-377-2023-01-14T16-47-29--438989-00001.jpg</path><source><database>Unknown</database></source><size><width>672</width><height>376</height><depth>3</depth></size><segmented>0</segmented><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>127</xmin><ymin>0</ymin><xmax>200</xmax><ymax>60</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>317</xmin><ymin>80</ymin><xmax>357</xmax><ymax>131</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>362</xmin><ymin>107</ymin><xmax>402</xmax><ymax>163</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>255</xmin><ymin>220</ymin><xmax>389</xmax><ymax>307</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>412</xmin><ymin>202</ymin><xmax>464</xmax><ymax>245</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>XML</folder>
+	<filename>image-377-2023-01-14T16-47-29--438989-00001.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-377-2023-01-14T16-47-29--438989-00001.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>672</width>
+		<height>376</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>combined_88_test</folder>
 	<filename>image-967-2023-01-14T16-49-54--606336.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-967-2023-01-14T16-49-54--606336.jpg</path>
@@ -12,115 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>323</xmin>
-			<ymin>238</ymin>
-			<xmax>356</xmax>
-			<ymax>261</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>268</xmin>
-			<ymin>229</ymin>
-			<xmax>292</xmax>
-			<ymax>254</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>270</xmin>
-			<ymin>187</ymin>
-			<xmax>294</xmax>
-			<ymax>202</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>341</xmin>
-			<ymin>189</ymin>
-			<xmax>363</xmax>
-			<ymax>205</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>362</xmin>
-			<ymin>238</ymin>
-			<xmax>390</xmax>
-			<ymax>261</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>424</xmin>
-			<ymin>236</ymin>
-			<xmax>445</xmax>
-			<ymax>263</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>439</xmin>
-			<ymin>236</ymin>
-			<xmax>458</xmax>
-			<ymax>254</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>470</xmin>
-			<ymin>236</ymin>
-			<xmax>488</xmax>
-			<ymax>249</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>316</xmin>
-			<ymin>197</ymin>
-			<xmax>335</xmax>
-			<ymax>209</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

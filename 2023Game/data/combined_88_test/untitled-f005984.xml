@@ -1,1 +1,14 @@
-<annotation><folder>XML</folder><filename>untitled-f005984.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f005984.png</path><source><database>Unknown</database></source><size><width>1920</width><height>1080</height><depth>3</depth></size><segmented>0</segmented><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1513</xmin><ymin>136</ymin><xmax>1832</xmax><ymax>475</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>879</xmin><ymin>0</ymin><xmax>1196</xmax><ymax>368</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>442</xmin><ymin>201</ymin><xmax>877</xmax><ymax>627</ymax></bndbox></object><object><name>april_tag_8</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1719</xmin><ymin>605</ymin><xmax>1484</xmax><ymax>735</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>XML</folder>
+	<filename>untitled-f005984.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f005984.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

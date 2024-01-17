@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>PXL_20220219_132435751.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/PXL_20220219_132435751.jpg</path>
@@ -14,7 +14,7 @@
 	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>961</xmin>
@@ -23,4 +23,4 @@
 			<ymax>3052</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

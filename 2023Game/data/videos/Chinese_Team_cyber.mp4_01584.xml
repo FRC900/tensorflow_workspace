@@ -1,1 +1,38 @@
-<annotation><folder>videos</folder><filename>Chinese_Team_cyber.mp4_01584.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/Chinese_Team_cyber.mp4_01584.png</path><source><database>Unknown</database></source><size><width>1280</width><height>720</height><depth>3</depth></size><segmented>0</segmented><object><name>blue_robot</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>177</xmin><ymin>236</ymin><xmax>497</xmax><ymax>479</ymax></bndbox></object><object><name>red_tape_corner</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1117</xmin><ymin>422</ymin><xmax>1160</xmax><ymax>454</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>Chinese_Team_cyber.mp4_01584.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/Chinese_Team_cyber.mp4_01584.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>177</xmin>
+			<ymin>236</ymin>
+			<xmax>497</xmax>
+			<ymax>479</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1117</xmin>
+			<ymin>422</ymin>
+			<xmax>1160</xmax>
+			<ymax>454</ymax>
+		</bndbox>
+	</object>
+</annotation>

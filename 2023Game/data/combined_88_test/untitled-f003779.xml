@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>combined_88_test</folder>
 	<filename>untitled-f003779.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f003779.png</path>
@@ -12,69 +12,9 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cube</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>483</xmin>
-			<ymin>549</ymin>
-			<xmax>621</xmax>
-			<ymax>670</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1070</xmin>
-			<ymin>370</ymin>
-			<xmax>1108</xmax>
-			<ymax>406</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1075</xmin>
-			<ymin>400</ymin>
-			<xmax>1110</xmax>
-			<ymax>456</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_6</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1071</xmin>
-			<ymin>553</ymin>
-			<xmax>1107</xmax>
-			<ymax>618</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_7</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>526</xmin>
-			<ymin>676</ymin>
-			<xmax>588</xmax>
-			<ymax>767</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_numbers</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>345</xmin>
@@ -84,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -96,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -110,7 +50,7 @@
 	<object>
 		<name>red_ds_light</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>264</xmin>

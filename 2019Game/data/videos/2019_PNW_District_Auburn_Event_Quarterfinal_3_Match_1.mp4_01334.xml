@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>2019_PNW_District_Auburn_Event_Quarterfinal_3_Match_1.mp4_01334.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/2019_PNW_District_Auburn_Event_Quarterfinal_3_Match_1.mp4_01334.png</path>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -59,4 +59,4 @@
 			<ymax>23</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

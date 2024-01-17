@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>DSC02166.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/DSC02166.jpg</path>
@@ -12,6 +12,18 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>209</xmin>
+			<ymin>395</ymin>
+			<xmax>230</xmax>
+			<ymax>406</ymax>
+		</bndbox>
+	</object>
+	<object>
 		<name>red_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -23,4 +35,4 @@
 			<ymax>275</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

@@ -14,7 +14,7 @@
 	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1019</xmin>
@@ -33,6 +33,18 @@
 			<ymin>404</ymin>
 			<xmax>740</xmax>
 			<ymax>432</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>641</xmin>
+			<ymin>490</ymin>
+			<xmax>667</xmax>
+			<ymax>519</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -72,7 +84,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

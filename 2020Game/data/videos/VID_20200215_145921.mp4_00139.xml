@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>VID_20200215_145921.mp4_00139.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/VID_20200215_145921.mp4_00139.png</path>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -23,4 +23,4 @@
 			<ymax>524</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

@@ -1,1 +1,14 @@
-<annotation><folder>XML</folder><filename>image-77-2023-01-14T16-44-54--654572.jpg</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-77-2023-01-14T16-44-54--654572.jpg</path><source><database>Unknown</database></source><size><width>672</width><height>376</height><depth>3</depth></size><segmented>0</segmented><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>383</xmin><ymin>219</ymin><xmax>422</xmax><ymax>257</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>396</xmin><ymin>210</ymin><xmax>416</xmax><ymax>222</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>443</xmin><ymin>214</ymin><xmax>475</xmax><ymax>239</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>299</xmin><ymin>228</ymin><xmax>363</xmax><ymax>277</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>512</xmin><ymin>204</ymin><xmax>544</xmax><ymax>241</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>176</xmin><ymin>208</ymin><xmax>194</xmax><ymax>218</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>112</xmin><ymin>207</ymin><xmax>134</xmax><ymax>223</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>XML</folder>
+	<filename>image-77-2023-01-14T16-44-54--654572.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-77-2023-01-14T16-44-54--654572.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>672</width>
+		<height>376</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

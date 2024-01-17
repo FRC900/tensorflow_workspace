@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>20200229_100752.mp4_00007.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/20200229_100752.mp4_00007.png</path>
@@ -36,9 +36,33 @@
 		</bndbox>
 	</object>
 	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1116</xmin>
+			<ymin>610</ymin>
+			<xmax>1142</xmax>
+			<ymax>633</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1040</xmin>
+			<ymin>806</ymin>
+			<xmax>1081</xmax>
+			<ymax>843</ymax>
+		</bndbox>
+	</object>
+	<object>
 		<name>red_robot</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1766</xmin>
@@ -60,7 +84,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -71,4 +95,16 @@
 			<ymax>435</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1858</xmin>
+			<ymin>413</ymin>
+			<xmax>1868</xmax>
+			<ymax>442</ymax>
+		</bndbox>
+	</object>
+</annotation>

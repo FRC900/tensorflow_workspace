@@ -11,4 +11,28 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	</annotation>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3457</xmin>
+			<ymin>1919</ymin>
+			<xmax>3636</xmax>
+			<ymax>2056</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4182</xmin>
+			<ymin>3773</ymin>
+			<xmax>4661</xmax>
+			<ymax>4086</ymax>
+		</bndbox>
+	</object>
+</annotation>

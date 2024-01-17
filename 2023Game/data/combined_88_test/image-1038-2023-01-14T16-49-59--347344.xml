@@ -1,1 +1,14 @@
-<annotation><folder>XML</folder><filename>image-1038-2023-01-14T16-49-59--347344.jpg</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-1038-2023-01-14T16-49-59--347344.jpg</path><source><database>Unknown</database></source><size><width>672</width><height>376</height><depth>3</depth></size><segmented>0</segmented><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>450</xmin><ymin>273</ymin><xmax>544</xmax><ymax>373</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>325</xmin><ymin>155</ymin><xmax>345</xmax><ymax>184</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>363</xmin><ymin>250</ymin><xmax>437</xmax><ymax>301</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>252</xmin><ymin>233</ymin><xmax>273</xmax><ymax>250</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>279</xmin><ymin>192</ymin><xmax>296</xmax><ymax>205</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>236</xmin><ymin>236</ymin><xmax>260</xmax><ymax>248</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>190</xmin><ymin>234</ymin><xmax>213</xmax><ymax>257</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>149</xmin><ymin>237</ymin><xmax>188</xmax><ymax>267</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>XML</folder>
+	<filename>image-1038-2023-01-14T16-49-59--347344.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-1038-2023-01-14T16-49-59--347344.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>672</width>
+		<height>376</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

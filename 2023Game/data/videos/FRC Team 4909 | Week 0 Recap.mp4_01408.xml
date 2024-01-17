@@ -1,1 +1,50 @@
-<annotation><folder>videos</folder><filename>FRC Team 4909 | Week 0 Recap.mp4_01408.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/FRC Team 4909 | Week 0 Recap.mp4_01408.png</path><source><database>Unknown</database></source><size><width>1280</width><height>720</height><depth>3</depth></size><segmented>0</segmented><object><name>red_robot</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>110</xmin><ymin>74</ymin><xmax>321</xmax><ymax>215</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>FRC Team 4909 | Week 0 Recap.mp4_01408.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/FRC Team 4909 | Week 0 Recap.mp4_01408.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>110</xmin>
+			<ymin>74</ymin>
+			<xmax>321</xmax>
+			<ymax>215</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>283</xmin>
+			<ymin>389</ymin>
+			<xmax>363</xmax>
+			<ymax>411</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>251</xmin>
+			<ymin>399</ymin>
+			<xmax>268</xmax>
+			<ymax>415</ymax>
+		</bndbox>
+	</object>
+</annotation>

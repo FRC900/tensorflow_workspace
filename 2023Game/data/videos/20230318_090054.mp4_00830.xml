@@ -1,1 +1,38 @@
-<annotation><folder>videos</folder><filename>20230318_090054.mp4_00830.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/20230318_090054.mp4_00830.png</path><source><database>Unknown</database></source><size><width>1920</width><height>1080</height><depth>3</depth></size><segmented>0</segmented><object><name>blue_tape_to_wall</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>352</xmin><ymin>275</ymin><xmax>429</xmax><ymax>367</ymax></bndbox></object><object><name>red_tape_corner</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1485</xmin><ymin>128</ymin><xmax>1564</xmax><ymax>189</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>20230318_090054.mp4_00830.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/20230318_090054.mp4_00830.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>352</xmin>
+			<ymin>275</ymin>
+			<xmax>429</xmax>
+			<ymax>367</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1485</xmin>
+			<ymin>128</ymin>
+			<xmax>1564</xmax>
+			<ymax>189</ymax>
+		</bndbox>
+	</object>
+</annotation>

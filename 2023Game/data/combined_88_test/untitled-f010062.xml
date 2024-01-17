@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>combined_88_test</folder>
 	<filename>untitled-f010062.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f010062.png</path>
@@ -12,91 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>255</xmin>
-			<ymin>450</ymin>
-			<xmax>333</xmax>
-			<ymax>523</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>406</xmin>
-			<ymin>650</ymin>
-			<xmax>462</xmax>
-			<ymax>745</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>796</xmin>
-			<ymin>561</ymin>
-			<xmax>890</xmax>
-			<ymax>658</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1185</xmin>
-			<ymin>653</ymin>
-			<xmax>1251</xmax>
-			<ymax>770</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1029</xmin>
-			<ymin>649</ymin>
-			<xmax>1102</xmax>
-			<ymax>769</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_8</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>261</xmin>
-			<ymin>545</ymin>
-			<xmax>310</xmax>
-			<ymax>594</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_6</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1401</xmin>
-			<ymin>580</ymin>
-			<xmax>1453</xmax>
-			<ymax>636</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -108,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -120,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -132,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -144,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -180,18 +96,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>april_tag_8</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1402</xmin>
-			<ymin>578</ymin>
-			<xmax>1440</xmax>
-			<ymax>630</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -201,42 +105,6 @@
 			<ymin>25</ymin>
 			<xmax>331</xmax>
 			<ymax>90</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_bottom_substation</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>912</xmin>
-			<ymin>725</ymin>
-			<xmax>949</xmax>
-			<ymax>774</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_bottom_substation</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1298</xmin>
-			<ymin>744</ymin>
-			<xmax>1340</xmax>
-			<ymax>784</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>black_bottom_substation</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>525</xmin>
-			<ymin>716</ymin>
-			<xmax>562</xmax>
-			<ymax>761</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,1 +1,62 @@
-<annotation><folder>videos</folder><filename>Finals Match 2.mp4_01745.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/Finals Match 2.mp4_01745.png</path><source><database>Unknown</database></source><size><width>1280</width><height>960</height><depth>3</depth></size><segmented>0</segmented><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>850</xmin><ymin>105</ymin><xmax>883</xmax><ymax>165</ymax></bndbox></object><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>326</xmin><ymin>124</ymin><xmax>360</xmax><ymax>172</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>Finals Match 2.mp4_01745.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/Finals Match 2.mp4_01745.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>850</xmin>
+			<ymin>105</ymin>
+			<xmax>883</xmax>
+			<ymax>165</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>326</xmin>
+			<ymin>124</ymin>
+			<xmax>360</xmax>
+			<ymax>172</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>372</xmin>
+			<ymin>105</ymin>
+			<xmax>510</xmax>
+			<ymax>144</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>672</xmin>
+			<ymin>82</ymin>
+			<xmax>823</xmax>
+			<ymax>129</ymax>
+		</bndbox>
+	</object>
+</annotation>

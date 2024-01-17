@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>video_day2_03025.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/video_day2_03025.png</path>
@@ -12,9 +12,9 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>83</xmin>
@@ -23,4 +23,16 @@
 			<ymax>47</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>56</xmin>
+			<ymin>6</ymin>
+			<xmax>74</xmax>
+			<ymax>61</ymax>
+		</bndbox>
+	</object>
+</annotation>

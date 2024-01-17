@@ -1,1 +1,62 @@
-<annotation><folder>videos</folder><filename>FRC Team 4909 | Finals Match 4 Pov Footage.mp4_01564.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/FRC Team 4909 | Finals Match 4 Pov Footage.mp4_01564.png</path><source><database>Unknown</database></source><size><width>960</width><height>720</height><depth>3</depth></size><segmented>0</segmented><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>230</xmin><ymin>96</ymin><xmax>248</xmax><ymax>131</ymax></bndbox></object><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>608</xmin><ymin>86</ymin><xmax>627</xmax><ymax>135</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>FRC Team 4909 | Finals Match 4 Pov Footage.mp4_01564.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/FRC Team 4909 | Finals Match 4 Pov Footage.mp4_01564.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>265</xmin>
+			<ymin>83</ymin>
+			<xmax>372</xmax>
+			<ymax>128</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>486</xmin>
+			<ymin>80</ymin>
+			<xmax>576</xmax>
+			<ymax>110</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>230</xmin>
+			<ymin>96</ymin>
+			<xmax>248</xmax>
+			<ymax>131</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>608</xmin>
+			<ymin>86</ymin>
+			<xmax>627</xmax>
+			<ymax>135</ymax>
+		</bndbox>
+	</object>
+</annotation>

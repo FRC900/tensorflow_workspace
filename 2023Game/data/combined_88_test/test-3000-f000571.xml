@@ -1,1 +1,14 @@
-<annotation><folder>XML</folder><filename>test-3000-f000571.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/test-3000-f000571.png</path><source><database>Unknown</database></source><size><width>1920</width><height>1080</height><depth>3</depth></size><segmented>0</segmented><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>957</xmin><ymin>651</ymin><xmax>1179</xmax><ymax>938</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>XML</folder>
+	<filename>test-3000-f000571.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/test-3000-f000571.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

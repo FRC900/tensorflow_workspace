@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>combined_88_test</folder>
 	<filename>image-168-2023-01-14T16-45-00--798095.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-168-2023-01-14T16-45-00--798095.jpg</path>
@@ -12,43 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>220</xmin>
-			<ymin>205</ymin>
-			<xmax>258</xmax>
-			<ymax>247</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>271</xmin>
-			<ymin>211</ymin>
-			<xmax>336</xmax>
-			<ymax>256</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>117</xmin>
-			<ymin>202</ymin>
-			<xmax>160</xmax>
-			<ymax>237</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>white_tape_line</name>
+		<name>white_tape_to_wall</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

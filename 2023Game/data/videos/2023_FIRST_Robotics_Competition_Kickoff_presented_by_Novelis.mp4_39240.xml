@@ -1,1 +1,38 @@
-<annotation><folder>videos</folder><filename>2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_39240.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_39240.png</path><source><database>Unknown</database></source><size><width>1920</width><height>1080</height><depth>3</depth></size><segmented>0</segmented><object><name>blue_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1175</xmin><ymin>64</ymin><xmax>1216</xmax><ymax>190</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_39240.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/2023_FIRST_Robotics_Competition_Kickoff_presented_by_Novelis.mp4_39240.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1271</xmin>
+			<ymin>68</ymin>
+			<xmax>1584</xmax>
+			<ymax>167</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1175</xmin>
+			<ymin>64</ymin>
+			<xmax>1216</xmax>
+			<ymax>190</ymax>
+		</bndbox>
+	</object>
+</annotation>

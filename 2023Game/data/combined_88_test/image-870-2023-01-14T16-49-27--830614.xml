@@ -1,1 +1,14 @@
-<annotation><folder>XML</folder><filename>image-870-2023-01-14T16-49-27--830614.jpg</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-870-2023-01-14T16-49-27--830614.jpg</path><source><database>Unknown</database></source><size><width>672</width><height>376</height><depth>3</depth></size><segmented>0</segmented><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>312</xmin><ymin>142</ymin><xmax>343</xmax><ymax>179</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>269</xmin><ymin>171</ymin><xmax>299</xmax><ymax>206</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>251</xmin><ymin>183</ymin><xmax>276</xmax><ymax>204</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>488</xmin><ymin>255</ymin><xmax>580</xmax><ymax>326</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>241</xmin><ymin>237</ymin><xmax>280</xmax><ymax>263</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>210</xmin><ymin>223</ymin><xmax>229</xmax><ymax>253</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>154</xmin><ymin>235</ymin><xmax>205</xmax><ymax>256</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>99</xmin><ymin>246</ymin><xmax>164</xmax><ymax>303</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>XML</folder>
+	<filename>image-870-2023-01-14T16-49-27--830614.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-870-2023-01-14T16-49-27--830614.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>672</width>
+		<height>376</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

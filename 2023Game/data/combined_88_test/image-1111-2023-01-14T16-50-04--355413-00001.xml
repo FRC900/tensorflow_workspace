@@ -1,1 +1,14 @@
-<annotation><folder>XML</folder><filename>image-1111-2023-01-14T16-50-04--355413-00001.jpg</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-1111-2023-01-14T16-50-04--355413-00001.jpg</path><source><database>Unknown</database></source><size><width>672</width><height>376</height><depth>3</depth></size><segmented>0</segmented><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>349</xmin><ymin>183</ymin><xmax>367</xmax><ymax>204</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>322</xmin><ymin>201</ymin><xmax>340</xmax><ymax>213</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>328</xmin><ymin>237</ymin><xmax>355</xmax><ymax>255</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>367</xmin><ymin>239</ymin><xmax>388</xmax><ymax>256</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>271</xmin><ymin>181</ymin><xmax>296</xmax><ymax>208</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>282</xmin><ymin>229</ymin><xmax>300</xmax><ymax>254</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>442</xmin><ymin>233</ymin><xmax>460</xmax><ymax>252</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>420</xmin><ymin>243</ymin><xmax>438</xmax><ymax>259</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>469</xmin><ymin>238</ymin><xmax>498</xmax><ymax>252</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>XML</folder>
+	<filename>image-1111-2023-01-14T16-50-04--355413-00001.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-1111-2023-01-14T16-50-04--355413-00001.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>672</width>
+		<height>376</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

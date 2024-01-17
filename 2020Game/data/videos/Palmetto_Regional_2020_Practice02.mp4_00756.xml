@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Palmetto_Regional_2020_Practice02.mp4_00756.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2020Game/data/videos/Palmetto_Regional_2020_Practice02.mp4_00756.png</path>
@@ -11,6 +11,18 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>763</xmin>
+			<ymin>416</ymin>
+			<xmax>776</xmax>
+			<ymax>426</ymax>
+		</bndbox>
+	</object>
 	<object>
 		<name>red_ds_light</name>
 		<pose>Unspecified</pose>
@@ -36,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,7 +72,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>ds_numbers</name>
+		<name>red_ds_numbers</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -69,6 +81,18 @@
 			<ymin>221</ymin>
 			<xmax>413</xmax>
 			<ymax>235</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>173</xmin>
+			<ymin>473</ymin>
+			<xmax>191</xmax>
+			<ymax>486</ymax>
 		</bndbox>
 	</object>
 	<object>

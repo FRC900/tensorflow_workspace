@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -36,15 +36,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>450</xmin>
-			<ymin>533</ymin>
-			<xmax>558</xmax>
-			<ymax>574</ymax>
+			<xmin>466</xmin>
+			<ymin>538</ymin>
+			<xmax>574</xmax>
+			<ymax>579</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

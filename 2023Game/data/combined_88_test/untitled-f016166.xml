@@ -1,1 +1,26 @@
-<annotation><folder>combined_88_test</folder><filename>untitled-f016166.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f016166.png</path><source><database>Unknown</database></source><size><width>1920</width><height>1080</height><depth>3</depth></size><segmented>0</segmented><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>299</xmin><ymin>308</ymin><xmax>773</xmax><ymax>663</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1</xmin><ymin>652</ymin><xmax>100</xmax><ymax>1080</ymax></bndbox></object><object><name>red_tape_corners</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>663</xmin><ymin>558</ymin><xmax>863</xmax><ymax>752</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>combined_88_test</folder>
+	<filename>untitled-f016166.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f016166.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>663</xmin>
+			<ymin>558</ymin>
+			<xmax>863</xmax>
+			<ymax>752</ymax>
+		</bndbox>
+	</object>
+</annotation>

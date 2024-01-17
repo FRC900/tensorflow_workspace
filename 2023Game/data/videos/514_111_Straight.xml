@@ -1,1 +1,38 @@
-<annotation><folder>videos</folder><filename>514_111_Straight.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/514_111_Straight.png</path><source><database>Unknown</database></source><size><width>1280</width><height>720</height><depth>3</depth></size><segmented>0</segmented><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>997</xmin><ymin>1</ymin><xmax>1024</xmax><ymax>44</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>514_111_Straight.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/514_111_Straight.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>997</xmin>
+			<ymin>1</ymin>
+			<xmax>1024</xmax>
+			<ymax>44</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1106</xmin>
+			<ymin>1</ymin>
+			<xmax>1213</xmax>
+			<ymax>30</ymax>
+		</bndbox>
+	</object>
+</annotation>

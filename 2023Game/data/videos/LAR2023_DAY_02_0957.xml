@@ -1,1 +1,26 @@
-<annotation><folder>videos</folder><filename>LAR2023_DAY_02_0957.jpg</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/LAR2023_DAY_02_0957.jpg</path><source><database>Unknown</database></source><size><width>3000</width><height>2000</height><depth>3</depth></size><segmented>0</segmented><object><name>white_tape_to_wall</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>2125</xmin><ymin>739</ymin><xmax>2266</xmax><ymax>880</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>LAR2023_DAY_02_0957.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/LAR2023_DAY_02_0957.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3000</width>
+		<height>2000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2125</xmin>
+			<ymin>739</ymin>
+			<xmax>2266</xmax>
+			<ymax>880</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,1 +1,14 @@
-<annotation><folder>XML</folder><filename>untitled-f000968.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f000968.png</path><source><database>Unknown</database></source><size><width>1888</width><height>978</height><depth>3</depth></size><segmented>0</segmented><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>326</xmin><ymin>346</ymin><xmax>538</xmax><ymax>578</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>658</xmin><ymin>429</ymin><xmax>840</xmax><ymax>665</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>XML</folder>
+	<filename>untitled-f000968.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f000968.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1888</width>
+		<height>978</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

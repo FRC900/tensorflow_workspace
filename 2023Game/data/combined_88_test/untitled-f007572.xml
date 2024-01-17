@@ -12,102 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>727</xmin>
-			<ymin>805</ymin>
-			<xmax>818</xmax>
-			<ymax>931</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1153</xmin>
-			<ymin>819</ymin>
-			<xmax>1237</xmax>
-			<ymax>943</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1217</xmin>
-			<ymin>974</ymin>
-			<xmax>1277</xmax>
-			<ymax>1057</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>680</xmin>
-			<ymin>951</ymin>
-			<xmax>751</xmax>
-			<ymax>1060</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>327</xmin>
-			<ymin>823</ymin>
-			<xmax>409</xmax>
-			<ymax>912</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1571</xmin>
-			<ymin>865</ymin>
-			<xmax>1658</xmax>
-			<ymax>957</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>124</xmin>
-			<ymin>986</ymin>
-			<xmax>238</xmax>
-			<ymax>1058</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1734</xmin>
-			<ymin>1027</ymin>
-			<xmax>1831</xmax>
-			<ymax>1058</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -132,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>combined_88_test</folder>
 	<filename>untitled-f005474.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/untitled-f005474.png</path>
@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>926</xmin>
-			<ymin>393</ymin>
-			<xmax>1222</xmax>
-			<ymax>665</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_4</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1334</xmin>
-			<ymin>131</ymin>
-			<xmax>1551</xmax>
-			<ymax>390</ymax>
-		</bndbox>
-	</object>
 </annotation>

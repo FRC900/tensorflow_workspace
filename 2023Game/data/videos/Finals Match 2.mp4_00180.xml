@@ -1,1 +1,26 @@
-<annotation><folder>videos</folder><filename>Finals Match 2.mp4_00180.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/Finals Match 2.mp4_00180.png</path><source><database>Unknown</database></source><size><width>1280</width><height>960</height><depth>3</depth></size><segmented>0</segmented><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>812</xmin><ymin>103</ymin><xmax>841</xmax><ymax>155</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>Finals Match 2.mp4_00180.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/Finals Match 2.mp4_00180.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>812</xmin>
+			<ymin>103</ymin>
+			<xmax>841</xmax>
+			<ymax>155</ymax>
+		</bndbox>
+	</object>
+</annotation>

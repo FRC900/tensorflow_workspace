@@ -1,1 +1,14 @@
-<annotation><folder>XML</folder><filename>image-1466-2023-01-14T16-27-11--530812.jpg</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-1466-2023-01-14T16-27-11--530812.jpg</path><source><database>Unknown</database></source><size><width>672</width><height>376</height><depth>3</depth></size><segmented>0</segmented><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>94</xmin><ymin>200</ymin><xmax>137</xmax><ymax>228</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>219</xmin><ymin>195</ymin><xmax>247</xmax><ymax>229</ymax></bndbox></object><object><name>cone</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>354</xmin><ymin>192</ymin><xmax>383</xmax><ymax>232</ymax></bndbox></object><object><name>cube</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>182</xmin><ymin>197</ymin><xmax>228</xmax><ymax>242</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>XML</folder>
+	<filename>image-1466-2023-01-14T16-27-11--530812.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test/image-1466-2023-01-14T16-27-11--530812.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>672</width>
+		<height>376</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

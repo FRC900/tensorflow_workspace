@@ -1,1 +1,26 @@
-<annotation><folder>videos</folder><filename>ncash2023_gopro3.mp4_01300.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/ncash2023_gopro3.mp4_01300.png</path><source><database>Unknown</database></source><size><width>1920</width><height>1440</height><depth>3</depth></size><segmented>0</segmented></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>ncash2023_gopro3.mp4_01300.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/ncash2023_gopro3.mp4_01300.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1669</xmin>
+			<ymin>3</ymin>
+			<xmax>1837</xmax>
+			<ymax>100</ymax>
+		</bndbox>
+	</object>
+</annotation>

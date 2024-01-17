@@ -1,1 +1,38 @@
-<annotation><folder>videos</folder><filename>ncash2023_gopro1.mp4_01528.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/ncash2023_gopro1.mp4_01528.png</path><source><database>Unknown</database></source><size><width>1920</width><height>1440</height><depth>3</depth></size><segmented>0</segmented><object><name>blue_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1711</xmin><ymin>7</ymin><xmax>1740</xmax><ymax>57</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>ncash2023_gopro1.mp4_01528.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/ncash2023_gopro1.mp4_01528.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1770</xmin>
+			<ymin>12</ymin>
+			<xmax>1887</xmax>
+			<ymax>104</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1711</xmin>
+			<ymin>7</ymin>
+			<xmax>1740</xmax>
+			<ymax>57</ymax>
+		</bndbox>
+	</object>
+</annotation>

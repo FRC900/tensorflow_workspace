@@ -11,4 +11,52 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	</annotation>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>813</xmin>
+			<ymin>953</ymin>
+			<xmax>866</xmax>
+			<ymax>1013</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1043</xmin>
+			<ymin>887</ymin>
+			<xmax>1100</xmax>
+			<ymax>934</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1672</xmin>
+			<ymin>687</ymin>
+			<xmax>1721</xmax>
+			<ymax>723</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1789</xmin>
+			<ymin>655</ymin>
+			<xmax>1825</xmax>
+			<ymax>685</ymax>
+		</bndbox>
+	</object>
+</annotation>

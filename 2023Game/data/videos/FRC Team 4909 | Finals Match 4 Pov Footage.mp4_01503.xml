@@ -1,1 +1,38 @@
-<annotation><folder>videos</folder><filename>FRC Team 4909 | Finals Match 4 Pov Footage.mp4_01503.png</filename><path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/FRC Team 4909 | Finals Match 4 Pov Footage.mp4_01503.png</path><source><database>Unknown</database></source><size><width>960</width><height>720</height><depth>3</depth></size><segmented>0</segmented><object><name>red_ds_light</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>265</xmin><ymin>87</ymin><xmax>283</xmax><ymax>125</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>videos</folder>
+	<filename>FRC Team 4909 | Finals Match 4 Pov Footage.mp4_01503.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2023Game/data/videos/FRC Team 4909 | Finals Match 4 Pov Footage.mp4_01503.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_ds_numbers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>302</xmin>
+			<ymin>69</ymin>
+			<xmax>420</xmax>
+			<ymax>108</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>265</xmin>
+			<ymin>87</ymin>
+			<xmax>283</xmax>
+			<ymax>125</ymax>
+		</bndbox>
+	</object>
+</annotation>

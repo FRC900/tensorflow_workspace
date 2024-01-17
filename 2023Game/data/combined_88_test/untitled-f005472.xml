@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>cube</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>938</xmin>
-			<ymin>313</ymin>
-			<xmax>1255</xmax>
-			<ymax>641</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>april_tag_4</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1331</xmin>
-			<ymin>136</ymin>
-			<xmax>1552</xmax>
-			<ymax>393</ymax>
-		</bndbox>
-	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>b_redtrainframe_03825.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/b_redtrainframe_03825.png</path>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_tape_corners</name>
+		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -23,4 +23,4 @@
 			<ymax>487</ymax>
 		</bndbox>
 	</object>
-	</annotation>
+</annotation>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>b_redbig_1frame_00225.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2022Game/data/videos/b_redbig_1frame_00225.png</path>
@@ -24,15 +24,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corners</name>
+		<name>red_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>512</xmin>
-			<ymin>570</ymin>
-			<xmax>642</xmax>
-			<ymax>662</ymax>
+			<xmin>472</xmin>
+			<ymin>551</ymin>
+			<xmax>602</xmax>
+			<ymax>643</ymax>
 		</bndbox>
 	</object>
 </annotation>
