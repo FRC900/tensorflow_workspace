@@ -1,7 +1,11 @@
 <annotation>
 	<folder>videos</folder>
 	<filename>1678 Five Note Auto 2024.mp4_00300.png</filename>
+<<<<<<< HEAD
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/1678 Five Note Auto 2024.mp4_00300.png</path>
+=======
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/1678 Five Note Auto 2024.mp4_00300.png</path>
+>>>>>>> 10e91c171 (missed labels)
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +21,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>256</xmin>
 			<ymin>558</ymin>
 			<xmax>324</xmax>
 			<ymax>584</ymax>
+=======
+			<xmin>249</xmin>
+			<ymin>552</ymin>
+			<xmax>340</xmax>
+			<ymax>587</ymax>
+>>>>>>> 10e91c171 (missed labels)
 		</bndbox>
 	</object>
 </annotation>
