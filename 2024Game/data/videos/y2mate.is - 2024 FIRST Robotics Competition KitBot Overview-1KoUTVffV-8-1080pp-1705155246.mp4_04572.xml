@@ -1,0 +1,50 @@
+<annotation>
+	<folder>videos</folder>
+	<filename>y2mate.is - 2024 FIRST Robotics Competition KitBot Overview-1KoUTVffV-8-1080pp-1705155246.mp4_04572.png</filename>
+	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 FIRST Robotics Competition KitBot Overview-1KoUTVffV-8-1080pp-1705155246.mp4_04572.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blue_subwoofer</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1401</xmin>
+			<ymin>228</ymin>
+			<xmax>1920</xmax>
+			<ymax>1080</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>301</xmin>
+			<ymin>113</ymin>
+			<xmax>1529</xmax>
+			<ymax>1005</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>184</xmin>
+			<ymin>276</ymin>
+			<xmax>251</xmax>
+			<ymax>356</ymax>
+		</bndbox>
+	</object>
+</annotation>
