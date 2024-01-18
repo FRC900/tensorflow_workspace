@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRC4481 - 2024 Prototypes - Top_Bottom (with gap) Shooter Wing Line Test.mp4_00136.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/FRC4481 - 2024 Prototypes - Top_Bottom (with gap) Shooter Wing Line Test.mp4_00136.png</path>
+	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/FRC4481 - 2024 Prototypes - Top_Bottom (with gap) Shooter Wing Line Test.mp4_00136.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,17 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
-			<xmin>410</xmin>
+			<xmin>412</xmin>
 			<ymin>132</ymin>
-			<xmax>442</xmax>
-			<ymax>179</ymax>
-=======
-			<xmin>405</xmin>
-			<ymin>131</ymin>
-			<xmax>444</xmax>
-			<ymax>180</ymax>
->>>>>>> f11ae52a1 (new labels)
+			<xmax>438</xmax>
+			<ymax>171</ymax>
 		</bndbox>
 	</object>
 </annotation>
