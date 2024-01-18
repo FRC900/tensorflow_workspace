@@ -60,30 +60,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_left_triangle</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>381</xmin>
-			<ymin>136</ymin>
-			<xmax>620</xmax>
-			<ymax>308</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_right_triangle</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>790</xmin>
-			<ymin>185</ymin>
-			<xmax>913</xmax>
-			<ymax>353</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_crescendo_logo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -153,6 +129,30 @@
 			<ymin>846</ymin>
 			<xmax>1708</xmax>
 			<ymax>861</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_left_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>515</xmin>
+			<ymin>179</ymin>
+			<xmax>620</xmax>
+			<ymax>291</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_right_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>792</xmin>
+			<ymin>259</ymin>
+			<xmax>861</xmax>
+			<ymax>342</ymax>
 		</bndbox>
 	</object>
 </annotation>

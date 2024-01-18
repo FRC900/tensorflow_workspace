@@ -84,30 +84,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_left_triangle</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>385</xmin>
-			<ymin>136</ymin>
-			<xmax>624</xmax>
-			<ymax>299</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_right_triangle</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>800</xmin>
-			<ymin>199</ymin>
-			<xmax>904</xmax>
-			<ymax>355</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_tape_to_wall</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -165,6 +141,30 @@
 			<ymin>678</ymin>
 			<xmax>1281</xmax>
 			<ymax>961</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_left_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>524</xmin>
+			<ymin>178</ymin>
+			<xmax>612</xmax>
+			<ymax>290</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_right_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>803</xmin>
+			<ymin>260</ymin>
+			<xmax>855</xmax>
+			<ymax>342</ymax>
 		</bndbox>
 	</object>
 </annotation>

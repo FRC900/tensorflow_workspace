@@ -143,4 +143,28 @@
 			<ymax>862</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_left_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>520</xmin>
+			<ymin>182</ymin>
+			<xmax>615</xmax>
+			<ymax>287</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_right_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>790</xmin>
+			<ymin>265</ymin>
+			<xmax>863</xmax>
+			<ymax>341</ymax>
+		</bndbox>
+	</object>
 </annotation>

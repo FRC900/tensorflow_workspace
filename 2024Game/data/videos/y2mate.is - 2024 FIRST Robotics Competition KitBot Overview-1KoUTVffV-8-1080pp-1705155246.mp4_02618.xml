@@ -72,30 +72,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_left_triangle</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>380</xmin>
-			<ymin>124</ymin>
-			<xmax>630</xmax>
-			<ymax>305</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_right_triangle</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>792</xmin>
-			<ymin>191</ymin>
-			<xmax>908</xmax>
-			<ymax>347</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -165,6 +141,30 @@
 			<ymin>612</ymin>
 			<xmax>1003</xmax>
 			<ymax>957</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_right_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>531</xmin>
+			<ymin>169</ymin>
+			<xmax>608</xmax>
+			<ymax>283</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_right_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>794</xmin>
+			<ymin>248</ymin>
+			<xmax>858</xmax>
+			<ymax>341</ymax>
 		</bndbox>
 	</object>
 </annotation>
