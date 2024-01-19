@@ -1,0 +1,37 @@
+<annotation>
+    <folder>train</folder>
+    <filename>youtube-90_jpg.rf.29c53e8fa8d02b86d6bf70b875684896.jpg</filename>
+    <path>/home/alan/tensorflow_workspace/2024Game/data/FRC2024/train/youtube-90_jpg.rf.29c53e8fa8d02b86d6bf70b875684896.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>robot</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>8</xmin>
+            <ymin>92</ymin>
+            <xmax>64</xmax>
+            <ymax>175.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>robot</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>0</xmin>
+            <ymin>421</ymin>
+            <xmax>215</xmax>
+            <ymax>639</ymax>
+        </bndbox>
+    </object>
+</annotation>

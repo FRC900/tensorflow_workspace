@@ -1,0 +1,59 @@
+<annotation>
+    <folder>train</folder>
+    <filename>notes_cut_mp4-83_jpg.rf.99b685187d0510dfa02df1b321b55bff.jpg</filename>
+    <path>/home/alan/tensorflow_workspace/2024Game/data/FRC2024/train/notes_cut_mp4-83_jpg.rf.99b685187d0510dfa02df1b321b55bff.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>960</width>
+        <height>960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>416</xmin>
+            <ymin>539</ymin>
+            <xmax>539.298</xmax>
+            <ymax>736.815</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>496</xmin>
+            <ymin>389</ymin>
+            <xmax>524.072</xmax>
+            <ymax>419.308</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>497</xmin>
+            <ymin>418</ymin>
+            <xmax>526.151</xmax>
+            <ymax>449.82</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>500</xmin>
+            <ymin>450</ymin>
+            <xmax>529.336</xmax>
+            <ymax>475.826</ymax>
+        </bndbox>
+    </object>
+</annotation>

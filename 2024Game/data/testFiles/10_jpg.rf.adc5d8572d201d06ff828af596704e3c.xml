@@ -1,0 +1,26 @@
+<annotation>
+    <folder>train</folder>
+    <filename>10_jpg.rf.adc5d8572d201d06ff828af596704e3c.jpg</filename>
+    <path>/home/alan/tensorflow_workspace/2024Game/data/FRC2024/train/10_jpg.rf.adc5d8572d201d06ff828af596704e3c.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>195</xmin>
+            <ymin>394</ymin>
+            <xmax>439.082</xmax>
+            <ymax>581.414</ymax>
+        </bndbox>
+    </object>
+</annotation>

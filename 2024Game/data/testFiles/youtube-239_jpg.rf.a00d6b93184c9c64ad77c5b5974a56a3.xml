@@ -1,0 +1,26 @@
+<annotation>
+    <folder>train</folder>
+    <filename>youtube-239_jpg.rf.a00d6b93184c9c64ad77c5b5974a56a3.jpg</filename>
+    <path>/home/alan/tensorflow_workspace/2024Game/data/FRC2024/train/youtube-239_jpg.rf.a00d6b93184c9c64ad77c5b5974a56a3.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>264</xmin>
+            <ymin>133</ymin>
+            <xmax>353.746</xmax>
+            <ymax>200.59300000000002</ymax>
+        </bndbox>
+    </object>
+</annotation>

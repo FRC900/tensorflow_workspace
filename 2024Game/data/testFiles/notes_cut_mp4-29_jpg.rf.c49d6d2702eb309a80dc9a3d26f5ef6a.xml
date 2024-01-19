@@ -1,0 +1,70 @@
+<annotation>
+    <folder>train</folder>
+    <filename>notes_cut_mp4-29_jpg.rf.c49d6d2702eb309a80dc9a3d26f5ef6a.jpg</filename>
+    <path>/home/alan/tensorflow_workspace/2024Game/data/FRC2024/train/notes_cut_mp4-29_jpg.rf.c49d6d2702eb309a80dc9a3d26f5ef6a.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>960</width>
+        <height>960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>98</xmin>
+            <ymin>840</ymin>
+            <xmax>146</xmax>
+            <ymax>873.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>525</xmin>
+            <ymin>552</ymin>
+            <xmax>547.5</xmax>
+            <ymax>583</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>560</xmin>
+            <ymin>547</ymin>
+            <xmax>581</xmax>
+            <ymax>579.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>492</xmin>
+            <ymin>554</ymin>
+            <xmax>514.5</xmax>
+            <ymax>586.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>786</xmin>
+            <ymin>890</ymin>
+            <xmax>844.5</xmax>
+            <ymax>941</ymax>
+        </bndbox>
+    </object>
+</annotation>

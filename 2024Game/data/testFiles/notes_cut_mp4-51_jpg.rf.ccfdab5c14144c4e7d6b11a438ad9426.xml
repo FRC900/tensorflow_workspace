@@ -1,0 +1,81 @@
+<annotation>
+    <folder>train</folder>
+    <filename>notes_cut_mp4-51_jpg.rf.ccfdab5c14144c4e7d6b11a438ad9426.jpg</filename>
+    <path>/home/alan/tensorflow_workspace/2024Game/data/FRC2024/train/notes_cut_mp4-51_jpg.rf.ccfdab5c14144c4e7d6b11a438ad9426.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>960</width>
+        <height>960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>86</xmin>
+            <ymin>113</ymin>
+            <xmax>115.95400000000001</xmax>
+            <ymax>154.675</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>42</xmin>
+            <ymin>130</ymin>
+            <xmax>72.536</xmax>
+            <ymax>175.187</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>128</xmin>
+            <ymin>96</ymin>
+            <xmax>154.954</xmax>
+            <ymax>137.605</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>463</xmin>
+            <ymin>370</ymin>
+            <xmax>475.64</xmax>
+            <ymax>397.779</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>647</xmin>
+            <ymin>275</ymin>
+            <xmax>670.606</xmax>
+            <ymax>323.024</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>519</xmin>
+            <ymin>108</ymin>
+            <xmax>529.187</xmax>
+            <ymax>159.209</ymax>
+        </bndbox>
+    </object>
+</annotation>

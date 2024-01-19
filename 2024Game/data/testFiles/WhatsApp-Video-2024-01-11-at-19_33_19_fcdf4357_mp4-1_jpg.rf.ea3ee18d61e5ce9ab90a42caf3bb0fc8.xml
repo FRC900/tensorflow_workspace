@@ -1,0 +1,26 @@
+<annotation>
+    <folder>train</folder>
+    <filename>WhatsApp-Video-2024-01-11-at-19_33_19_fcdf4357_mp4-1_jpg.rf.ea3ee18d61e5ce9ab90a42caf3bb0fc8.jpg</filename>
+    <path>/home/alan/tensorflow_workspace/2024Game/data/FRC2024/train/WhatsApp-Video-2024-01-11-at-19_33_19_fcdf4357_mp4-1_jpg.rf.ea3ee18d61e5ce9ab90a42caf3bb0fc8.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>848</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>204</xmin>
+            <ymin>110</ymin>
+            <xmax>467.9</xmax>
+            <ymax>367.33</ymax>
+        </bndbox>
+    </object>
+</annotation>
