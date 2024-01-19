@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
-	<filename>FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00340.png</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00340.png</path>
+	<filename>FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00522.png</filename>
+	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00522.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>314</xmin>
-			<ymin>496</ymin>
-			<xmax>388</xmax>
-			<ymax>518</ymax>
+			<xmin>330</xmin>
+			<ymin>514</ymin>
+			<xmax>392</xmax>
+			<ymax>528</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>304</xmin>
-			<ymin>608</ymin>
-			<xmax>413</xmax>
-			<ymax>645</ymax>
+			<xmin>395</xmin>
+			<ymin>612</ymin>
+			<xmax>495</xmax>
+			<ymax>646</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>note</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>291</xmin>
-			<ymin>671</ymin>
-			<xmax>441</xmax>
-			<ymax>720</ymax>
+			<xmin>658</xmin>
+			<ymin>657</ymin>
+			<xmax>786</xmax>
+			<ymax>714</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
-	<filename>FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00043.png</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00043.png</path>
+	<filename>FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00537.png</filename>
+	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00537.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -14,60 +14,12 @@
 	<object>
 		<name>note</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>264</xmin>
-			<ymin>599</ymin>
-			<xmax>380</xmax>
-			<ymax>637</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>541</xmin>
-			<ymin>569</ymin>
-			<xmax>635</xmax>
-			<ymax>602</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>699</xmin>
-			<ymin>637</ymin>
-			<xmax>835</xmax>
-			<ymax>695</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>253</xmin>
-			<ymin>670</ymin>
-			<xmax>409</xmax>
-			<ymax>719</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>444</xmin>
-			<ymin>703</ymin>
-			<xmax>571</xmax>
+			<xmin>657</xmin>
+			<ymin>671</ymin>
+			<xmax>786</xmax>
 			<ymax>720</ymax>
 		</bndbox>
 	</object>
@@ -77,10 +29,46 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>285</xmin>
-			<ymin>488</ymin>
-			<xmax>346</xmax>
-			<ymax>508</ymax>
+			<xmin>598</xmin>
+			<ymin>564</ymin>
+			<xmax>690</xmax>
+			<ymax>612</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>394</xmin>
+			<ymin>612</ymin>
+			<xmax>495</xmax>
+			<ymax>646</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>333</xmin>
+			<ymin>515</ymin>
+			<xmax>392</xmax>
+			<ymax>534</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>391</xmin>
+			<ymin>505</ymin>
+			<xmax>422</xmax>
+			<ymax>524</ymax>
 		</bndbox>
 	</object>
 </annotation>
