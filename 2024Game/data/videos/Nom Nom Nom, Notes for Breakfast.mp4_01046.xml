@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
 	<filename>Nom Nom Nom, Notes for Breakfast.mp4_01046.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/Nom Nom Nom, Notes for Breakfast.mp4_01046.png</path>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Nom Nom Nom, Notes for Breakfast.mp4_01046.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,18 +69,6 @@
 			<ymin>397</ymin>
 			<xmax>151</xmax>
 			<ymax>453</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>661</xmin>
-			<ymin>190</ymin>
-			<xmax>727</xmax>
-			<ymax>227</ymax>
 		</bndbox>
 	</object>
 </annotation>
