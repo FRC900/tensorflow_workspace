@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 Field Tour Video Alliance Area--G395OPrjEM-1080pp-1705155438.mp4_03704.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Alliance Area--G395OPrjEM-1080pp-1705155438.mp4_03704.png</path>
+	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Alliance Area--G395OPrjEM-1080pp-1705155438.mp4_03704.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -21,6 +21,18 @@
 			<ymin>134</ymin>
 			<xmax>1351</xmax>
 			<ymax>933</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_subwoofer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>328</xmin>
+			<ymin>71</ymin>
+			<xmax>1741</xmax>
+			<ymax>1065</ymax>
 		</bndbox>
 	</object>
 </annotation>
