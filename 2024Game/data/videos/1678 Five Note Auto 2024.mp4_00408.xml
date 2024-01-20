@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 <annotation verified="yes">
 	<folder>videos</folder>
 	<filename>1678 Five Note Auto 2024.mp4_00408.png</filename>
 	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/1678 Five Note Auto 2024.mp4_00408.png</path>
+=======
+<annotation>
+	<folder>videos</folder>
+	<filename>1678 Five Note Auto 2024.mp4_00408.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/1678 Five Note Auto 2024.mp4_00408.png</path>
+>>>>>>> 818a7f6f6 (added labels)
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,6 +24,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>182</xmin>
 			<ymin>420</ymin>
 			<xmax>224</xmax>
@@ -33,6 +41,12 @@
 			<ymin>183</ymin>
 			<xmax>285</xmax>
 			<ymax>194</ymax>
+=======
+			<xmin>184</xmin>
+			<ymin>421</ymin>
+			<xmax>227</xmax>
+			<ymax>437</ymax>
+>>>>>>> 818a7f6f6 (added labels)
 		</bndbox>
 	</object>
 </annotation>

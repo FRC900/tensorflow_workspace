@@ -1,7 +1,11 @@
 <annotation>
 	<folder>videos</folder>
 	<filename>P1090377.jpg</filename>
+<<<<<<< HEAD
 	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/P1090377.jpg</path>
+=======
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090377.jpg</path>
+>>>>>>> 818a7f6f6 (added labels)
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,6 +21,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1247</xmin>
 			<ymin>1296</ymin>
 			<xmax>2132</xmax>
@@ -25,10 +30,21 @@
 	</object>
 	<object>
 		<name>red_ds_number</name>
+=======
+			<xmin>1717</xmin>
+			<ymin>1450</ymin>
+			<xmax>2099</xmax>
+			<ymax>1714</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_right_triangle</name>
+>>>>>>> 818a7f6f6 (added labels)
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1424</xmin>
 			<ymin>1730</ymin>
 			<xmax>1721</xmax>
@@ -117,6 +133,12 @@
 			<ymin>3446</ymin>
 			<xmax>606</xmax>
 			<ymax>3531</ymax>
+=======
+			<xmin>3172</xmin>
+			<ymin>1487</ymin>
+			<xmax>3535</xmax>
+			<ymax>1728</ymax>
+>>>>>>> 818a7f6f6 (added labels)
 		</bndbox>
 	</object>
 </annotation>

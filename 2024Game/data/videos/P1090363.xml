@@ -1,7 +1,11 @@
 <annotation>
 	<folder>videos</folder>
 	<filename>P1090363.jpg</filename>
+<<<<<<< HEAD
 	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/P1090363.jpg</path>
+=======
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090363.jpg</path>
+>>>>>>> 818a7f6f6 (added labels)
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +21,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>1386</xmin>
 			<ymin>451</ymin>
 			<xmax>4202</xmax>
 			<ymax>3230</ymax>
+=======
+			<xmin>1354</xmin>
+			<ymin>491</ymin>
+			<xmax>4117</xmax>
+			<ymax>3137</ymax>
+>>>>>>> 818a7f6f6 (added labels)
 		</bndbox>
 	</object>
 </annotation>
