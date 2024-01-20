@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 Field Tour Video Source-xlNSxOJpXhs-1080pp-1705155669.mp4_01302.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Source-xlNSxOJpXhs-1080pp-1705155669.mp4_01302.png</path>
+	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Source-xlNSxOJpXhs-1080pp-1705155669.mp4_01302.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -21,6 +21,18 @@
 			<ymin>646</ymin>
 			<xmax>1180</xmax>
 			<ymax>851</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1067</xmin>
+			<ymin>592</ymin>
+			<xmax>1144</xmax>
+			<ymax>639</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00296.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00296.png</path>
+	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00296.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -43,8 +43,8 @@
 		<bndbox>
 			<xmin>608</xmin>
 			<ymin>598</ymin>
-			<xmax>1340</xmax>
-			<ymax>1048</ymax>
+			<xmax>1299</xmax>
+			<ymax>1071</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -129,18 +129,6 @@
 			<ymin>607</ymin>
 			<xmax>1188</xmax>
 			<ymax>992</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1362</xmin>
-			<ymin>251</ymin>
-			<xmax>1482</xmax>
-			<ymax>311</ymax>
 		</bndbox>
 	</object>
 </annotation>
