@@ -143,4 +143,16 @@
 			<ymax>255</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>high_note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1137</xmin>
+			<ymin>344</ymin>
+			<xmax>1178</xmax>
+			<ymax>367</ymax>
+		</bndbox>
+	</object>
 </annotation>

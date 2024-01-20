@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 FIRST Robotics Competition KitBot Overview-1KoUTVffV-8-1080pp-1705155246.mp4_04272.png</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 FIRST Robotics Competition KitBot Overview-1KoUTVffV-8-1080pp-1705155246.mp4_04272.png</path>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/y2mate.is - 2024 FIRST Robotics Competition KitBot Overview-1KoUTVffV-8-1080pp-1705155246.mp4_04272.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,18 @@
 			<ymin>1</ymin>
 			<xmax>1558</xmax>
 			<ymax>43</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>728</xmin>
+			<ymin>563</ymin>
+			<xmax>783</xmax>
+			<ymax>599</ymax>
 		</bndbox>
 	</object>
 </annotation>

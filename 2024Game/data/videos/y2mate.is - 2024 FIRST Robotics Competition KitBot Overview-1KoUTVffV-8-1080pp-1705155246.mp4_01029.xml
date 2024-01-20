@@ -167,4 +167,28 @@
 			<ymax>344</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1048</xmin>
+			<ymin>755</ymin>
+			<xmax>1144</xmax>
+			<ymax>857</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>944</xmin>
+			<ymin>775</ymin>
+			<xmax>973</xmax>
+			<ymax>783</ymax>
+		</bndbox>
+	</object>
 </annotation>

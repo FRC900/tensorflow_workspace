@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
-	<filename>y2mate.is - 2024 FIRST Robotics Competition KitBot Reveal-7j6oHFt21Gk-1080pp-1705156130.mp4_00499.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/y2mate.is - 2024 FIRST Robotics Competition KitBot Reveal-7j6oHFt21Gk-1080pp-1705156130.mp4_00499.png</path>
+	<filename>y2mate.is - 2024 FIRST Robotics Competition KitBot Reveal-7j6oHFt21Gk-1080pp-1705156130.mp4_00518.png</filename>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/y2mate.is - 2024 FIRST Robotics Competition KitBot Reveal-7j6oHFt21Gk-1080pp-1705156130.mp4_00518.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,39 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>679</xmin>
+			<ymin>929</ymin>
+			<xmax>1303</xmax>
+			<ymax>1080</ymax>
+		</bndbox>
+	</object>
+	<object>
 		<name>blue_podium</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>948</xmin>
-			<ymin>756</ymin>
-			<xmax>1069</xmax>
-			<ymax>933</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_robot</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>155</xmin>
-			<ymin>634</ymin>
-			<xmax>566</xmax>
-			<ymax>964</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>459</xmin>
-			<ymin>610</ymin>
-			<xmax>478</xmax>
-			<ymax>625</ymax>
+			<ymin>761</ymin>
+			<xmax>1058</xmax>
+			<ymax>927</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +41,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>216</xmin>
-			<ymin>678</ymin>
-			<xmax>250</xmax>
-			<ymax>697</ymax>
+			<xmin>212</xmin>
+			<ymin>680</ymin>
+			<xmax>263</xmax>
+			<ymax>704</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1815</xmin>
+			<ymin>666</ymin>
+			<xmax>1868</xmax>
+			<ymax>685</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,9 +65,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1703</xmin>
-			<ymin>603</ymin>
-			<xmax>1738</xmax>
+			<xmin>1672</xmin>
+			<ymin>611</ymin>
+			<xmax>1731</xmax>
 			<ymax>626</ymax>
 		</bndbox>
 	</object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1842</xmin>
-			<ymin>664</ymin>
-			<xmax>1879</xmax>
-			<ymax>686</ymax>
+			<xmin>454</xmin>
+			<ymin>608</ymin>
+			<xmax>492</xmax>
+			<ymax>630</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>599</xmin>
-			<ymin>569</ymin>
-			<xmax>631</xmax>
-			<ymax>583</ymax>
+			<xmin>607</xmin>
+			<ymin>570</ymin>
+			<xmax>628</xmax>
+			<ymax>579</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>790</xmin>
-			<ymin>496</ymin>
-			<xmax>824</xmax>
-			<ymax>525</ymax>
+			<xmin>789</xmin>
+			<ymin>497</ymin>
+			<xmax>827</xmax>
+			<ymax>534</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>830</xmin>
-			<ymin>520</ymin>
-			<xmax>862</xmax>
-			<ymax>530</ymax>
+			<xmin>833</xmin>
+			<ymin>516</ymin>
+			<xmax>866</xmax>
+			<ymax>535</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -126,9 +126,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1565</xmin>
-			<ymin>553</ymin>
-			<xmax>1597</xmax>
-			<ymax>563</ymax>
+			<ymin>554</ymin>
+			<xmax>1587</xmax>
+			<ymax>562</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -137,9 +137,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1496</xmin>
-			<ymin>551</ymin>
-			<xmax>1539</xmax>
+			<xmin>1502</xmin>
+			<ymin>550</ymin>
+			<xmax>1540</xmax>
 			<ymax>565</ymax>
 		</bndbox>
 	</object>

@@ -71,4 +71,16 @@
 			<ymax>951</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1040</xmin>
+			<ymin>576</ymin>
+			<xmax>1092</xmax>
+			<ymax>599</ymax>
+		</bndbox>
+	</object>
 </annotation>

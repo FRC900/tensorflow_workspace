@@ -167,4 +167,28 @@
 			<ymax>253</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>380</xmin>
+			<ymin>255</ymin>
+			<xmax>402</xmax>
+			<ymax>294</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>246</ymin>
+			<xmax>48</xmax>
+			<ymax>286</ymax>
+		</bndbox>
+	</object>
 </annotation>
