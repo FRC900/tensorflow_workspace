@@ -78,9 +78,21 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1740</xmin>
-			<ymin>705</ymin>
-			<xmax>1905</xmax>
-			<ymax>762</ymax>
+			<ymin>741</ymin>
+			<xmax>1764</xmax>
+			<ymax>751</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1750</xmin>
+			<ymin>725</ymin>
+			<xmax>1771</xmax>
+			<ymax>736</ymax>
 		</bndbox>
 	</object>
 </annotation>

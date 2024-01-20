@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 Field Tour Video Stage-tElgzVLql08-1080pp-1705156025.mp4_00762.png</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Stage-tElgzVLql08-1080pp-1705156025.mp4_00762.png</path>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Stage-tElgzVLql08-1080pp-1705156025.mp4_00762.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>708</ymin>
 			<xmax>1776</xmax>
 			<ymax>743</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>325</xmin>
+			<ymin>626</ymin>
+			<xmax>368</xmax>
+			<ymax>642</ymax>
 		</bndbox>
 	</object>
 </annotation>
