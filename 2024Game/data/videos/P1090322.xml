@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
-	<filename>P1090363.jpg</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/P1090363.jpg</path>
+	<filename>P1090322.jpg</filename>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/P1090322.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>note</name>
+		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1415</xmin>
-			<ymin>390</ymin>
-			<xmax>4443</xmax>
-			<ymax>3308</ymax>
+			<xmin>1655</xmin>
+			<ymin>1863</ymin>
+			<xmax>4097</xmax>
+			<ymax>2867</ymax>
 		</bndbox>
 	</object>
 </annotation>

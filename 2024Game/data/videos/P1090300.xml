@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
 	<filename>P1090300.jpg</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/P1090300.jpg</path>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/P1090300.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,42 @@
 			<ymin>1</ymin>
 			<xmax>2777</xmax>
 			<ymax>459</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3254</xmin>
+			<ymin>1544</ymin>
+			<xmax>3356</xmax>
+			<ymax>1606</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4268</xmin>
+			<ymin>1522</ymin>
+			<xmax>4333</xmax>
+			<ymax>1554</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4298</xmin>
+			<ymin>1486</ymin>
+			<xmax>4365</xmax>
+			<ymax>1521</ymax>
 		</bndbox>
 	</object>
 </annotation>
