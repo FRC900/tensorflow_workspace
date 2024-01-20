@@ -1,15 +1,16 @@
+#!/bin/bash/python3
 # write a script that goes through all of the .xml files in a target directory and replaces the path element with the correct path
 
 import os
 import xml.etree.ElementTree as ET
 import cv2
 # set the target directory
-target_dir = '../../2022Game/data/test'
+target_dir = '../2024Game/data/testFiles'
 
 # get a list of all the files in the target directory
 files = os.listdir(target_dir)
 files = [f for f in files if f.endswith('.xml')]
-names = ["nathan", "aws.admin"]
+names = ["alan"]
 
 # read each xml file as string and replace /frc/ with ""
 for f in files:
@@ -19,7 +20,6 @@ for f in files:
         filedata = file.read()
     for name in names:
         filedata = filedata.replace(name, "ubuntu")
-    filedata = filedata.replace("april16h11_0", "april_tag_")
     with open(full_path, 'w') as file:
         file.write(filedata)
 exit()
