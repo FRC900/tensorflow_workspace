@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00553.png</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00553.png</path>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00553.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>332</xmin>
 			<ymin>513</ymin>
 			<xmax>393</xmax>
 			<ymax>531</ymax>
+=======
+			<xmin>396</xmin>
+			<ymin>612</ymin>
+			<xmax>494</xmax>
+			<ymax>646</ymax>
+>>>>>>> 225d78674 (everything)
 		</bndbox>
 	</object>
 	<object>
@@ -29,6 +36,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>394</xmin>
 			<ymin>613</ymin>
 			<xmax>499</xmax>
@@ -45,6 +53,12 @@
 			<ymin>593</ymin>
 			<xmax>692</xmax>
 			<ymax>624</ymax>
+=======
+			<xmin>595</xmin>
+			<ymin>589</ymin>
+			<xmax>697</xmax>
+			<ymax>629</ymax>
+>>>>>>> 225d78674 (everything)
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +67,43 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>656</xmin>
 			<ymin>669</ymin>
 			<xmax>783</xmax>
 			<ymax>720</ymax>
 		</bndbox>
 	</object>
+=======
+			<xmin>657</xmin>
+			<ymin>670</ymin>
+			<xmax>787</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>335</xmin>
+			<ymin>517</ymin>
+			<xmax>394</xmax>
+			<ymax>532</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>385</xmin>
+			<ymin>508</ymin>
+			<xmax>423</xmax>
+			<ymax>524</ymax>
+		</bndbox>
+	</object>
+>>>>>>> 225d78674 (everything)
 </annotation>

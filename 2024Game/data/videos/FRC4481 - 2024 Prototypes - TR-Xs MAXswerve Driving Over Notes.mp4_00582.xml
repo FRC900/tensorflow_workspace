@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 <annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00582.png</filename>
 	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00582.png</path>
+=======
+<annotation>
+	<folder>videos</folder>
+	<filename>FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00582.png</filename>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/FRC4481 - 2024 Prototypes - TR-Xs MAXswerve Driving Over Notes.mp4_00582.png</path>
+>>>>>>> 225d78674 (everything)
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,9 +24,51 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>334</xmin>
 			<ymin>514</ymin>
 			<xmax>393</xmax>
+=======
+			<xmin>398</xmin>
+			<ymin>608</ymin>
+			<xmax>494</xmax>
+			<ymax>647</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>594</xmin>
+			<ymin>603</ymin>
+			<xmax>677</xmax>
+			<ymax>629</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>652</xmin>
+			<ymin>670</ymin>
+			<xmax>788</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>330</xmin>
+			<ymin>513</ymin>
+			<xmax>399</xmax>
+>>>>>>> 225d78674 (everything)
 			<ymax>532</ymax>
 		</bndbox>
 	</object>
@@ -29,6 +78,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>394</xmin>
 			<ymin>612</ymin>
 			<xmax>496</xmax>
@@ -45,6 +95,12 @@
 			<ymin>597</ymin>
 			<xmax>670</xmax>
 			<ymax>621</ymax>
+=======
+			<xmin>395</xmin>
+			<ymin>506</ymin>
+			<xmax>430</xmax>
+			<ymax>524</ymax>
+>>>>>>> 225d78674 (everything)
 		</bndbox>
 	</object>
 	<object>
@@ -53,9 +109,15 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>656</xmin>
 			<ymin>669</ymin>
 			<xmax>786</xmax>
+=======
+			<xmin>315</xmin>
+			<ymin>699</ymin>
+			<xmax>459</xmax>
+>>>>>>> 225d78674 (everything)
 			<ymax>720</ymax>
 		</bndbox>
 	</object>
