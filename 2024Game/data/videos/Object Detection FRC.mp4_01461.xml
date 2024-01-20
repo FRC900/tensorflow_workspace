@@ -1,62 +1,62 @@
 <annotation>
 	<folder>videos</folder>
-	<filename>Nom Nom Nom, Notes for Breakfast.mp4_01046.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Nom Nom Nom, Notes for Breakfast.mp4_01046.png</path>
+	<filename>Object Detection FRC.mp4_01461.png</filename>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Object Detection FRC.mp4_01461.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1280</width>
-		<height>720</height>
+		<width>852</width>
+		<height>480</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>note</name>
+		<name>blue_right_triangle</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>475</xmin>
-			<ymin>31</ymin>
-			<xmax>717</xmax>
-			<ymax>284</ymax>
+			<xmin>313</xmin>
+			<ymin>63</ymin>
+			<xmax>396</xmax>
+			<ymax>142</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>note</name>
+		<name>blue_right_triangle</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>719</xmin>
-			<ymin>130</ymin>
-			<xmax>893</xmax>
-			<ymax>341</ymax>
+			<xmin>424</xmin>
+			<ymin>37</ymin>
+			<xmax>512</xmax>
+			<ymax>112</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>note</name>
+		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>666</xmin>
-			<ymin>277</ymin>
-			<xmax>856</xmax>
-			<ymax>403</ymax>
+			<xmin>570</xmin>
+			<ymin>122</ymin>
+			<xmax>586</xmax>
+			<ymax>168</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>note</name>
+		<name>blue_ds_number</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>696</xmin>
-			<ymin>511</ymin>
-			<xmax>899</xmax>
-			<ymax>681</ymax>
+			<xmin>643</xmin>
+			<ymin>129</ymin>
+			<xmax>689</xmax>
+			<ymax>159</ymax>
 		</bndbox>
 	</object>
 </annotation>

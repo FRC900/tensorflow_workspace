@@ -1,13 +1,13 @@
 <annotation>
 	<folder>videos</folder>
-	<filename>Nom Nom Nom, Notes for Breakfast.mp4_01046.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Nom Nom Nom, Notes for Breakfast.mp4_01046.png</path>
+	<filename>Object Detection FRC.mp4_02301.png</filename>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Object Detection FRC.mp4_02301.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1280</width>
-		<height>720</height>
+		<width>852</width>
+		<height>480</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>475</xmin>
-			<ymin>31</ymin>
-			<xmax>717</xmax>
-			<ymax>284</ymax>
+			<xmin>184</xmin>
+			<ymin>195</ymin>
+			<xmax>319</xmax>
+			<ymax>358</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,34 +29,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>719</xmin>
-			<ymin>130</ymin>
-			<xmax>893</xmax>
-			<ymax>341</ymax>
+			<xmin>289</xmin>
+			<ymin>360</ymin>
+			<xmax>330</xmax>
+			<ymax>377</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>note</name>
+		<name>high_note</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>489</xmin>
+			<ymin>1</ymin>
+			<xmax>607</xmax>
+			<ymax>42</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>green_crescendo_logo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>666</xmin>
-			<ymin>277</ymin>
-			<xmax>856</xmax>
-			<ymax>403</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>696</xmin>
-			<ymin>511</ymin>
-			<xmax>899</xmax>
-			<ymax>681</ymax>
+			<xmin>277</xmin>
+			<ymin>176</ymin>
+			<xmax>345</xmax>
+			<ymax>211</ymax>
 		</bndbox>
 	</object>
 </annotation>

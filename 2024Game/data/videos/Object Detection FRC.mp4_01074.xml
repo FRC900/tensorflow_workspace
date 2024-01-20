@@ -1,26 +1,26 @@
 <annotation>
 	<folder>videos</folder>
-	<filename>Nom Nom Nom, Notes for Breakfast.mp4_01112.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Nom Nom Nom, Notes for Breakfast.mp4_01112.png</path>
+	<filename>Object Detection FRC.mp4_01074.png</filename>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Object Detection FRC.mp4_01074.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1280</width>
-		<height>720</height>
+		<width>852</width>
+		<height>480</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>note</name>
+		<name>blue_right_triangle</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>523</xmin>
-			<ymin>339</ymin>
-			<xmax>689</xmax>
-			<ymax>455</ymax>
+			<xmin>406</xmin>
+			<ymin>48</ymin>
+			<xmax>499</xmax>
+			<ymax>125</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,34 +29,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>677</xmin>
-			<ymin>476</ymin>
-			<xmax>840</xmax>
-			<ymax>632</ymax>
+			<xmin>514</xmin>
+			<ymin>284</ymin>
+			<xmax>633</xmax>
+			<ymax>406</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>note</name>
+		<name>blue_ds_light</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>854</xmin>
-			<ymin>440</ymin>
-			<xmax>1021</xmax>
-			<ymax>591</ymax>
+			<xmin>554</xmin>
+			<ymin>135</ymin>
+			<xmax>574</xmax>
+			<ymax>181</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>note</name>
+		<name>blue_ds_number</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>548</xmin>
-			<ymin>552</ymin>
-			<xmax>647</xmax>
-			<ymax>720</ymax>
+			<xmin>631</xmin>
+			<ymin>141</ymin>
+			<xmax>678</xmax>
+			<ymax>171</ymax>
 		</bndbox>
 	</object>
 </annotation>
