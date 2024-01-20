@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>P1090377.jpg</filename>
 <<<<<<< HEAD
@@ -22,10 +22,17 @@
 		<difficult>0</difficult>
 		<bndbox>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<xmin>1247</xmin>
 			<ymin>1296</ymin>
 			<xmax>2132</xmax>
 			<ymax>1745</ymax>
+=======
+			<xmin>1705</xmin>
+			<ymin>1441</ymin>
+			<xmax>2110</xmax>
+			<ymax>1716</ymax>
+>>>>>>> 14ead92fd (Verified images 600-627)
 		</bndbox>
 	</object>
 	<object>
@@ -139,6 +146,18 @@
 			<xmax>3535</xmax>
 			<ymax>1728</ymax>
 >>>>>>> 818a7f6f6 (added labels)
+		</bndbox>
+	</object>
+	<object>
+		<name>red_right_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3169</xmin>
+			<ymin>1488</ymin>
+			<xmax>3515</xmax>
+			<ymax>1719</ymax>
 		</bndbox>
 	</object>
 </annotation>

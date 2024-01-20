@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>SpeakerCenter_63in.jpg</filename>
 	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/SpeakerCenter_63in.jpg</path>
@@ -14,25 +14,25 @@
 	<object>
 		<name>red_left_triangle</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>41</xmin>
-			<ymin>1</ymin>
-			<xmax>448</xmax>
-			<ymax>208</ymax>
+			<xmin>249</xmin>
+			<ymin>76</ymin>
+			<xmax>420</xmax>
+			<ymax>186</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>red_right_triangle</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>909</xmin>
-			<ymin>1</ymin>
-			<xmax>1280</xmax>
-			<ymax>190</ymax>
+			<xmin>939</xmin>
+			<ymin>59</ymin>
+			<xmax>1123</xmax>
+			<ymax>174</ymax>
 		</bndbox>
 	</object>
 	<object>

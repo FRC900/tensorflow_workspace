@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>P1090393.jpg</filename>
 	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/P1090393.jpg</path>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_right_triangle</name>
+		<name>red_left_triangle</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1541</xmin>
-			<ymin>1302</ymin>
-			<xmax>3091</xmax>
-			<ymax>2274</ymax>
+			<xmin>2480</xmin>
+			<ymin>1596</ymin>
+			<xmax>3052</xmax>
+			<ymax>2257</ymax>
 		</bndbox>
 	</object>
 	<object>

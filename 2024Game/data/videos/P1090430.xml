@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>P1090430.jpg</filename>
 	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/P1090430.jpg</path>
@@ -343,8 +343,8 @@
 		<bndbox>
 			<xmin>6304</xmin>
 			<ymin>1</ymin>
-			<xmax>6885</xmax>
-			<ymax>272</ymax>
+			<xmax>6537</xmax>
+			<ymax>217</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -353,10 +353,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5768</xmin>
-			<ymin>7</ymin>
-			<xmax>5966</xmax>
-			<ymax>412</ymax>
+			<xmin>5840</xmin>
+			<ymin>153</ymin>
+			<xmax>5958</xmax>
+			<ymax>373</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -381,6 +381,54 @@
 			<ymin>946</ymin>
 			<xmax>1088</xmax>
 			<ymax>966</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4070</xmin>
+			<ymin>1398</ymin>
+			<xmax>4220</xmax>
+			<ymax>1481</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5350</xmin>
+			<ymin>658</ymin>
+			<xmax>5446</xmax>
+			<ymax>753</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5153</xmin>
+			<ymin>656</ymin>
+			<xmax>5244</xmax>
+			<ymax>751</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4923</xmin>
+			<ymin>654</ymin>
+			<xmax>5011</xmax>
+			<ymax>746</ymax>
 		</bndbox>
 	</object>
 </annotation>

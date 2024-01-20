@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>P1090382.jpg</filename>
 	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/P1090382.jpg</path>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2351</xmin>
-			<ymin>1443</ymin>
-			<xmax>2885</xmax>
-			<ymax>1744</ymax>
+			<xmin>2367</xmin>
+			<ymin>1546</ymin>
+			<xmax>2615</xmax>
+			<ymax>1710</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -137,10 +137,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1059</xmin>
-			<ymin>1397</ymin>
-			<xmax>1687</xmax>
-			<ymax>1712</ymax>
+			<xmin>1398</xmin>
+			<ymin>1505</ymin>
+			<xmax>1652</xmax>
+			<ymax>1680</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -153,6 +153,54 @@
 			<ymin>1</ymin>
 			<xmax>4832</xmax>
 			<ymax>1126</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5174</xmin>
+			<ymin>2795</ymin>
+			<xmax>5235</xmax>
+			<ymax>2838</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4482</xmin>
+			<ymin>2333</ymin>
+			<xmax>5004</xmax>
+			<ymax>2795</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_subwoofer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1369</xmin>
+			<ymin>2252</ymin>
+			<xmax>2608</xmax>
+			<ymax>2910</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1854</xmin>
+			<ymin>2364</ymin>
+			<xmax>2285</xmax>
+			<ymax>2746</ymax>
 		</bndbox>
 	</object>
 </annotation>
