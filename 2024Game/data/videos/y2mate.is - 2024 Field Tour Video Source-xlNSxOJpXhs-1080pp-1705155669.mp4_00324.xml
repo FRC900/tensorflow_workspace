@@ -23,4 +23,16 @@
 			<ymax>811</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1739</xmin>
+			<ymin>912</ymin>
+			<xmax>1786</xmax>
+			<ymax>949</ymax>
+		</bndbox>
+	</object>
 </annotation>
