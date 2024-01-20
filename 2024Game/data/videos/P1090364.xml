@@ -1,7 +1,11 @@
 <annotation>
 	<folder>videos</folder>
 	<filename>P1090364.jpg</filename>
+<<<<<<< HEAD
 	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/P1090364.jpg</path>
+=======
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090364.jpg</path>
+>>>>>>> 4d38637ed (verified 700 - 799)
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +21,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>4217</xmin>
 			<ymin>961</ymin>
 			<xmax>5096</xmax>
 			<ymax>1605</ymax>
+=======
+			<xmin>4145</xmin>
+			<ymin>1002</ymin>
+			<xmax>5128</xmax>
+			<ymax>1685</ymax>
+>>>>>>> 4d38637ed (verified 700 - 799)
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +40,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 			<xmin>43</xmin>
 			<ymin>1061</ymin>
 			<xmax>926</xmax>
 			<ymax>1653</ymax>
+=======
+			<xmin>2</xmin>
+			<ymin>1068</ymin>
+			<xmax>898</xmax>
+			<ymax>1655</ymax>
+>>>>>>> 4d38637ed (verified 700 - 799)
 		</bndbox>
 	</object>
 </annotation>
