@@ -1,7 +1,7 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>BackAmpZone_117in.jpg</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/BackAmpZone_117in.jpg</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/BackAmpZone_117in.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -14,13 +14,13 @@
 	<object>
 		<name>red_left_triangle</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1</xmin>
-			<ymin>88</ymin>
-			<xmax>304</xmax>
-			<ymax>265</ymax>
+			<xmin>127</xmin>
+			<ymin>123</ymin>
+			<xmax>267</xmax>
+			<ymax>242</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -42,9 +42,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>588</xmin>
-			<ymin>211</ymin>
-			<xmax>769</xmax>
-			<ymax>398</ymax>
+			<ymin>274</ymin>
+			<xmax>682</xmax>
+			<ymax>358</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -93,6 +93,30 @@
 			<ymin>460</ymin>
 			<xmax>994</xmax>
 			<ymax>494</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>422</xmin>
+			<ymin>670</ymin>
+			<xmax>530</xmax>
+			<ymax>711</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>660</xmin>
+			<ymin>368</ymin>
+			<xmax>734</xmax>
+			<ymax>432</ymax>
 		</bndbox>
 	</object>
 </annotation>

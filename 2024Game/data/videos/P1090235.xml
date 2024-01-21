@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>P1090235.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090235.jpg</path>
@@ -72,27 +72,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1743</xmin>
-			<ymin>2016</ymin>
-			<xmax>3948</xmax>
-			<ymax>3550</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_crescendo_logo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2224</xmin>
+			<xmin>2516</xmin>
 			<ymin>2260</ymin>
-			<xmax>3124</xmax>
-			<ymax>3222</ymax>
+			<xmax>2952</xmax>
+			<ymax>2433</ymax>
 		</bndbox>
 	</object>
 	<object>

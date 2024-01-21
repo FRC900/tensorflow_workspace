@@ -1,7 +1,7 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>SpeakerCenter_19in.jpg</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/SpeakerCenter_19in.jpg</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/SpeakerCenter_19in.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,4 +11,16 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
+	<object>
+		<name>red_crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>535</xmin>
+			<ymin>678</ymin>
+			<xmax>922</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
 </annotation>

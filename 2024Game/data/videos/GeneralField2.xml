@@ -1,7 +1,7 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>GeneralField2.jpg</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/GeneralField2.jpg</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/GeneralField2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>886</xmin>
+			<xmin>890</xmin>
 			<ymin>316</ymin>
 			<xmax>987</xmax>
-			<ymax>391</ymax>
+			<ymax>388</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -81,6 +81,54 @@
 			<ymin>552</ymin>
 			<xmax>143</xmax>
 			<ymax>599</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>796</xmin>
+			<ymin>417</ymin>
+			<xmax>816</xmax>
+			<ymax>466</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>522</xmin>
+			<ymin>459</ymin>
+			<xmax>538</xmax>
+			<ymax>501</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>842</xmin>
+			<ymin>401</ymin>
+			<xmax>915</xmax>
+			<ymax>446</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1109</xmin>
+			<ymin>681</ymin>
+			<xmax>1237</xmax>
+			<ymax>720</ymax>
 		</bndbox>
 	</object>
 </annotation>

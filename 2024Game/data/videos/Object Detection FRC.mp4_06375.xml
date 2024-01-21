@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Object Detection FRC.mp4_06375.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Object Detection FRC.mp4_06375.png</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/Object Detection FRC.mp4_06375.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -125,8 +125,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>470</xmin>
-			<ymin>84</ymin>
+			<xmin>472</xmin>
+			<ymin>82</ymin>
 			<xmax>522</xmax>
 			<ymax>120</ymax>
 		</bndbox>
@@ -138,7 +138,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>651</xmin>
-			<ymin>83</ymin>
+			<ymin>85</ymin>
 			<xmax>701</xmax>
 			<ymax>120</ymax>
 		</bndbox>
@@ -153,6 +153,30 @@
 			<ymin>296</ymin>
 			<xmax>806</xmax>
 			<ymax>316</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>562</xmin>
+			<ymin>244</ymin>
+			<xmax>600</xmax>
+			<ymax>260</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>445</xmin>
+			<ymin>120</ymin>
+			<xmax>482</xmax>
+			<ymax>138</ymax>
 		</bndbox>
 	</object>
 </annotation>

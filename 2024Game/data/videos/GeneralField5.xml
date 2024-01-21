@@ -1,7 +1,7 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>GeneralField5.jpg</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/GeneralField5.jpg</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/GeneralField5.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -57,6 +57,18 @@
 			<ymin>531</ymin>
 			<xmax>533</xmax>
 			<ymax>596</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1043</xmin>
+			<ymin>357</ymin>
+			<xmax>1070</xmax>
+			<ymax>422</ymax>
 		</bndbox>
 	</object>
 </annotation>
