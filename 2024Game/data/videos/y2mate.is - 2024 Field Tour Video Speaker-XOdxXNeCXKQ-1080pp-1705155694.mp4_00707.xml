@@ -1,7 +1,7 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00707.png</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00707.png</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00707.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -36,27 +36,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>18</xmin>
-			<ymin>441</ymin>
-			<xmax>369</xmax>
-			<ymax>761</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_crescendo_logo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>96</xmin>
-			<ymin>448</ymin>
-			<xmax>354</xmax>
-			<ymax>644</ymax>
+			<xmin>148</xmin>
+			<ymin>472</ymin>
+			<xmax>196</xmax>
+			<ymax>518</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -72,27 +60,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_amp</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>518</xmin>
-			<ymin>250</ymin>
-			<xmax>722</xmax>
-			<ymax>455</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_tape_corner</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>839</xmin>
+			<xmin>833</xmin>
 			<ymin>459</ymin>
-			<xmax>856</xmax>
-			<ymax>472</ymax>
+			<xmax>868</xmax>
+			<ymax>481</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -150,9 +126,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1287</xmin>
-			<ymin>267</ymin>
-			<xmax>1369</xmax>
-			<ymax>353</ymax>
+			<ymin>241</ymin>
+			<xmax>1377</xmax>
+			<ymax>368</ymax>
 		</bndbox>
 	</object>
 </annotation>

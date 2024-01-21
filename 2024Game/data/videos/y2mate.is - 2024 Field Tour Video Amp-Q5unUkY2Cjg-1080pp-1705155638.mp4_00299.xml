@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 Field Tour Video Amp-Q5unUkY2Cjg-1080pp-1705155638.mp4_00299.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Amp-Q5unUkY2Cjg-1080pp-1705155638.mp4_00299.png</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Amp-Q5unUkY2Cjg-1080pp-1705155638.mp4_00299.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,21 +18,45 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1309</xmin>
-			<ymin>624</ymin>
-			<xmax>1685</xmax>
+			<ymin>628</ymin>
+			<xmax>1490</xmax>
 			<ymax>980</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_amp</name>
+		<name>note</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>396</xmin>
-			<ymin>509</ymin>
-			<xmax>1233</xmax>
-			<ymax>1064</ymax>
+			<xmin>1391</xmin>
+			<ymin>625</ymin>
+			<xmax>1556</xmax>
+			<ymax>977</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1433</xmin>
+			<ymin>623</ymin>
+			<xmax>1594</xmax>
+			<ymax>977</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1476</xmin>
+			<ymin>623</ymin>
+			<xmax>1679</xmax>
+			<ymax>975</ymax>
 		</bndbox>
 	</object>
 </annotation>

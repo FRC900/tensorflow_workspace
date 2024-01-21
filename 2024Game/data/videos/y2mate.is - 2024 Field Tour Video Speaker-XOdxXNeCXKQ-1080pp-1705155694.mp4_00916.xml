@@ -1,7 +1,7 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00916.png</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00916.png</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00916.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>845</xmin>
-			<ymin>628</ymin>
-			<xmax>1130</xmax>
-			<ymax>1003</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>573</xmin>
-			<ymin>622</ymin>
-			<xmax>1344</xmax>
-			<ymax>1061</ymax>
+			<xmin>890</xmin>
+			<ymin>692</ymin>
+			<xmax>1033</xmax>
+			<ymax>760</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>541</xmin>
-			<ymin>119</ymin>
-			<xmax>714</xmax>
-			<ymax>246</ymax>
+			<xmin>552</xmin>
+			<ymin>129</ymin>
+			<xmax>709</xmax>
+			<ymax>229</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -54,9 +42,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1217</xmin>
-			<ymin>118</ymin>
-			<xmax>1369</xmax>
-			<ymax>248</ymax>
+			<ymin>124</ymin>
+			<xmax>1365</xmax>
+			<ymax>238</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -67,8 +55,8 @@
 		<bndbox>
 			<xmin>309</xmin>
 			<ymin>258</ymin>
-			<xmax>364</xmax>
-			<ymax>331</ymax>
+			<xmax>347</xmax>
+			<ymax>338</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1736</xmin>
-			<ymin>258</ymin>
-			<xmax>1850</xmax>
-			<ymax>314</ymax>
+			<xmin>1702</xmin>
+			<ymin>252</ymin>
+			<xmax>1859</xmax>
+			<ymax>311</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +89,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>428</xmin>
-			<ymin>254</ymin>
-			<xmax>554</xmax>
-			<ymax>310</ymax>
+			<xmin>409</xmin>
+			<ymin>249</ymin>
+			<xmax>560</xmax>
+			<ymax>317</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1326</xmin>
+			<ymin>252</ymin>
+			<xmax>1488</xmax>
+			<ymax>320</ymax>
 		</bndbox>
 	</object>
 </annotation>

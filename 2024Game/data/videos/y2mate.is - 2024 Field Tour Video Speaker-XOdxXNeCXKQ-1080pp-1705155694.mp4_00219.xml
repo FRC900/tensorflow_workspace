@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00219.png</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00219.png</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_00219.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -36,18 +36,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>603</xmin>
-			<ymin>606</ymin>
-			<xmax>1350</xmax>
-			<ymax>1065</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_left_triangle</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -77,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1725</xmin>
-			<ymin>246</ymin>
+			<xmin>1701</xmin>
+			<ymin>251</ymin>
 			<xmax>1850</xmax>
-			<ymax>306</ymax>
+			<ymax>320</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>432</xmin>
+			<xmin>397</xmin>
 			<ymin>246</ymin>
 			<xmax>551</xmax>
-			<ymax>309</ymax>
+			<ymax>319</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +101,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1609</xmin>
+			<xmin>1605</xmin>
 			<ymin>251</ymin>
-			<xmax>1630</xmax>
-			<ymax>332</ymax>
+			<xmax>1636</xmax>
+			<ymax>329</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1326</xmin>
+			<ymin>252</ymin>
+			<xmax>1481</xmax>
+			<ymax>321</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>886</xmin>
+			<ymin>699</ymin>
+			<xmax>1040</xmax>
+			<ymax>756</ymax>
 		</bndbox>
 	</object>
 </annotation>
