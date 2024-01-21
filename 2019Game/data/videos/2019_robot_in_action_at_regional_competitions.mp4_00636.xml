@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2019_robot_in_action_at_regional_competitions.mp4_00636.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/2019_robot_in_action_at_regional_competitions.mp4_00636.png</path>
@@ -69,6 +69,30 @@
 			<ymin>90</ymin>
 			<xmax>462</xmax>
 			<ymax>132</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>559</xmin>
+			<ymin>237</ymin>
+			<xmax>738</xmax>
+			<ymax>474</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>981</xmin>
+			<ymin>433</ymin>
+			<xmax>1014</xmax>
+			<ymax>463</ymax>
 		</bndbox>
 	</object>
 </annotation>

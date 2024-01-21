@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2019_Field_Tour_Video_Vision_Targets.mp4_01844.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/2019_Field_Tour_Video_Vision_Targets.mp4_01844.png</path>
@@ -11,4 +11,40 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>577</xmin>
+			<ymin>855</ymin>
+			<xmax>673</xmax>
+			<ymax>921</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1163</xmin>
+			<ymin>866</ymin>
+			<xmax>1268</xmax>
+			<ymax>917</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>11</xmin>
+			<ymin>840</ymin>
+			<xmax>92</xmax>
+			<ymax>905</ymax>
+		</bndbox>
+	</object>
 </annotation>
