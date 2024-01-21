@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
 	<filename>P1090382.jpg</filename>
-	<path>/Users/shauryabhatt/tensorflow_workspace/2024Game/data/videos/P1090382.jpg</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090382.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>577</xmin>
-			<ymin>2839</ymin>
-			<xmax>643</xmax>
-			<ymax>2915</ymax>
+			<xmin>552</xmin>
+			<ymin>2816</ymin>
+			<xmax>656</xmax>
+			<ymax>2933</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -161,10 +161,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5174</xmin>
-			<ymin>2795</ymin>
-			<xmax>5235</xmax>
-			<ymax>2838</ymax>
+			<xmin>5154</xmin>
+			<ymin>2767</ymin>
+			<xmax>5253</xmax>
+			<ymax>2851</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -180,27 +180,27 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1369</xmin>
-			<ymin>2252</ymin>
-			<xmax>2608</xmax>
-			<ymax>2910</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_crescendo_logo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1854</xmin>
-			<ymin>2364</ymin>
-			<xmax>2285</xmax>
-			<ymax>2746</ymax>
+			<xmin>1908</xmin>
+			<ymin>2357</ymin>
+			<xmax>2162</xmax>
+			<ymax>2448</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2590</xmin>
+			<ymin>1725</ymin>
+			<xmax>2767</xmax>
+			<ymax>1822</ymax>
 		</bndbox>
 	</object>
 </annotation>

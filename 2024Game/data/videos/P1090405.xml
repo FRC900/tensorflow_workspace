@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
-	<filename>P1090235.jpg</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090235.jpg</path>
+	<filename>P1090405.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090405.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1648</xmin>
-			<ymin>626</ymin>
-			<xmax>2059</xmax>
-			<ymax>947</ymax>
+			<xmin>880</xmin>
+			<ymin>255</ymin>
+			<xmax>1742</xmax>
+			<ymax>1128</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,82 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3493</xmin>
-			<ymin>537</ymin>
-			<xmax>3987</xmax>
-			<ymax>877</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1080</xmin>
-			<ymin>1002</ymin>
-			<xmax>1190</xmax>
-			<ymax>1243</ymax>
+			<xmin>3180</xmin>
+			<ymin>1852</ymin>
+			<xmax>3501</xmax>
+			<ymax>2314</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>red_ds_number</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1271</xmin>
-			<ymin>990</ymin>
-			<xmax>1670</xmax>
-			<ymax>1196</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4781</xmin>
-			<ymin>892</ymin>
-			<xmax>4906</xmax>
-			<ymax>1164</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1743</xmin>
-			<ymin>2016</ymin>
-			<xmax>3948</xmax>
-			<ymax>3550</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_crescendo_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2224</xmin>
-			<ymin>2260</ymin>
-			<xmax>3124</xmax>
-			<ymax>3222</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>640</xmin>
-			<ymin>2839</ymin>
-			<xmax>752</xmax>
-			<ymax>2926</ymax>
+			<xmin>1</xmin>
+			<ymin>155</ymin>
+			<xmax>777</xmax>
+			<ymax>1025</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +53,58 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3883</xmin>
-			<ymin>915</ymin>
-			<xmax>4445</xmax>
-			<ymax>1115</ymax>
+			<xmin>3363</xmin>
+			<ymin>2328</ymin>
+			<xmax>3655</xmax>
+			<ymax>2720</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3677</xmin>
+			<ymin>2579</ymin>
+			<xmax>3817</xmax>
+			<ymax>2885</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4180</xmin>
+			<ymin>2896</ymin>
+			<xmax>4315</xmax>
+			<ymax>3141</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3839</xmin>
+			<ymin>2652</ymin>
+			<xmax>4028</xmax>
+			<ymax>2923</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4345</xmin>
+			<ymin>3039</ymin>
+			<xmax>4447</xmax>
+			<ymax>3128</ymax>
 		</bndbox>
 	</object>
 </annotation>

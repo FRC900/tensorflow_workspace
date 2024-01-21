@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
-	<filename>P1090240.jpg</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090240.jpg</path>
+	<filename>P1090377.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090377.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_tape_to_wall</name>
+		<name>red_left_triangle</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1761</xmin>
-			<ymin>2051</ymin>
-			<xmax>1935</xmax>
-			<ymax>2185</ymax>
+			<xmin>1721</xmin>
+			<ymin>1460</ymin>
+			<xmax>2083</xmax>
+			<ymax>1698</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_right_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3174</xmin>
+			<ymin>1494</ymin>
+			<xmax>3506</xmax>
+			<ymax>1713</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -30,9 +42,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1172</xmin>
-			<ymin>49</ymin>
-			<xmax>1295</xmax>
-			<ymax>286</ymax>
+			<ymin>1723</ymin>
+			<xmax>1260</xmax>
+			<ymax>1909</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,34 +53,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1630</xmin>
-			<ymin>20</ymin>
-			<xmax>2015</xmax>
-			<ymax>233</ymax>
+			<xmin>1364</xmin>
+			<ymin>1734</ymin>
+			<xmax>1725</xmax>
+			<ymax>1879</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corner</name>
+		<name>blue_ds_number</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2731</xmin>
-			<ymin>3306</ymin>
-			<xmax>2960</xmax>
-			<ymax>3508</ymax>
+			<xmin>3426</xmin>
+			<ymin>1753</ymin>
+			<xmax>3768</xmax>
+			<ymax>1902</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_to_wall</name>
+		<name>red_crescendo_logo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3721</xmin>
-			<ymin>3346</ymin>
-			<xmax>3911</xmax>
-			<ymax>3531</ymax>
+			<xmin>2468</xmin>
+			<ymin>2743</ymin>
+			<xmax>2862</xmax>
+			<ymax>2879</ymax>
 		</bndbox>
 	</object>
 </annotation>

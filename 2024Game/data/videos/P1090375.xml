@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>P1090375.jpg</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/P1090375.jpg</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090375.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,4 +11,28 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
+	<object>
+		<name>red_left_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>187</xmin>
+			<ymin>1528</ymin>
+			<xmax>1304</xmax>
+			<ymax>2026</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_right_triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4821</xmin>
+			<ymin>1509</ymin>
+			<xmax>5472</xmax>
+			<ymax>2043</ymax>
+		</bndbox>
+	</object>
 </annotation>
