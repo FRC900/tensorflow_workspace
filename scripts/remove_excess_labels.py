@@ -1,9 +1,10 @@
+#!/bin/bash/python3
 import xml.etree.ElementTree as ET
 import glob
 
 # Gets all labels from ./2019Game_label_map.pbtxt
 label_dict = []
-with open("../../2022Game/data/2023Game_label_map.pbtxt", "r") as f:
+with open("../2024Game/data/2024Game_label_map.pbtxt", "r") as f:
     data = f.read().splitlines()
     print(data)
     line = 0
