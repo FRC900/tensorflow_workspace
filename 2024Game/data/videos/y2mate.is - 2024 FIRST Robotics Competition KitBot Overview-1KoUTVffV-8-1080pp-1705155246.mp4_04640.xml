@@ -24,18 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1397</xmin>
-			<ymin>220</ymin>
-			<xmax>1920</xmax>
-			<ymax>1080</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_tape_to_wall</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>

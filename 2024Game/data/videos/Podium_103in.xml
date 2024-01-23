@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Podium_103in.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/Podium_103in.jpg</path>
@@ -26,7 +26,7 @@
 	<object>
 		<name>red_triangle_text</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1106</xmin>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>BackAmpZone_117in.jpg</filename>
 	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/BackAmpZone_117in.jpg</path>
@@ -105,6 +105,30 @@
 			<ymin>670</ymin>
 			<xmax>530</xmax>
 			<ymax>711</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>660</xmin>
+			<ymin>368</ymin>
+			<xmax>734</xmax>
+			<ymax>432</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1132</xmin>
+			<ymin>580</ymin>
+			<xmax>1199</xmax>
+			<ymax>620</ymax>
 		</bndbox>
 	</object>
 </annotation>

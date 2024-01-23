@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_02814.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_02814.png</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_02814.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,8 +18,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>538</xmin>
-			<ymin>122</ymin>
-			<xmax>714</xmax>
+			<ymin>123</ymin>
+			<xmax>708</xmax>
 			<ymax>240</ymax>
 		</bndbox>
 	</object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1727</xmin>
+			<xmin>1695</xmin>
 			<ymin>246</ymin>
 			<xmax>1850</xmax>
-			<ymax>309</ymax>
+			<ymax>318</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>422</xmin>
+			<xmin>393</xmin>
 			<ymin>250</ymin>
 			<xmax>553</xmax>
-			<ymax>311</ymax>
+			<ymax>324</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -108,6 +108,18 @@
 		</bndbox>
 	</object>
 	<object>
+		<name>crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>891</xmin>
+			<ymin>691</ymin>
+			<xmax>1034</xmax>
+			<ymax>757</ymax>
+		</bndbox>
+	</object>
+	<object>
 		<name>red_tape_to_wall</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -120,15 +132,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>crescendo_logo</name>
+		<name>blue_ds_number</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>887</xmin>
-			<ymin>700</ymin>
-			<xmax>1036</xmax>
-			<ymax>759</ymax>
+			<xmin>1325</xmin>
+			<ymin>247</ymin>
+			<xmax>1484</xmax>
+			<ymax>320</ymax>
 		</bndbox>
 	</object>
 </annotation>

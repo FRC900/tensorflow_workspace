@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>P1090429.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090429.jpg</path>
@@ -168,18 +168,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5185</xmin>
-			<ymin>703</ymin>
-			<xmax>5468</xmax>
-			<ymax>868</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>crescendo_logo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -213,18 +201,6 @@
 			<ymin>489</ymin>
 			<xmax>5163</xmax>
 			<ymax>601</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_amp</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4819</xmin>
-			<ymin>658</ymin>
-			<xmax>4918</xmax>
-			<ymax>865</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -326,7 +302,7 @@
 	<object>
 		<name>note</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1081</xmin>

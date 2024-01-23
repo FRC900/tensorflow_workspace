@@ -62,7 +62,7 @@
 	<object>
 		<name>green_crescendo_logo</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>235</xmin>
@@ -81,30 +81,6 @@
 			<ymin>122</ymin>
 			<xmax>1329</xmax>
 			<ymax>200</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_amp</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>788</xmin>
-			<ymin>238</ymin>
-			<xmax>845</xmax>
-			<ymax>370</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1038</xmin>
-			<ymin>262</ymin>
-			<xmax>1232</xmax>
-			<ymax>370</ymax>
 		</bndbox>
 	</object>
 	<object>

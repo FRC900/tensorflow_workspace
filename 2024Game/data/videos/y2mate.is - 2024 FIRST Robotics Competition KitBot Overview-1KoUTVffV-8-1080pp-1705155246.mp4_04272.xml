@@ -24,21 +24,9 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_amp</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1108</xmin>
-			<ymin>76</ymin>
-			<xmax>1564</xmax>
-			<ymax>1068</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>607</xmin>
@@ -74,7 +62,7 @@
 	<object>
 		<name>high_note</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1330</xmin>

@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>Object Detection FRC.mp4_02186.png</filename>
 	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Object Detection FRC.mp4_02186.png</path>
@@ -26,7 +26,7 @@
 	<object>
 		<name>green_crescendo_logo</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>

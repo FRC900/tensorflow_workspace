@@ -86,7 +86,7 @@
 	<object>
 		<name>red_tape_to_wall</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1885</xmin>
@@ -146,25 +146,13 @@
 	<object>
 		<name>green_crescendo_logo</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
 			<ymin>253</ymin>
 			<xmax>155</xmax>
 			<ymax>379</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_amp</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>342</xmin>
-			<ymin>471</ymin>
-			<xmax>501</xmax>
-			<ymax>637</ymax>
 		</bndbox>
 	</object>
 	<object>

@@ -1,7 +1,7 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_01624.png</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_01624.png</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 Field Tour Video Speaker-XOdxXNeCXKQ-1080pp-1705155694.mp4_01624.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -41,10 +41,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1433</xmin>
-			<ymin>583</ymin>
-			<xmax>1473</xmax>
-			<ymax>637</ymax>
+			<xmin>489</xmin>
+			<ymin>694</ymin>
+			<xmax>629</xmax>
+			<ymax>757</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1426</xmin>
+			<ymin>587</ymin>
+			<xmax>1470</xmax>
+			<ymax>648</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>924</xmin>
+			<ymin>250</ymin>
+			<xmax>1078</xmax>
+			<ymax>319</ymax>
 		</bndbox>
 	</object>
 </annotation>

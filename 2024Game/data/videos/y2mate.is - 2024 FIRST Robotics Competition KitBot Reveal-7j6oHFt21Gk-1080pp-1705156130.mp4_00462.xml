@@ -14,7 +14,7 @@
 	<object>
 		<name>note</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1271</xmin>
@@ -33,18 +33,6 @@
 			<ymin>428</ymin>
 			<xmax>1240</xmax>
 			<ymax>911</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>653</xmin>
-			<ymin>313</ymin>
-			<xmax>1591</xmax>
-			<ymax>771</ymax>
 		</bndbox>
 	</object>
 	<object>
