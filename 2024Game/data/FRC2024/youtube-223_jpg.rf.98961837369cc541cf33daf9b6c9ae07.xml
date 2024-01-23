@@ -1,0 +1,59 @@
+<annotation>
+    <folder>FRC2024</folder>
+    <filename>youtube-223_jpg.rf.98961837369cc541cf33daf9b6c9ae07.jpg</filename>
+    <path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/youtube-223_jpg.rf.98961837369cc541cf33daf9b6c9ae07.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>345</xmin>
+            <ymin>32</ymin>
+            <xmax>423.5</xmax>
+            <ymax>126.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>287</xmin>
+            <ymin>96</ymin>
+            <xmax>364</xmax>
+            <ymax>210</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>220</xmin>
+            <ymin>357</ymin>
+            <xmax>328.5</xmax>
+            <ymax>522.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>308</xmin>
+            <ymin>110</ymin>
+            <xmax>386</xmax>
+            <ymax>209</ymax>
+        </bndbox>
+    </object>
+</annotation>

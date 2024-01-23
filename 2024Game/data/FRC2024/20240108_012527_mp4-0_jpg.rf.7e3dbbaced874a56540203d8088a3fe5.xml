@@ -1,0 +1,48 @@
+<annotation>
+    <folder>FRC2024</folder>
+    <filename>20240108_012527_mp4-0_jpg.rf.7e3dbbaced874a56540203d8088a3fe5.jpg</filename>
+    <path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/20240108_012527_mp4-0_jpg.rf.7e3dbbaced874a56540203d8088a3fe5.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>960</width>
+        <height>960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>102</xmin>
+            <ymin>502</ymin>
+            <xmax>228.828</xmax>
+            <ymax>648.593</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>420</xmin>
+            <ymin>184</ymin>
+            <xmax>504.829</xmax>
+            <ymax>350.85699999999997</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>485</xmin>
+            <ymin>531</ymin>
+            <xmax>618.34</xmax>
+            <ymax>699.768</ymax>
+        </bndbox>
+    </object>
+</annotation>

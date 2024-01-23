@@ -1,0 +1,59 @@
+<annotation>
+    <folder>FRC2024</folder>
+    <filename>frc_train_372_jpg.rf.d210e9e5e3196f1b86f8f4e6f0eb4a13.jpg</filename>
+    <path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/frc_train_372_jpg.rf.d210e9e5e3196f1b86f8f4e6f0eb4a13.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>robot</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>288</xmin>
+            <ymin>405</ymin>
+            <xmax>388</xmax>
+            <ymax>625.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>robot</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>243</xmin>
+            <ymin>394</ymin>
+            <xmax>316</xmax>
+            <ymax>557.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>robot</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>502</xmin>
+            <ymin>390</ymin>
+            <xmax>578</xmax>
+            <ymax>544</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>robot</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>531</xmin>
+            <ymin>457</ymin>
+            <xmax>632.5</xmax>
+            <ymax>601.5</ymax>
+        </bndbox>
+    </object>
+</annotation>

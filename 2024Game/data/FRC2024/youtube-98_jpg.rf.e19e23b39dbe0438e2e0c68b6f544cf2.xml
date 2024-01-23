@@ -1,0 +1,70 @@
+<annotation>
+    <folder>FRC2024</folder>
+    <filename>youtube-98_jpg.rf.e19e23b39dbe0438e2e0c68b6f544cf2.jpg</filename>
+    <path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/youtube-98_jpg.rf.e19e23b39dbe0438e2e0c68b6f544cf2.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>536</xmin>
+            <ymin>421</ymin>
+            <xmax>563.5</xmax>
+            <ymax>452</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>427</xmin>
+            <ymin>422</ymin>
+            <xmax>449.5</xmax>
+            <ymax>450</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>44</xmin>
+            <ymin>203</ymin>
+            <xmax>65</xmax>
+            <ymax>233.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>74</xmin>
+            <ymin>186</ymin>
+            <xmax>99</xmax>
+            <ymax>220.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>100</xmin>
+            <ymin>173</ymin>
+            <xmax>125.5</xmax>
+            <ymax>206</ymax>
+        </bndbox>
+    </object>
+</annotation>

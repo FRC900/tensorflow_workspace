@@ -1,0 +1,26 @@
+<annotation>
+    <folder>FRC2024</folder>
+    <filename>youtube-51_jpg.rf.359fb6409bf07c9a52723c3cc382b768.jpg</filename>
+    <path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/youtube-51_jpg.rf.359fb6409bf07c9a52723c3cc382b768.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>960</width>
+        <height>960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>636</xmin>
+            <ymin>416</ymin>
+            <xmax>770.773</xmax>
+            <ymax>687.7429999999999</ymax>
+        </bndbox>
+    </object>
+</annotation>

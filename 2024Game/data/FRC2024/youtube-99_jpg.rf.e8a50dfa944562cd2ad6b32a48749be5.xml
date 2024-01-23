@@ -1,0 +1,70 @@
+<annotation>
+    <folder>FRC2024</folder>
+    <filename>youtube-99_jpg.rf.e8a50dfa944562cd2ad6b32a48749be5.jpg</filename>
+    <path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/youtube-99_jpg.rf.e8a50dfa944562cd2ad6b32a48749be5.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>547</xmin>
+            <ymin>450</ymin>
+            <xmax>576.5</xmax>
+            <ymax>482</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>429</xmin>
+            <ymin>450</ymin>
+            <xmax>460</xmax>
+            <ymax>483.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>28</xmin>
+            <ymin>214</ymin>
+            <xmax>50.5</xmax>
+            <ymax>255.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>62</xmin>
+            <ymin>198</ymin>
+            <xmax>87.5</xmax>
+            <ymax>245.5</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>93</xmin>
+            <ymin>182</ymin>
+            <xmax>115.5</xmax>
+            <ymax>233.5</ymax>
+        </bndbox>
+    </object>
+</annotation>

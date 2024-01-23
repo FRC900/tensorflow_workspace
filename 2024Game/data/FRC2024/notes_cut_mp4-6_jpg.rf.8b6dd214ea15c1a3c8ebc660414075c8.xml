@@ -1,0 +1,70 @@
+<annotation>
+    <folder>FRC2024</folder>
+    <filename>notes_cut_mp4-6_jpg.rf.8b6dd214ea15c1a3c8ebc660414075c8.jpg</filename>
+    <path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/notes_cut_mp4-6_jpg.rf.8b6dd214ea15c1a3c8ebc660414075c8.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>960</width>
+        <height>960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>144</xmin>
+            <ymin>273</ymin>
+            <xmax>166.5</xmax>
+            <ymax>287</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>230</xmin>
+            <ymin>260</ymin>
+            <xmax>243.5</xmax>
+            <ymax>272</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>205</xmin>
+            <ymin>406</ymin>
+            <xmax>247</xmax>
+            <ymax>437</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>0</xmin>
+            <ymin>461</ymin>
+            <xmax>25</xmax>
+            <ymax>497</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>note</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>395</xmin>
+            <ymin>362</ymin>
+            <xmax>426.5</xmax>
+            <ymax>385</ymax>
+        </bndbox>
+    </object>
+</annotation>
