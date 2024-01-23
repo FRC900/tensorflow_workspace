@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Object Detection FRC.mp4_02186.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/Object Detection FRC.mp4_02186.png</path>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Object Detection FRC.mp4_02186.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -201,18 +201,6 @@
 			<ymin>129</ymin>
 			<xmax>371</xmax>
 			<ymax>142</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>255</xmin>
-			<ymin>48</ymin>
-			<xmax>284</xmax>
-			<ymax>62</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,12 @@
 <annotation>
     <folder>FRC2024</folder>
+<<<<<<<< HEAD:2024Game/data/FRC2024/0198_png.rf.cfb088d199efced64aaf8c732bdaee8b.xml
     <filename>0198_png.rf.cfb088d199efced64aaf8c732bdaee8b.jpg</filename>
     <path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/0198_png.rf.cfb088d199efced64aaf8c732bdaee8b.jpg</path>
+========
+    <filename>0001_png.rf.494630a54292238eede54e45d9c4e135.jpg</filename>
+    <path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/0001_png.rf.494630a54292238eede54e45d9c4e135.jpg</path>
+>>>>>>>> 5e5ed1d9d (clean up images):2024Game/data/FRC2024/0001_png.rf.494630a54292238eede54e45d9c4e135.xml
     <source>
         <database>Unknown</database>
     </source>
@@ -18,9 +23,9 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>133</xmin>
-            <ymin>0</ymin>
-            <xmax>399</xmax>
-            <ymax>284</ymax>
+            <ymin>140</ymin>
+            <xmax>446.5</xmax>
+            <ymax>567</ymax>
         </bndbox>
     </object>
 </annotation>
