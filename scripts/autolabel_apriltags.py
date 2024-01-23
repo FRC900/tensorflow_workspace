@@ -1,19 +1,15 @@
 import cv2
 import apriltag # pip install apriltag
 import sys
-from pascal import PascalVOC, PascalObject, BndBox # pip install pascal-voc
+from pascal import PascalVOC, PascalObject, BndBox # pip install pascal-voc ==0.0.7, should be in container already
 from pathlib import Path
-print('6')
 
 if len(sys.argv) != 2:
     print("Invalid usage, do `autolabel_apriltags.py directory` to label all images in a directory")
     sys.exit()
-print('11')
 directory = sys.argv[1]
-print(13)
 def chopFilePath(filepath: str):
     return filepath[filepath.rfind("/")+1:]
-print('16')
 pathlist = Path(directory).glob('**/*.xml')
 for path in pathlist:
     print('path')
@@ -38,7 +34,6 @@ for path in pathlist:
                                     quad_contours=True)
     detector = apriltag.Detector(options=options)
     result = detector.detect(img)
-    print('38')
     good_tags = []
     for tag in result:
         #print(tag.hamming)
@@ -49,4 +44,3 @@ for path in pathlist:
     new_objs = objs + good_tags
     ann.objects = new_objs
     ann.save(xml)
-    print('50')
