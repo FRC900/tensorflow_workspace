@@ -1,7 +1,7 @@
 <annotation>
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 FIRST Robotics Competition KitBot Overview-1KoUTVffV-8-1080pp-1705155246.mp4_02848.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 FIRST Robotics Competition KitBot Overview-1KoUTVffV-8-1080pp-1705155246.mp4_02848.png</path>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/y2mate.is - 2024 FIRST Robotics Competition KitBot Overview-1KoUTVffV-8-1080pp-1705155246.mp4_02848.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -33,42 +33,6 @@
 			<ymin>653</ymin>
 			<xmax>1292</xmax>
 			<ymax>894</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>crescendo_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>725</xmin>
-			<ymin>649</ymin>
-			<xmax>967</xmax>
-			<ymax>870</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>513</xmin>
-			<ymin>616</ymin>
-			<xmax>1009</xmax>
-			<ymax>964</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_amp</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1220</xmin>
-			<ymin>541</ymin>
-			<xmax>1485</xmax>
-			<ymax>812</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -165,6 +129,18 @@
 			<ymin>246</ymin>
 			<xmax>863</xmax>
 			<ymax>338</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>742</xmin>
+			<ymin>670</ymin>
+			<xmax>811</xmax>
+			<ymax>700</ymax>
 		</bndbox>
 	</object>
 </annotation>
