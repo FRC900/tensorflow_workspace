@@ -5,6 +5,8 @@ from pascal import PascalVOC
 
 # read in the pbtxt file
 pbtxt_path = "/home/ubuntu/tensorflow_workspace/2024Game/data/2024Game_label_map.pbtxt"
+
+
 def read_label_map(label_map_path):
 
     item_id = None
