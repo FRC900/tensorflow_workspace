@@ -209,10 +209,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1229</xmin>
-			<ymin>450</ymin>
-			<xmax>1377</xmax>
-			<ymax>574</ymax>
+			<xmin>1248</xmin>
+			<ymin>479</ymin>
+			<xmax>1326</xmax>
+			<ymax>521</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1007</xmin>
+			<ymin>231</ymin>
+			<xmax>1085</xmax>
+			<ymax>269</ymax>
 		</bndbox>
 	</object>
 </annotation>
