@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>videos</folder>
 	<filename>P1090405.jpg</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/P1090405.jpg</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090405.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,18 @@
 			<ymin>3039</ymin>
 			<xmax>4447</xmax>
 			<ymax>3128</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3393</xmin>
+			<ymin>2374</ymin>
+			<xmax>3666</xmax>
+			<ymax>2720</ymax>
 		</bndbox>
 	</object>
 </annotation>

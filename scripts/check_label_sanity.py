@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 import glob
 
 # Will find all xml files in the ./videos/ directory
-xml_files = glob.glob("videos/*.xml")
+xml_files = glob.glob("/home/ubuntu/tensorflow_workspace/2024Game/data/videos/*.xml")
 
 # Max number of a each object seen in an image
 max_obj_counts = {
@@ -142,24 +142,12 @@ def checkPowerPort(xml_file, tree, color):
                 print('power_port yellow graphics / first logo coord backwards')
                 print(20*'-')
 
-# Search each XML file
+# Search each XML fil
+import os
 for xml_file in xml_files:
-    tree = ET.parse(xml_file)
-    # In each, look for each object type in the
-    # XML. Make sure there aren't more labeled
-    # images than could possibly be seen in any one image
-    for obj in max_obj_counts:
-        r = findAllObjectsNamed(tree, obj)
-        if (len(r) > max_obj_counts[obj]):
-            print(20*'-')
-            print(obj)
-            print(xml_file)
-            print(len(r))
-            print(20*'-')
-
-    checkLoadingBay(xml_file, tree, 'red')
-    checkLoadingBay(xml_file, tree, 'blue')
-    checkPowerPort(xml_file, tree, 'red')
-    checkPowerPort(xml_file, tree, 'blue')
-
-
+    try:
+        tree = ET.parse(xml_file)
+    except Exception as e:
+        print(f"Failed on this {xml_file}")
+        os.remove(xml_file)
+        # In each, look for each object type in the

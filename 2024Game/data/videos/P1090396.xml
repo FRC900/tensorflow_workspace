@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>P1090396.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/P1090396.jpg</path>
@@ -26,7 +26,7 @@
 	<object>
 		<name>red_ds_light</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>5063</xmin>

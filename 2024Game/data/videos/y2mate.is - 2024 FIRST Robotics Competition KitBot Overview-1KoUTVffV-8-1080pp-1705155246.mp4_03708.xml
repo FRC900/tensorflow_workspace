@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>y2mate.is - 2024 FIRST Robotics Competition KitBot Overview-1KoUTVffV-8-1080pp-1705155246.mp4_03708.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/y2mate.is - 2024 FIRST Robotics Competition KitBot Overview-1KoUTVffV-8-1080pp-1705155246.mp4_03708.png</path>
@@ -77,34 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>654</xmin>
-			<ymin>556</ymin>
-			<xmax>896</xmax>
-			<ymax>771</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>438</xmin>
-			<ymin>520</ymin>
-			<xmax>944</xmax>
-			<ymax>874</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_amp</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1150</xmin>
-			<ymin>439</ymin>
-			<xmax>1409</xmax>
-			<ymax>717</ymax>
+			<xmin>673</xmin>
+			<ymin>572</ymin>
+			<xmax>739</xmax>
+			<ymax>618</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -201,6 +177,18 @@
 			<ymin>152</ymin>
 			<xmax>784</xmax>
 			<ymax>248</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>335</xmin>
+			<ymin>174</ymin>
+			<xmax>450</xmax>
+			<ymax>260</ymax>
 		</bndbox>
 	</object>
 </annotation>

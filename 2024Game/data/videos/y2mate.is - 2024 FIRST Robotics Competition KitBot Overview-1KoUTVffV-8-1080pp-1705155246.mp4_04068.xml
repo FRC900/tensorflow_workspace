@@ -72,18 +72,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_amp</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1064</xmin>
-			<ymin>367</ymin>
-			<xmax>1189</xmax>
-			<ymax>554</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>high_note</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -129,18 +117,6 @@
 			<ymin>561</ymin>
 			<xmax>1404</xmax>
 			<ymax>939</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_subwoofer</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>488</xmin>
-			<ymin>389</ymin>
-			<xmax>790</xmax>
-			<ymax>579</ymax>
 		</bndbox>
 	</object>
 	<object>

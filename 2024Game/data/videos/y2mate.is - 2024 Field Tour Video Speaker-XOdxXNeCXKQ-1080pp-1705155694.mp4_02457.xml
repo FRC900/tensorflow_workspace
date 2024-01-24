@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1727</xmin>
+			<xmin>1698</xmin>
 			<ymin>248</ymin>
 			<xmax>1856</xmax>
-			<ymax>308</ymax>
+			<ymax>312</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>416</xmin>
-			<ymin>266</ymin>
-			<xmax>559</xmax>
-			<ymax>301</ymax>
+			<xmin>395</xmin>
+			<ymin>249</ymin>
+			<xmax>554</xmax>
+			<ymax>318</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -117,6 +117,30 @@
 			<ymin>931</ymin>
 			<xmax>184</xmax>
 			<ymax>988</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1323</xmin>
+			<ymin>248</ymin>
+			<xmax>1484</xmax>
+			<ymax>322</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>888</xmin>
+			<ymin>696</ymin>
+			<xmax>1034</xmax>
+			<ymax>759</ymax>
 		</bndbox>
 	</object>
 </annotation>

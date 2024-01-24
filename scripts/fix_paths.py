@@ -2,9 +2,10 @@
 
 import os
 import xml.etree.ElementTree as ET
+import cv2
 
 # set the target directory
-target_dir = 'combined_88_test'
+target_dir = '/home/ubuntu/tensorflow_workspace/2024Game/data/videos'
 
 # get a list of all the files in the target directory
 files = os.listdir(target_dir)
@@ -31,7 +32,12 @@ for f in files:
     #print(full_path)
     
     # parse the xml
-    tree = ET.parse(full_path)
+    try:
+        tree = ET.parse(full_path)
+    except:
+        print(f"failed to parse xml file: {full_path}")
+        #os.remove(full_path)
+        continue
     root = tree.getroot()
     # loop through the elements
     # get path and filename elements to variable
@@ -42,9 +48,46 @@ for f in files:
         path_elem.text = filename_elem.text
         # get the filename from the path
         filename_elem.text = os.path.basename(filename_elem.text)
-    # write the xml
-    tree.write(full_path)
+    # attempt to read the image with opencv
+    try:
+        img = cv2.imread(path_elem.text)
+    except:
+        print(f"failed to read image path: {path_elem.text}")
+        #os.remove(full_path)
+        continue
 
+    # validate PascalVOC xml
+    assert root.tag == 'annotation' or root.attrib['verified'] == 'yes', "PASCAL VOC does not contain a root element" # Check if the root element is "annotation"
+    assert len(root.findtext('folder')) > 0, "XML file does not contain a 'folder' element"
+    assert len(root.findtext('filename')) > 0, "XML file does not contain a 'filename'"
+    assert len(root.findtext('path')) > 0, "XML file does not contain 'path' element"
+    assert len(root.find('source')) == 1 and len(root.find('source').findtext('database')) > 0, "XML file does not contain 'source' element with a 'database'"
+    assert len(root.find('size')) == 3, "XML file doesn not contain 'size' element"
+    assert root.find('size').find('width').text and root.find('size').find('height').text and root.find('size').find('depth').text, "XML file does not contain either 'width', 'height', or 'depth' element"
+    assert root.find('segmented').text == '0' or len(root.find('segmented')) > 0, "'segmented' element is neither 0 or a list"
+    # assert len(root.findall('object')) > 0, "XML file contains no 'object' element" # Check if the root contains zero or more 'objects'
+
+    required_objects = ['name', 'pose', 'truncated', 'difficult', 'bndbox'] # All possible meta-data about an object
+    for obj in root.findall('object'):
+        assert len(obj.findtext(required_objects[0])) > 0, "Object does not contain a parameter 'name'"
+        assert len(obj.findtext(required_objects[1])) > 0, "Object does not contain a parameter 'pose'"
+        assert int(obj.findtext(required_objects[2])) in [0, 1], "Object does not contain a parameter 'truncated'"
+        assert int(obj.findtext(required_objects[3])) in [0, 1], "Object does not contain a parameter 'difficult'"
+        assert len(obj.findall(required_objects[4])) > 0, "Object does not contain a parameter 'bndbox'"
+        for bbox in obj.findall(required_objects[4]):
+            xmin = bbox.findtext('xmin')
+            ymin = bbox.findtext('ymin')
+            xmax = bbox.findtext('xmax')
+            ymax = bbox.findtext('ymax')
+            assert xmin and ymin and xmax and ymax, "Object does not contain either 'xmin', 'ymin', 'xmax', or 'ymax' element"
+            # check if the bounding box is valid using the image size
+            assert int(xmin) >= 0, "xmin is less than 0"
+            assert int(ymin) >= 0, "ymin is less than 0"
+            assert int(xmax) <= int(root.find('size').findtext('width')), "xmax is greater than image width"
+            assert int(ymax) <= int(root.find('size').findtext('height')), "ymax is greater than image height"
+            assert int(xmin) < int(xmax), "xmin is greater than xmax"
+            assert int(ymin) < int(ymax), "ymin is greater than ymax"
+                        
 
 '''
     for elem in root.iter():

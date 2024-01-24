@@ -1,4 +1,4 @@
-#!/bin/bash/python3
+#!/usr/bin/env python3
 # write a script that uses pascal voc library to read all xml files in a directory and remove any annotations that are not in the pbtxt file
 from pathlib import Path
 from pascal import PascalVOC
@@ -42,7 +42,7 @@ print(classes)
 
 # now read all the xml files in the directory
 # get a list of all the files in the target directory
-target_dir = '/home/ubuntu/tensorflow_workspace/2023Game/data/combined_88_test'
+target_dir = '/home/ubuntu/tensorflow_workspace/2024Game/data/videos'
 files = Path(target_dir).glob('*.xml')
 files = [f for f in files if f.is_file()]
 print(files)
@@ -82,7 +82,14 @@ for f in files:
                 obj.name = "blue_tape_corner"
             elif name == "ds_numbers":
                 obj.name = "red_ds_numbers"
+            elif name == "red_ds_number":
+                print(f"renamed ds number in file {f}")
+                obj.name = "red_ds_numbers"
+            elif name == "blue_ds_number": 
+                print(f"renamed ds number in file {f}")
+                obj.name = "blue_ds_numbers"
             else:
+                print(f"removing object {obj.name} in file {f}")
                 to_remove.append(obj)
     # remove the objects
     for obj in to_remove:

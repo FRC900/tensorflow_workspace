@@ -59,4 +59,16 @@
 			<ymax>380</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>crescendo_logo</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>737</xmin>
+			<ymin>673</ymin>
+			<xmax>914</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
 </annotation>

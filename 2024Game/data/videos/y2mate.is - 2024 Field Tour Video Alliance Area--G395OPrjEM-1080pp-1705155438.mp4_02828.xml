@@ -252,18 +252,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_amp</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1691</xmin>
-			<ymin>295</ymin>
-			<xmax>1786</xmax>
-			<ymax>575</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>green_crescendo_logo</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -285,6 +273,18 @@
 			<ymin>306</ymin>
 			<xmax>1333</xmax>
 			<ymax>460</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>993</xmin>
+			<ymin>129</ymin>
+			<xmax>1059</xmax>
+			<ymax>156</ymax>
 		</bndbox>
 	</object>
 </annotation>
