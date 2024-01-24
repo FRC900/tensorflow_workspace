@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Auto Note tracking software is looking great.mp4_00362.png</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/Auto Note tracking software is looking great.mp4_00362.png</path>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/Auto Note tracking software is looking great.mp4_00362.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -33,6 +33,30 @@
 			<ymin>247</ymin>
 			<xmax>537</xmax>
 			<ymax>300</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>469</xmin>
+			<ymin>128</ymin>
+			<xmax>594</xmax>
+			<ymax>293</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>208</xmin>
+			<ymin>310</ymin>
+			<xmax>356</xmax>
+			<ymax>368</ymax>
 		</bndbox>
 	</object>
 	<object>

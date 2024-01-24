@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>GeneralField2.jpg</filename>
-	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/GeneralField2.jpg</path>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/GeneralField2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -110,13 +110,25 @@
 	<object>
 		<name>crescendo_logo</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1109</xmin>
 			<ymin>681</ymin>
 			<xmax>1237</xmax>
 			<ymax>720</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>843</xmin>
+			<ymin>396</ymin>
+			<xmax>917</xmax>
+			<ymax>444</ymax>
 		</bndbox>
 	</object>
 </annotation>

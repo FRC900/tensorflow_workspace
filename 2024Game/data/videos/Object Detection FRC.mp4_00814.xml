@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>Object Detection FRC.mp4_00814.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/Object Detection FRC.mp4_00814.png</path>
@@ -45,6 +45,30 @@
 			<ymin>259</ymin>
 			<xmax>260</xmax>
 			<ymax>268</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>314</xmin>
+			<ymin>261</ymin>
+			<xmax>334</xmax>
+			<ymax>269</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>178</xmin>
+			<ymin>259</ymin>
+			<xmax>194</xmax>
+			<ymax>266</ymax>
 		</bndbox>
 	</object>
 </annotation>
