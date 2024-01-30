@@ -1,7 +1,7 @@
 <annotation verified="yes">
 	<folder>FRC2024</folder>
-	<filename>frc_train_146_jpg.rf.f23d5572e2e33f899329239a883eca3e.jpg</filename>
-	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/frc_train_146_jpg.rf.f23d5572e2e33f899329239a883eca3e.jpg</path>
+	<filename>frc_train_142_jpg.rf.f4f1540d356897bdc014e2ac5ecf16ca.jpg</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/frc_train_142_jpg.rf.f4f1540d356897bdc014e2ac5ecf16ca.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_robot</name>
+		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>180</xmin>
-			<ymin>220</ymin>
-			<xmax>531</xmax>
-			<ymax>513</ymax>
+			<xmin>125</xmin>
+			<ymin>63</ymin>
+			<xmax>582</xmax>
+			<ymax>568</ymax>
 		</bndbox>
 	</object>
 </annotation>
