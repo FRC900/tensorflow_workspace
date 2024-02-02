@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>FRC2024</folder>
 	<filename>frc_train_583_jpg.rf.cffb2ae5de775db3e3b8a7b0e65cae8d.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/frc_train_583_jpg.rf.cffb2ae5de775db3e3b8a7b0e65cae8d.jpg</path>
@@ -12,7 +12,19 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>robot</name>
+		<name>blue_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>436</ymin>
+			<xmax>25</xmax>
+			<ymax>458</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,51 +36,51 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>robot</name>
+		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>305</xmin>
-			<ymin>173</ymin>
-			<xmax>448</xmax>
-			<ymax>466</ymax>
+			<xmin>260</xmin>
+			<ymin>206</ymin>
+			<xmax>428</xmax>
+			<ymax>491</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>robot</name>
+		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>170</xmin>
-			<ymin>174</ymin>
-			<xmax>316</xmax>
-			<ymax>449</ymax>
+			<xmin>462</xmin>
+			<ymin>264</ymin>
+			<xmax>619</xmax>
+			<ymax>457</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>robot</name>
+		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>463</xmin>
-			<ymin>168</ymin>
-			<xmax>614</xmax>
-			<ymax>460</ymax>
+			<xmin>180</xmin>
+			<ymin>293</ymin>
+			<xmax>307</xmax>
+			<ymax>447</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corner</name>
+		<name>blue_tape_to_wall</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>0</xmin>
-			<ymin>437</ymin>
-			<xmax>25</xmax>
-			<ymax>456</ymax>
+			<xmin>30</xmin>
+			<ymin>416</ymin>
+			<xmax>48</xmax>
+			<ymax>433</ymax>
 		</bndbox>
 	</object>
 </annotation>

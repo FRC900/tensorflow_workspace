@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>FRC2024</folder>
 	<filename>frc_train_797_jpg.rf.040fc740e25d72a87ff12f72e1df3813.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/frc_train_797_jpg.rf.040fc740e25d72a87ff12f72e1df3813.jpg</path>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>539</xmin>
-			<ymin>207</ymin>
-			<xmax>630</xmax>
-			<ymax>251</ymax>
+			<xmin>133</xmin>
+			<ymin>233</ymin>
+			<xmax>225</xmax>
+			<ymax>273</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,22 +53,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>141</xmin>
-			<ymin>236</ymin>
-			<xmax>224</xmax>
-			<ymax>268</ymax>
+			<xmin>536</xmin>
+			<ymin>206</ymin>
+			<xmax>632</xmax>
+			<ymax>252</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>red_ds_number</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>241</ymin>
-			<xmax>90</xmax>
-			<ymax>274</ymax>
+			<ymin>237</ymin>
+			<xmax>84</xmax>
+			<ymax>275</ymax>
 		</bndbox>
 	</object>
 </annotation>

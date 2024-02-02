@@ -14,7 +14,7 @@
 	<object>
 		<name>red_robot</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
@@ -45,6 +45,18 @@
 			<ymin>60</ymin>
 			<xmax>558</xmax>
 			<ymax>526</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>0</xmin>
+			<ymin>221</ymin>
+			<xmax>132</xmax>
+			<ymax>411</ymax>
 		</bndbox>
 	</object>
 </annotation>
