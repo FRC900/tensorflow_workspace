@@ -41,22 +41,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>81</xmin>
+			<xmin>88</xmin>
 			<ymin>436</ymin>
-			<xmax>141</xmax>
+			<xmax>135</xmax>
 			<ymax>474</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corner</name>
+		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>295</xmin>
-			<ymin>562</ymin>
-			<xmax>342</xmax>
-			<ymax>594</ymax>
+			<xmin>383</xmin>
+			<ymin>169</ymin>
+			<xmax>542</xmax>
+			<ymax>342</ymax>
 		</bndbox>
 	</object>
 </annotation>

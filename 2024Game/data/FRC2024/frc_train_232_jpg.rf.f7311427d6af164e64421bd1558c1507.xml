@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>FRC2024</folder>
 	<filename>frc_train_232_jpg.rf.f7311427d6af164e64421bd1558c1507.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/frc_train_232_jpg.rf.f7311427d6af164e64421bd1558c1507.jpg</path>
@@ -30,57 +30,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>475</xmin>
-			<ymin>180</ymin>
-			<xmax>640</xmax>
-			<ymax>523</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>207</xmin>
-			<ymin>96</ymin>
-			<xmax>249</xmax>
-			<ymax>122</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_robot</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>475</xmin>
 			<ymin>167</ymin>
 			<xmax>640</xmax>
 			<ymax>520</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>125</xmin>
-			<ymin>99</ymin>
-			<xmax>174</xmax>
-			<ymax>125</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>275</xmin>
-			<ymin>97</ymin>
-			<xmax>318</xmax>
-			<ymax>125</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -93,6 +45,66 @@
 			<ymin>99</ymin>
 			<xmax>112</xmax>
 			<ymax>128</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>207</xmin>
+			<ymin>95</ymin>
+			<xmax>247</xmax>
+			<ymax>122</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>126</xmin>
+			<ymin>102</ymin>
+			<xmax>173</xmax>
+			<ymax>124</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>276</xmin>
+			<ymin>94</ymin>
+			<xmax>320</xmax>
+			<ymax>126</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>253</xmin>
+			<ymin>99</ymin>
+			<xmax>266</xmax>
+			<ymax>129</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_corner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>423</xmin>
+			<ymin>397</ymin>
+			<xmax>464</xmax>
+			<ymax>427</ymax>
 		</bndbox>
 	</object>
 </annotation>
