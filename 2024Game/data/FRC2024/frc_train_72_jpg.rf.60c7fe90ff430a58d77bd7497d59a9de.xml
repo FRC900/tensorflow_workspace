@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>FRC2024</folder>
 	<filename>frc_train_72_jpg.rf.60c7fe90ff430a58d77bd7497d59a9de.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/frc_train_72_jpg.rf.60c7fe90ff430a58d77bd7497d59a9de.jpg</path>
@@ -33,6 +33,30 @@
 			<ymin>254</ymin>
 			<xmax>295</xmax>
 			<ymax>426</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>566</xmin>
+			<ymin>520</ymin>
+			<xmax>593</xmax>
+			<ymax>540</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>423</xmin>
+			<ymin>537</ymin>
+			<xmax>444</xmax>
+			<ymax>560</ymax>
 		</bndbox>
 	</object>
 </annotation>

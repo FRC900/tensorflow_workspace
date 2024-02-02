@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>FRC2024</folder>
 	<filename>frc_train_156_jpg.rf.822786a53f157580a5858022685bbb65.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/frc_train_156_jpg.rf.822786a53f157580a5858022685bbb65.jpg</path>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>robot</name>
+		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>robot</name>
+		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

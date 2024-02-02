@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>FRC2024</folder>
 	<filename>frc_train_70_jpg.rf.e28e9ad43b9e2b2988cdf7162e406bd9.jpg</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/FRC2024/frc_train_70_jpg.rf.e28e9ad43b9e2b2988cdf7162e406bd9.jpg</path>
@@ -69,6 +69,18 @@
 			<ymin>90</ymin>
 			<xmax>135</xmax>
 			<ymax>119</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>147</xmin>
+			<ymin>84</ymin>
+			<xmax>172</xmax>
+			<ymax>117</ymax>
 		</bndbox>
 	</object>
 </annotation>
