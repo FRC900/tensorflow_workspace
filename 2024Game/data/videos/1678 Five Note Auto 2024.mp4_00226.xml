@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>1678 Five Note Auto 2024.mp4_00226.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/1678 Five Note Auto 2024.mp4_00226.png</path>
@@ -45,6 +45,18 @@
 			<ymin>220</ymin>
 			<xmax>369</xmax>
 			<ymax>233</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>885</xmin>
+			<ymin>415</ymin>
+			<xmax>901</xmax>
+			<ymax>434</ymax>
 		</bndbox>
 	</object>
 </annotation>

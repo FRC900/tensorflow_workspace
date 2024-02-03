@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>2019_Field_Tour_Video_HAB_Platform.mp4_00165.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/2019_Field_Tour_Video_HAB_Platform.mp4_00165.png</path>
@@ -81,6 +81,30 @@
 			<ymin>79</ymin>
 			<xmax>1313</xmax>
 			<ymax>143</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1834</xmin>
+			<ymin>63</ymin>
+			<xmax>1919</xmax>
+			<ymax>137</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>273</xmin>
+			<ymin>573</ymin>
+			<xmax>311</xmax>
+			<ymax>603</ymax>
 		</bndbox>
 	</object>
 </annotation>
