@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>videos</folder>
+	<filename>20240203_160448.mp4_00000.png</filename>
+	<path>/home/ubuntu/tensorflow_workspace/2024Game/data/videos/20240203_160448.mp4_00000.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>note</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>700</xmin>
+			<ymin>313</ymin>
+			<xmax>964</xmax>
+			<ymax>373</ymax>
+		</bndbox>
+	</object>
+</annotation>
