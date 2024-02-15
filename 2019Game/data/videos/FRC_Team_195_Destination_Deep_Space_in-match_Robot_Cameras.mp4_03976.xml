@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_03976.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_03976.png</path>
@@ -21,6 +21,66 @@
 			<ymin>370</ymin>
 			<xmax>940</xmax>
 			<ymax>596</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>626</xmin>
+			<ymin>189</ymin>
+			<xmax>655</xmax>
+			<ymax>207</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>690</xmin>
+			<ymin>174</ymin>
+			<xmax>709</xmax>
+			<ymax>194</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>743</xmin>
+			<ymin>169</ymin>
+			<xmax>754</xmax>
+			<ymax>185</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>801</xmin>
+			<ymin>158</ymin>
+			<xmax>816</xmax>
+			<ymax>169</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>824</xmin>
+			<ymin>153</ymin>
+			<xmax>838</xmax>
+			<ymax>165</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_01506.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_01506.png</path>
@@ -21,6 +21,78 @@
 			<ymin>491</ymin>
 			<xmax>938</xmax>
 			<ymax>540</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>390</xmin>
+			<ymin>588</ymin>
+			<xmax>417</xmax>
+			<ymax>613</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>348</xmin>
+			<ymin>599</ymin>
+			<xmax>374</xmax>
+			<ymax>623</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>825</xmin>
+			<ymin>103</ymin>
+			<xmax>847</xmax>
+			<ymax>113</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>785</xmin>
+			<ymin>103</ymin>
+			<xmax>806</xmax>
+			<ymax>111</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>918</xmin>
+			<ymin>105</ymin>
+			<xmax>929</xmax>
+			<ymax>120</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>845</xmin>
+			<ymin>103</ymin>
+			<xmax>856</xmax>
+			<ymax>112</ymax>
 		</bndbox>
 	</object>
 </annotation>

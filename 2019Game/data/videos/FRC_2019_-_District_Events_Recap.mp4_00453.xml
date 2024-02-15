@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>videos</folder>
 	<filename>FRC_2019_-_District_Events_Recap.mp4_00453.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/FRC_2019_-_District_Events_Recap.mp4_00453.png</path>
@@ -45,6 +45,18 @@
 			<ymin>295</ymin>
 			<xmax>526</xmax>
 			<ymax>536</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ds_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>581</xmin>
+			<ymin>181</ymin>
+			<xmax>598</xmax>
+			<ymax>224</ymax>
 		</bndbox>
 	</object>
 </annotation>

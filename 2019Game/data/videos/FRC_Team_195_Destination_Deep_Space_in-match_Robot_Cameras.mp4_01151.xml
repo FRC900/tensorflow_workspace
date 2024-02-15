@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>videos</folder>
 	<filename>FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_01151.png</filename>
 	<path>/home/ubuntu/tensorflow_workspace/2019Game/data/videos/FRC_Team_195_Destination_Deep_Space_in-match_Robot_Cameras.mp4_01151.png</path>
@@ -21,6 +21,18 @@
 			<ymin>370</ymin>
 			<xmax>722</xmax>
 			<ymax>630</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white_tape_to_wall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>676</xmin>
+			<ymin>171</ymin>
+			<xmax>701</xmax>
+			<ymax>192</ymax>
 		</bndbox>
 	</object>
 </annotation>
