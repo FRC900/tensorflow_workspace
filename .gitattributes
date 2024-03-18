@@ -8,3 +8,4 @@
 *.MOV filter=lfs diff=lfs merge=lfs -text
 *.data-* filter=lfs diff=lfs merge=lfs -text
 *.dino-desktop filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
