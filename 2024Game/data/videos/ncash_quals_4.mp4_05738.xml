@@ -1,0 +1,26 @@
+<annotation>
+	<folder>videos</folder>
+	<filename>ncash_quals_4.mp4_05738.png</filename>
+	<path>/home/ubuntu/.tensorflow_workspace.readonly/2024Game/data/videos/ncash_quals_4.mp4_05738.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_podium</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1420</xmin>
+			<ymin>1</ymin>
+			<xmax>1920</xmax>
+			<ymax>415</ymax>
+		</bndbox>
+	</object>
+</annotation>
