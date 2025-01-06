@@ -23,40 +23,4 @@
 			<ymax>561</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>74</xmin>
-			<ymin>544</ymin>
-			<xmax>106</xmax>
-			<ymax>578</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1014</xmin>
-			<ymin>653</ymin>
-			<xmax>1043</xmax>
-			<ymax>676</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1096</xmin>
-			<ymin>687</ymin>
-			<xmax>1124</xmax>
-			<ymax>711</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

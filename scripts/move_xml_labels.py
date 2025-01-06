@@ -6,7 +6,7 @@ are split into different train / test / val dirs. Move them to the
 same dir as their images
 '''
 
-from os import listdir, system
+from os import listdir
 from sys import argv 
 from pathlib import Path
 

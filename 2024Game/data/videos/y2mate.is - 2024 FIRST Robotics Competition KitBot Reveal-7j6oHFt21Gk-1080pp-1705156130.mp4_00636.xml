@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>846</xmin>
-			<ymin>228</ymin>
-			<xmax>1051</xmax>
-			<ymax>402</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -35,40 +23,4 @@
 			<ymax>1048</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>217</xmin>
-			<ymin>832</ymin>
-			<xmax>357</xmax>
-			<ymax>919</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>477</xmin>
-			<ymin>929</ymin>
-			<xmax>598</xmax>
-			<ymax>1007</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1547</xmin>
-			<ymin>734</ymin>
-			<xmax>1653</xmax>
-			<ymax>842</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

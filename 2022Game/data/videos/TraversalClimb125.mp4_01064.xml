@@ -12,30 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>634</xmin>
-			<ymin>206</ymin>
-			<xmax>670</xmax>
-			<ymax>283</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1067</xmin>
-			<ymin>232</ymin>
-			<xmax>1089</xmax>
-			<ymax>289</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -47,40 +23,4 @@
 			<ymax>522</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>513</xmin>
-			<ymin>540</ymin>
-			<xmax>537</xmax>
-			<ymax>554</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>587</xmin>
-			<ymin>496</ymin>
-			<xmax>608</xmax>
-			<ymax>508</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>463</xmin>
-			<ymin>480</ymin>
-			<xmax>485</xmax>
-			<ymax>491</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

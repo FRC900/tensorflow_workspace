@@ -36,42 +36,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4954</xmin>
-			<ymin>846</ymin>
-			<xmax>5353</xmax>
-			<ymax>993</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3830</xmin>
-			<ymin>917</ymin>
-			<xmax>4110</xmax>
-			<ymax>1033</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2762</xmin>
-			<ymin>995</ymin>
-			<xmax>3010</xmax>
-			<ymax>1096</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -81,18 +45,6 @@
 			<ymin>1678</ymin>
 			<xmax>4571</xmax>
 			<ymax>2558</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3276</xmin>
-			<ymin>944</ymin>
-			<xmax>3631</xmax>
-			<ymax>1070</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -107,40 +59,4 @@
 			<ymax>2248</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4828</xmin>
-			<ymin>892</ymin>
-			<xmax>4898</xmax>
-			<ymax>1037</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3665</xmin>
-			<ymin>970</ymin>
-			<xmax>3724</xmax>
-			<ymax>1118</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2587</xmin>
-			<ymin>1026</ymin>
-			<xmax>2668</xmax>
-			<ymax>1140</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

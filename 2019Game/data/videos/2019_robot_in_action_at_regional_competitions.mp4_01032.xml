@@ -12,30 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>257</xmin>
-			<ymin>1</ymin>
-			<xmax>280</xmax>
-			<ymax>65</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>300</xmin>
-			<ymin>1</ymin>
-			<xmax>360</xmax>
-			<ymax>50</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -47,16 +23,4 @@
 			<ymax>543</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1077</xmin>
-			<ymin>492</ymin>
-			<xmax>1116</xmax>
-			<ymax>537</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

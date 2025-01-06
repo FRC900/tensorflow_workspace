@@ -12,18 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1315</xmin>
-			<ymin>464</ymin>
-			<xmax>1430</xmax>
-			<ymax>621</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -35,28 +23,4 @@
 			<ymax>809</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>crescendo_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>645</xmin>
-			<ymin>364</ymin>
-			<xmax>775</xmax>
-			<ymax>456</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1028</xmin>
-			<ymin>567</ymin>
-			<xmax>1064</xmax>
-			<ymax>598</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

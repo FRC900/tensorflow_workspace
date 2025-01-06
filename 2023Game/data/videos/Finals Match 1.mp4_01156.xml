@@ -12,54 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>954</xmin>
-			<ymin>432</ymin>
-			<xmax>961</xmax>
-			<ymax>441</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>860</xmin>
-			<ymin>430</ymin>
-			<xmax>869</xmax>
-			<ymax>440</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>762</xmin>
-			<ymin>430</ymin>
-			<xmax>771</xmax>
-			<ymax>438</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>778</xmin>
-			<ymin>429</ymin>
-			<xmax>804</xmax>
-			<ymax>438</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -71,52 +23,4 @@
 			<ymax>541</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>white_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>645</xmin>
-			<ymin>602</ymin>
-			<xmax>689</xmax>
-			<ymax>652</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>829</xmin>
-			<ymin>428</ymin>
-			<xmax>857</xmax>
-			<ymax>440</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>873</xmin>
-			<ymin>430</ymin>
-			<xmax>900</xmax>
-			<ymax>440</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>970</xmin>
-			<ymin>432</ymin>
-			<xmax>991</xmax>
-			<ymax>442</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

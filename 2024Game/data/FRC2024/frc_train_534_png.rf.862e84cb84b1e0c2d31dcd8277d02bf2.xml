@@ -35,28 +35,4 @@
 			<ymax>494</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>63</xmin>
-			<ymin>240</ymin>
-			<xmax>118</xmax>
-			<ymax>294</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>257</ymin>
-			<xmax>38</xmax>
-			<ymax>313</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

@@ -24,54 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3132</xmin>
-			<ymin>820</ymin>
-			<xmax>3547</xmax>
-			<ymax>973</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4459</xmin>
-			<ymin>850</ymin>
-			<xmax>4548</xmax>
-			<ymax>1055</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1511</xmin>
-			<ymin>780</ymin>
-			<xmax>1983</xmax>
-			<ymax>931</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2403</xmin>
-			<ymin>825</ymin>
-			<xmax>2807</xmax>
-			<ymax>962</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -81,42 +33,6 @@
 			<ymin>1772</ymin>
 			<xmax>5037</xmax>
 			<ymax>2640</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4678</xmin>
-			<ymin>839</ymin>
-			<xmax>5060</xmax>
-			<ymax>992</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2926</xmin>
-			<ymin>837</ymin>
-			<xmax>3013</xmax>
-			<ymax>1033</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1292</xmin>
-			<ymin>790</ymin>
-			<xmax>1390</xmax>
-			<ymax>981</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -131,16 +47,4 @@
 			<ymax>2797</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5341</xmin>
-			<ymin>2883</ymin>
-			<xmax>5598</xmax>
-			<ymax>3054</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

@@ -35,28 +35,4 @@
 			<ymax>433</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>460</ymin>
-			<xmax>36</xmax>
-			<ymax>498</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>112</xmin>
-			<ymin>505</ymin>
-			<xmax>147</xmax>
-			<ymax>536</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

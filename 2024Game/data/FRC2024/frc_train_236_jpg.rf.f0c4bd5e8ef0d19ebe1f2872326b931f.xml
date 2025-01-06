@@ -36,18 +36,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>90</xmin>
-			<ymin>436</ymin>
-			<xmax>144</xmax>
-			<ymax>466</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>

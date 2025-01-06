@@ -23,28 +23,4 @@
 			<ymax>934</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>692</xmin>
-			<ymin>453</ymin>
-			<xmax>834</xmax>
-			<ymax>634</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>crescendo_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1321</xmin>
-			<ymin>407</ymin>
-			<xmax>1539</xmax>
-			<ymax>480</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

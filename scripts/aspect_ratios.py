@@ -47,9 +47,9 @@ for xml_file in sorted(xml_files):
         local_adjusted_ar = (obj_width / width) / (obj_height / height)
         adjusted_ar.append (local_adjusted_ar)
         if local_adjusted_ar > 3:
-            print xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar)
+            print(xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar))
         if local_adjusted_ar < .15:
-            print xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar)
+            print(xml_file + " : " + obj.find('name').text + " : " + str(local_adjusted_ar))
 
         screen_percents.append(math.sqrt((obj_width / width) * (obj_height / height)))
 
@@ -60,4 +60,4 @@ for xml_file in sorted(xml_files):
 
 #print np.histogram(unadjusted_ar, bins='auto')
 #print np.histogram(adjusted_ar, bins='auto')
-print np.histogram(screen_percents, bins='auto')
+print (np.histogram(screen_percents, bins='auto'))

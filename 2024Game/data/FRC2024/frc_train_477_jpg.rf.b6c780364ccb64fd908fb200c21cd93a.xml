@@ -36,18 +36,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>blue_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>273</xmin>
-			<ymin>590</ymin>
-			<xmax>316</xmax>
-			<ymax>625</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -59,16 +47,4 @@
 			<ymax>524</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>200</xmin>
-			<ymin>576</ymin>
-			<xmax>237</xmax>
-			<ymax>605</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

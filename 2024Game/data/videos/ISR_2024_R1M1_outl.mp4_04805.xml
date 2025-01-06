@@ -24,18 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>green_crescendo_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>219</xmin>
-			<ymin>47</ymin>
-			<xmax>329</xmax>
-			<ymax>106</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -45,102 +33,6 @@
 			<ymin>209</ymin>
 			<xmax>97</xmax>
 			<ymax>256</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_triangle_text</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>594</xmin>
-			<ymin>70</ymin>
-			<xmax>613</xmax>
-			<ymax>95</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>533</xmin>
-			<ymin>119</ymin>
-			<xmax>545</xmax>
-			<ymax>134</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_triangle_text</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>537</xmin>
-			<ymin>99</ymin>
-			<xmax>553</xmax>
-			<ymax>117</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>614</xmin>
-			<ymin>87</ymin>
-			<xmax>639</xmax>
-			<ymax>106</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>crescendo_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>551</xmin>
-			<ymin>197</ymin>
-			<xmax>572</xmax>
-			<ymax>208</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>643</xmin>
-			<ymin>83</ymin>
-			<xmax>653</xmax>
-			<ymax>101</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>526</xmin>
-			<ymin>125</ymin>
-			<xmax>532</xmax>
-			<ymax>137</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>high_note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>116</xmin>
-			<ymin>280</ymin>
-			<xmax>156</xmax>
-			<ymax>296</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -155,16 +47,4 @@
 			<ymax>290</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>155</xmin>
-			<ymin>243</ymin>
-			<xmax>167</xmax>
-			<ymax>256</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

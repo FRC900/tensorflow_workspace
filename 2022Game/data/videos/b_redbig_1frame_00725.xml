@@ -23,28 +23,4 @@
 			<ymax>201</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>113</xmin>
-			<ymin>144</ymin>
-			<xmax>220</xmax>
-			<ymax>172</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>399</xmin>
-			<ymin>232</ymin>
-			<xmax>473</xmax>
-			<ymax>309</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

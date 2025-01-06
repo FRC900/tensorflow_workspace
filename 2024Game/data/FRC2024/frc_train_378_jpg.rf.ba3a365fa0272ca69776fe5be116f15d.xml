@@ -36,18 +36,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>551</xmin>
-			<ymin>365</ymin>
-			<xmax>585</xmax>
-			<ymax>399</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -95,16 +83,4 @@
 			<ymax>401</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>white_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>547</xmin>
-			<ymin>366</ymin>
-			<xmax>568</xmax>
-			<ymax>392</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

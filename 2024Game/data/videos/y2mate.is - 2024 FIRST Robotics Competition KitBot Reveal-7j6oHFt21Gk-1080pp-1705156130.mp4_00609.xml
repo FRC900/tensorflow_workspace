@@ -12,78 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>blue_podium</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>874</xmin>
-			<ymin>748</ymin>
-			<xmax>1014</xmax>
-			<ymax>953</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>140</xmin>
-			<ymin>688</ymin>
-			<xmax>221</xmax>
-			<ymax>730</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1764</xmin>
-			<ymin>656</ymin>
-			<xmax>1819</xmax>
-			<ymax>701</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1616</xmin>
-			<ymin>608</ymin>
-			<xmax>1657</xmax>
-			<ymax>628</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>537</xmin>
-			<ymin>572</ymin>
-			<xmax>585</xmax>
-			<ymax>592</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>391</xmin>
-			<ymin>619</ymin>
-			<xmax>432</xmax>
-			<ymax>636</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -95,28 +23,4 @@
 			<ymax>654</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1501</xmin>
-			<ymin>560</ymin>
-			<xmax>1524</xmax>
-			<ymax>569</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1441</xmin>
-			<ymin>557</ymin>
-			<xmax>1455</xmax>
-			<ymax>565</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

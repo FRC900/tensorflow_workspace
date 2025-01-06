@@ -12,54 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>737</xmin>
-			<ymin>3048</ymin>
-			<xmax>3243</xmax>
-			<ymax>5292</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1487</xmin>
-			<ymin>986</ymin>
-			<xmax>2368</xmax>
-			<ymax>1367</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>note</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1602</xmin>
-			<ymin>539</ymin>
-			<xmax>2093</xmax>
-			<ymax>707</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1094</xmin>
-			<ymin>211</ymin>
-			<xmax>1209</xmax>
-			<ymax>303</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -71,16 +23,4 @@
 			<ymax>359</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_podium</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2215</xmin>
-			<ymin>10</ymin>
-			<xmax>2365</xmax>
-			<ymax>660</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

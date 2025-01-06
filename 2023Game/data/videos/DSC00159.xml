@@ -24,18 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4676</xmin>
-			<ymin>1309</ymin>
-			<xmax>4709</xmax>
-			<ymax>1371</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -45,18 +33,6 @@
 			<ymin>1725</ymin>
 			<xmax>4896</xmax>
 			<ymax>2546</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5309</xmin>
-			<ymin>1290</ymin>
-			<xmax>5503</xmax>
-			<ymax>1341</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -72,42 +48,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>red_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1768</xmin>
-			<ymin>2010</ymin>
-			<xmax>1860</xmax>
-			<ymax>2092</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>white_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2256</xmin>
-			<ymin>1957</ymin>
-			<xmax>2339</xmax>
-			<ymax>2027</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2662</xmin>
-			<ymin>1894</ymin>
-			<xmax>2758</xmax>
-			<ymax>1980</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>red_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -119,40 +59,4 @@
 			<ymax>1887</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5023</xmin>
-			<ymin>1292</ymin>
-			<xmax>5193</xmax>
-			<ymax>1351</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4758</xmin>
-			<ymin>1302</ymin>
-			<xmax>4895</xmax>
-			<ymax>1359</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5235</xmin>
-			<ymin>1302</ymin>
-			<xmax>5262</xmax>
-			<ymax>1370</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

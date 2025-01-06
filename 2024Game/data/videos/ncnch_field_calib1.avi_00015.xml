@@ -12,30 +12,6 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>green_crescendo_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>646</xmin>
-			<ymin>114</ymin>
-			<xmax>689</xmax>
-			<ymax>148</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>green_crescendo_logo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>549</xmin>
-			<ymin>128</ymin>
-			<xmax>589</xmax>
-			<ymax>152</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>blue_robot</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -47,28 +23,4 @@
 			<ymax>269</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_ds_number</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>656</xmin>
-			<ymin>161</ymin>
-			<xmax>675</xmax>
-			<ymax>170</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_podium</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>221</xmin>
-			<ymin>190</ymin>
-			<xmax>270</xmax>
-			<ymax>281</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

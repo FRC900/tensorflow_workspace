@@ -59,28 +59,4 @@
 			<ymax>491</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>blue_tape_to_wall</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>502</xmin>
-			<ymin>448</ymin>
-			<xmax>519</xmax>
-			<ymax>462</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>blue_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>513</xmin>
-			<ymin>468</ymin>
-			<xmax>531</xmax>
-			<ymax>485</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>

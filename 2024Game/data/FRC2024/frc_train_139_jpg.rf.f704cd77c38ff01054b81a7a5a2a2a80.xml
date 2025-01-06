@@ -35,28 +35,4 @@
 			<ymax>380</ymax>
 		</bndbox>
 	</object>
-	<object>
-		<name>ds_light</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>86</xmin>
-			<ymin>1</ymin>
-			<xmax>105</xmax>
-			<ymax>20</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>red_tape_corner</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>459</xmin>
-			<ymin>489</ymin>
-			<xmax>524</xmax>
-			<ymax>533</ymax>
-		</bndbox>
-	</object>
-</annotation>
+	</annotation>
